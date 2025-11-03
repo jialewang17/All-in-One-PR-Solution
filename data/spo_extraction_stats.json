@@ -1,0 +1,35 @@
+{
+  "total_files": 4,
+  "total_chunks": 163,
+  "total_triples": 176,
+  "graph_stats": {
+    "nodes": 284,
+    "edges": 171,
+    "triples_added": 176,
+    "density": 0.002127606629174339,
+    "is_connected": false,
+    "components": 113
+  },
+  "file_stats": [
+    {
+      "file": "case_vivo_5分钟叙事与技术型品牌内容表达_创作新生态与人文关怀_2024_品牌星球 _chunks.json",
+      "chunks_processed": 1,
+      "triples_extracted": 1
+    },
+    {
+      "file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+      "chunks_processed": 9,
+      "triples_extracted": 13
+    },
+    {
+      "file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+      "chunks_processed": 18,
+      "triples_extracted": 29
+    },
+    {
+      "file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+      "chunks_processed": 135,
+      "triples_extracted": 133
+    }
+  ]
+}

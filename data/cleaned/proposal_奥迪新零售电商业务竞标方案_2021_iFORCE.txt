@@ -1,0 +1,2760 @@
+Content: 1
+Content: 2021年奥迪新零售电商业务运营项目竞标方案
+Content: 2021.03
+Content: 2
+Content: 主要任务与核心目标
+Content: 2021 年业务核心 KPI
+Content: 线上全平台新车订单量
+Content: 100,000
+Content: 台
+Content: 奥迪自建电商平台新增注册用户量
+Content: 300,000
+Content: 人
+Content: 第三方平台官方旗舰店新增粉丝量
+Content: 100,000
+Content: 人
+Content: 通过新零售电商平台运营，促进奥迪的核心业务，
+Content: 尤其是新车的集客量与销售转化业务
+Content: 支撑
+Section: 利用新零售电商平台与营销工具，助力区域与经销商
+Section: 的营销推广， 促进终端的集客与销售转化终端
+Content: 支持
+Section: 利用电商进行营销创新，提升奥迪品牌的认
+Section: 知度与美誉度品牌
+Content: 提升
+Content: 3
+Section: 品牌面临主要挑战
+Content: •如何运用数据驱动，持续提升电商平台与客户运营的效率，支撑年度任务目标的达成•新车促销类产品预算（销售政策支持）较 2020 年大幅缩减，完成新车订单 KPI压力较大
+Content: 4
+Content: 目录
+Content: Contents
+Content: 1
+Content: 2
+Content: 3
+Content: 4竞品与自身
+Section: 长期核心策略
+Section: 2021运营计划宏观市场分析
+Content: 5公司与团队
+Content: 5
+Section: 宏观市场分析1
+Content: 6
+Content: 汽车行业正式跨入以人为本的 3.0全新时代
+Content: 群体个体
+Content: < 2006 2007 -2019 2020 >1.0分销时代2.0线索时代3.0用户时代
+Section: •品牌关注批发和市场进入
+Content: •通过批发和库存调配驱动经销商销售•主机厂以垂媒为核心采买线索
+Content: •以经销商为核心进行线索转化
+Content: •主机厂提供追踪工具和奖励机制支持经销
+Section: 商营销活动•品牌参与潜客运营
+Content: •多渠道为经销商进行潜客开发，协助转化
+Section: •进入品牌与用户 个体沟通阶段
+Content: 7
+Section: 3.0时代市场之变 —汽车市场长期进入平台期，品牌力成为持续发展的核心
+Content: 12131416182023242322
+Content: 19
+Content: 0102030
+Content: 2010 年2011 年2012 年2013 年2014 年2015 年2016 年2017 年2018 年2019 年2020 年近10年全国乘用车销量变化（百万）⚫随着车市近年度销售表现，增换购需求的转变，车市将会进入长期平台期，品牌如何拓展生存空间，成为重要课题
+Content: 二手车交易
+Content: 车龄百分比6年以上 66.5%2017
+Content: 2018 7-10年22.6% 10年10.9%6年以上 68.3% 7-10年22.0% 10年9.7%
+Section: *数据来源： so.car -2020& 麦肯锡车市下滑情况下， 2020 年奥迪品牌尚有较佳表现
+Section: 2021 年品牌生存空间有待持续拓展
+Content: 8
+Section: 3.0时代市场之变 —从规模增长红利到局部精耕繁荣，品牌高效运营力成为关键
+Section: ⚫在车市规模增长将见顶情况下，对局部市场精耕细作，增强运营实力，将是品牌获得增量的重要手段
+Content: 豪华
+Content: 市场
+Content: 日系车中型及
+Content: 以上
+Content: 电动
+Content: 汽车一线/
+Content: 新一线
+Content: 市场
+Content: ……
+Content: 女性
+Content: 市场技术创新品质创新
+Content: 运营创新组织创新
+Content: 模式创新
+Section: 营销创新
+Content: ……存量市场竞争下 仍有局部繁荣的赢家起步期：市场集中 在1-2线城市
+Content: 销量(万辆) 增长率年均增速 ≈24%
+Content: 年均增 速不足6%扩张期 ：3-6线全面启动 换挡期：零和博弈
+Content: 首购用户比例： 91% 81% 低于50%
+Content: 9
+Content: 3.0时代电商之变 —从多平台独立运营到多平台联动的大私域运营
+Section: ⚫以私域为链接点，整合公域触点矩阵，多平台联动运营，面向用户放大品牌电商能力和效率
+Content: 线上
+Content: 触点线下
+Content: 触点潜客培育
+Section: 内容营销线
+Content: 索
+Content: 获
+Content: 取线索搜集
+Content: 到店成交用
+Content: 户
+Content: 裂
+Content: 变传统媒介
+Content: 电视
+Content: 户外
+Content: 平面
+Content: 公关 微信平台
+Content: 小程序
+Content: 朋友圈
+Content: 公众号
+Content: 社群、视频号
+Content: 口碑平台
+Content: 知乎
+Content: 微博
+Content: 小红书
+Content: 垂直媒体
+Content: 懂车帝
+Content: 汽车之家
+Content: 老司机
+Content: ……短视频平
+Content: 台
+Content: 抖音
+Content: 快手
+Content: 西瓜
+Content: ……自控平台
+Content: 电商
+Content: 官网
+Content: 车主APP商超巡展
+Content: 发布会
+Content: 汽车庆典
+Content: 异业跨界
+Content: A/B/C/D
+Content: 级别车展
+Content: 体验店
+Content: 快闪店城县地推
+Content: 村淘店铺4S店
+Content: 试乘试驾传统
+Content: 媒体
+Content: 垂
+Content: 直
+Content: 媒
+Content: 体
+Content: 4S
+Content: 店
+Content: 双微
+Content: 一抖短
+Content: 视
+Content: 频
+Content: 大型
+Content: 车展…
+Content: 10
+Section: 3.0时代电商之变 —从对线索 /销量负责，到 对体验负责，对品牌溢价负责
+Section: ⚫电商平台情况对消费者决策有着一定影响力，品牌电商平台美誉度对品牌影响力及销售情况起到直观作用
+Content: 价格 平台 口碑
+Section: 一二线城市 下沉市场分城市级别汽车品牌决策关注点
+Content: *2020 年百度汽车行业研究 &2020 社交电商行业发展报告之消费者行为研究报告用户电商平台购买商品原因
+Content: 0.00%10.00%20.00%30.00%40.00%50.00%60.00%70.00%80.00%
+Content: 11
+Content: 3.0时代电商之变 —从注重“线索与交易”到注重 用户“全链体验”
+Content: ⚫电商作为用户触点的核心销售渠道，模式全面升级，促使用户消费习惯逐渐线上化迁移，满足全链路体验需求
+Content: 原有汽车电商模式 现在汽车电商模式升级
+Content: Online
+Content: 预约试驾 下订购车 服务购买
+Content: 试驾体验 线下提车 核销服务Offline
+Content: 模式与链路单一且单向
+Content: “广告橱窗”属性更加强烈Online交易速度与满意度提升
+Content: 线下场景价值 线上场景价值
+Content: 搜索 社交
+Content: 位置 支付
+Content: 整车/后市场推介
+Section: 点对点营销 /体验
+Section: 在线预订 /金融线下场景营销
+Content: 激发新需求
+Content: 服务点对点提供Offline服务优化
+Content: 客源增加信息对接
+Section: 交易效率精准营销
+Content: 粉丝经济
+Content: 以数据为枢纽与核心驱动力
+Content: 转变为“真实销售”平台，多元化服务赋能，全链路需求获得满足
+Content: 12
+Section: 宏观环境分析小结
+Section: 电商巨变之年，通过大私域整合营销，提升品牌力与运营力
+Section: “以用户为中心”将贯穿产品、营销、销售、服务等各个环节
+Content: 提升溢价
+Content: 汽车市场进入平台期
+Section: 组织创新局部市场深挖价值凸显品牌力
+Content: 持续发展
+Content: 运营力
+Section: 从规模增长红利到局部精耕繁荣，品牌
+Section: 高效运营力成为关键高效运营品牌 —持久价值
+Content: 个体沟通
+Content: 用户销售路径升级
+Content: 全链路消费体验精耕细作链路精耕提升效率
+Section: 促进终端的集客与销售转化 提升奥迪品牌的认知度与美誉度
+Content: 电商 —链路体验
+Content: 13
+Content: 明确奥迪新零售电商平台定位
+Content: 第三方
+Content: 电商社交
+Content: 电商自建电商新闻类
+Content: 搜索类社交类
+Content: 垂直类第三方
+Content: 生态
+Content: BU
+Section: 合作联动 营销引流 宣传出口
+Content: 宣传导流
+Section: 精准引流 信息PUSH营销扩散
+Content: 发声引流今日头条
+Content: 一点资讯
+Content: ……
+Content: 百度
+Content: 360
+Content: ……微博
+Content: 微信
+Content: 抖音
+Content: B站
+Content: ……
+Content: 汽车之家
+Content: 懂车帝
+Content: 老司机
+Content: ……优酷、爱奇艺、网易、飞猪 ……
+Section: 以提升品牌力与运营力为目的
+Content: 用户全链路一站式大私域体验平台
+Content: 以数据为核心驱动导流
+Content: 14
+Content: 竞品与自身2
+Content: 15
+Section: ⚫无法持续与用户建立记忆点，易被互联网冲刷 ，人群圈层喊话 不精准无法传递品牌力
+Section: 后布局者 没有互联网记忆「用什么事情彰显什么品牌力」营销断层
+Section: 与什么人群对话不清晰「向什么人传递什么理念」模糊不清奥迪电商品牌力分析 —圈层营销缺少独特性与记忆点，尚 未建立鲜明印记
+Content: 16
+Section: 奥迪电商品牌力分析 —充分发挥合作明星 &IP效应，赋能了形象建立
+Section: ⚫利用“借力打力”方式，充分发挥合作明星 &IP效应，为品牌在各电商渠道赢取销售机会
+Section: 第三方平台营销 自建电商营销 社交电商营销
+Content: •借助明星效应 配合电商渠道多元化互动
+Content: 玩法， 扩大线索收集可能
+Content: •以稀缺性权益 直接刺激潜客 购买•节日节点促销活动 ，引导销售转化
+Content: •车型定制功能满足年轻一代消费者个性
+Content: 化产品需求 ，以带动销售•IP跨界直播种草豪华生活方式 塑造场景
+Section: •通过“奥迪强音计划” ，建设品牌 +经
+Section: 销商传播矩阵
+Content: 17
+Section: 奥迪电商品牌力分析 —尝试#定制化 #提升品牌溢价，有特色实力但缺落地沉淀
+Content: •主要支持 Q2、Q3、A63款车系下 6款车型的个性化定制
+Content: •定制选项丰富： 在车型 、外观、内饰、其他装备 4个维度下 ，共
+Content: 有10项个性化选择 ，满足用户的差异化需求
+Content: •贴心功能设置： 支持定制分享与在线客服 ，细节处提升用户体验官网及商城微信公众号均支持定制功能，多入口带来便捷体验，且车型定制维度涵盖丰富
+Content: 但在定制流程上仍有一定优化空间
+Content: •定制流程不够简洁： 如外观定制项下有 2个选择 ，内饰有 3个选择 ，
+Content: 需点击 2+3次“去选择 XXX”容易造成用户迷惑 ，用户耐心降低 ，
+Content: 引发用户流失
+Content: •欠缺金融政策展示： 用户无法直观了解金额购车优惠
+Content: 18
+Section: 宝马电商品牌力分析 —圈层合作渗透延展品牌力量赛道
+Section: ⚫通过与不同圈层人群 /氛围场景深度合作，通过品牌产品形象塑造，夯实品牌高端印象，不断延展品牌力
+Content: 宝马5系
+Content: ×
+Content: 孟京辉
+Section: 重塑品牌
+Content: 用户家庭关系宝马7系
+Content: ×
+Content: 王小波
+Section: 建立品牌
+Content: 高知形象
+Content: 宝马X2
+Content: ×
+Content: 三元里
+Section: 渗透品牌
+Content: 年轻受众心智宝马4系
+Content: ×
+Content: 易烊千玺
+Section: 演绎品牌
+Content: 时代新生
+Content: 19
+Section: 梅赛德斯 -奔驰电商品牌力分析 —打破圈层深化场景渗透品牌力
+Section: ⚫勇于打破常规，善用不同维度人群 -IP-场景深化品牌形象，更以用户为形象化身彰显品牌力
+Content: She’s Mercedes
+Content: 号召各个领域
+Content: 女性创造者汇聚
+Content: 梅赛德斯 -奔驰
+Content: X
+Content: 王家卫情感共鸣
+Content: 渗透女性市场
+Section: 诠释品牌
+Content: 贴近受众心声
+Content: 奔驰 CLS 四门轿跑车
+Content: X
+Content: 《时尚先生 》
+Content: X
+Content: 新锐导演麦子
+Section: 品牌价值
+Content: 唤醒新生
+Content: 梅赛德斯 -奔驰
+Content: X
+Content: 英雄联盟
+Section: 品牌出圈
+Content: 触达Z时代
+Content: 20
+Section: 蔚来电商品牌力分析 —文创 IP&车主忠诚优势实力渲染品牌力
+Section: ⚫以车主用户为发力点，多文创产品衍生，并以呼吁车主 +潜客共同参与互动的体验形式宣示品牌力
+Content: 龙族幻想
+Content: ×
+Content: 蔚来
+Content: 手游联名
+Content: 出圈导流
+Content: Believe in
+Content: Better
+Content: ×
+Content: 蔚来车主
+Content: 新品首发
+Content: 车主带货
+Content: IWD 国际
+Content: 公益平台
+Content: ×
+Content: 蔚来车主
+Content: 全球公益活动
+Content: 带动多域互动大疆
+Content: ×
+Content: 蔚来车主
+Content: 文创联名
+Content: 跨界引流
+Content: 21
+Section: 蔚来电商品牌力分析 —官网在线定制化服务，满足需求充分诠释品牌力
+Section: ⚫整车多维度定制化，给予自主选配权，以用户的需求角度出发，从而让用户感知品牌力
+Content: 围绕电池容量、颜色、轮圈、内饰、钥匙、选装维度
+Section: 用户根据自身需求在线定制专属整车，刺激不同人群落单充分发挥新势力品牌直销 +定制化优势
+Content: 22
+Section: 特斯拉电商品牌力分析 —CEO IP 形象带动全球品牌力
+Section: ⚫科技化品牌理念 +硬核造车实力 +充分利用极具话题 CEO持续输出炒热品牌
+Section: 特斯拉品牌 CEO
+Content: 自带话题热度 +鲜明科技属性
+Content: 传奇“钢铁侠”原型，全球拥有狂热粉丝团体
+Content: 提出科技变革生活方式理念，并充分运用在造车领域
+Content: 23
+Section: 特斯拉电商品牌力分析 —“直营模式”先锋者，科技选配丰富
+Content: ⚫“直营模式”先锋者开辟线上定制化销售，特别强调“个性化”定制服务的同时淡化传统 4S体系中的零配件环节
+Content: 围绕性能版本、颜色、轮毂、内饰、添加驾驶功能等多维度科技定制化选项
+Section: 将科技理念贯穿，让用户感受定制化品牌服务
+Content: 24
+Section: 品牌力分析对比
+Content: 宝马 BMW 梅赛德斯 -奔驰 Mercedes -Benz
+Content: 蔚来 NIO 特斯拉 Tesla
+Content: 车型圈层目标明确
+Section: 常态化合作引爆品牌声量
+Section: 已建立 “年轻化” 品牌力记忆点多领域渗透长稳发展品牌力
+Content: 突破圈层隔阂搭建“社交点”
+Section: 直击受众心声夯实品牌影响
+Content: 车主尊享感无限赋能
+Content: 忠诚车主能动性不断挖掘
+Section: 利用用户涟漪效应构建品牌力“马斯克”人物 IP形象为、品牌“代言”
+Content: 传奇人物的智能领先科技理念
+Section: 塑造品牌高端科技化形象
+Section: 奥迪 Audi 品牌记忆点模糊，但“定制”能力较强大 以“定制化”为核心切入点，重塑品牌豪华感
+Content: 25
+Section: 奥迪电商运营力分析 —已经是电商先行者，数据整合运营的突破进取者
+Content: 奥迪京东旗舰店（销售落地） 奥迪在线 4S店（广宣 +销售）
+Content: 奥迪天猫旗舰店（内容） 奥迪官方抖音（内容）新车
+Content: 预定试驾
+Content: 体验
+Content: 后市场
+Content: 产品区域
+Content: 服务整车
+Content: 销售后市场
+Content: 产品
+Content: 车辆
+Content: 定制金融
+Content: 保险
+Content: 新车
+Content: 预定试驾
+Content: 体验
+Content: 后市场
+Content: 产品经销商
+Content: 轻店视频
+Content: 内容链接
+Content: 天猫
+Content: 抖音
+Content: 小店车友圈
+Content: 数据打通数据打通⚫平台间形成了初步的链接与数据互通，全矩阵向销售层面进行引导
+Content: 导流导流
+Content: 26
+Section: 奥迪电商运营力分析 —利用明星效应带动整体销售，但种草不持续，粉丝少运营
+Content: 奥迪京东官方旗舰店及 Audi A3 x 【微信端 】京东购物小程序打通开放预约秒杀功能京东直播开启正式秒杀 活动前预约收集线索
+Section: 契合新生代用户崛起的消费需求，通过明星跨界联名营销，实现与新生代用户群
+Section: 体对话和价值共鸣，并通过电商平台噱头营销进行预售秒杀，迅速实现销售转换线索累计： 25,939 京东活动页 PV：1,303,730/UV ：1,061,297
+Content: 奥迪
+Content: A3
+Content: &
+Content: 王一博
+Content: 限量款车型
+Content: 电商上新
+Content: 27
+Section: 宝马电商运营力分析 —侧重后市场的产品布局，扩大电商销售转化可能
+Content: 宝马天猫旗舰店（新车 +售后） 宝马官方商城（广宣 +线索）
+Content: 宝马京东旗舰店（售后销售） 宝马中国抖音（内容 +线索）同
+Content: 步导
+Content: 流
+Content: 车主
+Content: 服务售后
+Content: 产品
+Content: 新车
+Content: 销售精英
+Content: 驾驶车型
+Content: 宣传4S店
+Content: 引导
+Content: 车型
+Content: 买卖信息
+Content: 收集
+Content: 售后
+Section: 产品营销
+Content: 活动
+Content: 会员
+Content: 服务精选
+Content: 内容视频
+Content: 内容官方
+Content: 活动
+Content: 车型
+Content: 展示线索
+Content: 收集
+Content: ⚫电商平台之间相对割裂，着重后市场产品销售与线索的收集，引导至经销商进行转化
+Content: 只提供车辆配置选择，无法定制
+Content: 28
+Section: 宝马电商运营力分析 —多线索入口的落地，带动整体线索收集机会
+Content: ⚫以多种交互形式收集用户线索，顺势开展系列直播，加大电商销售
+Section: 第三方平台营销 自建电商营销 社交电商营销
+Section: •以盲盒福利抢购 营销活动 获取大量线索
+Content: •“BMW 官方开聊” 系列直播活动 引导
+Content: 销售转化
+Content: •显著留资入口 位置设置 吸引大量留资
+Content: •全车系车型不同 金融政策宣传 ，引导产
+Content: 生销售可能
+Content: •信息流 直链专题页面获取线索
+Section: •车型展示专区 链接品牌官方商城引导预
+Content: 约试驾收集线索
+Content: 29
+Section: 宝马电商运营力分析 —注重新生代用户联动式体验营销，组合权益释放引领销售
+Content: 预
+Content: 售
+Content: 狂
+Content: 欢
+Content: ，
+Content: 订
+Content: 金
+Content: 膨
+Content: 胀
+Content: ◼双十一狂欢季 驾享3重礼遇
+Content: •分享成团赚优惠： 预售期间 （10.21-10.31），用户邀请 3位好友 ，好友可获得购指定
+Content: 产品满 399减20优惠券 ，发起者可获得满 399减80优惠券 【限量1000 张】
+Content: •以一抵百 /以一抵十： 预售期间 ，用户购买儿童座椅 、脚垫可获 1元抵150元专享
+Content: 券【限量200张】；用户购买轮胎可获 1元抵10元专享价 【限量500张】
+Content: •开设预售专区： 用户预售期间 ，下定预售专区产品 ，支付定并在规定期间支付尾
+Content: 款即可享受定金膨胀优惠
+Content: 成都
+Content: 专业讲解 独特空间 独家好礼线
+Content: 下
+Content: 体
+Content: 验◼超感境界 ·限时体验展直播
+Content: 线
+Content: 上
+Content: 直
+Content: 播专业讲解
+Section: 细节剖析线上直播以品牌产品经理 +行业KOL形式，对各车型进行专业
+Content: 细致讲解 ，并在线上架体验展车型 ，有效助力体验转化
+Content: 多元互动
+Content: 释放权益结合车型讲解环节 ，主讲人与 KOL适时开展趣味问答互动 ，并
+Section: 赠送品牌周边礼品刺激用户参与线上互动⚫全面定位年轻一代受众群体进行核心创意开发，借助多元营销 +互动+促销形式，调动销售积极性
+Content: 30
+Section: 梅赛德斯 -奔驰电商运营力分析 —数据集成打通，逐渐完善销售链路
+Content: 奔驰天猫旗舰店（新车 +售后） 奔驰官网（广宣 +销售）
+Content: 奔驰小红书（内容） 奔驰官方抖音（内容）导
+Content: 流互动
+Content: 活动售后
+Content: 产品
+Content: 车主
+Content: 服务粉丝
+Content: 会员在线
+Content: 销售信息
+Content: 收集
+Content: 售后
+Content: 服务精品
+Content: 销售
+Content: 内容
+Content: 笔记素人
+Content: 互动
+Content: 精选
+Content: 收藏针对
+Content: 女性视频
+Content: 内容官方
+Content: 话题
+Content: 车型
+Content: 展示车友圈⚫电商平台之间同样相对割裂，但正在以官网为核心阵地，进行销售链路集成，官网已开放支付接口
+Content: 官方+UGC
+Content: 产品互通
+Content: 仅可选择中央库存车辆下订，无法配置
+Content: 31
+Section: 梅赛德斯 -奔驰电商运营力分析 —以直播为重要营销手段，扩大群体消费
+Content: ⚫官网销售集成化处理，第三方专属互动形式，形成用户销售与沉淀，社交渠道向官方渠道高效导流
+Section: 第三方平台营销 自建电商营销 社交电商营销
+Content: •多类型 加粉/入会手段，促发用户沉淀
+Content: •大力开拓直播疆土 ，建立“奔驰值播
+Content: 间”IP，借助直播， 斩获大量销售订单•官网承载 新车+试驾+售后+二手车销售
+Content: •以金融+实物礼品 形式激励用户电商 平
+Content: 台下订•菜单栏 直链官网销售页面 缩短销售路径
+Content: •车友圈承载 预约试驾 +导流经销商 ，激
+Content: 发用户 留资机会
+Content: 32
+Section: 梅赛德斯 -奔驰电商运营力分析 —特色产品专场直播，圈层人群权益刺激销售
+Content: ⚫结合受众兴趣点，以 AMG 系列产品作为代表，展开“燃 情园游会 ”专场直播，分人群权益释放，带动店铺销售
+Content: ◼直播互动： 针对AMG 车型店铺开展天猫直播互动，围绕潜客、会员、车主不同人群打造多维互动环节及特色权益，强势聚焦关注及转化
+Content: ◼精彩环节： 互动有礼 -直播间抽奖 /精品配件 8折、会员福利 -秒杀及买一赠一、车主专享 -售后折上再送，以丰富的权益满足不同受众人群用车周期
+Content: 天猫直播AMG
+Section: 驾驶学院◼店铺报名： AMG 驾驶学院围绕不同城市及赛道，在店铺开设全新特色课程，为 AMG 品牌粉丝和车迷提供专业的道
+Content: 路和赛车培训
+Content: ◼课程特享： 城市及赛道多场景切换， 6小时不间断强训练，多款全新 AMG 车型随心驾驭、全球顶尖教练现场指导、
+Content: VIP接送服务、五星级酒店住宿、欢迎晚宴、 AMG 驾驶学院证书及专属礼品一份， AMG 车主购买课程可享 8折优惠
+Content: 33
+Section: 蔚来电商运营力分析 —电商功效差异化布局，统一数据沉淀至品牌 APP
+Section: ⚫以官方网站为品牌展示门户，导流 APP及小程序，引导销售，构建以 APP为核心的品牌电商矩阵
+Content: 蔚来官方网站 (门户导流 )
+Content: 蔚来APP（黏着车主）导流 沉淀导流
+Section: 品牌资讯
+Section: 预约试驾 品牌服务车型展示 +在线定制
+Content: 车服务 整车/备附件
+Content: 金融 社交
+Content: 购车小程序
+Content: 加电小程序 试驾小程序
+Content: 导
+Content: 流沉
+Content: 淀蔚来小程序（全面服务）
+Section: 蔚来抖音（展现品牌）
+Section: 品牌资讯
+Content: 短视频 互动活动车型展示
+Content: 34
+Section: 蔚来APP营销 官方网站营销 社交电商营销
+Section: 蔚来电商运营力分析 —以“用户”为运营核心，核心电商沉淀
+Content: ⚫官方为销售主体，社交电商为流量载体，官方 +社交电商充分为 APP输送用户， APP开展多维互动将用户沉淀
+Content: •多类型用户互动活动及区域社群活动 ，
+Content: 粉丝
+Content: 极其活跃，促发用户沉淀
+Content: •大力
+Content: 开拓文化
+Content: IP，借助联名活动增强用户
+Content: APP粘性•官网承载核心展示功效
+Content: •布局
+Content: “整车
+Content: +
+Content: 试驾
+Content: +
+Content: 服务
+Content: +NIO LIFE
+Content: ”模块
+Content: 引导用户下订，并建立
+Content: 车型定制功能 ，满足
+Content: 个性预定需求•菜单栏
+Content: 直链
+Content: APP
+Content: 页面缩短销售路径
+Content: •车友圈承载官网页面
+Content: 预约试驾
+Content: +
+Content: 导流经销商 ，激发用户
+Content: 留资机会
+Content: •分别
+Content: 关联
+Content: NIO LIFE
+Content: 原创精品、牛屋大玩家车主生活账
+Content: 号多链路运营
+Content: 35
+Section: 特斯拉电商运营力分析 —电商模式创新，但电商布局较晚且割裂
+Section: ⚫以官网为核心阵地，强调定制化服务；公众号镜像搬运官网，天猫以节点营销为主，抖音开创内容，为官网输送线索
+Content: 特斯拉天猫旗舰店（试驾 +售后+精品）特斯拉抖音（内容 +线索）
+Content: 特斯拉公众号（内容 +线索）同
+Content: 步
+Content: 售后
+Content: 产品
+Content: 体验店
+Content: 引导粉丝
+Content: 互动电商
+Content: 直销在线
+Content: 商店
+Content: 在线
+Content: 定制信息
+Content: 收集视频
+Content: 内容车型
+Content: 展示
+Content: 官方
+Content: 活动线索
+Content: 收集
+Content: 视频
+Content: 内容官方
+Content: 活动
+Content: 车型
+Content: 展示线索
+Content: 收集特斯拉官网（整车 +售后+精品）
+Content: 车型
+Content: 试驾沉淀 导流
+Content: 36
+Section: 特斯拉电商运营力分析 —跨界寻求线索入口，店铺承接落单
+Content: ⚫电竞跨界破圈沉淀至平台销售，融入电竞环节开设虚拟车辆体验店，带动整体线索收割机会
+Section: 第三方平台营销
+Content: ◼《和平精英 》X特斯拉 ，植入特斯拉 Model X & Model 3 合作车型、特斯拉经典元素超级充电站
+Content: ◼携手特别定制奇幻紫车辆喷漆并在游戏中打造首个 「虚拟车辆体验店」 ，玩家可在游戏中寻找特斯拉主题门店，与
+Content: 店铺内 Model X 互动跳舞， 实现线索收集刺激转化
+Content: 37
+Section: 运营力分析对比
+Content: 优势 劣势
+Section: ·长线流量资源铺设 ·线索触点较多 ·注重IP联动体验营销
+Content: ·官网销售集成处理 ·着重发力直播 ·精品销售较好
+Section: ·注重发挥用户势能 ·品牌文化精品发展较好 ·内容营销丰富
+Section: ·汽车直销模式鼻祖 · 科技化选配较为丰富 ·初步探索 IP营销
+Section: ·产品全链路覆盖 · 逐渐发挥 IP营销能力 ·数据互联思维前沿·电商布局较为割裂 ·整车销售转化能力低
+Section: ·营销行动较为薄弱 ·整车销售转化能力低
+Content: ·欠缺第三方电商布局，损失阿里 /京东生态广域流量
+Section: ·第三方电商布局较晚 ·电商营销 /内容/权益均较薄弱
+Content: ·常态化流量缺失 ·电商种草内容及用户有待深耕
+Content: 38
+Content: 奥迪运营提升点
+Section: ⚫品牌电商进行了产品开发、公域精准流量、多元营销、用户运营等多维提升，获得显著收效，同样存在提升空间
+Content: 运营不足 优化提升
+Content: 流量断层
+Section: 重大节点 /IP营销时整体流量效果显著，但常规时间普世
+Content: 化流量投放较少，导致流量断层利用站外 SEO流量矩阵及站内基础流量矩阵，尽可
+Content: 能为店铺 /商城获得流量导入常态化流量释放
+Content: 内容断续
+Content: 欠缺持续稳定的电商内容输出，尚未达成向用户不断种草
+Content: 的核心目的公私域 内容持续孵化
+Content: 用户浅显
+Content: 电商平台用户黏性较弱，活跃度不高，易受外界影响，流
+Content: 失成交客户圈层用户深度运营
+Section: 围绕品牌用户圈层受众喜好侧重为思考，进行深度用户运
+Section: 营，沉淀成为品牌核心资产开展私域运营，进行圈层培育、内容种草，持续培
+Section: 育用户，打造品牌电商专属粉丝经济
+Content: 数据驱动能力的长期稳固与加强
+Content: 39
+Section: 长期核心策略3
+Content: 40
+Content: Evolution theory of  Super Audi
+Content: 以用户内核为沟通源点，以数据为整体依据
+Section: 通过品牌力 -运营力双进化
+Content: 实现线索 →销售的目标达成，流量 →留量的用户质越
+Content: 塑造奥迪新零售电商生态进化体系启迪进化论
+Content: 41
+Section: 打造“高端定制化”品牌电商标签
+Section: 彰显奥迪品牌实力
+Section: 定制化产品体验 定制化服务体验 定制化生活周边体验长期策略 —品牌力进化
+Content: 42
+Content: 我的奥迪 我的ID
+Content: 电商一键化操作，轻松拥有专属豪华座驾
+Section: 明星限定款合作推荐 独特限量款线上独售 常规在售款常年启动长期策略 —品牌力进化
+Content: 43
+Section: 长期策略 —品牌力进化
+Content: 收集定制需求 加深/拓宽定制维度 便捷定制流程 明星/达人种草
+Content: OTD定制系统，成为电商私域标签
+Content: 44
+Content: 五大维度运营进化，强有力的运营能力保障效率提升
+Section: 流量全进化 产品全进化 内容全进化 用户全进化 数据全进化长期策略 —运营力进化
+Content: 45
+Content: 启迪进化论
+Section: 五大进化 -解决品牌与效率课题，达成核心目标，成就领先
+Content: 全网域流量进化 全阶层用户进化 全定制产品进化
+Content: 从传统曝光 →智慧流量
+Content: 矩阵式流量布局千人千面人群运营
+Section: 差异化信息 PUSH品牌&经销商定制化产品深化
+Content: 满足个性化与便捷化需求
+Content: 多触点拉新 →流量促活
+Content: 实现流量的活获活用用户进阶制度建立
+Content: 粘着&好感激励提升场景化产品体验赋能
+Section: 增加产品与品牌力的渗透
+Content: IP合作赢取外部流量
+Section: 扩散整体品牌声量私域矩阵布局
+Section: 成就用户生态圈开创品牌文创货架
+Section: 以精神层面产品扩大品牌效应全形式内容进化
+Content: 多形式多维度内容呈现
+Content: 场景化内容能力优化
+Content: 深度内容种草
+Section: 私域内容营销销售转化
+Content: 用户向内容反哺回流
+Section: 形成完整内容营销闭环全维度数据进化
+Section: 对点式人群策略筛选
+Content: 人群数据高效运用
+Section: 链路数据分析
+Content: 反向给予运营指导
+Content: AIPL用户画像模拟
+Section: 针对性交易产品触达长期策略 —品牌力（定制化） X运营力（五维度）整体进化
+Content: 46
+Content: 全网域流量进化
+Content: 47
+Content: 流量进化漏斗
+Section: 流量留存流量盘活流量分析流量矩阵汲取 全面扩大曝光
+Content: 矩阵式布局站内站外流量渠道
+Content: 吸引更多潜客关注
+Section: 运用平台流量数据工具，精准营销
+Content: 活跃目标用户
+Content: 多平台开展圈层内容互动，增加粘性
+Content: 激发转化可能
+Section: 发展品牌私域开展会员营销及更多互动
+Content: 48
+Content: 流量体系搭建
+Content: 明星店铺
+Content: 多维流量导流
+Content: 流量汇集转化
+Content: 奥迪官方旗舰店
+Content: 流量收口
+Content: 京东PLUS 会员
+Content: 京准通IP流量矩阵以平台流量为核心抓手，辅助站外曝光及 BD联动
+Content: 站内站外多样化流量运营，精准锁定目标客群，实现店铺最大化引流
+Content: 兴趣漏斗
+Content: 吸引关注、活跃留存、分享转化基础流量矩阵
+Content: 站外
+Content: 站内
+Content: BD跨界流量联盟SEO多渠道流量
+Content: 矩阵
+Content: … …
+Content: 49
+Content: 站内基础流量矩阵
+Content: 常规推广 流量运营 （以品销宝专区为例）
+Section: 品牌与客户沟通的重要电商营销阵地，对已购、预购及潜在人群进行很好地人群拦截，降低本品牌的客户流失率
+Section: 基于品牌词包搜索，展示品牌专区 banner ，提供丰
+Content: 富的展现形式，如长图页面模板、 H5翻页模板等“大” 展位体现
+Section: 专业的品牌价值分析让广告主更好的把控投放效
+Section: 果，从触达 -兴趣-行动-成交全链路进行效果评估效果“全”分析
+Section: 体统将根据品牌资质自助为品牌方提供全面可用的关键词，并以流
+Section: 量包的形式大大减少词包管理成本品牌流量“包”
+Section: 品牌流量提升 30%！
+Content: 奥迪官方旗舰店奥迪
+Content: 50
+Content: 站内基础流量矩阵
+Content: 常规推广 流量运营 （以钻石展位、直通车为例）
+Content: 利用钻展工具精准触达潜客，利用直通车工具，通过设置不同关键词，引导本品到店，拦截竞品流量
+Content: 钻展广告示例 直通车 -本品引导
+Content: 直通车 -竞品拦截
+Content: 基于阿里全生态数据让用户精准标签化，系统后台根
+Section: 据潜客画像直接勾选，最后通过千人千面机制展示•引导本品搜索人群直达品牌旗舰店
+Content: •增加店铺被搜索到机会，增加流量
+Content: •拦截竞品兴趣人群至本品车型活动页面
+Content: ，为店铺引流
+Content: 51
+Content: 站内基础流量矩阵
+Section: 大促推广流量运营 （以品牌特秀为例）
+Section: 品牌特秀是淘内最核心的推荐类资源位，准确触达全网核心用户，帮助品牌实现创意展现，有效激发用户品牌兴趣
+Content: 猜你喜欢第一坑
+Content: 手淘首页最核心推荐资源位
+Content: 优质人群免费提前优选
+Content: 创意形式丰富多样手淘焦点图 2
+Content: 首页确定性大曝光资源位
+Content: 高性价比
+Content: 可直接引导进店天猫积分频道
+Content: 视频和积分任务两部分组成
+Content: 播放视频解锁积分任务
+Content: 完成任务诱导引流有好货第四坑
+Content: 全淘最高品质的选货平台
+Content: 资源位独占
+Section: 大屏展示，帮助品牌吸睛
+Content: 52
+Content: 站内基础流量矩阵
+Content: 常规推广流量运营 （以京准通为例）
+Section: 京东专业营销推广平台，能一站式解决互联网全渠道营销推广，覆盖京东站内和绝大多数站外资源
+Content: 多年电商积累的海量数据，形成精细化的人群标签，助力精准投放
+Content: 53
+Section: 在重点活动阶段亟需扩大产品网络传播，可利用京东 PLUS 会员资源及点位，快速曝光活动信息，加强客户产品认知
+Content: 站内基础流量矩阵
+Content: 大促推广流量运营 （以京东 PLUS 会员为例）
+Content: 计划购车用户
+Content: 准购车用户潜在需求客户活动促销，强认知
+Content: 京东PLUS 会员已突破千万 +
+Content: 会员购车专属权益设置会员试驾专属礼品设置高质量 Plus会员用户群体
+Section: 品牌认知强化，订单收割
+Content: 54
+Section: 硬广曝光配合短视频内容种草建立全新传播链路，打造优质内容，让用户生产品牌内容，引流电商平台站内基础流量矩阵
+Content: 内容型社交平台
+Content: 10%
+Content: 短视频种草
+Content: 加购率提升20%
+Content: 短视频成交
+Content: 转化率提升
+Content: 短视频带来更真实的感官体验 ，增
+Section: 强品牌曝光 、转化能力 ，映射出短
+Content: 视频KOL的推广在内容载体上有天生
+Content: 的带货基因短视频平台的兴起 ，带火了一批网红和他们的
+Content: 产品—短视频 KOL拥有更强大的带货转化魔力首屏3S开屏
+Content: 沉浸式展示升级多样化定制磁贴
+Content: 激发用户点击欲
+Content: 中心化页面强势
+Content: 曝光品宣推广
+Content: 开屏 发现页 信息流
+Content: 优质原生内容推广
+Content: 无缝融入推荐流DOU+ 内容KOL达人种草
+Content: 55
+Section: 基础流量推广策略（以天猫为例）
+Content: 钻
+Content: 展
+Content: 直
+Content: 通
+Content: 车
+Content: 明
+Content: 星
+Content: 店
+Content: 铺
+Content: 超
+Content: 级
+Content: 推
+Content: 荐投放
+Content: 圈定年龄： 26-35岁
+Content: 性别： 男性
+Content: 城市： 一二线城市
+Content: 兴趣标签： 潮流、智能、科技、社交年龄： 25-34岁
+Content: 性别： 男性
+Content: 城市： 一二线城市
+Content: 兴趣标签： 智能、科技、潮流、社交年龄： 18-45岁
+Content: 性别： 男性+女性
+Content: 城市： 一二三线城市
+Content: 兴趣标签： 家庭、购物、智能、潮流、社交、个性
+Content: 投放
+Content: 关键
+Content: 词
+Section: 时段品牌词 +车型词
+Content: 奥迪/A3
+Content: 核心区域 24小时投放
+Content: 展现
+Content: 方式 常规视觉展示
+Content: 塑造店铺形象互动视觉展示
+Content: 打通店铺创新互动玩法长颈鹿 MAX 视觉展示
+Content: 全面曝光新车卖点信息沉浸式视觉展示
+Section: 营造大促氛围奥迪全系车型 创新化营销 大促节点 常态化营销
+Content: 点位
+Content: 投放首页猜你喜欢 +有好货 首页猜你喜欢 +购物车猜你喜欢首页猜你喜欢 +购物车猜你喜欢 +支付成功页猜你喜
+Content: 欢
+Content: 内容
+Content: 样式直播间展示 种草图文 +视频 大促商品权益推广 IP联合活动展示4月 5月 6月 7月 8月 9月 10月 11月 12月
+Section: 全新A3 节点大促 跨界联合 平台IP营销活动
+Content: 年龄： 18-39岁
+Content: 性别： 男性+女性
+Content: 城市： 一二线城市
+Content: 兴趣标签： 社交、个性、潮流、智能
+Section: 结合人群购物时间及竞品投放时间，分时段投放通用词 +品牌词 +竞品词 +活动词
+Content: 轿车/奥迪汽车 /奔驰/宝马/奥迪促销
+Section: ……品牌词 +活动词
+Content: 奥迪汽车 /奥迪聚划算
+Section: ……品牌词 +活动词
+Content: 奥迪汽车 /奥迪跨界 /奥迪直播
+Content: ……
+Content: 首页猜你喜欢
+Content: 56
+Content: 站内IP流量矩阵
+Content: 入驻平台大促 IP会场，提高奥迪官方店铺曝光度和关注度
+Section: 利用平 台IP大促流量资源，进行重点节点活动的扩充蓄客，制造最大化品牌关注
+Content: 京东618
+Content: 全网覆盖互联网主流用户群
+Content: 站内外流量联盟曝光天猫双 11
+Section: 亿万级的品牌曝光资源
+Section: 海量汽车品牌竞争高地
+Content: 抖音美好购车节
+Content: 全新汽车消费 IP
+Content: 创新直播玩法新体验
+Content: 57
+Section: 入驻明星 IP直播栏目，拉升奥迪汽车品牌曝光及热度
+Section: 借势明星 IP资源优势，利用明星影响力 带动自有粉丝圈层和品牌潜在客户圈层站内IP流量矩阵
+Content: 汪峰
+Content: 京东秒杀首席直播官
+Content: 《汪峰》直播间
+Content: 直播坦率真诚
+Content: 超强敬业精神
+Content: 罗永浩
+Content: 中国第一代网红
+Content: 《交个朋友 》直播间
+Content: 新晋带货达人
+Content: 自带流量话题
+Content: 景甜
+Content: 聚划算美丽种甜官
+Content: 《我的甜啊！ 》官方直播间
+Content: 端庄大气
+Content: 直播带货好评不断
+Content: 58
+Content: 站外SEO多渠道流量矩阵
+Content: 国内知名平台超级流量入口
+Content: 社交高流量内容平台增强用户沟通
+Content: 场景化高流量入口
+Content: 高效连接， 建立用户触达强化性格张力
+Content: 解决用户需求及人性化互动
+Content: 提升自建商城搜索量
+Section: 抢占品牌曝光、用户关注热门信息流平台推广、引流
+Section: 品牌SEO渠道布局，全面提升奥迪自建电商搜索进店量
+Content: 多渠道精准导流，强曝光、强引流、抢占用户关注
+Content: …………
+Content: 59
+Content: 站外SEO多渠道流量矩阵
+Section: 综合奥迪受众人群标签及品牌定位圈定，从 享/家/潮/智四大方向开展跨界合作，扩大流量圈层
+Content: 享 家 潮 智跨界方向
+Section: 跨界品牌
+Content: 选择
+Section: 原因高流量会员强黏合 结合目标群体场景化推广 放大年轻潮流品牌特性 深耕目标人群智能生活场景
+Content: 合作模式
+Content: 推荐合作平台会员专享
+Content: 购车体验及福利场景化进行门店资
+Section: 源的植入、曝光品牌联名周边产品
+Content: 线上线下 PR造势
+Content: 会员尊享专享 VIP购车服务， 0元深
+Content: 度试驾、送车上门等购车利益点强结合，结合门店场景
+Content: 提供专属送货服务电商阵地进行周边产品售卖
+Content: 进行节点秒杀活动，带动黏性
+Content: *电商项目建议 1-2个平台进行重点合作
+Content: ……
+Content: ……
+Content: ……
+Content: ……
+Content: 60
+Section: 流量进阶分析
+Content: 人群精细化流量运营 （以达摩盘 为例）
+Section: 基于消费者消费行为 、兴趣偏好 、地理位置等海量数据标签 ，为品牌提供个性化人群圈选 ，识别店铺高价值人群 ，
+Section: 人群画像洞察与偏好分析 ，以及投放用户链路追踪能力 ，以满足品牌个性化精准营销需求
+Content: 海量标签赋能精细化人群圈选
+Content: 基于"人货场 "方法论升级整体标签体系和分类 ，基于个体特征 、品
+Content: 类特征 、渠道特征 、私域特征为您提供海量精细化标签精准
+Content: 圈人
+Content: 多维度画像洞察助力人群刻画
+Section: 基于消费者基础特征 、品类偏好 、渠道活跃 、店铺关系维度助力品牌
+Section: 全面立体刻画目标消费者画像 ，帮助品牌全方位了解 TA显著性特征 ，
+Section: 指导创意投放多投放渠道联动赋能精准营销
+Section: 达摩盘人群同步至直通车 、智钻、超级推荐 、品销宝等多营销渠道进行
+Content: 投放，赋能商家实现在多投放渠道之间人群流转和联动投放画像
+Content: 洞察媒介
+Content: 投放
+Content: 61
+Section: 流量进阶分析
+Content: 人群精细化流量运营 （以数据银行为例）
+Content: 数据银行对用户行为闭环 ，购物标签非常全面 ，并结合站内 、站外数据丰富消费者画像 ，对人群会有深刻认知；
+Section: 帮助品牌更好的追踪 、管理客户以及拉新
+Content: 更全面的画像标签
+Section: 链路流转分析
+Section: 数据应用营销平台、直播活动、短视频活动人群分析营销活动沉淀分析 数据应用市场
+Section: 分析消费者从认知 ——兴趣——购买——忠诚度的流转过程从认知 、兴趣、购买、忠诚四个维度对消费者进行画像分析 ，刻画
+Section: 更全面的消费者数据画像标签品牌输入 GMV 目标等关键信息 ，通过购买的应用借力数据银行推
+Section: 动品牌进行内容 、消费等全链路分析
+Section: 将数据银行中的消费者，通过“数据应用”，应用到阿里的各个营销投放渠道
+Content: 62
+Content: 流量盘活
+Content: 圈层化内容互动
+Content: 通过店铺微淘 、淘宝短视频 、洋淘买家秀等系列圈层化内容互动 ，增强店铺粘性
+Content: 基于天猫对微淘的特别加权 ，通过持续不断的微淘运营 ，提高
+Content: 店铺在淘宝的权重 ，提高店铺展现 ，增加用户互动
+Content: 内
+Content: 容
+Content: 发
+Content: 布
+Content: 群
+Content: 聊
+Content: 征
+Content: 集
+Content: 活
+Content: 动
+Content: 盖
+Content: 楼
+Content: 投
+Content: 票微淘
+Content: 活动
+Content: 报名
+Content: 定向
+Content: 合作
+Content: 微淘
+Content: 账号
+Content: 发现
+Content: 微淘
+Content: 推荐
+Content: 扶持工具权益 流量权益微淘
+Content: 让用户的视觉体验从静态升级到动态 ，利用综合电商对内容营
+Content: 销的加权 ，获取平台更多的展现
+Content: 网红
+Content: KOL
+Content: 说车
+Content: 车主优质
+Content: 视频
+Content: 奥迪汽车
+Content: 宣传片
+Content: ……淘宝短视频 洋淘买家秀
+Content: 平台发布种草官活动 ，已购车用户参与活动 ，进行高质量的图
+Content: 片和视频内容输出 ，潜在用户通过观看内容进行口碑的转化 ，
+Content: 关注店铺 ，深度浏览店铺
+Content: 店铺审
+Content: 核评选优质
+Content: 客户
+Content: 评价种草官
+Content: 成为合
+Content: 伙人发布优
+Content: 质内容
+Content: 粉丝优质内容示例
+Content: 自驾之旅
+Content: #那天我自驾奥迪去了，因为颜值高被
+Content: 围观了 #
+Content: #奥迪车型的大空间真的太实用了 #
+Content: ……
+Content: 亲子之旅
+Content: #奥迪的车颜值太高，我儿子总是炫耀 #
+Content: #奥迪Q5空间太大了，现在我们喜欢在
+Content: 车里玩游戏 #
+Content: ……
+Content: 63
+Content: 流量留存
+Content: 会员卡
+Content: 多种复购锁定机制 ，助力奥迪汽车在大促期间激活未来消
+Content: 费，提升会员生命周期价值
+Content: 兑换卡供消费者一次买卡后线上兑换
+Section: 单/多次商品 ，加深品牌印象 ，实现
+Content: 长期锁客
+Section: 预付卡形式线上化 ，品牌购物金可充
+Section: 分挖掘品牌高价值人群 ，以折上折吸
+Section: 引品牌会员 ，锁定人群未来消费兑换券
+Content: 购物金粉丝群
+Content: 建立会员粉丝群 ，鼓励会员入群抢红包 ，实时建立
+Content: 深层互动 ，有效促进购买转化
+Content: 通过会员权益激励消费
+Content: 者加入粉丝群每日签到获取淘金币
+Content: 群内不定时发放优惠券
+Content: 64
+Content: 流量留存
+Content: 话题挑战赛
+Section: 深入年轻人群话题中心 ，持续以优质内容吸引关注 ，聚势实现海量互动曝光 ，提高品牌好感度
+Content: ➢#奥迪A3全面进击
+Content: ➢#这就是奥迪 Style
+Content: ➢#潮流科技在奥迪
+Content: ……➢#擦汽车玻璃挑战
+Content: ➢#谐音梗挑战
+Content: ➢#奥迪魅力挑战
+Content: ……配合主题活动节奏 ，设置打造活动话
+Section: 题，卷入用户参与话题打造紧跟时下热点 ，借力发挥扩大传播覆盖 ，
+Section: 建立品牌与年轻用户的完美关联点热点营销
+Content: 65
+Content: 全定制产品进化
+Content: 66
+Content: 定制化整车产品塑造
+Content: 衍生不同维度定制款整车产品，通过产品特殊性，汲取大量潜客意向与销售落实
+Content: 限量首发 明星联名 特别定制
+Content: 全球/全国限量车型
+Section: 饥饿营销明星手绘车身、专调车色
+Content: 深耕明星与车的共联特定配置、特殊加装
+Content: 满足独特需求稀缺抢拍
+Content: 售罄款、经典款返场
+Content: 以稀缺带动销售
+Content: 67
+Content: 定制独特体验性产品打造
+Content: 荒野瑜伽试驾 北纬30°垂钓体验 感受越夜越野
+Content: 约驾“土味”奥迪
+Content: 野外试驾奥迪
+Content: +
+Content: 瑜伽体验课程环海试驾奥迪
+Content: +
+Content: 海域垂钓体验城市定线试驾奥迪
+Content: +
+Content: 参与城市夜晚潮 Live环山试驾奥迪
+Content: +
+Section: 周末城市近郊游结合受众生活喜好，创造属于奥迪独一无二的生活体验性试驾产品，传递品牌生活方式，破圈营销
+Content: 68
+Content: 定制化文创产品构建
+Content: 产
+Content: 品
+Content: 特
+Content: 点产品类别
+Content: 产
+Content: 品
+Content: 系
+Content: 列
+Section: 虚拟产品规划品牌相关 人相关 车相关 生活相关 文化
+Content: 公益
+Content: 联名
+Content: 国潮
+Content: 影视 艺术 游戏 二次元 科技个性
+Content: 颜值
+Content: 品质通过文创产品所蕴含的奥迪文化属性和内涵意义
+Section: 与品牌形成相互反哺，扩大品牌效应
+Content: 69
+Content: 文创产品示意
+Section: 品牌跨界联合 自有IP借势 合作知名设计师 文化IP联名
+Content: ⚫国内知名设计师、新锐
+Content: 设计师联名打造
+Content: ⚫设计师作品征集大赛冠
+Section: 军定制款⚫将奥迪品牌卡通形象
+Content: 化，用该形象开发系
+Content: 列衍生品，赋能产品
+Content: 品质⚫热门综艺
+Content: ⚫热门动漫
+Content: ⚫热门IP
+Content: ⚫热门文化博物馆
+Content: 70
+Content: 更多元化产品孵化
+Content: 金融产品 售后服务产品 衍生精品
+Section: 品牌合作联名周边
+Content: 自主创意精品开发
+Content: ……全国门店通用型延保产品
+Content: 打包型售后套餐
+Content: ……电商独有金融权益
+Content: 长短期 /分时融资租赁产品
+Content: ……
+Content: 缩短用户后市场路径，扩大销售空间 满足用户车生活需求，激励销售 金融利益刺激，加速购买决策
+Content: 71
+Content: 全形式内容进化
+Content: 72
+Content: 内容渠道布局及创新形式建议
+Section: 布局多个内容渠道，发挥各自优势属性，直引销售充分利用时下流行的短视频及直播形式，全面展示品牌
+Section: 及车型信息，提升品牌形象，吸引用户关注
+Content: 短视频 直播
+Content: •充分利用短视频物料，
+Content: 增加内容的丰富性
+Content: •短视频具备强互动性，可
+Content: 快速获得用户反馈
+Section: •总体成本较低，便于传播•多维度开展直播互动，
+Content: 塑造强销售氛围
+Content: •使活动更具备真实性，打
+Content: 造场景化销售
+Section: •社交性及变现能力更直接淘宝-微淘 品牌号 京东-发现 品牌公众号
+Content: •以用 户为中心 ，
+Content: 通过订阅的方式 ，
+Content: 获取信息和服务
+Section: •品牌 店铺与粉 丝
+Content: 之间 能够围绕 账
+Content: 号产 生强互动 ，
+Content: 是重要的移动流
+Content: 量来源•淘宝 内容生态 重
+Section: 要阵地 ,承载品牌
+Content: 多维度创意内容
+Section: •可以 作为品牌 粉
+Content: 丝运 营主阵地 ，
+Content: 精细化用户运营 ，
+Content: 联动线上线下进
+Content: 行更多 O2O体验•是京 东核心的 个
+Content: 性化 推荐导购 内
+Content: 容渠道
+Content: •除关 注店铺的 粉
+Content: 丝外 ，利用 千人
+Content: 千面大数据精准
+Content: 人群推送 ，在公
+Content: 域/私域均有露出•依托 微信平台 的
+Content: 强社 交属性及 强
+Content: 大用户基盘
+Content: •充分 占据用户 碎
+Content: 片化 时间 ，为品
+Content: 牌提 供 更完善的
+Content: 业务服务与用户
+Content: 管理能力
+Content: 73
+Section: 微淘/店铺发现 /品牌公众号现状及运营规划
+Content: 内容渠道现状 运营规划
+Section: *尚未布局淘宝品牌号及京东发现渠道定
+Content: 期
+Content: 内
+Content: 容
+Content: 推
+Content: 送
+Content: 丰
+Content: 富
+Content: 互
+Content: 动
+Content: 形
+Content: 式短视频 买家秀 图文
+Content: •商品卖点
+Content: •直播看点•征集买家秀，秀出
+Content: 奥迪的生活方式•新品
+Content: •爆款清单
+Content: •有好货•猜你喜欢
+Content: •必买清单
+Content: •……结合用户消费习惯 /关注焦点 ，第一时间推送相匹配的内容信息 ，提升用户体验
+Content: •KOL种草
+Content: •车主拔草
+Content: 综合利用低门槛互动形式 ，强化用户与官方连接 ，有效活跃粉丝及车主 ，
+Content: 增加用户粘性 ，提升转化
+Section: 在微淘 、发现及公众号平台可开展的点赞 、评论互动的基础上 ，增加：
+Content: 有奖
+Content: 问答趣味
+Content: 投票惊喜
+Content: 抽奖话题
+Content: 互动……淘宝—店铺微淘
+Content: 微信—奥迪在线商城•仅在产品上新及直播 、视频等物料更
+Content: 新时发布相关信息
+Content: •未充分利用该渠道 ，且在形式与内容
+Content: 上较为单一 ，更新时间不固定 ，浏览
+Content: 量较低
+Content: •链接在线 4S店，支持个性化定制 ，并
+Content: 直链奥迪 tron星球商城
+Section: •内容更新一周一篇 ，主要为品牌活动
+Content: 及新闻推广
+Content: •整体功能规划较好 ，未来可再细化增
+Content: 加金融版块等 ，推文上形式与内容较
+Content: 为单调 ，欠缺一定互动
+Content: 74
+Content: 短视频
+Content: 配合产品优势及特征，打造官方高质 TVC
+Content: 以强大的冲击力及感染力吸引广泛受众
+Section: 塑造品牌形象，迅速提升知名度产品TVC UGC产出
+Section: 品牌粉丝 /车主从个性化、多元化视角出发，
+Content: 拍摄内容凸显产品亮点，吸引关注、参与
+Section: 构成品牌用户社区，辐射更多潜在用户带货视频
+Content: 利用人气 KOL话题热度，拍摄带货短视频
+Content: 以“KOL+ 产品亮点 +生活场景”方式种草
+Section: 为品牌产品积累人气的同时，助力销量利用短视频营销手段，以多样化形式融合产品特性，展现品牌文化及产品细节，塑造立体化品牌形象
+Content: 75
+Content: 创新化直播矩阵
+Section: 打造明星 /KOL 带货直播联盟，拉升奥迪汽车品牌知名度和影响力
+Section: 借势明星 KOL资源优势及影响力， 带动自有粉丝圈层和品牌潜在客户圈层
+Section: 人群维度：未看过直播 /看过直播 /直播加购 /直播成交人群分层，不同策略二次运营内容维度：多元化直播 IP矩阵，打造品牌全新主阵地 传播维度：直播前 -中-后全链路共振式借势平台流量突围
+Content: 明星微综艺直播 国潮直播 圈层直播 夜场直播 大促直播
+Content: 直播矩阵 内容矩阵直播前 直播中 直播后
+Content: 开屏+超级推荐 +开播前一
+Section: 键预约直播品牌特秀 &直播组件
+Section: 淘宝直播频道资源品牌特秀 /超级推荐
+Content: 直播看点二次分发
+Content: 76
+Section: 直播矩阵策略
+Content: 内容矩阵化
+Content: •设置长线主题直播栏目 ，定期进
+Content: 行讲车、用车、驾车等直播
+Content: 示意图平台差异化 直播IP化
+Content: 以长线直播获取低成本流量
+Content: 培养购车心智，助力线索收集精准触达用户
+Content: 线索收集促转化名人IP效应扩圈引流
+Content: 助力获取新客、持续收割•电商平台
+Content: 发挥电商带货直播强互动性的优势 ，
+Content: 主打直播带货；
+Content: •社交平台
+Section: 发挥内容平台直播易传播裂
+Content: 变，形成话题讨论 ，主打直
+Content: 播引流 +短视频造势明星IP
+Content: 01 02 03
+Content: 知名达人 IP
+Content: 普通达人 IP
+Content: 自建
+Content: 77
+Content: 常态化门店直播
+Content: 通过门店直播的活动运营，从转化和复购的优化中提升用户的终身价值，并且不断将私域流量
+Content: 进行裂变、沉淀，实现更低成本的精准获客
+Content: 门店
+Content: 账号开通
+Content: ⚫设置标准信息 收集表
+Content: ⚫邀约门店提交信息
+Content: ⚫分批次开通 ，快速上线
+Content: 门店
+Content: 直播培训
+Content: ⚫下发执行培训 手册
+Content: ⚫邀约经销商群 语音培训
+Content: ⚫培训内容
+Content: 门店直播工具简介
+Content: 如何使用用直播工具赋
+Content: 能
+Content: 直播能力 :直播内容多样
+Content: 化
+Content: 互动集客：如何直播导
+Content: 购门店直播
+Content: 排期计划
+Content: ⚫每家每周直播 两场
+Content: ⚫直播排期 ，具体见排期
+Content: 表格
+Content: 周二： X区+X区
+Content: 周三： X区+X区
+Content: 周四： X区+X区
+Content: 周五： X区+X区门店直播间
+Content: 集客提升
+Content: ⚫每家店每场给予补贴支
+Content: 持
+Content: ⚫建议每家门店 为直播间
+Content: 客户提供专 属试驾、到
+Content: 店、购车礼包
+Content: 打造人设
+Content: 好的服务能培养客户忠诚度，有了客户忠诚度，二次
+Content: 购买口碑宣传自然水到渠成
+Content: 输出内容
+Content: 分层意向客群，利用不同维度的内容追击高质量线索，
+Content: 促使流量变现
+Content: 互动关系
+Content: 社群裂变强互动运营四要素：诱饵进群、文案刺激、
+Content: 流程互动、种子客户
+Content: 建立链接
+Section: 建立品牌 、销售顾问 、客户之间的三角模型信任度 ，
+Content: 有效提升 ROI
+Content: 78
+Content: 全阶层用户进化
+Content: 79
+Content: “千人千面”用户运营
+Section: 兴趣人群 品牌车主 品牌会员
+Content: •场景短视频
+Content: 配合用户使用场景产出相关视频 ，吸引用户关注
+Section: •当季营销活动
+Section: 围绕当季品牌活动实时推送优惠信息 ，促使查看
+Content: •首单优先
+Content: 针对兴趣用户标注 “首单优惠 ”，引导购买•配件、售后、精品
+Content: 精准车主需求 ，提供售后及敬佩配件推荐服务
+Content: •优先体验
+Content: 释放产品有限体验权益 ，维系车主 ，提升粘性
+Content: •裂变券
+Content: 增加互动玩法 ，释放独家权益 ，聚集流量•会员专属权益 /活动
+Content: 打造多样化会员专享活动及权益 ，有效吸纳会员
+Content: •积分活动 /兑换
+Content: 开展丰富积分活动引导用户兑换产品 ，增强会员获得感
+Content: •积分裂变
+Section: 设置分享奖励政策 ，推动用户自发传播 ，持续活跃会员
+Section: “千人千面”运营，深度解读用户画像，配合场景驱动及差异化呈现，辅助品牌用户运营
+Content: 80
+Content: 会员 /粉丝运营
+Content: 会员促活会员忠诚度培养
+Content: 赚积分兑换奥迪独家生活方式
+Section: 通过店铺购物消费 、内容渠道投稿 、平台内营销互动
+Content: 活动参与 、完善个人 /车主信息等多样化手段 ，均可赚
+Content: 取积分进行兑换 ，逐渐培植客户融入奥迪生活方式联名款兑换
+Content: 推出奥迪 x设计师联名款生活产品 ，稀缺性产品培育
+Content: VIP专享
+Content: 为VIP客户提供生日 、亲子家庭 、Lady First等多类体
+Content: 验特权及车主上门取送车稀缺性服务 &重购置换礼券吸引入会
+Content: 定制卡面
+Content: 根据季节特征及车型颜色 ，定制会员卡卡面及优惠券
+Content: 入会拉新
+Section: 建立“入会拉新 ”专属券 ，引导新晋会员裂变传播
+Content: 奥迪 会员专属定制 入会即享会员积分体系与车主俱乐部打通
+Section: 以品牌会员为中心，通过释放差异化权益刺激用户兴趣点，促使会员持续购买，提升会员忠诚度
+Content: 81
+Section: 品牌私域渠道建设
+Content: 用户渠道建设
+Content: 通过多端口结合的用户运营渠道建设，辅以数字
+Section: 化管理方式，加强用户与品牌的连接第三方电商粉丝群：
+Content: 依托“以用户为中心”的拉新 -促活 -留存 -转化路径，
+Content: 进行粉丝群的整体运营，进行电商用户站内沉淀
+Section: 微信社群：
+Content: 通过裂变拉新机制 +内容运营，提升社群的老带新管
+Content: 理和 KOC口碑效应
+Section: 车主俱乐部：
+Content: 下沉到区域，进行车主俱乐部矩阵的构建和管理委员会
+Content: 的搭建，创新管理模式
+Content: 82
+Section: 品牌用户生态圈构建
+Content: 用
+Content: 户
+Content: 价
+Content: 值
+Content: 实
+Content: 现提升用户情感
+Section: 品牌拥趸用户私域形象塑造
+Section: 品牌惯性购买传播影响潜客
+Section: 品牌车型复购实现方式 实现过程 实现价值
+Content: 用
+Content: 户
+Content: 依
+Content: 赖
+Content: 品
+Content: 牌
+Content: 忠
+Content: 诚用
+Content: 户
+Content: 情
+Content: 感
+Content: 品
+Content: 牌
+Content: 归
+Content: 属用
+Content: 户
+Content: 参
+Content: 与
+Content: 品
+Content: 牌
+Content: 体
+Content: 验用
+Content: 户
+Content: 进
+Content: 驻
+Content: 品
+Content: 牌
+Content: 吸
+Content: 引用户情感递进以情感递进的方式增强用户忠诚度，实现拥趸培育的经营目标，使保有用户发挥更多价值
+Content: 83
+Content: 全维度数据进化
+Content: 84
+Content: 付费流量数据化精准投放
+Content: 搜索 核心展示首焦点图猜你喜欢 /站外新闻
+Content: 信息流位置种草达人位置
+Content: 精准化的搜索内容 展示
+Content: 消费者真正需要的信息在平台视觉 C位
+Content: 以最大权益吸引消费者用内容表达方式
+Content: 感染消费者（有好货、逛逛、发现 …）
+Section: 听自己喜欢的人说消费者圈层营销
+Content: 未知人群探索
+Content: 泛兴趣人群拉新
+Content: 兴趣人群收割对尚未和本类目发生过互
+Content: 动的人群 进行广告投放
+Content: 对已知和本类目发生过
+Content: 互动但和本店尚未互动
+Content: 的人群 进行广告投放
+Content: 对已和本店铺产生过互
+Content: 动的人群 进行广告投放
+Content: 85
+Content: 消费者触点数据优化
+Section: 根据用户使用路径，通过平台店铺装修全方位增加用户触点，便捷用户直接了解及体验品牌活动及车型
+Content: 视频Tab
+Content: 加入视频 、直播亮点内容 ，直
+Content: 播亮点内容；增加停留时间
+Content: 会员Tab
+Content: 展示会员礼品 ，曝光会员业务 ，
+Content: 提升会员尊享感和体验感微淘Tab
+Content: 发布资讯及活动内容吸引新
+Content: 客户、专属权益刺激老客户新品Tab
+Content: 新品借势热点 、IP等形式凸
+Content: 显产品的场景化 、故事感买家秀 Tab
+Content: 精选买家秀 ，以客观真实内
+Content: 容影响潜在客户购买决策
+Content: 奥迪线下体验活动
+Content: 全新奥迪 A3 Sportback
+Content: 1000
+Content: 86
+Content: 客户服务数据优化
+Content: 售前
+Content: •专业用语 &匹配推荐
+Section: 通过客服用语统一配置 ，塑造品牌专业化形象 ，增强用户体验感；同时针对首次到店
+Content: 卖家推送当季热点活动 SKU，提升产品流量互导和访客留存率
+Content: •AI智能服务
+Content: 利用店小蜜根据客户兴趣倾向推送产品 、催拍跟单 ，有效避免客户流失售后
+Content: •售后保障机制
+Section: 客服及时处理和评估客诉 ，提交至店铺类目 TP进行运营分析 ，随后致电安抚并据其
+Content: 合理诉求给出解决方案
+Content: •评价激励机制
+Content: 针对不同类目消费者制定差异化评价激励机制 ，鼓励消费者发表优质内容通过完善售前客服服务及智能化推荐、售后保障与奖励机制等，优化用户消费体验，促进销售转化
+Content: 87
+Content: 销售转化数据引导
+Content: 平台引流
+Content: •关键字优化
+Content: 借助关键词搜索筛选高热度词根 ，对标题定期优化 ，获取搜索量
+Content: 支持
+Content: •淘内/淘外联合推广
+Content: 淘内利用钻展 、明星店铺 +淘外（微博/抖音）完成流量裂变 ，助
+Content: 力GMV 增长
+Content: 二次转化
+Section: •定向营销
+Section: 针对品牌会员消费行为 ，进行短信 /消息盒子 PUSH ；对于兴趣
+Content: 客户一键式发放优惠券 ，提升购买率
+Content: •个性展示
+Content: 根据不同人群展示差异化 banner ，通过个性化方式 ，提升用户
+Content: 兴趣，加速成交转化评价管理
+Content: •系统植入
+Content: 店铺“买家秀 ”系统植入 ，打通流量入口 ，优化内容种草及商品
+Content: 转化率 ，激发用户 UGC
+Content: •定期维护
+Section: “问大家 ”系统商家及时回复 ，引导用户理解品牌产品及相关活
+Section: 动，助力产品转化通过个性化营销手段及系统化平台管理方式，全面优化用户触点，加深品牌印象，助力销售转化
+Content: 88
+Content: 数据沉淀二次应用
+Content: P
+Content: DC
+Content: A01.数据银行人群数据应用的 PDCA
+Content: 以场、货、人
+Content: 圈定目标人群推送所需
+Content: 推广渠道追踪投放
+Content: 效果提取有效触达人群进行扩大
+Content: 并融合活跃人群再次应用02.人群画像数据沉淀应用
+Content: 基础属性 行业标签
+Content: 生活方式 娱乐喜好
+Content: 消费偏好 ……
+Content: 验证并修正车型在市场人的人群定位
+Section: 活跃用户人群画像营销能力挖掘完美达成全年 100,000 台整车销售 +300,000 自建电商注册量 +100,000 第三方电商粉丝增量 KPI指标
+Content: 89
+Section: 2021年营销计划 4
+Content: 90
+Section: 2021年全年营销计划
+Section: 数据驱动营销动作 资源流量引入 特色产品构建 深度内容种草 阶层用户收割
+Section: 构建常态化营销体系用户基础数据 /喜好…
+Section: 日常/节点/大事件营销大促+付费+免费资源
+Section: 跨界品牌流量
+Section: 品牌+经销商资源 …品牌联名合作款
+Content: 限定车色 /明星合作款
+Content: 定制款文创精品 …常态化短视频 +直播
+Content: 趣味话题 /挑战内容
+Content: 用户UGC口碑…限时购车权益
+Content: 粉丝/会员特权
+Content: 老带新专属权益 …
+Content: 91
+Section: 2021 年度营销活动 MAP 规划（不含 618整合及 A3规划）
+Content: 新生进化 进击未来
+Section: 营销策略
+Section: 传播节奏第一阶段（ 2021.4 -2021.6 ） 第三阶段 （2021.10 -2021.12 ） 第二阶段 （2021.7 -2021.9 ）
+Section: 传播节点4月
+Content: 推广
+Content: 组合平台大促资源位 +付费资源位 +免费资源位争取 +minisite （PC端、手机端）展示
+Section: 站外跨界及流量平台合作 +厂家传播 +经销商传播 +互动潜客群传播 +活动短信推送通过常态化营销和创新化营销双重发力，打造奥迪电商特色化营销模式， 最终实现店铺 有效线索 提升及 终端成交
+Section: 阶段目的 事件营销，圈层拓展 促活拉 新，年末冲刺 双线联动，终端转化
+Section: 营销方向 跨界联合造声量 创新玩法拓圈层 大促推广促转化5月 6月
+Content: 清明 五一 6187月 8月 9月 10月 11月 12月
+Content: 暑期 818 中秋 国庆 双11 双12
+Section: 营销
+Content: 活动常
+Content: 态
+Content: 化
+Content: 创
+Content: 新
+Content: 化根据年度营销热点，打造每月 1场活动露出，搭配门店直播，制造日常营销获客力及成交力， 实现店铺声量与销量双提升春日踏青季 五月关怀季 618年中钜惠 七月出游季 818大促 99划算节 十一黄金周 双11大促 双12大促
+Content: 常态化门店直播
+Content: 热门车型整合销售
+Section: •跨界智能家居品牌戴森
+Content: •线上店铺联合活动、联名产品共同造势
+Content: •线下快闪打造沉浸式互动体验818直播团购
+Content: •预热H5裂变造势
+Section: •营销大区线上人气 PK赛
+Content: •直播团购接力赛双11明星直播
+Section: •奥迪品牌理念宣传
+Content: •直播讲解，结合卖点进行互动
+Content: •弹幕抽奖，专属购车优惠券
+Content: 站内
+Section: 站外品牌合作款定制车型
+Content: •与华为合作，推出定制车型及智能生活家居产品
+Section: •拍摄创意物料传播限量色定制车型
+Content: •助力型互动，获取限量车色车型稀缺权益
+Content: •包装盲盒噱头，限时限量直播出售明星合作款定制车型
+Section: •拍摄定制车型病毒视频全渠道传播，释放权益
+Content: •不同明星匹配不同定制化产品，直播抢购
+Content: 92
+Section: 常态化营销活动（不含 618整合及 A3规划）
+Content: 4月 5月 6月 7月 8月 9月 10月 11月 12月
+Content: 新
+Content: 零
+Content: 售
+Content: 电
+Content: 商
+Content: 平
+Content: 台
+Content: 社
+Content: 交
+Content: 内
+Content: 容
+Content: 平
+Content: 台
+Section: 结合全年节日节点和电商促销节点，开展常态化营销活动，培养消费者购车心智
+Content: 暑期
+Content: •#避暑胜地打卡 #话题互动
+Content: •自驾游胜地推荐视频发布圣诞节
+Content: •#不得不说的 2021# 话题互动
+Content: •奥迪全年大事纪视频发布儿童节
+Content: •#儿童的创造力 #话题互动
+Section: •品牌向亲子互动视频视频发布借势节日热点进行话题互动和视频发布，扩大奥迪品牌美誉度和影响力春日踏青季
+Content: •踏青出游礼金
+Content: •购车加赠出行包618年中钜惠
+Content: •KOL达人带货直播
+Content: •秒杀万元售后保养权益双11大促
+Content: •明星带货直播
+Content: •优惠秒杀、清空购物车
+Content: 双12大促
+Content: •KOL达人带货直播
+Content: •试驾抽车模818大促
+Content: •电商O2O线下联动
+Content: •抽奖奥迪 A4一年使用权
+Content: 99划算节
+Content: •聚划算明星直播
+Content: •抽万元购车券，赢千元购物卡五月关怀季
+Content: •基层工作人员关怀礼
+Content: •购车专属金融政策七月出游季
+Content: •暑期出游基金
+Content: •购车加赠亲子出游包常态化门店直播
+Content: 十一黄金周
+Content: •购车加赠亲子出游包
+Content: •1元周边深度试驾游
+Content: 劳动节
+Content: •#最美劳动人 #话题互动
+Content: •汽车幕后重要工程师采访视频
+Content: 视频发布
+Content: 93
+Section: 创新化营销活动（不含 618整合及 A3规划）
+Content: 新
+Content: 零
+Content: 售
+Content: 电
+Content: 商
+Content: 平
+Content: 台
+Content: 社
+Content: 交
+Content: 内
+Content: 容
+Content: 平
+Content: 台第一阶段
+Content: （2021.4 -2021.6 ）第二阶段
+Content: （2021.7 -2021.9 ）第三阶段
+Content: （2021.10 -2021.12 ）
+Section: 围绕奥迪用户角度开启话题挑战赛，激发用户粉丝参与热情，培养用户品牌忠诚度
+Content: #6到飞起 #话题挑战赛
+Content: 奥迪用户拍摄上传奥迪车型无人自主泊车视频 ，附带话题关注并奥迪官方抖音号 /
+Content: 微博，根据作品点赞 、评论数及视频质量综合评选 ，最终获胜者可获得奥迪精品#你好，奥迪 #话题挑战赛
+Content: 奥迪用户拍摄上传自己与奥迪车型共处的美好时光创意短视频 /图片，附带话题关注
+Content: 并奥迪官方抖音号 /微博，根据作品点赞 、评论数及视频质量综合评选 ，最终获胜者
+Section: 可获得价值 5000 元车载旅行套装围绕全年热点促销节日，开展阶段性电商大事件配合定制化产品营销活动促进品牌声量引爆和线索转化
+Section: 奥迪 x 戴森品牌跨界
+Content: •联合PR事件打造扩声量
+Section: •店铺联合营销吸粉集客
+Content: •线下快闪打造沉浸式互动体验818直播团购会
+Content: •预热H5裂变造势
+Section: •营销大区线上人气 PK赛
+Content: •直播团购接力赛双11明星直播
+Section: •奥迪品牌理念宣传
+Content: •直播讲解，结合卖点进行互动
+Content: •弹幕抽奖，专属购车优惠
+Section: 品牌合作款车型
+Content: 与华为联名推出定制车型及智能产品
+Content: 合作微电影诠释未来感车生活限量色车型
+Content: 邀请好友助力获取限量车色车型优先抢购权益
+Content: 包装限定色产品盲盒，直播限量发售明星合作款车型
+Content: 拍摄定制产品病毒视频，解密明星暗号预约车型
+Content: 为明星匹配不同定制化产品，直播抢购
+Content: 94
+Content: 2021年度直播计划 （不含 618整合及 A3规划）
+Section: 营销节点 4月 5月 6月
+Content: 清明 五一 6187月 8月 9月 10月 11月 12月
+Content: 暑期 七夕、 818 中秋、 99划算节 国庆 双11大促 双12大促Q2（2021.4 -2021.6 ） Q4（2021.10 -2021.12 ） Q3（2021.7 -2021.9 ）
+Content: 直
+Content: 播
+Content: 规
+Content: 划普通
+Content: 达人
+Content: 知名
+Content: 达人
+Content: 明星直播方向新车曝光，声量引爆 节点大促，终端转化 暑期出游，粉丝种草
+Content: 直播主题新车上市季 万物潮新说 避暑出游季 奥迪支招 年终狂欢购 奥迪为你而来
+Content: #奥迪侃车大讲堂 #长线主题直播（ 每周1次，每月 4次）
+Content: 邀请普通主播每周三在官方平台讲车直播，讲车内容可根据全年活动进行规划，主播类型可根据全年活动进行匹配和筛选
+Content: #奥咖驾到 #第一季 （每季 5次）
+Content: 汽车行业腰部主播直播带货，围绕新车卖点进行逐一
+Content: 解密2021 奥迪直播购
+Content: 新车上市： #万物潮新说 #
+Content: •《说唱新世代 》直播99划算节： #奥迪将甜蜜进行到底 #
+Content: •景甜带货助力奥迪划算季年终大促： #奥迪国潮来了 #直播盛宴
+Content: •央视主播直播带货#奥咖驾到 #第二季 （每季 5次）
+Content: 腰部主播直播带货，借势暑期出游季，将奥迪汽车卖
+Content: 点（空间、智能等）与出游相结合，进行粉丝种草#奥咖驾到 #第三季 （每季 5次）
+Content: 全渠道腰部主播综合直播带货，借势年终大促氛围，结
+Content: 合促销政策刺激转化
+Content: 95
+Section: A3创意营销
+Content: 96
+Section: 奥迪品牌力代表车型 ——全新 A3 新生开场
+Content: 亟需快速占领用户心智，影响销售决策
+Content: •寻找与年轻受众的契合点，打入千禧一代
+Content: 圈层内部如何有效圈定 A3目标受众即千禧一代？
+Content: 发掘 A3最具代表性的潮流与新生进取基因
+Content: 多维度塑造与千禧一代的沟通介质
+Section: 全面彰显品牌优越运营力，持续深化品牌力
+Content: 97
+Content: 遵循年轻受众触媒及娱乐偏好
+Content: 与中国年轻世代高度聚集的文化社区和视频平台
+Content: bilibili 全面合作
+Content: *数据来源： B站2020 年第二季度报告B站用户群中 18至35岁占比达 78%，活跃度日趋提升月活用户
+Content: 1.72亿日活用户
+Content: 5100 万
+Content: 日均使用时长
+Content: 87min月均互动数
+Content: 49亿次
+Content: 98
+Section: 万物潮新说品牌力量 +车型力量 +平台力量，拥有无限可能，持续“潮”向新生
+Content: Big idea ——
+Content: 万物皆可潮新说 ———— 万物皆可新说唱 ———— 万物皆可新势力
+Content: 预热 爆发 延续
+Content: 99
+Section: 预热期 —打造潮新真人秀节目展现品牌力
+Content: 借势2020 年B站口碑播放双丰收原创音乐竞技综艺 ——《说唱新世代 》
+Content: 继续携手金牌制作人严敏，邀请节目八强选手，拍摄衍生节目 ——《万物皆可潮新说 》
+Content: 潮流说唱元素 + 人气选手反差表现 + 真人秀模式 + 多个圈层千万粉丝触达，必将再度 火爆出圈
+Content: 真人秀最强导演 ——严敏 说唱新世代个性迥异八强选手 B站各领域人气 up主强强联合专业Rapper 新生领域爱好
+Content: Battle
+Content: 该领域资深 up主
+Section: 谁将更胜一筹品牌火爆出圈
+Content: 100
+Section: 预热期 —贴合品牌力与真人秀碰撞火花
+Content: 最终引导至 A3车内三方谈话
+Content: 驾驶途中展示车辆优越性能
+Content: 贴合车型输出自身新生潮流观点
+Content: 严敏全程把控
+Content: 发掘选手及 up主个性差异
+Content: 产出更多趣味话题环节
+Content: 说唱季军
+Content: @
+Content: 沙一丁
+Content: 舞蹈类百万粉丝
+Content: up
+Content: 主
+Content: @
+Content: 不齐舞团
+Content: 限定时间学习新舞种
+Content: 街头表演谁将吸引更多目光
+Content: 最出彩女
+Content: rapper@
+Content: 于贞
+Content: 资深美妆
+Content: up
+Content: 主
+Content: @
+Content: 小猪姐姐
+Content: 录制个性美妆教学视频
+Content: 上传B站谁能博取更多播放
+Content: 感性说唱诗人
+Content: @Subs
+Content: 拜师大厨掌勺地方菜色
+Content: 谁能获得大众评委更多青睐
+Content: 深刻诠释潮流新生理念，深化万物潮新说主题，建立车型与新生、潮流、
+Section: 年轻等关键字强关联，奠定后续传播基调
+Content: 五百万美食
+Content: up
+Content: 主
+Content: @
+Section: 盗月社食遇记vs vs vs品牌火爆出圈
+Content: 101
+Section: 预热期 —丰富物料传播品牌力
+Section: 奥迪官方 +明星社交平台账号全面传播
+Content: •拍摄明星版 A3海报，携带 #万物皆可潮新说 #话题及电商平台链接发布
+Content: •开展转发抽奖互动，随机抽取幸运粉丝赠送签名海报， 助推话题曝光
+Content: •微博及抖音话题讨论量每破百万 即
+Content: 放出一集 节目花絮
+Content: •用户关注店铺 /注册自建商城 ，联系
+Section: 客服可获得 明星独家采访视频链接品牌火爆出圈
+Content: 102
+Content: 预热期 —多维度电商销售展现运营力
+Content: 购车即送明星签名海报 +奥迪潮流精品
+Content: 活动期内在任一平台下订 A3车型，可自主选择明星礼包
+Content: （包含签名海报 +签名精品水杯 /抱枕/背包等 ）
+Content: 限时上架定制款明星联名 IP精品
+Content: 与8位明星共同定制创意潮流精品，并限时限量出售
+Content: 如用户最终购车，可免费获赠一份明星联名 IP礼包运营效率迅速提升
+Content: 103
+Section: 爆发期 —连接品牌力与说唱新世代 2节目深度合作
+Content: 2020 年《说唱新世代 》横空出世
+Content: 在B站单平台即斩获 5.2亿次播放，豆瓣评分 9.3
+Content: 高流量 +高口碑，使其一跃成为 史上最成功的说唱竞技类节目
+Content: 进入2021
+Content: 大众对 《说唱新世代第二季 》的播出热情不减，期待更甚 ……
+Content: 借助奥迪与 B站达成友好合作的契机
+Content: 延续前期 《万物皆可潮新说 》话题及节目热度
+Content: 以奥迪 A3冠名《说唱新世代第二季 》
+Section: 引发#万物皆可新说唱 #话题爆发，聚集关注，转化销售品牌火爆出圈
+Content: 104
+Section: 爆发期 —品牌力具象化曝光植入
+Content: 各大社交平台 +B站，节目 +明星
+Content: 宣传视频 /海报等物料广泛露出构造多场景植入车型，给予观众直观体验感与视觉冲击
+Content: 节目录制现场 ——车模/舞台装饰等
+Content: 选手宿舍 ——海报/立牌/奥迪精品等
+Content: 导师、选手指定外出用车
+Section: 导师、选手拍摄节目中插广告品牌火爆出圈
+Content: 105
+Section: 爆发期 —提炼车型品牌力创作融合
+Section: 围绕车型品牌力，开发内容合作，持续强化认知
+Content: 1
+Content: 新生 潮流 进击1.  提炼奥迪 A3车型关键字
+Content: 2.  启动48小时极限创作
+Content: •参赛选手需在 48小时内，选择固定旋律
+Content: 并以车型关键字为主题 进行 Rap创作3.  两两Battle ，投票加码
+Content: •48小时后 开启 battle 赛制，由评委根
+Content: 据旋律适配性及歌词与关键字贴合度
+Content: 选出表现较差选手淘汰
+Content: •同时在 节目官方微博进行投票 ，最受
+Section: 欢迎的 rap创作，将获得加票特权品牌火爆出圈
+Content: 106
+Section: 爆发期 —创意互动诠释品牌力导流到店
+Content: Subs
+Content: 邀请你视频通话
+Content: 拒绝 接听邀请节目当下热门选手，录制视频 H5互动，引导关注店铺，
+Content: 预埋权益，为后续直播活动抢占关注
+Content: 社交平台账号
+Section: 预约心仪选手来电等待来电视频互动品牌力解读
+Content: 预告直播释放权益
+Content: •奥迪官方及选手社交平台
+Content: 账号开启预约
+Content: •用户进入网页后需 选择选
+Content: 手及时间后留资•在用户预约的时间 以平台信
+Content: 息推送 /短信等方式 ，提醒
+Content: 用户打开互动链接
+Content: •进入链接即可接通心仪选手
+Content: 来电•选手在来电视频中解读自己理
+Section: 解的品牌力，并预告 后续将参
+Section: 与品牌 battle 直播， 吸引关注
+Content: •透漏专属暗号， 用户将暗号发
+Content: 送至店铺客服可领取独家权益运营效率迅速提升
+Content: 107
+Content: 爆发期 —选手battle 直播凸显运营力
+Content: 不以 Rap来Battle——人气选手卖车比拼
+Section: •邀请说唱新世代人气选手参与品牌电商平台直播
+Content: •结合节目中比拼或分组情况，两人一组 battle 售卖 A3
+Content: •选手自由发挥，最终在直播期间销量最高的选手获得
+Content: 加票特权上架定制版精品
+Content: 购车加享明星礼包
+Section: 粉丝专享礼遇•以万物皆可新说唱为主题， 定制手机壳、钥匙扣、音响等品牌 &节目联名精品
+Content: •直播期间限量上架出售，同时下单享受限时优惠
+Content: •直播期间引导观众关注店铺， 部分精品备附件产品可享受粉丝价
+Content: •同时随机抽取直播观众 赠送《说唱新世代第二季 》节目决赛门票•选手各自代表不同定制版联名精品
+Content: •直播期间下订 A3，备注选手名字，加享该选手代表的定制精品 1件及价值
+Content: 1000 元售后保养礼包运营效率迅速提升
+Content: 108
+Section: 爆发期 —话题挑战赛全网扩散品牌力
+Content: 万物潮新说
+Content: 奥迪
+Content: #万物潮新说 #
+Content: 万物潮新！万物皆可新说唱，快来
+Content: 秀出自己的潮新实力，赢取 《说唱新世代 》
+Content: 决赛门票#万物潮新说 #
+Content: #万物潮新说 #挑战赛，具象彰显活动主题
+Content: #万物潮新说 #话题互动，以内容深化主题
+Section: 产出的活动物料可在微信、 B站、小红书扥平台二次传播，携带链接引流电商•由说唱新世代第二季选手抢先参赛 ，以Rap诠释万物潮新说概念
+Content: •红人效应刺激广泛受众参与，带来刷屏效应， 大众以自己擅长的形式
+Content: （唱歌 /跳舞/配音/创意剪辑等）展现自己理解的万物潮新说
+Content: •奥迪官方发布话题， 征集用户关于 #万物潮新说 #的解读
+Content: •双平台优质 UGC内容将有机会赢取 《说唱新世代第二季 》节目
+Section: 决赛门票品牌口碑扩散
+Content: 109
+Section: 延续期 —电商平台潮流 IP合作强化品牌力（以淘宝为例）
+Section: 新势力周 IP是阿里为深化淘宝为年轻人时尚第一现场理念的 IP栏目，与全新奥迪 A3展现的 年轻、潮流品牌力高度契合
+Content: 经过6年发展，新势力周已成为 流量仅次于双 11、618平台大促的常态化 IP活动
+Section: 把握夏季新势力周 IP活动节点，与淘宝合作打造 #万物皆可新势力 # 平台营销
+Content: 过去的潮流已经过去，我的潮代正在进行时
+Content: 会场多点位资源铺设
+Content: 全新奥迪 A3
+Content: 万物皆可新势力 · A3专题页打造
+Content: 万物皆可
+Content: 新势力
+Content: 万物皆可新势力
+Content: 全新奥迪 A3
+Content: 万物皆可新势力
+Content: 与淘系潮流时尚类 KOL合作
+Content: 或邀请说唱新世代选手入驻为 A3专属KOL
+Content: •围绕万物皆可新势力主题及 A3车型
+Section: 产出图文内容传播，沉淀品牌内容
+Content: 资产，引流到店借力打力运营成效
+Content: 110
+Content: 延续期 —电商平台输出运营力
+Content: ——其他电商平台权益与淘宝同步发售限量定制车身颜色车型
+Content: 达人种草享专属潮流礼
+Content: 老带新专属权益•与新势力周 IP入驻的 大牌潮流主理人，联合定制个性 A3车
+Section: 身颜色 ，在电商平台独家限量发售，饥饿营销引发抢购
+Content: •活动期间从新势力周 A3专题页点击下订的用户，额外 加赠
+Content: 大牌潮流服饰 1套
+Content: •活动期内老车主推荐用户购买 A3车型， 老车主获赠 500元
+Content: 维保礼券 ，新车主获赠 1年延保及 3次车辆保养服务运营效率迅速提升
+Content: 111
+Section: 618电商节点营销
+Content: 112
+Content: Audi
+Content: ·
+Content: 超新赏
+Content: 借助
+Content: 618
+Section: 电商节点热度宣示品牌力
+Content: 以超凡新视角，鉴赏不一样的奥迪
+Content: 113
+Content: 奥利奥
+Content: 迪奥
+Content: 奥迪
+Content: +
+Content: +
+Content: =
+Content: !
+Content: 奥族联盟牵手电商顶流
+Content: IP
+Section: 超级品牌日，以卓越的运营能力缔造车企潮流神话
+Content: 匠心工艺，不断探索
+Content: 科技创新，启迪未来
+Content: “扭舔泡”玩龄专家，玩出无限可能
+Content: 114
+Section: 预热期 —「搜索」营销海报关联品牌力
+Content: 妈妈
+Content: 超新赏我的 仪式感
+Content: 超新赏
+Section: 超级品牌日 #超新赏
+Section: 超级品牌日 #超新赏
+Content: 老板
+Content: 超新赏我的
+Content: 突破与启迪
+Content: 超新赏TA
+Content: 超新赏我的 小惊喜
+Content: 超新赏
+Section: 超级品牌日#超新赏围绕「超新赏」主题，优选联盟品牌特点及共通性
+Section: 打造关于「搜索」的趣味「反套路」悬念营销创意海报，激发全网「搜索」导流品牌联合发力
+Content: 115
+Section: 预热期 —悬疑大片，官宣品牌力
+Section: 「搜索」超新赏，「惊险反转」片段在线出招，三店互通，超新赏品牌力爆棚
+Content: 搜索关键词 惊险大片，网友见招拆招 无厘头反转，导流店铺 店铺官宣答疑「奥族联盟」，三店权益互通导流
+Content: 超新赏超新赏
+Content: 飞驰的汽车，奔走的女人
+Content: 马上就要碰到一起了
+Content: 你会选择 … …
+Content: 喊她躲开
+Content: 紧闭双眼等着
+Content: 奥利奥
+Content: 迪奥女孩
+Content: 在奥迪上吃了奥利奥！！
+Content: 超新赏特惠
+Content: Audi ·
+Content: 超新赏
+Content: 运营效率迅速提升
+Content: 116
+Section: 爆发期 —「Audi · 超新赏」趣味快闪店，感受品牌力
+Content: 限量「纪念币」、奥迪「速度与激情」油门猛踩、「口红味的奥利奥」 DIY料理
+Content: 联名盲盒线下派发 …只做不一样的快闪店，配合 KOL打卡揭秘「网红快闪店」爆发全网热议
+Content: ·
+Content: 超新赏
+Content: Audi
+Content: 奥迪公众号 /电商LBS发送快闪店信息
+Content: 至线下关注店铺领取快闪店「纪念币」「Audi · 赛道挑战」虚拟试驾闯关
+Content: 体验速度与激情的同时感受奥迪车型亮点「Audi · 奶油小生」口红奶油奥利奥
+Content: 口红与奥利奥的 DIY黑暗料理「Audi · 联名盲盒」
+Section: 超新赏你品牌联合发力
+Content: 117
+Section: 爆发期 —「Audi · 超新赏」虚拟城展示品牌力
+Content: 线上搭建「 Audi · 超新赏」虚拟城
+Content: 将线下快闪店互动环节移至虚拟城
+Section: 持续深化受众圈层的沟通场，传递品牌力
+Content: 通过运营强势导流店铺，刺激销售转化
+Content: · 超新赏
+Content: 虚拟城
+Content: Audi
+Section: 移动虚拟小人 选择品牌进入 虚拟互动环节
+Section: 品牌联合发力
+Content: 118
+Section: 爆发期—品牌力加持运营力带货联名定制款
+Section: 店铺同步上架品牌定制款，开展丰富活动，掀起店铺销量高潮
+Content: 购车合作礼包
+Content: 迪奥彩妆、奥迪车模、奥利奥礼盒Audi · 超新赏联名精品限时秒杀
+Content: 「奥迪红」口红、「奥迪」奥利奥、「你我她」潮 T购车订单号含 618
+Section: 享1年三品牌豪礼
+Content: 运营效率合力提升
+Content: 119
+Section: 延续期 —「超新赏 · 你」品牌种草
+Content: 上架99999 元「超新赏 · 你」，征集你和奥迪的故事，让别人欣赏去吧
+Content: # 超新赏 · 你#
+Content: 征集你与奥迪之间的趣事
+Content: #
+Content: 超新赏
+Content: ·
+Content: 你
+Content: #
+Content: 征集你与奥迪之间的趣事
+Content: # 超新赏 · 你#
+Content: 99999
+Content: #超新赏 · 你#车主话题征集 车主故事合集， 99999 元虚拟价格，关注即可免费下载分享种草运营效率迅速提升
+Content: 120
+Section: 延续期 —圈层用户营销反哺品牌力
+Section: 围绕不同受众，制定品牌专属权益，满足不同人群，再次销售井喷
+Content: 「粉丝」
+Content: 免费领取精品优惠券
+Content: 任意消费双倍积分「会员」
+Content: 积分兑换稀缺礼
+Content: 深度试驾体验权「老带新」
+Content: 新：补贴金融政策、延保基金
+Content: 老：售后保养次卡、高额积分运营效率迅速提升
+Content: 121
+Content: 基础运营
+Content: 122
+Content: 平台基础运营
+Content: 产品编辑
+Content: 订单管理
+Content: 专人对用户提交的订单
+Content: 进行审核，确保订单无
+Content: 异常
+Content: 对订单系统中经销商提
+Content: 交的订单资料进行审核，
+Content: 确保资料真实有效仓储物流 准确核销分账
+Content: 电子凭证后台开启分账
+Content: 功能，准确设置定金分
+Content: 账模式
+Content: 全体经销商入库，核销
+Content: 后保障准确无误分账，
+Content: 保证时效内分账到达礼品管理
+Content: 对礼品进行有序“进销
+Content: 存”管理，订购批准后
+Content: 按需进行采买
+Content: 礼品到达后检查品质入
+Content: 库，随礼品发放进行库
+Content: 存减量，第一时间留档
+Content: 商品管理
+Content: 卖点提炼：产品亮点提
+Content: 炼以及产品页面制作
+Content: 上下架：半小时响应，
+Content: 妥善处理紧急下架及准
+Content: 时下架事项
+Content: 库存管理：安排专属平
+Content: 台助理， 24小时待命，
+Content: 第一时间更新产品库存设立专仓进行货品存放
+Content: 及保管，由专人进行订
+Content: 单处理，负责装卸、打
+Content: 包、发货
+Content: 商品统一顺丰发货，确
+Content: 保客户满意度快、稳、准、活的基础运营优势
+Content: 123
+Content: 优质客服能力
+Content: 以短信形式温馨提示已下单客户订单
+Content: 进程，给予客户人性化的购买体验短信温馨提醒 改变以往客服如机器般的回复模
+Content: 式，更为 人性化的接待 ，24小
+Content: 时服务 ，让客户 充分感受到厂商
+Content: 的热情 ，提升客户好感度，更好
+Content: 的引导客户留言客服人性化接待
+Content: 告知客户给予商品好评即可获得返
+Content: 券或小礼品， 提升好评留言率的同
+Content: 时增加客户的二次购买行为好评返券送礼
+Content: 124
+Content: 高效线索处理能力
+Content: 线索整理 导入系统 分配线索 客服开始清洗线索
+Content: 客服主管 客服主管账号进
+Content: 行分配给客服每日新增线索
+Content: 当天先完成 1.2呼
+Content: 次日完成 3呼
+Section: 当客服开始外呼处理线索时：
+Section: •针对成功回访的客户，引导其在平台进行购车并加入品牌私域阵地
+Content: •另外，以下状态是需要进行 2、3呼：关机、预约时间、呼入限制、拒访、联系不到本人、秘书台 \不在服务区 -无法接通 \忙音、无人接听、总机
+Content: 清洗有效结案清洗状态
+Content: 清洗无效结案
+Content: 继续清洗
+Content: （1.2呼时选择）接触状态
+Content: 成功回访
+Content: 错号、空号、停机清洗效果
+Content: 关机
+Content: 预约时间
+Content: 呼入限制、拒访、联系不到本人、无人接听、秘书台
+Content: \不在服务区 -无法接通 \忙音有意购车，引导平台购车同时鼓励用户加入社群
+Content: 无意购车，权益诱导加入私域
+Content: 第三呼时如还是关机，状态选择：关机 -清洗无效结案
+Content: 第三呼时如还需要预约时间回访，状态选择：预约时间 -
+Content: 继续清洗，并引导加入私域方便后续联系
+Content: 第三呼时如还是这些情况，状态全部改为：联系不到本
+Content: 人清洗无效结案线索
+Content: 清洗
+Content: 流程
+Content: 私域引导
+Content: 针对有效线索，积
+Content: 极引导客户加入品
+Content: 牌社群，通过社群
+Section: 营销增强客户粘性
+Content: 125
+Content: 专业区域 &经销商培训实力
+Content: 区域与经销商培训
+Content: 厂商需求 提前安排，提前通知
+Content: 积极配合，合理安排，全力执行
+Content: 及时传达
+Content: 高效准确主动沟通
+Content: 实时汇报
+Content: 日常电话会议沟通 周/月项目汇报
+Content: 中/终期总结报告汇报 总结 沟通主担讲师 项目总监 活动讲师
+Content: 运营支持快速协调
+Content: 精准反馈反馈咨询
+Content: 活动支持
+Content: 需求传达 执行配合经销商
+Content: 专业、沟通
+Content: 把控、执行配合、执行
+Content: 126
+Section: 数据综合分析指导策略转变
+Section: 流量数据分析
+Section: 交易数据分析
+Section: 产品数据分析点击率
+Content: 跳失率UV
+Content: PV
+Content: 订单量
+Content: 市场属性
+Content: 客户评价订单量
+Content: 成交量
+Section: 客单价用户数据分析地域分布
+Content: 兴趣点关联
+Content: 统计目的
+Section: 通过数据 分析
+Content: 挖掘销售诱因
+Section: 改善市场策略统计方法
+Content: •多维度
+Content: •定量化
+Content: （按日、周、月、季 、年
+Content: 分别统计 ）
+Content: 用户黏性
+Content: 用户活跃度
+Content: 用户数竞品数据
+Section: 销售情况营销动作
+Section: 产品情况全电商平台数据打通，定期数据采集分析，实现数据的整合与分析利用
+Content: 127
+Section: 品牌内外部紧密沟通协作
+Section: 品牌零售营销部沟通
+Section: •与品牌业务责任部门展开高效的双向沟通，
+Section: 定期会议，信息互通，及时调整运营策略
+Content: •按时进行业务进程汇报，产生问题时及时上
+Section: 报，共同协商解决品牌内部沟通 其他代理商协作
+Section: •与品牌市场 /销售/区域/经销商等多部门进行
+Content: 有效沟通
+Content: •协力共进，促进电商业务的高效推进与落实，
+Section: 保证全年销售目标达成•基于业务需求，与品牌广告 /媒介/PR等代
+Content: 理商进行紧密沟通
+Content: •相互配合，高效业务协作，保障业务的有
+Content: 序、顺利开展
+Content: 128
+Content: 第三方电商平台深度沟通
+Content: 电商平台沟通
+Section: •活动前期，率先与品牌方沟通活动需求
+Content: •需求清晰下与小二展开深度沟通
+Content: •沟通渠道：行业小二通知、官方活动会议资源申请 活动报名
+Content: •行业小二根据旗舰店 GMV 匹配活动会场免费
+Content: 资源位及日常平台资源位
+Section: •向品牌方进行资源上报，最终根据活动预算确
+Content: 定详细资源•在电商重要节点进行及时活动报名
+Section: •【收费类】超级品牌日 、天猫小黑盒 、京
+Content: 东小魔方、新势力周等
+Content: •【免费类】粉丝互动活动、官方常规促销
+Content: 129
+Content: IP联合运营机制
+Section: 产品/营销时点
+Section: 目标定位IP定位选择 产品/营销
+Content: 范围及权益匹配方案准备 /PK 方案执行 /复盘
+Section: （线上下、站内外）现有营销活动匹配
+Content: 高热度 IP合作打造小二 小二
+Content: 130
+Content: 百孚思独家优势
+Content: 品销合一
+Content: 拥有汽车电商领域
+Content: 全案全渠道全场景
+Content: 代理服务能力专注汽车电商
+Content: 从 事 汽 车 领 域 广告 、
+Content: Digital 、电商等
+Content: 代理业务研发实力雄厚
+Content: 具备强大的研发能力 ，
+Content: 目前已获得
+Content: 多项国际认证证书线下服务能力
+Content: 具备丰富的线下服务经验与
+Content: 执行实力
+Content: 线上线下业务双管齐下强大媒体资源库
+Content: 与汽车行业主流媒体建
+Content: 立良好合作关系 ，拥有
+Section: 丰富的行业媒体资源中国屈指可数的 全链路整合营销 汽车服务商
+Content: 131
+Content: 公司与团队5
+Content: 132
+Content: 浙文互联
+Content: Zhewen Interactive Group
+Content: 集团介绍
+Content: Group Introduction
+Content: 133
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Section: 浙文互联（前身为科达汽车 ），专注整合数字营销
+Content: Zhewen Interactive Group (formerly KEDA auto) focus on integrated digital marketing
+Section: 集团2019 年销售收入 190亿，是 TOP2 整合营销集团
+Content: The group has a sales revenue of 19 billion RMB in 2019 and is the TOP 2 integrated marketing group
+Content: 专注于汽车行业的
+Section: 整合营销专业服务商
+Content: Media Agency百孚思
+Content: IFORCE
+Content: 互联网效果广告投放
+Content: 及优化行业领先者
+Content: Precision Marketing跨线体验 &活动会展
+Content: 整合创意运营服务专家
+Content: Event Markeging公关舆情社交互动活动
+Content: 专业整合服务商
+Content: PR & ePR
+Content: 派瑞威行
+Content: ASPIRATION同立
+Content: UNI-GROUP爱创天杰
+Content: ITRAX
+Content: 提供免费网址导航等
+Content: 互联网媒体平台导流专家
+Content: Web Media雨林沐风
+Content: YLMF
+Content: 市场和消费者调研及咨询
+Content: 互联网社区服务平台
+Content: Online Research数字一百
+Content: DATA100
+Section: 创意策划、品牌营销推广
+Section: 整合互联网营销服务商
+Content: Branding华邑
+Content: TARGET -UNI“汽车头条 ” 等
+Content: 专业汽车资讯内容提供者
+Content: Media & Contents智阅网络
+Content: ZHI YUE
+Content: 134
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 集团实力 | 客户源庞大稳定
+Content: Group Strength | huge and solid customer source
+Content: 客户规模大 Large scale of customers
+Content: 与头部客户建立牢固合作关系
+Content: Establish solid cooperation with top customers
+Content: 头部客户坚固 Solid top customers
+Content: 长期服务 京东、美团、携程、滴滴、上海通用 等头部客户
+Content: Long term service for JD, meituan, Ctrip, Didi, Shanghai GM and other head customers亿级规模以上客户
+Content: 100 million scale customer
+Content: 4YEARS5YEARS
+Content: 8YEARS4YEARS 4YEARS 4YEARS
+Content: 4YEARS 3YEARS12 YEARS
+Content: 11个
+Content: 135
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 集团实力 | 矩阵式媒体流量壁垒、多元化的流量矩阵
+Content: Group Strength | media matrix traffic barrier, diversified traffic matrix
+Content: 1000+ 优质媒体
+Content: high-quality media100亿+PV
+Content: 10 billionADX流量扩充系统
+Section: 专注优质流量 打造闭环营销平台 保障营销效果
+Content: ADX traffic expansion system
+Content: Focus on high -quality traffic, build closed -loop marketing platform and ensure marketing effect
+Content: 数据累加
+Content: Data accumulation
+Content: 投放效率提升
+Content: Improve delivery efficiencyADX DMP与科达 DMP 形成协同效应
+Content: Synergy with KEDA DMP整合海量优质中等规模流量 –ADX
+Content: Integrating massive high quality medium scale traffic -ADX
+Content: 136
+Content: 科技
+Content: Tech其它
+Content: Other汽车
+Content: Auto
+Content: 金融
+Content: Finance快消
+Content: FMCG互联网
+Content: Internet
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 集团实力 | 服务客户矩阵
+Content: Group Strength | customer service matrix
+Content: 137
+Content: 客户共享
+Content: Customer sharing
+Section: 形成的营销阵列具有庞大
+Content: 的客户资源
+Content: The marketing matrix contains
+Content: huge customer resources
+Content: 人才优化
+Content: Talent optimization
+Content: 优质人才资源的价值整个
+Section: 营销联盟共享
+Content: The value of high quality talent
+Content: resources is shared by the
+Content: whole marketing alliance
+Content: Technology upgrade技术升级
+Content: Technology upgrade
+Section: 不同子公司对各自营销领
+Content: 域的深耕形成的技术组合
+Content: Technology combination
+Content: formed by different
+Content: subsidiaries' deep cultivation in
+Content: their respective marketing fields
+Content: 战略同盟
+Content: Strategic alliance
+Section: 共同且先进的营销战略可以让
+Section: 汽车营销业务中心齐头并进
+Content: Shared and advanced marketing
+Content: strategy can make auto marketing
+Content: business center develop together
+Content: 突破 提升 协同
+Section: Breakthrough      Improvement        Synergy汽车营销业务中心
+Content: Auto marketing
+Content: business center浙文互联简介 Zhewen Interactive Group Introduction
+Section: 集团实力 | 汽车营销资源整合协同
+Content: Group Strength | integration and synergy of auto marketing resources
+Content: 138
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 集团实力 | 强大的数字媒体关系
+Content: Group Strength | We take the significant advantage in auto media market.
+Content: p腾讯｜铂金 代理商
+Content: Tencent “platinum”agency
+Content: p今日头条｜ 最大 代理商
+Content: Tou Tiao biggest agency
+Content: for the past 3 years
+Content: p神马｜ KA TOP3 代理商
+Content: SM search KA Top 3 agencyp腾讯社交广告
+Content: 广点通 &微信｜最大 代理商
+Content: WeChat Moments biggest agency
+Content: for the past 3 years
+Content: p网易｜最大 代理商
+Content: 163.com biggest agencyp搜狗｜ KA 核心 代理商
+Content: Sogou KA core agency
+Content: pOPPO 网服｜核心 代理商
+Content: OPPO online service core agency
+Content: pQQ浏览器｜电商 独家 代理商
+Content: QQ browser EC exclusive agency pUC浏览器｜ TOP3 代理商
+Content: UC browser Top 3 agency
+Content: 汽车垂媒｜ 最大 代理商
+Content: The absolutely leading media agency
+Content: in auto industry广覆盖强渗透
+Content: 媒体优势p小米网服｜ 核心 代理商
+Content: Xiaomi online service core agency
+Content: Mass coverage and targeted influence
+Content: 百孚思
+Content: 139
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Section: 集团实力 | 战略合作伙伴提供独家数据分析及运营能力
+Content: Group Strength | keep investing in new technology and innovative field.
+Content: 洞察明天变局
+Section: 布局5G AI 时代汽车营销数字系统
+Content: 跨渠道资源布局打通消费大数据
+Section: 共建营销中台
+Content: 普华永道 大搜车
+Content: 京东云
+Content: 懂底层逻辑 、懂数字技术、有战略洞察 、擅落地执行
+Section: 助力品牌持续增长的先锋Strategic preparation
+Content: for 5G AI eraStrengthen the sales
+Content: channelExplore the 1sthand database for
+Content: a stronger marketing platform
+Content: ➲Understand the basic business logic
+Content: ➲Utilize the advanced digital technology
+Content: ➲Sharp insight about the marketing
+Content: trend
+Content: ➲Expertise in efficient execution
+Content: Support our clients for organic growth and sustainable development
+Content: 140
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 集团实力 | 业务拓展至全汽车销售及后市场领域
+Content: Group Strength | Our service has explored to the whole chain of auto industry.
+Content: 乘用车
+Content: Passenger vehicle商用车
+Content: Commercial vehicle后市场
+Content: After -sales market
+Section: 专注于汽车整合营销
+Content: Focus onintegrated marketing覆盖汽车行业全链条
+Content: Cover thefullchain ofauto industry
+Content: 汽车贸易板块
+Content: Direct SalesPartofPerformance in2019 ~2020
+Content: 第八代索纳塔1000 台
+Content: 翼博1000 台
+Content: 东南DX73000 台
+Content: 英菲尼迪800台
+Content: 141
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 集团实力 | 奖项荣誉
+Content: Group Strength | honors and awards
+Content: 2020 年全年共斩获 110+ 奖项
+Content: A total of 110+ awards in
+Content: 2020
+Content: 第19届IAI广告奖 作品类短视频 金奖等 8项大奖
+Section: 第八届金蜜蜂奖 品牌营销类 金奖等 8项大奖
+Content: 2020金瞳奖 内容创意电商组 金奖等 4项大奖
+Content: The 20th IAI Advertising Award Short Video Gold Award and 8 other awards
+Content: The 8th Golden Bee Award Brand Marketing Gold Award and 8 other awards
+Content: 2019 China Content Marketing Awards Content Innovation E -Commerce Group
+Content: Gold Award and 4 other awards
+Content: 数 字 营 销 领 军 实 力
+Content: 持 续 斩 获 行 业 大 奖
+Content: Leading strength in digital
+Content: marketing
+Content: Multi industry awards
+Content: 142
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 2020 年主要战绩 Major achievements in 2020
+Content: 阿里资源 全面支持
+Content: 构建汽车界最大规模的流量盛宴
+Content: 淘宝 支付宝 天猫 高德等，预计 10亿+UV
+Content: Fully supported by Alibaba resources
+Content: Create the largest traffic event in auto industry
+Content: Taobao, Alipay, Tmall , Amap , etc.,  estimated 1 billion+ UV天猫主办 Hosted by Tmall 科达承办 Implemented by KEDA“阿里巴巴汽车消费节 ”
+Content: Ailibaba Car Festival
+Content: 无缝衔接 助力转化
+Content: 创造汽车界 IP销售新渠道，
+Section: 最集客 最品牌 最卖车
+Content: 20城同步，吃喝玩乐购嘉年华，汽车零售新场景
+Content: Seamless connection for conversion
+Content: Create new IP sales channel in auto industry
+Content: Best customer gathering, best brand, best selling
+Content: Fancy Lifestyle Consumer Carnival in 20 cities, new auto retail scene助力车企销量转化的汽车嘉年华活动
+Section: Auto carnival for auto enterprises sales conversion 集团下业务联动，线上线下整合营销方案
+Content: Group business interaction between online and offline integrated marketing program
+Content: 143
+Content: 浙文互联简介 Zhewen Interactive Group Introduction
+Content: 阶段一 Phase 1 阶段二 Phase 2 阶段三 Phase 3
+Content: 至2020 年12月31日
+Content: Till Dec 31, 20202021 年 2022 年
+Content: 预计产生销售收入 3000 万元
+Content: 亏损500万以内
+Content: It is expected to generate sales
+Content: revenue of 30 million RMB and loss
+Content: of less than 5 million RMB目标收入 1亿元
+Content: 实现利润 1000 万元
+Content: Target revenue: 100 million RMB
+Content: Actual profit: 10 million yuan目标收入 2亿元
+Content: 实现利润 4000 万元
+Content: Target revenue: 200 million yuan
+Content: Actual profit: 40 million yuan
+Content: 秀咔
+Content: 发展步骤第一步
+Content: 第二步
+Content: 第三步广告形式：短视频为主 +图文为辅
+Content: 整合集团采购业务 ，利用采购量 ，建立自媒体集采与商业合作 。
+Content: 服务形式：代运营 +培训模式
+Content: 提供汽车主机厂 +经销商短视频平台账号代运营或自运营专业知识的培训服务 。
+Content: 电商形式：直播打赏 +多品类带货
+Content: 汽车直播电商尝试与突破；同时 ，借助跨界 KOL资源，尝试直播带货市场 。
+Content: MCN 业务开拓 | 成立MCN 公司，进军 MCN 市场。
+Content: MCN business development | establish MCN company to enter MCN marke2020 年主要战绩 Major achievements in 2020
+Content: 144
+Content: 百孚思广告
+Content: iForce
+Content: 公司介绍
+Content: Company Introduction
+Content: 145
+Content: 百孚思简介 iForce  Introduction
+Content: 关于百孚思 About iForce
+Content: ■百孚思成立于 2011 年
+Content: Established in 2011
+Content: ■注册资本： 1亿元
+Content: Registered capital: 100 mio
+Content: ■2020 年营业额： 27亿
+Content: Turnover in 2020: 2.7 bn
+Content: ■公司现有员工数量： 300人
+Content: Employees: 300
+Content: 146
+Content: 百孚思简介 iForce  Introduction
+Section: 依托集团优势，成为国内本土数字营销的强势品牌
+Content: Relying on the group advantage, becoming a strong brand of digital marketing in China
+Content: 获得行业市场、客户端和资本市场多重关注
+Content: Attention from industry markets, clients and the capital
+Section: market效果营销领域国内最强
+Content: Strongest effect marketing in China
+Content: 拥有大量本地媒体资源
+Content: A large number of local media resources 本地化服务符合市场需求，执行
+Content: 力强。
+Content: Local services meet market need, with strong
+Content: execution
+Section: 搭建全能力营销体系
+Content: Full-capacity marketing system 拥有大量互联网头部客户资源
+Content: A large number of internet top client
+Content: resources
+Content: Strengths本地化
+Content: 服务
+Section: Local services效果营销
+Content: Effect marketing
+Content: 市场认可
+Content: Market recognition客户资源
+Content: Client resources
+Content: 媒体资源
+Content: Media resources全能力
+Content: Full-capacity
+Content: 147
+Content: 百孚思简介 iForce  Introduction
+Section: 强大的品牌数字营销及业务拓展能力
+Content: Strong brand digital marketing and business expansion capacity
+Section: 创新的品牌营销
+Section: innovative brand marketing规模最大的精准营销
+Content: the largest scale precision marketing
+Section: 三端合一的品牌管理 3in1 brand mgmt
+Section: －打造现象级品牌营销
+Content: Creating phenomenal brand marketing
+Section: O2O 体验营销 O2O experiential marketing
+Section: -创新性汽车品牌体验营销
+Content: -Innovative auto brand experiential marketing在线调研与广告监测产品
+Content: Online survey and ad monitoring product
+Content: -对调研行业的革新
+Content: -Revolution of survey industry
+Content: 数字媒体购买 Digital media buying
+Content: -大规模广覆盖的媒体资源
+Content: -Media resources with large scale and coveragePR & ePR
+Section: －传播及管理品牌口碑
+Content: Communicating and managing
+Content: brand WOM
+Content: 移动端汽车垂直媒体
+Content: Mobile client auto vertical media
+Content: -打造移动端高质量内容
+Content: -Building quality mobile contents
+Content: 2014 -2019 经营收入 Operating income2014 2015 2016 20173亿5.3亿9.6亿10亿
+Content: 201814亿
+Content: 2019E20+亿
+Content: 2 bn+
+Content: 148
+Content: 大数据整合能力 Big data integration capabilities
+Content: 大数据的应用 Big data application
+Content: 中台大数据 Middle -grand big
+Content: data
+Content: 媒体投放效果监测数据 Monitoring data ofMedia placement
+Content: effect
+Content: 数字100行业&消费者调研数据 Data 100 Industrial &Consumer
+Content: Survey Data电商大数据 E-commerce big
+Content: data
+Content: 阿里databank/ 京东数科 JDDigital
+Content: 巨量引擎 /快手/垂直媒体 Ocean
+Content: Engine/Kuaishou/Vertical Media第三方大数据 Third -party big
+Content: data
+Content: CTR/i -research/So .Car
+Content: CMMS/Takingdata
+Content: iForce 2020 中国汽车用户调研 iForce 2020 China Automotive User Survey
+Content: （一）调研概要 本次调研覆盖全国一线、新一线、二线、三线、四线及以下城市 ，
+Content: This survey covers first -tier, new first -tier, second -tier, third -tier, fourth -tier and below
+Content: cities across the country.
+Content: 对象系 20-50岁已购用户和潜在用户，已购用户是指 2019 年1月1日至今个人或家庭购买过汽车的
+Content: 人群，潜在用户是个人或家庭在未来 1年计划购车的人群。
+Content: The survey targeted at purchased users and potential users aged 20 -50. Purchased users
+Content: refer to people who have purchased cars as individuals or part of the families since
+Content: January 1, 2019 till present, and potential users are people who have personal or family
+Content: plans to buy cars in the next year.
+Content: 调研依托集团自主研发的在线问卷平台 SURVEY COOL SYSTEM ，采取在线定量问卷方式收集信
+Content: 息，数据源自数字一百自有 500万+在线样本库。历时两周，最终完成 21440 有效汽车用户样本的
+Content: 采集。
+Content: The survey relied on the online questionnaire platform SURVEY COOL SYSTEM which was
+Content: independently developed by the group, and collected information by means of online
+Content: quantitative questionnaires. The data was derived from Data 100's self -owned 5 million+
+Content: online sample database. It took two weeks to finally complete the collection of 21,440
+Content: valid car user samples.（二）样本结构
+Content: 百孚思简介 iForce  Introduction
+Content: 149
+Content: 百孚思简介 iForce  Introduction
+Content: 百孚思 DAMAS 媒介管理模型 ——Channel
+Content: iForce DAMAS Media management model ——Channel
+Content: 媒体
+Content: 评估
+Content: 施策
+Content: 模型
+Content: Medi
+Content: a
+Content: evalu
+Content: ation
+Content: mode
+Content: l
+Content: 评估媒体平台优先级，并分配各平台媒体预算
+Content: Evaluate priority of media platforms and allocate budgets for each platform and
+Content: medium认知关注
+Content: Awareness熟悉好感
+Content: Familiarity考虑比较
+Content: Comparison
+Content: 150
+Content: 百孚思简介 iForce  Introduction
+Section: 百孚思动态效果营销模型 ——效果验证
+Content: iForce Dynamic Effect Marketing Model ——Effectiveness verification
+Content: 投放成本评估
+Content: Launch cost evaluation线索质量评估
+Content: Leads quality assessment线索转化 评估
+Content: Lead conversion evaluation访客质量评估
+Content: Visitor quality assessment认知Awareness 考虑Consideration 转化 Conversion 熟悉Familiarization
+Content: 官网/电商/DLR
+Content: Official website ／E-commerce ／DLR
+Content: OCPM( 有效曝光 )/OCPC( 有效点击 )
+Content: OCPM(Effective impression)/OCPC(Effective click)CPA( 有效线索 )/CPS( 成交)
+Content: CPA(Effective leads)/CPS(Deal)
+Content: •有效曝光量 Effective
+Content: impression
+Content: • 有效点击量 Effective clicks
+Content: • 频次控制 Frequency control• 点击率 Click -through rate
+Content: • 有效曝光成本
+Content: • Effective impression cost
+Content: • 有效点击成本
+Content: • Effective click cost•有效销售线索数
+Content: • Number of effective sales leads•线索转化率
+Content: • Lead conversion rate
+Content: •有效线索成本
+Section: • Effective lead cost转化Conversion 转化Conversion 转化 Conversion转化Conversion策略
+Content: 制定
+Content: Strategy
+Content: Formula
+Content: te
+Content: 效果
+Content: 评估
+Content: Effect
+Content: evaluati
+Content: on
+Content: 数据
+Content: 沉淀
+Content: Data
+Content: precipitatio
+Section: n品牌活动 +实效广告
+Content: Brand activities ＋Effective advertising 创意内容 +实效广告
+Content: Creative content ＋Effective advertising
+Content: 广告行为
+Content: Advertising
+Content: behavior官网行为
+Content: Official website
+Content: behavior线索汇聚
+Content: Leads collection线索管理
+Content: Leads
+Content: management用户回溯
+Content: User
+Content: backtracking费效占比
+Content: Cost-effectiveness
+Content: ratio
+Content: 151
+Content: 百孚思简介 iForce  Introduction
+Content: 业务范围 Business scope
+Content: 在业内多个协会担任主要成员 。
+Content: Served as a key member in many associations in the industry.
+Content: 上海市广告协会
+Content: 会员单位
+Content: Shanghai Advertising Association
+Content: Member unit中国商务广告协会数委会会员单位
+Content: Member Unit of the Number Committee of China Commercial Advertising Association
+Content: 中国商务广告协会中国 4A协会
+Content: 成员单位
+Content: The Association of Accredited Advertising Agencies
+Content: of China (China 4A)
+Content: China Advertising Association of Commerce
+Content: Member unit
+Content: 中国商务广告协会数委会
+Content: 理事单位
+Content: Digital Marketing Committee of China Advertising Association
+Content: of Commerce
+Content: Governing unit
+Content: 中国国际公共关系协会
+Content: 理事单位
+Content: China International Public Relations Association
+Content: Governing unit
+Content: 152
+Section: 过往案例
+Content: Past cases
+Section: 153一汽丰田电商营销范畴及方向
+Section: 电商营销深耕三方电商平台
+Content: •充分借势天猫、京东等第三方电商平台
+Section: 与平台共创营销 IP，发掘潜客成交转化“五端” 齐步走 集中力量打造进击型电商
+Content: 自建平台持续发力
+Content: •进一步挖掘自社平台集客潜力，活用官方商城、数字
+Content: 展厅、丰潮世界小程序、超级 APP等
+Content: 线上直销探索
+Content: •捕获精准用户，线上卖车探索
+Content: 垂媒合作强化
+Content: •加强头部媒体合作，实现种草到潜客
+Section: 捕获全链路营销异业破圈潜客挖掘
+Content: •多触点触达异业客户，强化纯增线索质量
+Content: 154
+Section: 一汽丰田电商营销亮点：直播带货
+Section: ·持续强化直播电商营销，实现种草引流到直播间订单收割，直播带货质、量双升
+Content: ·打造创新平台 +网红主播直播带货矩阵，覆盖自社平台、三方电商平台、短视频平台、流量媒体等多平台，绑定网红 KOL和网红学院主播齐发力
+Content: ·2季度千场直播盛典规划：计划 3-4月联动经销商展开直播 500场，5月配合新车型上市及店头活动、官方直播 200场+经销商直播 1500 场
+Content: 内部网红学院丰潮世界
+Content: 垂媒直播引
+Content: 流天猫官方旗舰店
+Content: 天猫旗舰店为主阵地，订单收割
+Content: •超级直播日 IP合作
+Content: •网红KOL加持
+Section: •品牌轻店
+Content: 本地化人群触达
+Content: 头部KOL直播合作
+Content: 收割意向线索
+Content: 直
+Content: 播
+Content: 配
+Content: 合
+Content: 155
+Section: 平台策略规划及执行
+Content: 直播规划及执行 H5、海报等内容制作 平台社群运营数字媒介采买 异业合作开拓一汽红旗 ——红旗电商服务范围
+Section: 618直播、经销商直播等等媒介采买，资源引流 联合阿里开展春晚营销
+Section: 借势热点内容产出 微淘、淘宝群开展话题活动月/季/年度策略产出及执行
+Content: 156
+Section: 除夕春晚资源 +品牌拜年时刻 淘宝闪屏 +淘宝首页 pop 品牌定制清空购物车 +淘内热搜榜
+Content: 阿里系全域流量
+Content: 生态串联
+Content: 数据沉淀平台链路打通
+Content: 创新互动
+Content: 高额福利引导转化资源导流引关注
+Section: 品牌高光露出
+Section: 借势热点抢占心智一汽红旗 &春节&淘宝， 平台全链路打通，红包福利助力转化，打造品牌第一营销事件一路创领 “汽”贯长虹一汽红旗 ——红旗电商春晚红包项目
+Section: 借势与阿里战略合作契机，在春节期间，在天猫官方旗舰店设置多样化活动，各项指标均呈几何级增长高爆话题春节霸屏 核心互动首次开放 亿级流量为品牌护航
+Content: 157一汽奔腾电商服务范围
+Content: {1+ N } 电 商 体 系 承 接 流 量 转 化
+Content: 战略性投入 经济性投入让每个触点成为电商平台
+Content: 自建电商运营让每个热点活动成为电商入口
+Content: 三方电商旗舰店运营
+Content: ✔数字化建设 ✔私域流量变现 ✔高费效比合作 ✔热点借势合作
+Content: 电商中台
+Content: (自建电商 2020 年上线 )
+Content: 电商中台 1 N 合作电商
+Content: 158
+Section: 一汽奔腾电商营销亮点：配合新车上市开展电商营销专项
+Content: 项目周期： 11月1日—11月30日
+Content: 苏宁双十一电商晚会，是由苏宁易购及北京卫视联合举办，利用晚会大流量，在晚会现场放入奔腾 B70一
+Section: 台进行展示，参与晚会明星互动环节及主持人口播、中插广告等，传播品牌及产品，收集意向用户活动
+Content: 权益
+Content: 互动
+Section: 玩法传播
+Content: 形式
+Section: 传播
+Section: 效果曝光1亿+、实时观看人数 1000w+ 、店铺总 UV70w+ 、线索 3000 条6-晚会直播前新闻传播；
+Section: 7-线上及晚会活动社交传播（微信、微博等）；
+Content: 8-苏宁易购首页、双十一晚会会场、苏宁易购汽车频道等核
+Content: 心资源位；
+Content: 9-苏宁DSP（头条系）站外推广；1-北京卫视、爱奇艺、抖音、苏宁易购、 PPTV 、PP体
+Content: 育6平台同步直播；
+Content: 2-参与晚会直播明星互动环节；
+Content: 3-晚会现场车辆展示；
+Content: 4-晚会现场主持人口播 1条，15S；
+Content: 5-晚会直播中硬广 1条（TVC 15S ）；一汽奔腾 B70上市联合苏宁冠名双十一晚会直播
+Content: B70预售
+Content: 厂家 苏宁旗舰店（ 11月11日-11月31日）： 2台折扣车
+Content: 平台 苏宁晚会（ 11月10日）： 5台免费车X
+Content: 159
+Content: 服务团队
+Content: Service Team
+Content: 160
+Section: 策略总负责
+Content: 李紫金创意总监
+Content: 王伟客户群总监
+Content: 冯子龙
+Section: 策略总监
+Content: 2人
+Section: 高级策略经理
+Content: 2人美术指导
+Content: 2人
+Content: 文案
+Content: 2人
+Content: 美术执行
+Section: 2人策略（ 5人） 创意（ 7人） 客户服务 （6人）
+Content: 客户总监
+Content: 1人
+Content: 客户经理
+Content: 2人
+Content: 客户执行
+Content: 2人电商平台（ 14人）
+Content: 电商日常运营总监
+Content: 徐婉宁
+Content: 高级运营经理
+Content: 4人
+Content: 电商活动运营
+Content: 3人技术总监
+Content: 谢祯强技术支持（ 8人）
+Content: 产品经理
+Content: 2人
+Content: 技术开发
+Content: 5人项目总控
+Content: 总经理 -张磊
+Content: 项目统筹
+Content: COO-吴尚
+Content: 电商直播运营
+Content: 3人
+Content: 经销商配合
+Content: 3人
+Content: 161
+Content: 161
+Content: 张磊 总经理
+Section: •从业履历：
+Section: 23年广告行业经验，对传统广告到数字营销策略、媒介策略及线下执行的全案传
+Content: 播服务有深厚的行业经验。
+Section: •服务品牌：
+Content: 一汽奥迪、劳斯莱斯、中国联通、汇丰银行、 TOYATA 、雪佛兰等
+Content: 162
+Content: 吴尚 COO
+Section: •从业履历：
+Section: 14年广告行业从业经验，专注于汽车行业，深谙从品牌建设到支持销售的一系列市
+Section: 场行为。致力于探索新营销环境下的策略结构性思考，帮助客户创建专属的营销传
+Section: 播矩阵，提升品牌驱动效力。
+Section: •服务品牌：
+Content: 一汽奥迪、 DS、一汽丰田、一汽大众、东风雷诺、北京现代、长安铃木、红旗等
+Content: 163
+Content: 163李紫金
+Section: 策略总负责人
+Section: •从业履历：
+Section: 10年广告业从业经验， 8年汽车线上整合营销经验，擅长通过品牌概念、创意策略
+Section: 及创新营销解决品牌问题。
+Section: •服务品牌：
+Content: 奔驰，一汽马自达、英菲尼迪、宝骏、东风雷诺、一汽奔腾、一汽红旗
+Content: 164
+Content: 164刘泽雄
+Section: 电商策略负责人
+Section: •从业履历：
+Section: 8年广告业从业经验， 5年网络互动营销从业经验，在客户服务、客户沟通及整体
+Section: 策略制定、创意策略规划、活动施策等方面有很强的专业性和有丰富的经验。
+Section: •服务品牌：
+Content: 奔驰、 MINI 、一汽 -大众奥迪、上海通用、上汽集团、东风日产、一汽丰田等
+Content: 165
+Content: 165王伟
+Content: 创意总监
+Section: •从业履历：
+Section: 2008 年进入广告行业以来，拥有着 12年广告策略、创意经验。
+Content: 先后就职于 Raynet -Ogilvy 、Dentsu 、DDB、BBDO 、Leo Burnett ，以及飞拓
+Content: 无限等广告
+Content: 公司。
+Section: 2018 -2019 年，作为核心创意人员，服务客户宝马中国社会化营销以及数字传媒
+Section: 业务，帮助宝马中国成就在社会化营销领域的领军地位。
+Section: •服务品牌：
+Content: 宝马、奥迪、大众
+Content: 166
+Content: 166冯子龙
+Content: 客户群总监
+Section: •从业履历：
+Section: 6年广告行业从业经验，主要从事数字整合营销及精准营销传播策划服务， 在客户服
+Section: 务方面拥有资深的营销传播创意及 项目管理经验 ，丰富的品牌和渠道整合营销传播
+Content: 能力。
+Section: •服务品牌：
+Content: 一汽-大众奥迪、红旗、奔腾、长城、 东风雷诺等
+Content: 167
+Content: 167徐婉宁
+Content: 电商日常运营总监
+Section: •从业履历：
+Content: 服务汽车行业 7年，了解三方电商平台的整体运营模式，具有新零售电商的创新
+Content: 思维，且能够帮助客户定制 TO B/TO C 渠道整体运营规划，具有优秀的沟通能力、
+Section: 策略规划能力和项目协调管理能力。
+Section: •服务品牌：
+Content: 一汽-大众、一汽奥迪、红旗、奔腾、一汽轿车等
+Content: 168
+Content: 168
+Section: •从业履历：
+Section: 9年网站技术经验，曾主持研发过多个知名企业线上营销网站，微信平台开发，
+Content: 网络商城开发， H5，微信游戏等互联网项目。
+Section: •服务客户：
+Content: 一汽奥迪、 红旗、东风雷诺、英菲尼迪、奇瑞汽车、长安汽车等谢祯强
+Content: 技术总监
+Content: 169
+Content: 谢谢！
+Content: Thanks!

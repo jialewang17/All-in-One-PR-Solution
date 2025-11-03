@@ -1,0 +1,144 @@
+# Data directory - 允许上传示例数据
+# 注意：原始文件会被忽略，但处理后的示例数据可以上传
+
+# Environment variables file
+.env
+
+# 公关传播RAG系统 v1.0 .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 数据文件 (可选，根据需要调整)
+# data/raw/*
+# data/cleaned/*
+# data/json/*
+# data/chunks/*
+
+# 备份文件
+backup_*/
+*.bak
+
+# Neo4j
+neo4j/
+graph.db/
+
+# Agent v2 (不需要上传)
+pr_agent_v2/
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 文档构建
+docs/_build/
+site/
+
+# Agent 相关文件（开发工具，可选）
+# agents/  # 如果不需要上传 agent 分析工具，取消注释
+
+# 副本文件和临时文件
+*_副本.*
+*副本.*
+*.副本
+*_copy.*
+*copy.*
+~$*
+
+# API Key 和敏感信息文件
+*api_key*
+*secret*
+*password*
+*credentials*
+*config_local*
+
+# 数据文件规则
+# 1. 原始文件（PDF/DOCX 文件较大，建议忽略）
+data/raw/*.pdf
+data/raw/*.docx
+data/raw/~$*  # Windows 临时文件
+
+# 2. 处理后的文件 - 保留示例数据（可根据需要调整）
+# 如果需要全部上传，注释掉下面的行
+# 如果想保留少量示例，可以取消注释并选择特定文件
+
+# 清理后的文本文件 - 可以上传示例
+# data/cleaned/*.txt  # 如需全部上传，注释掉这行
+
+# JSON 分块文件 - 可以上传示例
+# data/chunks/*.json  # 如需全部上传，注释掉这行
+
+# JSON 结构化文件 - 可以上传示例
+# data/json/*.json  # 如需全部上传，注释掉这行
+
+# SPO 三元组文件 - 可以上传示例
+# data/*_triples*.json  # 如需全部上传，注释掉这行
+
+# 注意：如果需要上传所有处理后的数据文件，请注释掉上面的相应行
+# 建议保留少量示例文件，避免仓库过大
+
+# 临时生成的演示文件（根目录）
+# 注意：demos/ 目录中的文件会被保留
+/demo_*.py
+/test_*.py
+
+# 版本控制和文档
+GIT_UPLOAD_SUCCESS.md
+运行步骤_*.md
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini

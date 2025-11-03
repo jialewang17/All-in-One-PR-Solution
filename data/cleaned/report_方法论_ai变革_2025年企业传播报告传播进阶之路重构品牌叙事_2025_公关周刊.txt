@@ -1,0 +1,719 @@
+Content: prweek.com 1
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事2025
+Section: 传播进阶之路：
+Section: 重构品牌叙事
+Section: 概要：人工智能 (AI) 应用已跨越试验阶段，取得实质性进展，其在数据与分析方面的表现亦
+Section: 有显著提升。员工作为品牌发声主体的重要性日益凸显。本报告涵盖大量对比数据，不仅涉
+Section: 及年度间的对比，还与 2017 年的首次研究进行了对照。尽管传播者目前仍面临诸多挑战，
+Section: 但本年度《 企业传播报告 》表明该行业已取得重大进步，并为其未来发展提供了宝贵见解。年 企业传播报告
+Content: prweek.com 2
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事3
+Content: 7
+Content: 8
+Content: 9
+Content: 10
+Content: 11目录
+Section: 传播行业的机能与情感
+Section: AI、数据与分析、影响力人群。2025 年，若要评估传播
+Section: 行业的现状， 需要聚焦这三大议题。 本年度 《 企业传播报告 》
+Content: 对此进行了深入探讨，且内容远不止于此。我们的调查数
+Content: 据来源，正是那些奋战在一线的从业者。
+Content: 更深入的数据技术探讨
+Section: 调查对象进一步反馈了数据分析工具及 AI 通过哪些具体方
+Content: 式帮助他们提升工作效率。
+Section: 内容策略
+Content: 赢得媒体、付费媒体、自有媒体还是共享媒体？哪些社交
+Section: 平台最能吸引受众？传播策略的重点在哪里？本页将针对
+Content: 这些问题展开深入讨论。
+Content: 影响力掌控者
+Content: 谁的第三方背书对消费者影响最大？自 2017 年首份报告
+Content: 发布以来，这个问题的答案已发生了很大变化。
+Content: 当前挑战
+Section: 尽管传播行业已取得进展，但仍面临诸多挑战。我们将聚
+Content: 焦其中一些最为突出的问题。
+Content: 优先事项
+Section: 《公关周刊》(PRWeek) 和 Cision 从传播者自身及企业
+Content: 高层视角，探讨了这一问题的答案。
+Content: prweek.com 3
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事传播行业的机能与情感
+Section: 评估一个行业是否健康发展的重要指标，体现在其从业者如何适应周围环境的变化，以及又会如何制定策略来应对未来的
+Section: 挑战。传播人的自我评估同样是影响行业发展的关键因素。借助大量数据与行业领袖提供的深刻洞察，本年度《 企业传播
+Content: 报告》深度呈现了行业发展全貌。
+Content: —— Chris Daniels
+Section: 如今，《公关周刊》与 Cision 联合发布的《 企业传播报告 》已步入第八
+Section: 个年头。 该报告每年对传播行业优先采用的工具和策略进行跟踪与评估。此外，
+Content: 我们还将讨论另一主题：AI 工具的跃升。
+Section: 关于前者，我们将重点讨论数据分析领域。报告将呈现诸多有趣的新发现，
+Content: 并与 2017 年首份报告调查结果进行对比。
+Section: 而在后者中，最突出的话题是人工智能 (AI)。它不仅是传播行业所关注的
+Section: 焦点，多数商业领袖同样对其给予了高度关注。本报告将深入剖析传播行业从
+Section: AI 实验阶段迈向实际应用阶段的过程，这一过程涵盖内容创作、策略制定、数
+Section: 据分析等多个工作环节。
+Section: 对传播行业而言， 还有一个词比以往任何时候都更重要 ： 影响力。 毋庸置疑，
+Content: 在影响力领域，无论是发挥影响的主体，还是产生影响的渠道，都发生了明显
+Content: 变化。
+Content: 本报告对行业现状的详尽呈现，基于对美国和加拿大 310 位行业专业人士
+Section: 的深入调查。除对  多元化营销战术  （myriad tactics）的量化分析外，更聚焦
+Content: 受访者的 情感价值维度 （sentiments），形成 「行为 - 情感」双轨评估。
+Content: 1.	聚焦 AI
+Content: 本报告从当前最热门的话题——AI 切入，更准确地说是生成式 AI。同时，
+Section: 为了精准呈现传播者在这一方面的进展，今年的研究新增了七个问题。这些额
+Section: 外信息真实反映了传播行业在 AI 应用方面的现状。
+Content: 近三分之二的受访者（65%）认为，生成式 AI 工具“显著提升”了他们
+Section: 的数据 / 分析能力。当被问及生成式 AI 在其整体传播策略中的使用情况时，
+Content: 23% 的人回答“应用广泛”，44% 的人表示“有一定应用”。24% 的专业人
+Content: 士表示“较少使用”，只有 9% 的人回答“完全没有使用”。
+Section: 这些数据表明，AI 与传播工作流程的整合已进入加速阶段。
+Section: CisionOne 营销副总裁 KatieTod 表示：“生成式 AI 功能已成为众多传
+Content: 播人士日常使用的工具（包括 CisionOne）。从今年开始，随着 AI 应用的日
+Content: 益普及，更多公司制定并实施正式的 AI 伦理政策，同时将相关工具纳入工作
+Section: 流程，我们预计公关和传播领域的 AI 应用将大幅增加。”NBCUniversal Telemundo Enterprises 企业传播执行副总
+Content: 裁 Alfredo Richard 对 Tod 的观点表示赞同。
+Section: 他说：“2024 年，每个人都在尝试不同的传播方法。代理商
+Content: 在推动 AI 技术应用方面最为积极，希望为客户打造出可商业
+Content: 化推广的工具。我们试用了一些广告公司的 AI 工具，但推广
+Content: 起来并非易事， 原因在于企业内部团队仍在努力解决AI在法律、
+Content: 网络安全和知识产权等方面的问题。”
+Content: 故事未完待续
+Content: 行业真正采用某项技术的标志在于，其从业者和团
+Section: 队开始创建自己的专有工具。在 AI 和营销传播领域，
+Content: 我们向受访者提出了以下问题：贵组织是否已开发 /
+Content: 创建至少一种专有 AI 工具供内部或客户使用？
+Content: 37%63%
+Content: 是 否
+Content: 我们还询问了这些专有工具的具体情况，以下是一
+Section: 些值得关注的回应：
+Content: ●RAG（检索增强生成）工具：能够高效处理并总结公司
+Content: 海量知识产权和研究内容。
+Section: ●专有洞察引擎：通过分析大数据集，追踪受众对公司行业
+Content: 相关话题的参与度，识别关键影响者，整合来自媒体组织
+Content: 和影响者的洞察。该工具提升了工作效率与专业水平，支
+Content: 持快速创建定制内容，并针对特定客户实时提供有价值的
+Content: 数据。
+Content: ●专有 AI 工具：用于评估客户增长情况，并将其与我们的
+Content: 所有投资及每项应用的投资回报率进行对比 。
+Content: ●AI 会议自动化工具：在会议结束后自动整理幻灯片、
+Content: 内容、行动事项等，供销售人员发送给客户。
+Content: prweek.com 4
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事Richard 所在的这家媒体公司对 AI 应用问题的理
+Section: 解正逐渐加深，其传播部门与 Microsoft 365 Copilot
+Section: 合作，推出了一款面向传播工作的“封闭生态”产品。
+Section: 今年，该公司还与 Adobe 合作，计划为传播部门引入
+Content: AI 工具。
+Content: Richard 表示：“从经理到总监再到副总裁，团队
+Content: 中约 75% 的成员都在以某种形式使用这款 Copilot 工
+Section: 具。可以预见，AI 将更深度融入整个传播流程，涵盖
+Content: 从调研、执行到效果评估等各个环节。”
+Section: 在传播专业人士投入精力的七个职能部门中，与去
+Content: 年相比，AI 在两大关键领域的“定期使用”频率显著
+Content: 提高： “内容审核 / 优化” （从 28% 升至 37%）和“头
+Section: 脑风暴活动创意 / 策略”（从 29% 升至 35%）。
+Content: Taylor 首席执行官 Maeve Hagen 表示：“我们
+Content: 团队在头脑风暴会议中喜欢将 AI 作为激发活动创意的
+Content: 起点。 但我们始终保持清醒， 经常讨论 AI 所扮演的角色，
+Content: 它的作用是辅助创意流程，而非取代团队成员的创造力
+Content: 和洞察力。”
+Content: 一款名为 Waldo 的 AI 工具帮助 Hagen 所在企业
+Section: 加速了对产品类别、竞争品牌群体、目标受众和文化趋
+Section: 势的研究分析。Hagen 补充道：“我们发现这款工具
+Content: 在争取新业务时非常实用，尤其是在进入不熟悉的领域
+Content: 时，无论是主动拓展还是被动应对，它都能大大缩短我
+Content: 们熟悉新项目或新客户所需的大量时间。”
+Section: AI 在传播任务中使用得更加频繁，这与专业人士
+Content: 编写提示词的能力提升密切相关。这一技能已成为行业
+Content: 从业者的必备素养。大多数受访者（57%）对自己在
+Content: AI 应用方面的技能水平持积极评价，其中 18% 的人认
+Content: 为自己“表现优异”，37% 选择“表现良好”。
+Content: 的受访者认为，其所在组织/客户组
+Section: 织高管在过去一年里向传播团队寻求
+Content: 建议的频率高于往年。
+Content: 通过不断试错，专业人士编写 AI 提示词的逻辑得以
+Content: 提升，整个行业也在投入资源提供帮助。
+Section: Orchestra 首席执行官 Jonathan Rosen 表示：
+Content: “我们正在建立一个提示词库，希望在不久的将来，可
+Content: 以为团队打造一个可搜索的提示词库或档案系统，以满
+Section: 足团队的研究和分析工作需求。这一举措将改善工作流
+Section: 程，助力专家分析师更快获得所需信息。我们还特意利
+Content: 用 AI 来加快重复性的工作流程任务，以及让我们的内容
+Section: 更具策略性。担忧程度
+Section: 可以说，传播专业人士对 AI 为其工作带来的便利持越来越开放的态度。
+Content: 然而，当一项强大的技术出现时，不可避免会引发一些疑虑和担忧，这
+Content: 是正常现象，AI 也不例外。
+Section: 我们梳理了营销传播专业人士对 AI 及其对自身岗位潜在影响的四种常见
+Content: 担忧。以下数据反映了在 310 名受访者中，将各选项视为最大担忧的分
+Content: 布情况。
+Content: 14%28%
+Section: 26%32%向利益相关者传达 AI 将给企业 / 品牌带来诸多变化这一艰巨挑战
+Section: 传播工作岗位将被淘汰
+Section: 传播预算将被削减
+Section: 传播部门好不容易争取到的“决策席位” 将被边缘化
+Content: 关键结论： 最大的担忧似乎集中在有关 AI 的沟通上，而非工作稳定性或预算缩减。
+Content: 尽管如此，后两个问题仍是相当一部分受访者切实担忧的焦点。
+Section: 2.	传播效果评估
+Content: 2017 年，Cision 和《公关周刊》发布首份报告时，75% 的受访者认为，
+Section: 传播行业在衡量和证明其对业务目标有积极作用方面还有提升空间。如今，超过
+Content: 三分之二的专业人士（68%）表示已拥有必要的工具来展示其工作与业务增长的
+Content: 直接关联。该问题如果排除表示“不确定”的受访者，这一比例将升至 78%。
+Section: Tod 指出：“这得益于媒体情报领域的创新成果。传播团队不再局限于使用
+Content: 诸如 AVE（广告价值等效）这类基本的数据指标或过时的指标来衡量工作价值。
+Content: 如今现有的工具及其提供的指标能够直接反映他们工作的实际成果，表明哪些努
+Content: 力正在见效，甚至哪些方面正在实现转化。”
+Content: 她表示，这种能够直观了解工作成果的优势不容小觑。
+Section: Tod 进一步解释道：“当你能够证明传播活动直接推动了业务目标的实现，
+Content: 无论是增加销售额还是减轻危机影响，这将直击企业高管的心坎。归根结底，是
+Section: 他们的认可支撑着传播工作。如果他们看到了传播职能的价值，就会在这方面投
+Content: prweek.com 5
+Content: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事入更多。而能够证明传播工作对组织成功的影响力，很可能就是越来越多传
+Content: 播人士得以跻身企业决策层的原因。”
+Content: Richard 表示，他所在的部门正在一步步地证明“我们有能力成为一个
+Section: 创收中心，而非预算中的成本项。效果评估一直是传播工作的难题，如果不
+Section: 能衡量结果， 就无法开展传播工作。正如我常说的，无法衡量的事情就无法
+Content: 进行管理。”
+Section: 与去年同期相比，今年传播团队新增员工的比例，该数据基于
+Section: 非传播企业 / 机构的受访者。
+Content: 好消息：情况有所改善
+Section: 八年来，Cision/《公关周刊》年度报告一直重点关注传播行业在克服传播
+Section: 效果评估难题方面的进展。我们常问的一个关键问题是：
+Section: 在传播效果评估方面， 是否遇到过以下挑战？ （受访者可根据实际情况选择多个选项。 ）
+Content: 2025   2024
+Content: 44%
+Content: 43%
+Content: 33%
+Content: 36%
+Content: 27%
+Content: 24%48%
+Content: 48%
+Content: 46%
+Content: 24%
+Content: 24%评估工作与业绩或其他核心 KPI 之间的关联
+Content: 将数据转化为可付诸行动的洞察
+Content: 持续过度依赖媒体曝光量
+Content: 确定最有效的评估工具
+Section: 向高层领导证明 / 验证传播的影响力
+Content: 无法使用高效的评估工具
+Content: 关键结论： 改善情况明显，上述四个最主要选项的占比情况均同比至少下降 5%，
+Content: 这表明今年受访者面临的挑战较去年有所减轻。其中，最值得关注的是，对媒体
+Content: 曝光量的依赖程度同比下降了 15%。这些积极变化无疑是行业进步的有力证明，
+Section: 但不可忽视的是，这些挑战依旧困扰着很多传播团队。NBCUniversal Telemundo 的内部研究部门通过深挖
+Section: 和提取活动前后的数据，为传播工作评估提供支持。需要特
+Section: 别提出的是，他们的团队成员包括数据分析师。调查发现，
+Section: 越来越多的传播专业人士正与数据分析师展开合作。
+Content: 事实上，三分之二（66%) 的受访者表示，他们已聘请
+Section: 或拥有合作关系的专业数据分析师，这一比例高于去年的
+Content: 59%。
+Section: Orchestra 的首席执行官 Rosen 表示，数据分析师已
+Section: 成为传播工作中不可或缺的关键专家。
+Content: 他指出：“AI 应用中最耗时的一个环节是以适合 AI 处
+Section: 理的方式来构建数据集。虽然大语言模型可以对品牌的情
+Section: 感倾向、定位或叙事进行深入分析，但如何利用这些信息，
+Content: 还需要人为判断。”
+Content: 3.	员工影响力：	日益凸显
+Section: 《企业传播报告 》一直以来都有一个固定板块 ，就是追
+Content: 踪专业人士眼中对客户/消费者行为影响最大的影响者类型。
+Content: 在本报告的前七年研究中，受访者对不同类型的影响者
+Content: 都给予过高度评价。而今年，首次出现了这样的情况：员工
+Content: 超越其他类型，成为更多专业人士眼中最具影响力的群体。
+Content: 在对八类影响者进行的排名中，将员工列为前三的人数
+Content: 比例为 52%。19% 的受访者更是将员工排在所有其他影响
+Content: 者类型之前。紧随员工之后、在前三排名中出现频率较高的
+Content: 依次是普通消费者（51%）、企业高管（40%），以及记者
+Content: 和小众影响者（均为 36%）。
+Content: 名人在前三排名中的出现频率最低，从去年的 36% 骤
+Content: 降至 24%。与八年前的首次调查相比，名人影响力的下降
+Content: 和员工影响力的上升更为明显 ，当时的受访者的排名中名人
+Content: 位居榜首，而员工的排名垫底（59% 对 36%）。
+Content: Tod 解释道：“员工现在有了更大的话语权，他们比以
+Section: 往任何时候都更引人注目。当看到员工为自己服务的品牌发
+Content: 声时，你知道这是他们真心认可公司所销售或推广的产品 ,
+Content: 而不是因为签了合同才这样说。在很多方面，员工的声音是
+Section: 品牌能获得的最真诚、最具说服力的代言形式。”
+Content: 事实上，研究表明，员工分享的内容所获得的互动量是
+Section: 品牌渠道分享内容的八倍。
+Content: Tod 接着表示：“出现这种变化的原因并不难理解。品
+Content: 牌内部就蕴藏着巨大的影响力资源。企业只需知道，如何在
+Content: 尊重和真实的基础上激活这种资源。”49%
+Content: prweek.com 6
+Content: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事Chipotle Mexican Grill 在 2019 年推出了纪录片风
+Section: 格的营销活动——Behind the Foil，深度挖掘员工故事，
+Section: 通过数字和电视广告展示真实团队成员。品牌对外传播副
+Content: 总裁 Erin Wolford 表示， 此后他们便一直在沿用这一模式。
+Content: Wolford 说：“五年多的时间过去了，这个展示真实
+Section: 员工形象的传播活动获得了消费者的积极反馈，我们仍在
+Content: 制作同一主题的新广告。”她还补充道，团队成员鼓舞人
+Content: 心的职业发展故事也成为了赢得媒体报道的关键因素。
+Content: Taylor 的 Hagen 认为，影响力人群的排名变化反映
+Content: 了消费者的信任问题。
+Content: 她指出： “名人代言强调的是激发消费者的向往之情，
+Content: 而非建立情感连接。但现在，人们更倾向于那些感觉像同
+Content: 龄人或值得信赖的 KOL 。如今的消费者也非常精明，他
+Section: 们开始对营销出现脱敏的情况。员工能提供真实的见解、
+Content: 真切的体验，反而更容易让人产生共鸣。”
+Content: 但这并不表示如今名人对消费者毫无影响力。她总结
+Content: 道：“你仍然能与名人建立真实的连接。不过，无论是名
+Content: 人还是普通大众，真实性、亲近感和透明度始终是与任何
+Content: 影响者合作的核心要素。”
+Content: 4.	信心渐长
+Section: 在过去几年间，传播行业面临着一系列疾风骤雨般的
+Content: 挑战与变革——从疫情肆虐到要求重返办公室再到 AI 技术
+Content: 的崛起。如果说本次调查能让我们有所收获的话，那就是
+Section: 传播从业人员似乎已做好了应对一切的准备。其实 ，95%
+Content: 的专业人士（其中 65%“非常认同”，30%“有些认同”）
+Section: 认为，与 2020 年初相比，他们所在的传播团队如今对这
+Content: 类重大事件的应对准备更加充分。
+Content: 这种信心在行业新成员身上也有所体现。我们邀请受
+Content: 访者以初入职场（工作五年及以下）的同事为考量对象，
+Content: 并在此基础上，分享他们对行业未来的看法。
+Content: 调查结果显示，四分之三的受访者持“乐观”态度
+Content: （36%“ 非常有信心”， 38%“比较有信心”）。
+Content: 对 AI 的接受度持续攀升，可能增强了这种信心。
+Content: Hagen 称：“我们已经意识到，AI 可成为帮助我们
+Content: 成功的工具且不会降低工作成果的质量。眼下，能做的只
+Content: 有接受它。”
+Section: 报告调查了传播专业人士对其公司充分利用 AI 优势的
+Content: 信心程度及其适应快速变化的准备情况。
+Content: 结果也表明，大家信心满满。75% 的受访者表达了这
+Content: 一态度（30%“非常有信心”，45%“ 比较有信心”）。当前工作模式分布
+Content: 括号内为去年数据
+Content: ●远程办公：19%	(29%)
+Content: ●混合办公：55%	(57%)
+Section: ●100%线下办公：26%	(14%)当然，谈到 2025 年传播行业的发展，就不可避免会提到其所面临的挑
+Content: 战。其中最突出的一个问题是：81% 的受访者（38%“压力大大增加”，
+Content: 43%“压力有所增加”）表示，与去年同期相比，他们在资源减少的情况下需
+Content: 要承担更多工作，压力更大。而 AI 或许能提供帮助。
+Section: Tod 总结道：“传播行业越来越依赖数据，AI 提升了我们获取洞察并据
+Section: 此采取行动的能力。这不仅有助于制定更明智的策略，帮助做出更好的商业决
+Content: 策，还能让我们有更多精力专注于建立真诚、真实的关系。”
+Content: 的受访者认为，
+Section: 他们拥有品牌危机管理工具。
+Section: 关于《公关周刊》/Cision《 企业传播报告 》
+Section: 2017 年，鉴于公关传播专业人士的工作实践和认知模式在持续
+Content: 演变，Cision 携手《公关周刊》发起了一项研究计划，旨在精准
+Section: 识别并深度剖析传播从业者在技术应用、数据处理、效果评估、
+Content: 内容创作及与影响力者合作等方面的具体情况。
+Content: 尽管在此期间，该报告的基础框架始终保持不变，但每年都讲述
+Section: 着不同的故事。第八版《公关周刊》/Cision《 企业传播报告 》也
+Content: 不例外。
+Section: 如今，任何有意义的传播行业讨论都离不开对 AI 的高度关注。
+Content: 本报告充分满足了这一需求。当然，与以往一样，报告也重点展
+Section: 示了所有传播者面临的主要挑战与机遇。这些问题涵盖了从 数据
+Section: 分析到工作模式（远程办公、完全线下办公或混合办公）等多个
+Content: 方面。
+Section: 一个不变的事实是：每年，传播行业应对各种情况的能力日益增
+Content: 强，其在高管层、其他内部部门及外部利益相关者中受到的认可
+Content: 也在不断提升。
+Content: 当然， 许多挑战依然存在——我们也在本报告中对此进行了探讨。
+Content: 总体而言，今年的报告与前七版一样，深刻洞察了行业的现状、
+Section: 已经取得的进展以及未来的机遇 。其它值得关注的调查结果：
+Content: prweek.com 7
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事更深入的数据技术探讨
+Section: 前文已经深入探究了传播行业在数据和 AI 应用方面的现状。不过，受访者向我们透露了更多信息 ……
+Section: 数据分析 AI
+Section: 目前传播团队比以往更依赖 数据分析 工具吗？
+Content: 38% 42%
+Content: 41%
+Content: 13%
+Content: 4% 51%
+Content: 7% 4% 2025
+Content: 2024
+Content: 46%
+Content: 36%
+Content: 35%
+Content: 32%
+Content: 27%
+Content: 23% 非常依赖    比较依赖 基本不依赖  完全不依赖
+Section: 从以下六个关键因素中，选出 数据分析 工具使用最多的两个方面。
+Content: 受众定位
+Content: ROI 评估
+Content: 媒体定位
+Content: 活动优化
+Content: 向企业高层证明
+Section: 传播的价值
+Section: 策略制定
+Section: 关键结论： 当被问及现在是否比以往任何时候都更依赖数据 / 分析工具时，
+Content: 近 90% 的人给出了肯定的回答。值得注意的是，当被要求具体说明哪方面
+Section: 使用数据分析 工具最多时，策略制定这一选项的比例落后于其他所有选项。37%
+Content: 36%
+Content: 35%
+Content: 32%
+Content: 32%
+Content: 31%
+Content: 25% 37%
+Content: 42%
+Content: 38%
+Content: 42%
+Content: 35%
+Content: 38%
+Content: 40% 26%
+Content: 22%
+Content: 27%
+Content: 26%
+Content: 33%
+Content: 31%
+Content: 35% 请从以下七个方面，指出您 / 您的团队目前使用生成式 AI 协助完成每项
+Content: 任务的情况。
+Content: 定期使用 处于试验阶段，但非定期使用 尚未使用
+Content: 内容审核 / 优化
+Content: 面向外部受众的内容创作
+Section: 头脑风暴活动创意 / 策略
+Content: 面向内部受众的内容创作
+Content: 撰写媒体推介材料
+Content: 图像、音视频创作
+Content: 撰写新闻稿
+Section: 贵公司是否已制定 AI 政策 / 策略，确保所有员工能够高效且按照伦理标
+Content: 准使用 AI ？
+Content: 63%
+Content: 30%7%
+Content: 是
+Content: 否不确定
+Section: 您对贵公司充分利用 AI 给传播行业带来的优势以及适应未来快速变化
+Content: 的能力有多大的信心？
+Content: 30% 45%
+Content: 20%
+Content: 5%
+Content: 非常有信心 比较有信心 基本没信心 完全没信心
+Section: 关键结论： 在传播团队最常使用生成式 AI 的因素中，内容相关方面最为突出。
+Content: 同样值得注意的是，近三分之二的受访者表示他们所在的组织已制定了 AI 政
+Section: 策 / 策略。与此同时，四分之三的传播业务负责人对其公司在 AI 时代的适应能
+Content: 力充满信心。
+Content: prweek.com 8
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事46%
+Content: 46%
+Content: 40%(37%)
+Content: (45%)
+Section: (43%)内容策略
+Section: 传播类报告应涵盖传播者在内容类型、传播渠道和衡量指标等方面的观点与进展， 否则就不够完整。
+Content: 四大媒体类型
+Section: 在您的整体媒体策略中，以下四个类型各占比多少？
+Content: 2025
+Content: 202426%16%
+Content: 17%33%25%25%30%28%共享媒体 自有媒体  付费媒体    赢得媒体
+Content: 评估指标
+Section: 选出您认为判断社交媒体策略是否成功的最重要的三项指标。
+Content: 括号内为去年的数据。
+Content: 评论量
+Content: 分享量
+Content: 覆盖量平台
+Section: 选出过去一年对您的传播策略最有价值的三个社交媒体平台。
+Content: 主要百分比表示将该选项列为前三的受访者比例，括号内的数据表示将其列为首选项的受访者比例。
+Content: YouTube
+Content: TikTok
+Content: X (原 Twitter )
+Content: Pinteres t
+Content: Reddi t
+Content: WhatsApp
+Content: Thread sFaceboo k
+Content: Instagra m
+Content: LinkedI n62%(30%)
+Content: 61%(18%)
+Content: 59%
+Content: 42%
+Content: 25%
+Content: 24%
+Content: 8%
+Content: 8%
+Content: 7%
+Content: 4%(32%)
+Content: (8%)
+Content: (5%)
+Content: (3%)
+Content: (2%)
+Content: (1%)
+Content: (1%)
+Content: (1%)
+Content: 关键结论： 在付费 / 赢得 / 共享 / 自有媒体模式中 ,  “赢
+Content: 得媒体”仍居首位，但其与“付费媒体”之间的差距今年
+Content: 明显缩小。
+Content: 在内容类型和海外社交平台方面， 前四大选项与去年相同，
+Content: 且顺序一致。不过，LinkedIn 作为领先的内容平台值得
+Content: 关注，因为过去并非一直如此。
+Content: 在指标方面，“评论量”同比显著上升，与“分享量”并
+Content: 列榜首。点击率： 40%(37% )
+Section: )39%(38% ) 曝光量：
+Section: 38%(35% ) 粉丝数量：
+Section: 30%(27% 转化率：
+Content: 21% (15% ) 内容停留时间：（该调查针对海外平台，对出海企业亦有帮助）
+Content: prweek.com 9
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事影响力掌控者
+Content: 在 Cision/《公关周刊》为期八年的研究中，消费者最看重哪些第三方的推荐，以及他们如何从情感、理性和消费层面支持
+Section: 品牌，每年都会发生明显变化。本页列出了八类这样的影响者，并指出受访者认为最具说服力的声音，这些影响者无疑是
+Section: 品牌合作的理想伙伴。
+Content: 下方及右侧（按行业划分）的主要百分比表示，认为该类影响者
+Content: 对消费行为的影响力位居前三的受访者比例
+Content: 括号内的百分比（下方及右侧）表示将该类影响者列为首选的受访者比例。
+Content: 36% (11% )52% (19% )
+Content: 51% (18% )
+Content: 40% (16% )
+Content: 36% (7%)
+Content: 31% (11% )
+Content: 29% (7%)
+Content: 24% (12% )员工
+Content: 普通消费者
+Content: 企业高管
+Content: 记者
+Content: 小众影响者 *
+Content: 中层影响者 *
+Content: 微影响者 *
+Content: 名人
+Content: 小众影响者： 专注于某个特定主题或领域的影响者
+Content: 中层影响者： 在某（几）个平台拥有 10 万以上粉丝的影响者
+Content: 微影响者： 在某（几）个平台拥有 1,000 至 10 万粉丝的影响者
+Content: 去年数据
+Content: 以下数据表示去年受访者列为前三的选项。
+Content: 部分选项有所调整
+Content: 57%
+Content: 44%
+Content: 44%
+Content: 42%
+Content: 39%
+Content: 37%
+Content: 36%员工普通消费者
+Content: 企业高管
+Content: 记者小众或微影响者
+Content: 名人社交媒体影响者
+Content: 关键结论： 在本研究的八年历史中， 员工首次成为最具影响力的群体。
+Content: 在金融服务和医疗 / 制药行业中，员工同样位居榜首。
+Content: 名人影响力排名垫底。在本页提及的四大行业中，名人在三个行业中位列
+Content: 倒数两名。
+Content: 在专业社交媒体影响者（中层影响者、微影响者和小众影响者）中，
+Content: 小众影响者展现出最强的消费者影响力。按行业划分
+Content: 48% (24% )
+Content: 45% (3%)
+Content: 41% (28% )
+Content: 38% (15% )
+Content: 38% (0%)
+Content: 34% (7%)
+Content: 31% (8%)
+Content: 24% (15% )
+Content: 55% (14% )
+Content: 45% (7%)
+Content: 41% (24% )
+Content: 41% (21% )
+Content: 38% (7%)
+Content: 38% (3%)
+Content: 21% (14% )
+Content: 21% (10% )
+Content: 61% (23% )
+Content: 50% (13% )
+Content: 43% (23% )
+Content: 43% (7%)
+Content: 39% (11% )
+Content: 32% (5%)
+Content: 16% (11% )
+Content: 16% (7%)
+Content: 70% (37% )
+Content: 52% (15% )
+Content: 44% (4%)
+Content: 41% (11% )
+Content: 37% (18% )
+Content: 26% (4%)
+Content: 19% (7%)
+Content: 11% (4%)艺 术/娱 乐/媒 体
+Content: 小众影响者
+Content: 记者
+Content: 名人
+Content: 普通消费者
+Content: 员工
+Content: 微影响者
+Content: 中层影响者
+Content: 企业高管
+Content: 金融服务
+Content: 员工
+Content: 微影响者
+Content: 普通消费者
+Content: 企业高管
+Content: 名人记者
+Content: 小众影响者
+Content: 中层影响者
+Content: 医疗 / 制药
+Content: 员工
+Content: 小众影响者
+Content: 普通消费者
+Content: 记者
+Content: 企业高管
+Content: 中层影响者
+Content: 名人
+Content: 微影响者
+Content: 科技 / 互联网
+Content: 员工
+Content: 小众影响者普通消费者
+Content: 记者企业高管
+Content: 中层影响者
+Content: 名人微影响者
+Content: prweek.com 10
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事当前挑战
+Section: 要想深入了解某个行业，首先需要明晰其从业者面临的最大障碍。通过以下调查数据， 我们将为您呈现传播行业的真实挑战。
+Content: 总体挑战
+Section: 选择对您的传播工作最具挑战性的三个因素。
+Content: 主要百分比表示将该选项列为三大挑战之一的受访者比例。
+Content: 括号内的百分比表示将该选项列为最大挑战的受访者比例。
+Content: 34% (11% )
+Content: 27% (11% )
+Content: 26% (9%)
+Content: 20% (6%)
+Content: 19% (5%)
+Content: 18% (7%)
+Content: 17% (3%)
+Content: 15% (6%)
+Content: 12% (2%)39% (19% )
+Content: 37% (14% )
+Content: 35% (7%)关注点过于被动，缺乏主动性
+Content: 无法有效衡量影响力
+Content: 需要加强与内部其它部门的协调
+Content: 获得合理预算
+Content: 能够为团队找到并投资最佳工具
+Section: 人力不足以支持策略
+Content: 紧跟行业趋势
+Content: 人才招募与保留
+Content: 高层的支持
+Section: 工具不足以支持策略
+Content: 为赢得媒体辩护
+Section: 缺乏合适的工具支持策略
+Content: 媒体关系
+Section: 以下是当今传播专业人士面临的五大常见媒体关系挑战。下列主要数字表示选择该选项作
+Content: 为最大挑战的受访者比例
+Content: 以下评分采用 1 至 5 分量表，表示受访者认为某个媒体关系任务的困难程度
+Content: （1 表示“最具挑战性”，5 表示“最不具挑战性”）。
+Content: 最具挑战性 最不具挑战性
+Content: 全天候高效应对媒体询问
+Content: 量化媒体投放的实质影响
+Content: 精准定位合适的媒体渠道内容挑战
+Content: 您是否面临以下内容挑战？
+Content: 说明： 以下百分比表示正面临这项挑战的受访者比例。
+Content: 47%
+Content: 68%
+Content: 72%
+Content: 61%60%
+Content: 48%  2025   2024
+Content: 创作能直接促成消费者行动 / 行为的内容
+Content: 评估赢得媒体的影响力，确保成果可视化
+Content: 甄选最优内容发布渠道 / 平台
+Content: 关键结论： 这些明显的逐年下降趋势值得关注。在三
+Content: 种情况下，受访者均表示，与去年相比，他们在应对
+Content: 这些挑战时更加得心应手——这充分证明了数据让传
+Content: 播工作更加高效。
+Content: 关键结论： 五个选项的得分如此
+Content: 接近，实属难得，尤其是看到各
+Content: 选项被选为最大困难的比例。即
+Content: 便如此，实时响应仍以微弱差
+Content: 距成为最难攻克之关。2.96
+Content: 3.203.0821%
+Content: 20%
+Content: 19%
+Content: 19%2.76
+Content: 2.99
+Content: 21%
+Content: 应对假新闻 / 误导信息构建并维护记者 / 编辑关系网
+Content: prweek.com 11
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事优先事项
+Section: 无论是传播从业者对自身的期许，还是高管层对他们的要求，以下数据揭示了受访者今年在关键战术领域的优先事项。
+Content: 自我期许
+Section: 选出当前对您的品牌 / 您合作的品牌最重要的三项传播事项。
+Content: 主要百分比表示将该选项列为三大优先事项之一的受访者比例。
+Content: 括号内的百分比表示将该选项列为唯一最大优先事项的受访者比例。
+Content: 46% (22% )
+Content: 45% (19% )
+Content: 37% (10% )
+Content: 37% (7%)
+Content: 31% (10% )
+Content: 30% (10% )
+Content: 29% (9%)
+Content: 18% (5%)
+Content: 17% (4%)
+Section: 分析与报告
+Content: 内容创作
+Content: 媒体推广 / 影响者管理
+Content: 社交聆听 / 互动 / 渠道管理
+Content: 获 得 媒 体 报 道
+Section: 归因和 ROI 分析
+Content: 声誉监测
+Content: 媒体监测
+Content: 媒体数据库管理
+Content: 高管期望
+Content: 选出您认为首席执行官或客户公司的首席执行官在 2025 年最重视的
+Section: 三项传播职责。
+Content: 主要百分比表示将该选项列为首席执行官三大优先事项之一的受访者比例。
+Content: 括号内的百分比表示将该选项列为首席执行官唯一最大优先事项的受访者比例。
+Content: 47% (22% )
+Content: 45% (25% )
+Content: 42% (13% )
+Content: 37% (13% )
+Content: 26% (9%)
+Content: 24% (7%)
+Content: 23% (3%)
+Content: 17% (2%)
+Content: 15% (3%)
+Content: 8% (1%)
+Section: 8% (0%)8% (2%)为品牌创造可持续增长 / 价值
+Content: 及时应对不断变化的市场动态和机遇
+Content: 推动销售 / 收入增长
+Content: 客户获取 / 互动
+Content: 危机预防 / 响应 / 公关行动
+Section: 定义和传达品牌故事
+Content: 员工 / 人才互动和管理
+Content: 确保企业核心使命
+Content: 声誉管理
+Content: 最新技术工具在整个组织
+Content: 的广泛应用
+Content: ESG/DEI 事务
+Content: 投资者关系媒体 / 影响者参与度
+Section: 我们列出了对传播人士至关重要的八个战术事项。以下百分比表
+Content: 示受访者今年对这些事项的重视程度相比去年的变化。
+Content: 比去年更重视该事项的受访者比例
+Content: 比去年更不重视 该事项的受访者比例
+Content: 30%
+Content: 13%28%
+Content: 13%
+Content: 19%
+Content: 12%27%
+Content: 16%9%
+Content: 38%10%
+Content: 36%7%
+Content: 51%12%
+Content: 41%
+Content: 社交媒体
+Content: （付费媒体）
+Content: 赢得媒体影响者
+Content: （名人、社交媒体网红等）
+Content: 赞助内容
+Content: （如软文广告）新闻稿发布
+Content: （直接发送给目标受众）
+Content: 新闻稿联合发布
+Content: （直接发送给网络平台）内容联合发布
+Content: （如 Contently 平台）社交媒体
+Content: （赢得媒体）
+Section: 关键结论： 传播专业人士对自身的期望与 12 个月前高度一致。要注意的
+Content: 是，在高管层的期望中，前四个选项有三项与企业收入因素直接挂钩。
+Content: 在媒体 / 影响者参与度和优先级提升方面，社交媒体的数据格外突出。
+Content: prweek.com 12
+Section: Copyright：2025 Cision Ltd. All Rights Reserved2025 年 传播报告—传播进阶之路：重构品牌叙事调查方法
+Section: 《公关周刊》携手 Cision 开展了这项调研，通过电子邮件向美国和加拿大的传播 / 营销传播专业人士发放问卷。Temra Ward
+Content: Consulting 协助收集调研数据。
+Content: 2024 年 10 月 18 日至 11 月 20 日期间，共 310 位来自代理机构及企业内部的资深专业人士完成了《公关周刊》的在线调研。
+Content: 按性别划分，55% 为男性，44% 为女性，1% 为非二元性别。
+Section: 按组织类型划分，57% 来自企业，13% 来自非营利组织，8% 来自公关代理公司，其余来自政府机构及其他类型组织的传播部门。
+Section: 按职位划分，20% 为代理公司首席执行官 / 总裁 / 管理合伙人，经理与总监分别占 15% 和 13%，首席传播官与高级经理各占 8%。
+Section: 此外，调查对象中还包括首席营销官、执行副总裁、高级副总裁、副总裁、执行总监、负责人及高级总监等。
+Content: 受访者从事的垂直细分领域包括医疗 / 制药（14%）、艺术 / 娱乐 / 媒体（9%）、金融 服务（9%）、科技 / 互联网（9%）及其
+Content: 他 13 个不同行业。
+Content: 调研结果未加权处理，且在 90% 与 95% 的置信水平下进行了统计学检验。
+Content: 关于《公关周刊》
+Section: 《公关周刊》是现代商业出版品牌的典范，业务涵盖线上平台、纸质刊物、线下活动及社交媒体。自 1998 年 11 月创刊以来，一直是
+Section: 传播专业人士的必备读物。
+Section: 《公关周刊》彰显了传播行业日益凸显的核心地位，这不仅体现在公司、品牌及组织的营销策略中，更体现在董事会及高管层的决策中。
+Content: 在以社交媒体为代表的透明时代，企业声誉至关重要。高管需要及时、权威且富有洞察力的内容来应对这一复杂局面，而这正是《公关周
+Content: 刊》的价值所在。
+Section: 《公关周刊》以突发新闻、深度分析和独到观点为核心内容。此外，该品牌还推出了标志性的《公关周刊》大奖、年度会议、圆桌论坛、
+Content: 网络直播以及虚拟论坛等活动。
+Content: 如需了解更多信息，请访问 prweek.com 。关于 CISION
+Section: 作为传播、市场营销和社交媒体管理技术与洞察领域的全球领先者，Cision 帮助品牌和机构锁定、联系和
+Content: 接触客户以及利益相关者， 以取得业务成果。 Cision 旗下的美通社 （拥有11亿影响者的企业新闻稿发布网络）
+Content: 与 Falcon.io（一站式社交媒体管理平台）构成了一套一流的解决方案。此外，Cision 已经签订了收购
+Content: Brandwatch（社交媒体监测平台）的最终协议。Cision 在美洲、欧洲、中东和非洲以及亚太地区的 24 个
+Content: 国家和地区设有办事处。有关该公司屡获殊荣的解决方案的详情，包括新一代 Cision Communications
+Content: Cloud ®，请访问 www.cision.com，并在 Twitter 上关注 @Cision。
+Content: 关于美通社
+Section: 美通社（PR Newswire）在企业传播领域深耕多年。1954 年美通社开创了企业新闻稿发布行业的先河，
+Content: 于 2016 年成为 Cision 旗下公司。美通社服务着全球七万多家企业和机构，每天以四十多种语言，帮助客
+Content: 户把他们的最新文字、图片和视频资讯发布给世界各地的目标受众。此外，美通社还提供全球媒体数据监
+Section: 测和分析服务，为客户的日常传播工作提供数据、技术等支持。
+Content: 欢迎扫码咨询！

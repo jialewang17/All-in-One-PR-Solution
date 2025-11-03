@@ -1,0 +1,39 @@
+# 统一公关传播智能体系统配置文件
+
+llm:
+  provider: "openai"        # openai / qwen / deepseek
+  model: "gpt-3.5-turbo"
+  max_tokens: 2048
+  temperature: 0.6
+
+neo4j:
+  uri: "neo4j://127.0.0.1:7687"
+  user: "neo4j"
+  password: "bjtu1234"
+  database: "neo4j"
+
+vector_store:
+  persist_dir: "./vector_store/chroma_db"
+  collection_name: "pr_unified"
+
+retrieval:
+  top_k: 10
+  max_context_chars: 16000
+
+paths:
+  output_dir: "./outputs"
+  data_dir: "./data"
+
+# 系统功能配置
+features:
+  knowledge_query: true
+  plan_generation: true
+  entity_analysis: true
+  document_export: true
+
+# 方案生成配置
+plan_generation:
+  default_outputs: ["A", "B", "C", "D", "E", "F"]
+  auto_save: true
+  export_formats: ["markdown", "word", "ppt"]
+

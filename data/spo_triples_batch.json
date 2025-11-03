@@ -1,0 +1,1410 @@
+[
+  {
+    "subject": "vivo",
+    "predicate": "collaborated with",
+    "object": "first青年电影展",
+    "source_chunk": 1,
+    "source_file": "case_vivo_5分钟叙事与技术型品牌内容表达_创作新生态与人文关怀_2024_品牌星球 _chunks.json",
+    "chunk_id": "case_vivo_5分钟叙事与技术型品牌内容表达_创作新生态与人文关怀_2024_品牌星球 -brand_info-chunk0000"
+  },
+  {
+    "subject": "aigc 2028 2767 ai",
+    "predicate": "is",
+    "object": "a code",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-content-chunk0000"
+  },
+  {
+    "subject": "iimedia research",
+    "predicate": "projects market size",
+    "object": "11.579.3471.7805.81665.32317.62767.4",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-2020年 2021年 2022年 2023年 2024年 2025年e2020 -2025年中国 AI营销行业市场规模-chunk0000"
+  },
+  {
+    "subject": "questmobile",
+    "predicate": "content",
+    "object": "ai",
+    "source_chunk": 2,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-2020年 2021年 2022年 2023年 2024年 2025年e2020 -2025年中国 AI营销行业市场规模-chunk0000"
+  },
+  {
+    "subject": "marie curie",
+    "predicate": "discovered",
+    "object": "radium",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-2020年 2021年 2022年 2023年 2024年 2025年e2020 -2025年中国 AI营销行业市场规模-chunk0001"
+  },
+  {
+    "subject": "content",
+    "predicate": "is",
+    "object": "public domain traffic washing users",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-单向传播-chunk0000"
+  },
+  {
+    "subject": "kantar",
+    "predicate": "released",
+    "object": "2024 impact report",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-头部KOL营销ROI连续3年下降， 2024年同比降低 28%-chunk0000"
+  },
+  {
+    "subject": "ai",
+    "predicate": "contains",
+    "object": "data transparency",
+    "source_chunk": 2,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-头部KOL营销ROI连续3年下降， 2024年同比降低 28%-chunk0000"
+  },
+  {
+    "subject": "ai",
+    "predicate": "content",
+    "object": "种草推荐用户体验",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-brand_info-chunk0000"
+  },
+  {
+    "subject": "ai",
+    "predicate": "content",
+    "object": "3d",
+    "source_chunk": 2,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-brand_info-chunk0000"
+  },
+  {
+    "subject": "ai",
+    "predicate": "generates",
+    "object": "images",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-内容生产时效性：-chunk0000"
+  },
+  {
+    "subject": "koc",
+    "predicate": "solved",
+    "object": "creative/technical deficiency",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-降低创作门槛：-chunk0000"
+  },
+  {
+    "subject": "ai content",
+    "predicate": "includes",
+    "object": "x360",
+    "source_chunk": 2,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-降低创作门槛：-chunk0000"
+  },
+  {
+    "subject": "marie curie",
+    "predicate": "discovered",
+    "object": "radium",
+    "source_chunk": 1,
+    "source_file": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易_chunks.json",
+    "chunk_id": "report_创新营销_2025年AI营销新范式应用指南_新工具新玩法新内容新变化_2025——微播易-降低创作门槛：-chunk0001"
+  },
+  {
+    "subject": "content",
+    "predicate": "determined by",
+    "object": "platform",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "drives",
+    "object": "brands’ growth",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0000"
+  },
+  {
+    "subject": "tezign inc.",
+    "predicate": "generated",
+    "object": "e-commerce product image",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0001"
+  },
+  {
+    "subject": "ai",
+    "predicate": "drives",
+    "object": "brands' growth 2025",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0001"
+  },
+  {
+    "subject": "tezign inc",
+    "predicate": "is",
+    "object": "enterprise content channels management",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0002"
+  },
+  {
+    "subject": "ai",
+    "predicate": "producing",
+    "object": "social media copy and images",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0002"
+  },
+  {
+    "subject": "automated kol/koc social media content consistency and compliance checks",
+    "predicate": "improving",
+    "object": "roi of placements",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0003"
+  },
+  {
+    "subject": "content+ai",
+    "predicate": "drives",
+    "object": "brands’ growth 2025特赞科技 / tezign inc.",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0004"
+  },
+  {
+    "subject": "tezign inc.",
+    "predicate": "has",
+    "object": "low production efficiency",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0004"
+  },
+  {
+    "subject": "world-renowned sports brand",
+    "predicate": "operates",
+    "object": "over 20 owned and third-party stores",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0005"
+  },
+  {
+    "subject": "global leading sportswear brand",
+    "predicate": "faced",
+    "object": "challenges in rapid operations during campaigns due to traditional system architecture",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0006"
+  },
+  {
+    "subject": "quality content",
+    "predicate": "updates lag",
+    "object": "high trafﬁc costs",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0006"
+  },
+  {
+    "subject": "global sportswear brand",
+    "predicate": "aimed to empower",
+    "object": "sales staff",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0007"
+  },
+  {
+    "subject": "brand",
+    "predicate": "aims to leverage",
+    "object": "power of excellent store staff",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0008"
+  },
+  {
+    "subject": "content production",
+    "predicate": "inefficient",
+    "object": "challenges",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0008"
+  },
+  {
+    "subject": "social media platforms",
+    "predicate": "require",
+    "object": "extensive touchpoint coverage and diverse content for marketing campaigns",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0009"
+  },
+  {
+    "subject": "national electric vehicle brand",
+    "predicate": "has",
+    "object": "numerous downstream dealer stores",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0010"
+  },
+  {
+    "subject": "media and private domains",
+    "predicate": "aim to repurpose",
+    "object": "tracking",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0010"
+  },
+  {
+    "subject": "international fmcg brand",
+    "predicate": "relied on",
+    "object": "spreadsheets for kol/koc data",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0011"
+  },
+  {
+    "subject": "group",
+    "predicate": "lacks",
+    "object": "effective methods to boost dealer capabilities",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0012"
+  },
+  {
+    "subject": "phone and sms notifications",
+    "predicate": "are",
+    "object": "inefficient for modern marketing needs",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0012"
+  },
+  {
+    "subject": "brand",
+    "predicate": "provides",
+    "object": "dealers/sales with official, accurate, and approved materials",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0013"
+  },
+  {
+    "subject": "store pad devices",
+    "predicate": "integrated with",
+    "object": "tezign dam",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0013"
+  },
+  {
+    "subject": "tezign inc",
+    "predicate": "is",
+    "object": "globally leading 3c electronics brand",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0014"
+  },
+  {
+    "subject": "tezign inc",
+    "predicate": "is",
+    "object": "technology company",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0014"
+  },
+  {
+    "subject": "content + ai",
+    "predicate": "drives",
+    "object": "brands’ growth 2025",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0015"
+  },
+  {
+    "subject": "survey data",
+    "predicate": "is derived from",
+    "object": "interviews with 225 brands and 310 key personnel",
+    "source_chunk": 2,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0015"
+  },
+  {
+    "subject": "survey data",
+    "predicate": "is derived from",
+    "object": "interviews with 225 brands and 310 key personnel",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-brand_info-chunk0016"
+  },
+  {
+    "subject": "tezign",
+    "predicate": "offers",
+    "object": "auto-tagging",
+    "source_chunk": 1,
+    "source_file": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技_chunks.json",
+    "chunk_id": "report_ai变革_2025年内容人工智能_品牌增长操作手册白皮书_2025_特赞科技-内容分析 元数据 → 洞察 Content Analytics Metadata → Insights内容 content要素 asset标签 tag元数据 metadata体验 ux-chunk0000"
+  },
+  {
+    "subject": "百孚思",
+    "predicate": "隶属于",
+    "object": "科达股份集团有限公司",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-content-chunk0000"
+  },
+  {
+    "subject": "百孚思",
+    "predicate": "成立于",
+    "object": "2011年",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-沪市主板公司 涵盖营销全链路 1700+ 客户-chunk0000"
+  },
+  {
+    "subject": "dsp platform",
+    "predicate": "utilizes",
+    "object": "big data marketing",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-DSP平台大数据营销-chunk0000"
+  },
+  {
+    "subject": "周鹤睿",
+    "predicate": "担任",
+    "object": "视频创意总监",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-strategy-chunk0000"
+  },
+  {
+    "subject": "中国商务广告协会",
+    "predicate": "是",
+    "object": "数委会会员单位",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-5数字营销-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "focus on",
+    "object": "integrated marketing",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-专注于 汽车整合 营销-chunk0000"
+  },
+  {
+    "subject": "奥迪",
+    "predicate": "运营",
+    "object": "天猫、京东旗舰店",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-近5年行业客户数字营销电商服务概况-chunk0000"
+  },
+  {
+    "subject": "直播事件",
+    "predicate": "引起",
+    "object": "电商预售关注",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-施策预售预热引关注 上市造爆点、扩线索 续势二次传播-chunk0000"
+  },
+  {
+    "subject": "第三方电商平台",
+    "predicate": "合作",
+    "object": "媒体",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-社会化传播为电商预售引流-chunk0000"
+  },
+  {
+    "subject": "杨总",
+    "predicate": "直播",
+    "object": "短视频",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-传播物料及时产出-chunk0000"
+  },
+  {
+    "subject": "短视频",
+    "predicate": "+联动",
+    "object": "直播",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-两大话题联动传播-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "is about",
+    "object": "short videos",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-话题二：-chunk0000"
+  },
+  {
+    "subject": "今日头条",
+    "predicate": "是",
+    "object": "懂车帝",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-4大平台预售信息传播-chunk0000"
+  },
+  {
+    "subject": "头部kol＋工程师",
+    "predicate": "解读",
+    "object": "产品价值",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-亮点一：-chunk0000"
+  },
+  {
+    "subject": "9城经销商店",
+    "predicate": "直播联动",
+    "object": "网红到店方言直播",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-亮点二：-chunk0000"
+  },
+  {
+    "subject": "捷达 vs7",
+    "predicate": "共斩获",
+    "object": "2000 元高质量订单",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-亮点四：-chunk0000"
+  },
+  {
+    "subject": "精准广告引流集客电商平台",
+    "predicate": "运营",
+    "object": "天猫",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-联动传播-chunk0000"
+  },
+  {
+    "subject": "用户标签",
+    "predicate": "具象人群画像",
+    "object": "功能",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-media-chunk0000"
+  },
+  {
+    "subject": "总销售任务",
+    "predicate": "is",
+    "object": "1350 台",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-奥迪电商 618好物节营销-chunk0000"
+  },
+  {
+    "subject": "奥迪首家城市新能源展厅",
+    "predicate": "直播",
+    "object": "芒果快乐购",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-明星大咖带货：-chunk0000"
+  },
+  {
+    "subject": "小屏直播带货",
+    "predicate": "is",
+    "object": "method",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•当天352家经销商联动：-chunk0000"
+  },
+  {
+    "subject": "天猫双11开幕式直播盛典",
+    "predicate": "联动",
+    "object": "王一博",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-奥迪电商双 11狂欢节营销-chunk0000"
+  },
+  {
+    "subject": "经销商",
+    "predicate": "增长",
+    "object": "个性化订单",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-➢内部:-chunk0000"
+  },
+  {
+    "subject": "品牌联合",
+    "predicate": "推动",
+    "object": "车型",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-天猫、官微、抖音、官网、小程序奥迪电商个性化定制平台营销满 足 消 费 者 个 性 化 需 求 ，持 续 建 设 升 级 个 性 化 定 制 平 台-chunk0000"
+  },
+  {
+    "subject": "目前",
+    "predicate": "可选",
+    "object": "19种配置",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-先由单车型推广带动 OTD认知，逐步铺开传播-chunk0000"
+  },
+  {
+    "subject": "total order quantity",
+    "predicate": "is",
+    "object": "701",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•订单表现：-chunk0000"
+  },
+  {
+    "subject": "2020 年12月-2021 年12月",
+    "predicate": "计划",
+    "object": "7次电商活动",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-创新电商营销-chunk0000"
+  },
+  {
+    "subject": "线索基数",
+    "predicate": "大",
+    "object": "有效线索量",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-现状：-chunk0000"
+  },
+  {
+    "subject": "53brief review",
+    "predicate": "is about",
+    "object": "proposals",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-针对电商营销，除上述形式外，-chunk0000"
+  },
+  {
+    "subject": "marie curie",
+    "predicate": "discovered",
+    "object": "radium",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-战果利用大数据 ，针对行业 /竞品/消费者深入分析 ，同时洞见平台特点进行规划-chunk0000"
+  },
+  {
+    "subject": "21440有效汽车",
+    "predicate": "用",
+    "object": "户样本的采集",
+    "source_chunk": 2,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-战果利用大数据 ，针对行业 /竞品/消费者深入分析 ，同时洞见平台特点进行规划-chunk0000"
+  },
+  {
+    "subject": "汽车电商",
+    "predicate": "发展趋势",
+    "object": "互联网新零售模式下",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-汽车新四化，尤其是智能化与网联化，催生出新的汽车营销场景-chunk0000"
+  },
+  {
+    "subject": "59互联网新零售模式下的汽车电商发展趋势",
+    "predicate": "预测",
+    "object": "技术成熟的时间",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-底层技术的发展，推动互联网营销的应用技术成熟-chunk0000"
+  },
+  {
+    "subject": "京东",
+    "predicate": "签约",
+    "object": "明星李现",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-营销-chunk0000"
+  },
+  {
+    "subject": "广告验证",
+    "predicate": "基于",
+    "object": "区块链",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-事件触发营销 增强智能-chunk0000"
+  },
+  {
+    "subject": "ai",
+    "predicate": "enhances",
+    "object": "intelligence",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-自动服务会话式营销 增强智能-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "touches",
+    "object": "data",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-内容管理工具 增强智能营销应用技术 （Martech）成熟度曲线-chunk0000"
+  },
+  {
+    "subject": "ar/3d holographic content",
+    "predicate": "showcases",
+    "object": "products in cars",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•OTT跨设备营销覆盖-chunk0000"
+  },
+  {
+    "subject": "61互联网新零售模式",
+    "predicate": "发展趋势",
+    "object": "汽车电商",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-以5G、AI为代表的新兴技术，对汽车营销价值链本身和各环节产生深刻的影响-chunk0000"
+  },
+  {
+    "subject": "5g",
+    "predicate": "enhances",
+    "object": "ai",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-切精准营销的基础-chunk0000"
+  },
+  {
+    "subject": "5g",
+    "predicate": "brings",
+    "object": "enhanced mobile bandwidth",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-响边缘分析 /人工智能-chunk0000"
+  },
+  {
+    "subject": "人工智能",
+    "predicate": "使得",
+    "object": "向边缘设备下沉",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-的需求；边缘分析与-chunk0000"
+  },
+  {
+    "subject": "用户",
+    "predicate": "消费",
+    "object": "生命周期",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-据将被用来分析整-chunk0000"
+  },
+  {
+    "subject": "62互联网新零售模式",
+    "predicate": "包含",
+    "object": "汽车电商发展趋势",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-专人上门服务消费者旅程的触点与交互模式被革新， 汽车电商成为汽车营销创新突破的关键-chunk0000"
+  },
+  {
+    "subject": "kdg 2020 中国汽车用户调研",
+    "predicate": "包含",
+    "object": "巨量引擎",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-2015 2016 2017 2018 2019 2020E 2021E 2022E2015 -2022年中国电商营销收入细分占比-chunk0000"
+  },
+  {
+    "subject": "75互联网新零售模式下的汽车电商发展趋势",
+    "predicate": "包含",
+    "object": "用户",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-本品/竞品/终端的营销数据提供优质服务体验-chunk0000"
+  },
+  {
+    "subject": "一汽丰田",
+    "predicate": "联合运营",
+    "object": "ai人工智能平台",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-80一汽丰田电商营销模式-chunk0000"
+  },
+  {
+    "subject": "订单成交",
+    "predicate": "数据应用",
+    "object": "客户画像",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-A-DMS 系统（全域数据营销系统）线索下发线索跟踪-chunk0000"
+  },
+  {
+    "subject": "获客活动",
+    "predicate": "是",
+    "object": "一元试驾",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•大数据智能营销-chunk0000"
+  },
+  {
+    "subject": "marie curie",
+    "predicate": "discovered",
+    "object": "radium",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-81一汽丰田电商营销全年规划-chunk0000"
+  },
+  {
+    "subject": "秋季电商活动",
+    "predicate": "包含",
+    "object": "购车优惠",
+    "source_chunk": 2,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-81一汽丰田电商营销全年规划-chunk0000"
+  },
+  {
+    "subject": "用户",
+    "predicate": "提供",
+    "object": "整车商品",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-84近年一汽丰田电商营销施策综评-chunk0000"
+  },
+  {
+    "subject": "活动",
+    "predicate": "搭建",
+    "object": "用户服务平台",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-新四化 参考者竞品数字营销电商的模式及营销亮点他山-chunk0000"
+  },
+  {
+    "subject": "nio",
+    "predicate": "offers",
+    "object": "nio life 商城创新平台",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-86竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "蔚来",
+    "predicate": "来源于",
+    "object": "粉丝推荐",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-87竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "蔚来",
+    "predicate": "启示",
+    "object": "多样商品类型",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-88竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "蔚来电商",
+    "predicate": "具有",
+    "object": "多元化服务",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-89竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "天猫整车旗舰店",
+    "predicate": "是",
+    "object": "第三方电商平台",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-90竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "一汽-大众",
+    "predicate": "implements",
+    "object": "new four modernizations",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-91竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "一汽-大众",
+    "predicate": "启示",
+    "object": "亮点",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-92竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "积分商城",
+    "predicate": "可兑换",
+    "object": "各类实用代金券",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-指导总部及终端营销动作•老荐新、消费、互动等多途径积攒-chunk0000"
+  },
+  {
+    "subject": "会员制度",
+    "predicate": "完善",
+    "object": "用户服务",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-93竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "ddmp",
+    "predicate": "is",
+    "object": "data processing platform",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-智能分析应用-chunk0000"
+  },
+  {
+    "subject": "一汽-大众",
+    "predicate": "推送模式",
+    "object": "内容",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-析，并应用于市场营销和-chunk0000"
+  },
+  {
+    "subject": "c2m 电商模式",
+    "predicate": "打造",
+    "object": "生产物流线下服务仓储",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-94竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "领克",
+    "predicate": "满足",
+    "object": "年轻用户个性化需求和价值",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-95竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "is",
+    "object": "goods and life manifesto",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-96竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "领克",
+    "predicate": "提供",
+    "object": "吃穿住行商品选择",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-97竞品数字营销电商分析-chunk0000"
+  },
+  {
+    "subject": "99strategy",
+    "predicate": "is related to",
+    "object": "ecommerce membership system",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-画像，支援营销终端对标领克蔚来-chunk0000"
+  },
+  {
+    "subject": "时间",
+    "predicate": "包含",
+    "object": "12月",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-102整体营销节奏-chunk0000"
+  },
+  {
+    "subject": "时间",
+    "predicate": "包含",
+    "object": "12月",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-103整体营销节奏-chunk0000"
+  },
+  {
+    "subject": "2020.12",
+    "predicate": "content",
+    "object": "提升有效线索 &促转化，助力实际销售 目标",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-104整体营销节奏规划（ 2020.12 -2021.11）-chunk0000"
+  },
+  {
+    "subject": "汽车",
+    "predicate": "垂直电商",
+    "object": "经销商电商",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-场景营销电商 综合电商平台-chunk0000"
+  },
+  {
+    "subject": "语音转写",
+    "predicate": "将",
+    "object": "音频数据转换成文本",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-线下：咨询语音记录语义分析，转化为用户数据，运营人员定期分析、追踪-chunk0000"
+  },
+  {
+    "subject": "用户",
+    "predicate": "上传",
+    "object": "信息内容",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-传功能，实现线上线下数据打通、分析，并用于市场营销和终端销售指导-chunk0000"
+  },
+  {
+    "subject": "用户",
+    "predicate": "新增",
+    "object": "电商行为数据",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-语音∙语义记录、分析-chunk0000"
+  },
+  {
+    "subject": "1积分抽奖活动",
+    "predicate": "设置",
+    "object": "长期",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-· 稀有产品兑换 · · 积分营销参与 · · 虚拟产品兑换 ·-chunk0000"
+  },
+  {
+    "subject": "平台资源",
+    "predicate": "搭载",
+    "object": "会员促销专场活动",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-设置具有吸引力的权益和福利，并搭载社交、广宣、店头等途径传播扩散-chunk0000"
+  },
+  {
+    "subject": "2020.12",
+    "predicate": "content",
+    "object": "核心目的",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-139整体营销规划（ 2020.12 -2021.11）-chunk0000"
+  },
+  {
+    "subject": "用户",
+    "predicate": "发布",
+    "object": "#心愿路书 #直播活动预告",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-机会吸引流量关注：-chunk0000"
+  },
+  {
+    "subject": "活动",
+    "predicate": "采集",
+    "object": "素材",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-驾券，实现长期引流 ：-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "packaged",
+    "object": "live materials",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-话题热度，实现做大话传播-chunk0000"
+  },
+  {
+    "subject": "京东",
+    "predicate": "合作",
+    "object": "李斯丹妮",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-整合优质 UGC，内容平台裂变传播，实时直播撒券，助力线索收集；双12-chunk0000"
+  },
+  {
+    "subject": "京东",
+    "predicate": "开展",
+    "object": "李斯丹妮在线直播",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-关注：-chunk0000"
+  },
+  {
+    "subject": "薇娅",
+    "predicate": "直播送",
+    "object": "一年产品使用权超级大惠",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-升试驾券 &备件包销量 ：-chunk0000"
+  },
+  {
+    "subject": "薇娅",
+    "predicate": "拍摄",
+    "object": "预热视频",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-①薇娅悬念体验视频预热直播 ，制造期待 :-chunk0000"
+  },
+  {
+    "subject": "9.9元",
+    "predicate": "lowers",
+    "object": "3000元购车金",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-②多种福利玩法 ，掀起直播间抢购热潮：-chunk0000"
+  },
+  {
+    "subject": "罗永浩",
+    "predicate": "与",
+    "object": "一丰",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-①老罗与一丰 “交个朋友 ”，话题造势 ：-chunk0000"
+  },
+  {
+    "subject": "老罗",
+    "predicate": "推荐",
+    "object": "准没错儿",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-②新老车主人人有 ，促口碑引流量：-chunk0000"
+  },
+  {
+    "subject": "一汽丰田",
+    "predicate": "带你",
+    "object": "玩转环球影城",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-⑤外围扩散传播-chunk0000"
+  },
+  {
+    "subject": "天猫定制 ar游戏",
+    "predicate": "吸引",
+    "object": "留资天猫ar游戏开启全民线上冬奥",
+    "source_chunk": 2,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-⑤外围扩散传播-chunk0000"
+  },
+  {
+    "subject": "天猫",
+    "predicate": "提供",
+    "object": "ar游戏极限体验",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-①主播挑战冰雪试驾 ，持续制造传播声量-chunk0000"
+  },
+  {
+    "subject": "微博",
+    "predicate": "发布",
+    "object": "视频征集话题",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-②录制游戏视频 ，赢取多重大礼 ，多重裂变传播-chunk0000"
+  },
+  {
+    "subject": "直播",
+    "predicate": "提升",
+    "object": "购车劵",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•持续发布试驾图片 、视频、稿件等传播素材 ，多平台扩散传-chunk0000"
+  },
+  {
+    "subject": "积分",
+    "predicate": "避免",
+    "object": "超出预算成本",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-据报告和分析•监察积分汇率现状 ，及时-chunk0000"
+  },
+  {
+    "subject": "新年买车心愿季电商节点",
+    "predicate": "合作",
+    "object": "各家独家资源",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-事件营销-chunk0000"
+  },
+  {
+    "subject": "购车礼",
+    "predicate": "限时",
+    "object": "content",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-整合营销转化-chunk0000"
+  },
+  {
+    "subject": "自有汽车数据库",
+    "predicate": "调动",
+    "object": "数据",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-用户数据挖掘 落实用户画像 用户行为追踪 数据内容补充 消费行为分析洞察-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "includes",
+    "object": "土豪",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-据，进行匹配分析，-chunk0000"
+  },
+  {
+    "subject": "用户",
+    "predicate": "未购车",
+    "object": "来店",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-意图标签：-chunk0000"
+  },
+  {
+    "subject": "充电appx",
+    "predicate": "覆盖",
+    "object": "全国",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•配合电动车营销-chunk0000"
+  },
+  {
+    "subject": "东风本田",
+    "predicate": "代表厂商",
+    "object": "做法1",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-◼抖音电商汽车厂商的主流做法有以下 4种：-chunk0000"
+  },
+  {
+    "subject": "借鉴点 1",
+    "predicate": "诠释",
+    "object": "促销政策",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-B男掏出旧车钥匙，轻松开走 新车 原来是现在有 ”置换享 0首付”政策竞品优秀案例 《如何才能获得一台全新奥迪 A6L》-chunk0000"
+  },
+  {
+    "subject": "一汽红旗",
+    "predicate": "合作",
+    "object": "抖音",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-平台的经销商账号矩阵，具体合作包括：-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "produced by",
+    "object": "template",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-产生庞大的流量总部：提供传播 素材-chunk0000"
+  },
+  {
+    "subject": "快手电商",
+    "predicate": "基于",
+    "object": "社交关系",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-快手的规则：-chunk0000"
+  },
+  {
+    "subject": "快手",
+    "predicate": "展开",
+    "object": "话题资源合作",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-销售人员建立人设，吸引粉丝直播带货；厂商话题资源合作，快速涨粉、助力终端传播-chunk0000"
+  },
+  {
+    "subject": "企业",
+    "predicate": "提供",
+    "object": "丰富的体验活动与",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-传播体系整体思考 矩阵搭建-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "includes",
+    "object": "management mechanisms",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-厂销联动，差异化 设置传播方向及内容， 提高视频类内容 /直播的数量 &质量 ，促进转化 ，树立行业标杆-chunk0000"
+  },
+  {
+    "subject": "经销商",
+    "predicate": "获得",
+    "object": "阳光普照奖",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•差异化设置传播方向及内容-chunk0000"
+  },
+  {
+    "subject": "车企经销商",
+    "predicate": "打造",
+    "object": "经销商网红账号",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•让车主参与传播，塑造理想车主形-chunk0000"
+  },
+  {
+    "subject": "红人红店地理区域分布",
+    "predicate": "发布内容",
+    "object": "统计等",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-的统计和变化趋势分析-chunk0000"
+  },
+  {
+    "subject": "我国网络直播用户",
+    "predicate": "达到",
+    "object": "5.62 亿",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-210直播行业现状 ——快速增长创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "淘宝",
+    "predicate": "拥有",
+    "object": "头部平台",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-211直播行业现状 ——马太效应创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "直播商家行业",
+    "predicate": "top5",
+    "object": "食品、服饰鞋包、美妆洗护、家电数码、生活日用",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-212直播带货 ——快消为主、被促销优惠吸引创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "薇娅",
+    "predicate": "成交了",
+    "object": "四十台哈弗",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-213汽车行业竞品直播现状创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "微博",
+    "predicate": "预热",
+    "object": "造势",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-215汽车行业直播近期成功案例：奥迪 A3x王一博定制限量版创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "明星",
+    "predicate": "是",
+    "object": "顶流明星",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-216奥迪成功经验总结： 头部顶流明星 +优质内容 /产品+矩阵式跨平台传播创新营销手段-chunk0000"
+  },
+  {
+    "subject": "薇娅",
+    "predicate": "associated with",
+    "object": "淘宝",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-基于科达旗下 MCN 机构与三大头部主播的长期深度合作关系，助力企业传播和销售促进头部主播的合作、建立企业自有直播 IP，提升粉丝量，并基于平台 /主播的特色，展开差异化带货-chunk0000"
+  },
+  {
+    "subject": "罗永浩",
+    "predicate": "合作",
+    "object": "抖音",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-合作方向： 直播讲解 产品亮点 /精品配件和先进技术，拍摄产品力视频，助力线索收集创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "头部主播快手辛巴",
+    "predicate": "直播合作",
+    "object": "合作方向",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "12月25日圣诞晚会",
+    "predicate": "上线时间",
+    "object": "12月25日",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-推荐IP：京东”礼蛋”跨年营销计划-chunk0000"
+  },
+  {
+    "subject": "京东",
+    "predicate": "提供",
+    "object": "人群洞察",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-与微信社交营销的品效联动-chunk0000"
+  },
+  {
+    "subject": "丝",
+    "predicate": "is a type of",
+    "object": "粉",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-KOL营销KOL粉-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "based on",
+    "object": "ta concentration",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-二次营销下一次 KOL营销指导： KOL优选、创意优化-chunk0000"
+  },
+  {
+    "subject": "头部主播",
+    "predicate": "合作",
+    "object": "建立企业自有直播 ip",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-224创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "cpql",
+    "predicate": "is less than",
+    "object": "100 yuan",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-225创新营销手段 -直播-chunk0000"
+  },
+  {
+    "subject": "option two",
+    "predicate": "innovative form",
+    "object": "ar technology",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-在自有平台上完 成传播、-chunk0000"
+  },
+  {
+    "subject": "content",
+    "predicate": "includes",
+    "object": "innovative channels",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-235创新营销手段-chunk0000"
+  },
+  {
+    "subject": "快手辛巴",
+    "predicate": "是",
+    "object": "辛巴严选",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-•头部主播自建供应链合作：-chunk0000"
+  },
+  {
+    "subject": "短视频",
+    "predicate": "合作",
+    "object": "各类兴趣类媒体",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-FTMS A -DMS 系统（全域数据营销系统）数据沉淀-chunk0000"
+  },
+  {
+    "subject": "运营专员",
+    "predicate": "是",
+    "object": "富天资",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-业务对接：张媛数据分析：东雪视频创意总监：周鹤睿创新电商-chunk0000"
+  },
+  {
+    "subject": "一汽奔腾",
+    "predicate": "运营",
+    "object": "天猫",
+    "source_chunk": 1,
+    "source_file": "proposal_一汽丰田_2021年度数字营销电商策略_chunks.json",
+    "chunk_id": "proposal_一汽丰田_2021年度数字营销电商策略-旗舰店 数据分析 东雪2019 -2020 年-chunk0000"
+  }
+]
