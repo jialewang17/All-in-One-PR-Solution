@@ -19,6 +19,19 @@ from pr_enhanced_rag import EnhancedPRRAGSystem
 from pr_entity_extractor import EntityRelationshipExtractor
 from pr_neo4j_env import *
 
+# 导入RLHF相关组件
+try:
+    from pr_enhanced_rag_with_rlhf import EnhancedPRRAGWithRLHF
+    from pr_knowledge_manager import BrandKnowledgeManager
+    from pr_methodology_rules import MethodologyRulesManager
+    from pr_feedback_collector import FeedbackCollector
+    from pr_quality_evaluator import QualityEvaluator
+    from pr_rlhf_system import RLHFTrainer, RewardModel
+    RLHF_AVAILABLE = True
+except ImportError as e:
+    print(f"⚠️ RLHF模块导入失败: {e}")
+    RLHF_AVAILABLE = False
+
 # 导入pr_agent_v2组件
 sys.path.append('pr_agent_v2')
 from pr_marketing_agent_v3 import GraphRAG, llm_complete
@@ -30,13 +43,20 @@ from templates.prompts import (
 class UnifiedPRSystem:
     """统一的公关传播智能体系统"""
     
-    def __init__(self, config_path: str = "unified_config.yaml"):
+    def __init__(self, config_path: str = "unified_config.yaml", enable_rlhf: bool = True):
         """初始化统一系统"""
         self.config = self.load_config(config_path)
         self.rag_system = None
         self.graph_rag = None
         self.entity_extractor = None
         self.llm_config = self.config.get('llm', {})
+        self.enable_rlhf = enable_rlhf and RLHF_AVAILABLE
+        
+        # RLHF组件
+        self.rlhf_system = None
+        self.brand_manager = None
+        self.rules_manager = None
+        self.feedback_collector = None
         
         # 初始化组件
         self._init_components()
@@ -109,6 +129,18 @@ class UnifiedPRSystem:
             )
             print("✅ 图RAG系统初始化成功")
             
+            # 初始化RLHF组件
+            if self.enable_rlhf:
+                try:
+                    self.rlhf_system = EnhancedPRRAGWithRLHF()
+                    self.brand_manager = BrandKnowledgeManager()
+                    self.rules_manager = MethodologyRulesManager()
+                    self.feedback_collector = FeedbackCollector()
+                    print("✅ RLHF系统初始化成功")
+                except Exception as e:
+                    print(f"⚠️ RLHF系统初始化失败: {e}")
+                    self.enable_rlhf = False
+            
         except Exception as e:
             print(f"⚠️ 组件初始化警告: {e}")
     
@@ -123,11 +155,16 @@ class UnifiedPRSystem:
             return f"查询失败: {e}"
     
     def generate_pr_plan(self, enterprise_info: Dict[str, Any], output_types: List[str] = None) -> Dict[str, Any]:
-        """生成公关传播方案（来自pr_agent_v2）"""
+        """生成公关传播方案（来自pr_agent_v2，支持RLHF）"""
         if output_types is None:
             output_types = ["A", "B", "C", "D", "E", "F"]
         
         try:
+            # 如果启用RLHF，使用增强的RAG系统
+            if self.enable_rlhf and self.rlhf_system:
+                return self._generate_plan_with_rlhf(enterprise_info, output_types)
+            
+            # 否则使用原始方法
             # 构建查询
             query = f"{enterprise_info.get('enterprise_stage', '')} {enterprise_info.get('industry', '')} {enterprise_info.get('market_type', '')} 目标:{enterprise_info.get('pr_goal', '')} 创新:{enterprise_info.get('innovation', '')}"
             
@@ -176,6 +213,25 @@ class UnifiedPRSystem:
             
         except Exception as e:
             return {"error": f"方案生成失败: {e}"}
+    
+    def _generate_plan_with_rlhf(self, enterprise_info: Dict[str, Any], output_types: List[str]) -> Dict[str, Any]:
+        """使用RLHF生成方案"""
+        try:
+            # 使用增强的RAG系统生成方案
+            result = self.rlhf_system.generate_plan_with_feedback(enterprise_info, output_types)
+            
+            # 提取方案内容
+            results = {}
+            for plan_type, plan_data in result['results'].items():
+                results[plan_type] = plan_data.get('content', '')
+            
+            # 添加质量评估和元数据
+            result['plan_results'] = results
+            return result
+        except Exception as e:
+            print(f"RLHF方案生成失败: {e}")
+            # 回退到原始方法
+            return self.generate_pr_plan(enterprise_info, output_types)
     
     def analyze_entities(self, text: str) -> Dict[str, Any]:
         """实体分析功能"""
@@ -255,6 +311,54 @@ class UnifiedPRSystem:
             enterprise_info["market_type"] = "ToG"
         
         return enterprise_info
+    
+    def collect_feedback(self, plan_id: str, rating: float, comment: Optional[str] = None, **kwargs) -> Dict[str, Any]:
+        """收集方案反馈"""
+        if not self.enable_rlhf or not self.feedback_collector:
+            return {"error": "RLHF功能未启用"}
+        
+        return self.feedback_collector.collect_feedback(
+            plan_id=plan_id,
+            feedback_type='rating',
+            rating=rating,
+            comment=comment,
+            **kwargs
+        )
+    
+    def get_feedback_analysis(self, plan_id: Optional[str] = None) -> Dict[str, Any]:
+        """获取反馈分析"""
+        if not self.enable_rlhf or not self.feedback_collector:
+            return {"error": "RLHF功能未启用"}
+        
+        return self.feedback_collector.analyze_feedback(plan_id=plan_id)
+    
+    def get_learning_progress(self) -> Dict[str, Any]:
+        """获取学习进度"""
+        if not self.enable_rlhf or not self.rlhf_system:
+            return {"error": "RLHF功能未启用"}
+        
+        return self.rlhf_system.get_learning_progress()
+    
+    def import_brand_knowledge(self, file_path: str, format: str = 'json') -> Dict[str, Any]:
+        """导入品牌知识"""
+        if not self.enable_rlhf or not self.brand_manager:
+            return {"error": "RLHF功能未启用"}
+        
+        if format == 'json':
+            return self.brand_manager.import_brands_from_json(file_path)
+        elif format == 'csv':
+            return self.brand_manager.import_brands_from_csv(file_path)
+        elif format == 'excel':
+            return self.brand_manager.import_brands_from_excel(file_path)
+        else:
+            return {"error": f"不支持的格式: {format}"}
+    
+    def import_methodology_rules(self, file_path: str) -> Dict[str, Any]:
+        """导入方法论规则"""
+        if not self.enable_rlhf or not self.rules_manager:
+            return {"error": "RLHF功能未启用"}
+        
+        return self.rules_manager.import_rules_from_json(file_path)
     
     def close(self):
         """关闭系统"""

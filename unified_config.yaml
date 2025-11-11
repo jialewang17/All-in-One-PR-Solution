@@ -37,3 +37,13 @@ plan_generation:
   auto_save: true
   export_formats: ["markdown", "word", "ppt"]
 
+# RLHF配置
+rlhf:
+  enabled: true
+  feedback_db_path: "./data/feedback.db"
+  min_feedback_for_training: 10
+  training_interval: 100
+  reward_model_path: "./models/reward_model.json"
+  brand_knowledge_path: "./data/brands"
+  methodology_rules_path: "./data/rules"
+

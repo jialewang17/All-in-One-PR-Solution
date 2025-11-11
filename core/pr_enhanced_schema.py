@@ -126,6 +126,38 @@ class PRKnowledgeGraphSchema:
                     'metric_type': '指标类型',
                     'benchmark': '基准值'
                 }
+            },
+            'MethodologyRule': {
+                'description': '方法论规则节点',
+                'properties': {
+                    'rule_id': '规则ID',
+                    'rule_type': '规则类型',
+                    'name': '规则名称',
+                    'description': '规则描述',
+                    'conditions': '应用条件',
+                    'application_scenarios': '应用场景',
+                    'priority': '优先级',
+                    'effects': '规则效果',
+                    'content': '规则内容',
+                    'version': '版本号'
+                }
+            },
+            'Industry': {
+                'description': '行业节点',
+                'properties': {
+                    'name': '行业名称',
+                    'description': '行业描述',
+                    'characteristics': '行业特征'
+                }
+            },
+            'Feedback': {
+                'description': '反馈节点',
+                'properties': {
+                    'feedback_id': '反馈ID',
+                    'rating': '评分',
+                    'comment': '评论',
+                    'timestamp': '时间戳'
+                }
             }
         }
         
@@ -225,6 +257,24 @@ class PRKnowledgeGraphSchema:
                 'from': ['Campaign'],
                 'to': ['KPI'],
                 'properties': ['achievement_rate', 'variance', 'success_factors']
+            },
+            'APPLIES_TO': {
+                'description': '适用于',
+                'from': ['MethodologyRule'],
+                'to': ['Brand', 'Industry', 'Campaign'],
+                'properties': ['priority', 'conditions']
+            },
+            'HAS_FEEDBACK': {
+                'description': '有反馈',
+                'from': ['Campaign', 'Plan'],
+                'to': ['Feedback'],
+                'properties': ['feedback_type', 'rating']
+            },
+            'USES_KNOWLEDGE': {
+                'description': '使用知识',
+                'from': ['Plan', 'Campaign'],
+                'to': ['Brand', 'MethodologyRule'],
+                'properties': ['usage_type', 'relevance_score']
             }
         }
         
