@@ -10,7 +10,11 @@ data/
 ├── cleaned/      # 清理后的文本文件 - 可以上传示例
 ├── json/         # JSON 结构化文件 - 可以上传示例
 ├── chunks/       # 文本分块文件 - 可以上传示例
-└── *_triples*.json  # SPO 三元组文件 - 可以上传示例
+└── spo/          # SPO 三元组文件目录 - 可以上传示例
+    ├── spo_extraction_stats.json  # SPO 提取统计信息
+    ├── spo_triples_batch.json     # 批量提取的三元组
+    ├── spo_triples_export.json    # 导出的三元组
+    └── spo_triples_test.json      # 测试用三元组
 ```
 
 ## 上传策略
@@ -21,7 +25,7 @@ data/
   - `cleaned/` 目录中的文本文件（示例数据）
   - `json/` 目录中的 JSON 文件（示例数据）
   - `chunks/` 目录中的分块文件（示例数据）
-  - SPO 三元组 JSON 文件（示例数据）
+  - `spo/` 目录中的 SPO 三元组 JSON 文件（示例数据）
 
 - ❌ **不会上传**：
   - `raw/` 目录中的原始 PDF 和 DOCX 文件（文件较大）

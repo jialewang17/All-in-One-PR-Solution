@@ -363,7 +363,7 @@
     "source": "data/json/2025内容营销重点策略与案例.json",
     "content_type": "general",
     "industry": "美妆",
-    "brand_mentioned": [珀莱雅]
+    "brand_mentioned": ["珀莱雅"]
   },
   {
     "text": "Content: 代表人物\nContent: 特点\nContent: 主要产出内容 •强化利益点刺激•懂流量追热点\nContent: •全部转化为消费者语言•带货销量高\nContent: 影响力KOC及素人\nContent: •口耳相传，口碑积累•没有专业基础也没有\nContent: 影响力•没有专业基础但有影\nContent: 响力•没有专业基础但有影\nContent: 响力•真实分享可信度高——\nContent: ——",
@@ -383,6 +383,6 @@
     "source": "data/json/2025内容营销重点策略与案例.json",
     "content_type": "general",
     "industry": "美妆",
-    "brand_mentioned": [珀莱雅]
+    "brand_mentioned": ["珀莱雅"]
   }
 ]

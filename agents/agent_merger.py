@@ -5,6 +5,7 @@
 """
 
 import json
+import os
 import yaml
 from typing import Dict, List, Any, Tuple
 from pathlib import Path
@@ -336,13 +337,25 @@ def main():
     # 示例：分析现有的RAG系统组件
     print("📊 分析现有系统组件...")
     
-    # 读取RAG系统代码
+    # 读取RAG系统代码（使用 v1.1）
     try:
-        with open('pr_rag_system_v1.py', 'r', encoding='utf-8') as f:
+        # 优先使用 v1.1
+        rag_file = 'pr_rag_system_v1_1.py'
+        rag_core_file = 'core/querying/pipelines/qa_pipeline.py'
+        
+        if not os.path.exists(rag_file):
+            print(f"⚠️ {rag_file} 不存在，跳过分析")
+            return
+        
+        with open(rag_file, 'r', encoding='utf-8') as f:
             rag_system_code = f.read()
         
-        with open('core/pr_enhanced_rag.py', 'r', encoding='utf-8') as f:
-            enhanced_rag_code = f.read()
+        if os.path.exists(rag_core_file):
+            with open(rag_core_file, 'r', encoding='utf-8') as f:
+                enhanced_rag_code = f.read()
+        else:
+            print(f"⚠️ {rag_core_file} 不存在，跳过增强RAG分析")
+            enhanced_rag_code = ""
         
         print("✅ 成功读取系统代码")
         

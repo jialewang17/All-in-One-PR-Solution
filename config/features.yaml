@@ -1,0 +1,119 @@
+- id: manage_features_cli
+  name: 功能登记 CLI
+  category: orchestration
+  entry: python manage_features.py list
+  description: 查看并运行 config/features.yaml 中登记的所有功能。
+- id: preprocess_multi_format
+  name: 多格式文档预处理
+  category: processing
+  entry: python tools/processing/ingestion/pr_multi_format_preprocessing.py
+  description: 从 data/raw 提取 PDF/Word/PPT/Excel/HTML/CSV 等文本，输出到 data/cleaned。
+
+- id: convert_txt_to_json
+  name: TXT 转结构化 JSON
+  category: processing
+  entry: python core/processing/ingestion/txt_to_json.py
+  description: 将 data/cleaned 下的标准化文本转换为 data/json 目录的 JSON 结构。
+
+- id: run_enhanced_kg_writer
+  name: 增强知识图谱写入
+  category: processing
+  entry: python tools/processing/kg_writer/run_enhanced_kg_writer.py
+  description: 读取 data/json，将 Category/Section/Company 等节点与 SPO 写入 Neo4j。
+
+- id: process_enhanced_all
+  name: 增强KG一键流程
+  category: processing
+  entry: python tools/processing/kg_writer/process_enhanced_all.py
+  description: 迁移/清理→KG写入→SPO补充的命令行一键流程，支持参数控制。
+
+- id: migrate_graph_schema
+  name: 图谱 Schema 迁移
+  category: processing
+  entry: python tools/processing/kg_writer/migrate_graph_schema.py
+  description: 将 v1 图谱结构升级到 v1.1，含标签、关系与属性的迁移脚本。
+
+- id: clean_pr_chunk_nodes
+  name: 清理 PR_Chunk 节点
+  category: processing
+  entry: python tools/processing/kg_writer/clean_pr_chunk_nodes.py
+  description: 删除旧版 PR_Chunk 相关节点关系，为 v1.1 Section 节点让路。
+
+- id: init_company_dictionary
+  name: 初始化公司词典
+  category: processing
+  entry: python tools/processing/company/init_company_dictionary.py
+  description: 把 Neo4j 中的公司信息回写到 core/processing/company_dictionary.json。
+
+- id: create_section_vector_index
+  name: Section 向量索引
+  category: processing
+  entry: python tools/processing/vector/create_section_vector_index.py
+  description: 基于 Section 节点生成向量嵌入并创建检索索引。
+
+- id: extract_spo_relations
+  name: LLM SPO 关系提取
+  category: processing
+  entry: python tools/processing/extractors/extract_spo_relations.py
+  description: 使用 OpenAI/OpenRouter 调用 LLM，对现有 Section 生成 SPO 关系。
+
+- id: create_demo_spo_relations
+  name: 规则版 SPO 关系
+  category: processing
+  entry: python tools/processing/extractors/create_demo_spo_relations.py
+  description: 不依赖 LLM，仅通过规则与示例生成演示用 SPO 关系。
+
+- id: quick_query_v1_1
+  name: 快速问答 (Graph+Vector)
+  category: querying
+  entry: python tools/querying/pipelines/quick_query_v1_1.py
+  description: 结合 Section 节点与向量检索的快速问答脚本。
+
+- id: query_enhanced_kg
+  name: 增强图谱查询
+  category: querying
+  entry: python tools/querying/graph/query_enhanced_kg.py
+  description: 按 company/company_stage/stage 等维度，查询营销内容、竞品与 SPO。
+
+- id: neo4j_direct_query_new
+  name: Neo4j 直接查询
+  category: querying
+  entry: python tools/querying/graph/neo4j_direct_query_new.py
+  description: 交互式 Cypher 查询工具，支持快速调试与查看节点/关系。
+
+- id: test_enhanced_pr_rag_v1_1
+  name: v1.1 端到端测试
+  category: testing
+  entry: python tests/test_enhanced_pr_rag_v1_1.py
+  description: 检查 Neo4j、分类体系、公司词典、组织分类器与 RAG 问答链路。
+
+- id: test_system_status
+  name: 系统状态自检
+  category: testing
+  entry: python tests/test_system_status.py
+  description: 验证 .env、Neo4j 连接、最小查询是否正常，作为环境健康度检查。
+
+- id: demo_enhanced_pr_rag_v1_1
+  name: RAG Demo v1.1
+  category: examples
+  entry: python examples/rag/demo_enhanced_pr_rag_v1_1.py
+  description: 演示增强 RAG 的交互式问答流程。
+
+- id: demo_rlhf_system
+  name: RLHF Demo
+  category: examples
+  entry: python examples/rlhf/demo_rlhf_system.py
+  description: 展示反馈收集、质量评估、品牌知识管理的 RLHF 工作流。
+
+- id: run_rag_cli
+  name: 菜单式 RAG 入口
+  category: orchestration
+  entry: python pr_rag_system_v1_1.py
+  description: 控制台菜单，集成数据处理、查询、测试等一键操作。
+
+- id: run_full_pipeline
+  name: v1.1 完整处理流程
+  category: orchestration
+  entry: python pr_process_all_v1_1.py
+  description: 预处理→JSON→增强KG→可选SPO 的自动化流水线入口。
+

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-合并后的统一公关传播智能体系统
-整合 pr_agent_v2 和 pr_rag_system_v1
+合并后的统一公关传播智能体系统（v1.1）
+基于 v1.1 RAG 系统提供知识查询、实体分析和方案生成功能
 """
 
 import os
@@ -12,33 +12,65 @@ from pathlib import Path
 from datetime import datetime
 import yaml
 
-# 导入现有RAG系统组件
+# 加载环境变量（确保 .env 文件被读取）
+try:
+    from dotenv import load_dotenv
+    load_dotenv('.env', override=True)
+except ImportError:
+    # 如果没有 dotenv，手动读取 .env 文件
+    if os.path.exists('.env'):
+        with open('.env', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ[key.strip()] = value.strip()
+
+# 导入现有RAG系统组件（使用 v1.1 版本）
 import sys
-sys.path.append('core')
-from pr_enhanced_rag import EnhancedPRRAGSystem
-from pr_entity_extractor import EntityRelationshipExtractor
-from pr_neo4j_env import *
+
+PROJECT_ROOT = Path(__file__).resolve().parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from core.querying.pipelines import EnhancedPRRAGSystemV11 as EnhancedPRRAGSystem
+from core.common.pr_neo4j_env import *
+
+# 导入实体提取器（使用 v1.1 系统的实现）
+try:
+    from core.processing.extractors.entity_extractor import EntityRelationshipExtractor
+    ENTITY_EXTRACTOR_AVAILABLE = True
+except ImportError as e:
+    ENTITY_EXTRACTOR_AVAILABLE = False
+    print(f"⚠️ 实体提取器不可用: {e}")
 
 # 导入RLHF相关组件
 try:
-    from pr_enhanced_rag_with_rlhf import EnhancedPRRAGWithRLHF
-    from pr_knowledge_manager import BrandKnowledgeManager
-    from pr_methodology_rules import MethodologyRulesManager
-    from pr_feedback_collector import FeedbackCollector
-    from pr_quality_evaluator import QualityEvaluator
-    from pr_rlhf_system import RLHFTrainer, RewardModel
+    from core.rlhf.pr_enhanced_rag_with_rlhf import EnhancedPRRAGWithRLHF
+    from core.rlhf.data import BrandKnowledgeManager, FeedbackCollector
+    from core.rlhf.policies import MethodologyRulesManager
+    from core.rlhf.trainer import QualityEvaluator, RLHFTrainer, RewardModel
     RLHF_AVAILABLE = True
 except ImportError as e:
     print(f"⚠️ RLHF模块导入失败: {e}")
     RLHF_AVAILABLE = False
 
-# 导入pr_agent_v2组件
-sys.path.append('pr_agent_v2')
-from pr_marketing_agent_v3 import GraphRAG, llm_complete
-from templates.prompts import (
-    A_GRAPHIC_BRIEF, B_VIDEO_SCRIPT, C_CAMPAIGN_PLAN,
-    D_SHORTVIDEO_SCRIPT, E_XHS_NOTE, F_CRISIS_PLAN
-)
+# 导入方案生成器（v1.1）
+try:
+    from core.generation import (
+        PRPlanGenerator,
+        llm_complete,
+        A_GRAPHIC_BRIEF,
+        B_VIDEO_SCRIPT,
+        C_CAMPAIGN_PLAN,
+        D_SHORTVIDEO_SCRIPT,
+        E_XHS_NOTE,
+        F_CRISIS_PLAN,
+    )
+    PLAN_GENERATOR_AVAILABLE = True
+except ImportError as e:
+    PLAN_GENERATOR_AVAILABLE = False
+    print(f"⚠️ 方案生成器不可用: {e}")
 
 class UnifiedPRSystem:
     """统一的公关传播智能体系统"""
@@ -47,7 +79,7 @@ class UnifiedPRSystem:
         """初始化统一系统"""
         self.config = self.load_config(config_path)
         self.rag_system = None
-        self.graph_rag = None
+        self.plan_generator = None
         self.entity_extractor = None
         self.llm_config = self.config.get('llm', {})
         self.enable_rlhf = enable_rlhf and RLHF_AVAILABLE
@@ -112,22 +144,32 @@ class UnifiedPRSystem:
             self.rag_system = EnhancedPRRAGSystem()
             print("✅ 增强RAG系统初始化成功")
             
-            # 初始化实体提取器
-            self.entity_extractor = EntityRelationshipExtractor()
-            print("✅ 实体提取器初始化成功")
+            # 初始化实体提取器（使用 v1.1 系统）
+            if ENTITY_EXTRACTOR_AVAILABLE:
+                try:
+                    self.entity_extractor = EntityRelationshipExtractor()
+                    print("✅ 实体提取器初始化成功（v1.1）")
+                except Exception as e:
+                    print(f"⚠️ 实体提取器初始化失败: {e}")
+                    self.entity_extractor = None
+            else:
+                self.entity_extractor = None
+                print("ℹ️ 实体提取器不可用，已跳过")
             
-            # 初始化图RAG（pr_agent_v2的组件）
-            neo4j_config = self.config['neo4j']
-            vector_config = self.config['vector_store']
-            
-            self.graph_rag = GraphRAG(
-                persist_dir=vector_config['persist_dir'],
-                neo4j_uri=neo4j_config['uri'],
-                neo4j_user=neo4j_config['user'],
-                neo4j_pwd=neo4j_config['password'],
-                top_k=self.config['retrieval']['top_k']
-            )
-            print("✅ 图RAG系统初始化成功")
+            # 初始化方案生成器（使用 v1.1 RAG 系统）
+            if PLAN_GENERATOR_AVAILABLE:
+                try:
+                    self.plan_generator = PRPlanGenerator(
+                        rag_system=self.rag_system,
+                        llm_config=self.llm_config
+                    )
+                    print("✅ 方案生成器初始化成功（v1.1）")
+                except Exception as e:
+                    print(f"⚠️ 方案生成器初始化失败: {e}")
+                    self.plan_generator = None
+            else:
+                self.plan_generator = None
+                print("ℹ️ 方案生成器不可用，已跳过")
             
             # 初始化RLHF组件
             if self.enable_rlhf:
@@ -155,7 +197,7 @@ class UnifiedPRSystem:
             return f"查询失败: {e}"
     
     def generate_pr_plan(self, enterprise_info: Dict[str, Any], output_types: List[str] = None) -> Dict[str, Any]:
-        """生成公关传播方案（来自pr_agent_v2，支持RLHF）"""
+        """生成公关传播方案（基于 v1.1 RAG 系统，支持RLHF）"""
         if output_types is None:
             output_types = ["A", "B", "C", "D", "E", "F"]
         
@@ -164,55 +206,41 @@ class UnifiedPRSystem:
             if self.enable_rlhf and self.rlhf_system:
                 return self._generate_plan_with_rlhf(enterprise_info, output_types)
             
-            # 否则使用原始方法
-            # 构建查询
-            query = f"{enterprise_info.get('enterprise_stage', '')} {enterprise_info.get('industry', '')} {enterprise_info.get('market_type', '')} 目标:{enterprise_info.get('pr_goal', '')} 创新:{enterprise_info.get('innovation', '')}"
+            # 否则使用 v1.1 方案生成器
+            if not self.plan_generator:
+                return {"error": "方案生成器未初始化"}
             
-            # 检索知识
-            vec_hits = self.graph_rag.retrieve(query, k=self.config['retrieval']['top_k'])
-            graph_data = self.graph_rag.fetch_graph(enterprise_info.get('pr_goal', ''))
-            
-            # 构建上下文
-            context_parts = []
-            for i, hit in enumerate(vec_hits, 1):
-                src = hit["meta"].get("source", "") if isinstance(hit["meta"], dict) else ""
-                context_parts.append(f"[{i}] {hit['text'][:800]}\n— 来源：{src}")
-            
-            graph_part = f"策略: {graph_data.get('strategies', [])}\n渠道: {graph_data.get('channels', [])}\n案例: {graph_data.get('cases', [])}\n人群: {graph_data.get('personas', [])}"
-            context = "\n\n".join(context_parts + [graph_part])[:self.config['retrieval']['max_context_chars']]
-            
-            # 企业信息JSON
-            vars_text = json.dumps(enterprise_info, ensure_ascii=False)
+            # 使用 v1.1 RAG 系统检索知识作为上下文
+            query = self._build_plan_query(enterprise_info)
+            context = self.rag_system.query(query, use_graph=True) if self.rag_system else None
             
             # 生成方案
-            results = {}
-            provider = self.llm_config['provider']
-            model = self.llm_config['model']
-            max_tokens = self.llm_config['max_tokens']
-            temperature = self.llm_config['temperature']
-            
-            if "A" in output_types:
-                results["A"] = llm_complete(provider, model, A_GRAPHIC_BRIEF.format(context=context, vars=vars_text), max_tokens, temperature)
-            
-            if "B" in output_types:
-                results["B"] = llm_complete(provider, model, B_VIDEO_SCRIPT.format(context=context, vars=vars_text), max_tokens, temperature)
-            
-            if "C" in output_types:
-                results["C"] = llm_complete(provider, model, C_CAMPAIGN_PLAN.format(context=context, vars=vars_text), max_tokens, temperature)
-            
-            if "D" in output_types:
-                results["D"] = llm_complete(provider, model, D_SHORTVIDEO_SCRIPT.format(context=context, vars=vars_text), max_tokens, temperature)
-            
-            if "E" in output_types:
-                results["E"] = llm_complete(provider, model, E_XHS_NOTE.format(context=context, vars=vars_text), max_tokens, temperature)
-            
-            if "F" in output_types:
-                results["F"] = llm_complete(provider, model, F_CRISIS_PLAN.format(context=context, vars=vars_text), max_tokens, temperature)
+            results = self.plan_generator.generate_plan(
+                enterprise_info=enterprise_info,
+                output_types=output_types,
+                context=context
+            )
             
             return results
             
         except Exception as e:
             return {"error": f"方案生成失败: {e}"}
+    
+    def _build_plan_query(self, enterprise_info: Dict[str, Any]) -> str:
+        """构建方案生成查询"""
+        parts = []
+        if enterprise_info.get('enterprise_stage'):
+            parts.append(enterprise_info['enterprise_stage'])
+        if enterprise_info.get('industry'):
+            parts.append(enterprise_info['industry'])
+        if enterprise_info.get('market_type'):
+            parts.append(enterprise_info['market_type'])
+        if enterprise_info.get('pr_goal'):
+            parts.append(f"目标:{enterprise_info['pr_goal']}")
+        if enterprise_info.get('innovation'):
+            parts.append(f"创新:{enterprise_info['innovation']}")
+        
+        return " ".join(parts) if parts else "公关传播策略和案例"
     
     def _generate_plan_with_rlhf(self, enterprise_info: Dict[str, Any], output_types: List[str]) -> Dict[str, Any]:
         """使用RLHF生成方案"""
@@ -220,14 +248,21 @@ class UnifiedPRSystem:
             # 使用增强的RAG系统生成方案
             result = self.rlhf_system.generate_plan_with_feedback(enterprise_info, output_types)
             
-            # 提取方案内容
-            results = {}
-            for plan_type, plan_data in result['results'].items():
-                results[plan_type] = plan_data.get('content', '')
-            
-            # 添加质量评估和元数据
-            result['plan_results'] = results
-            return result
+            # 提取方案内容，返回标准格式 {plan_type: content}
+            if isinstance(result, dict) and 'results' in result:
+                plans = {}
+                for plan_type, plan_data in result['results'].items():
+                    if isinstance(plan_data, dict):
+                        plans[plan_type] = plan_data.get('content', '')
+                    else:
+                        plans[plan_type] = str(plan_data)
+                
+                # 如果只需要方案内容，直接返回 plans
+                # 如果需要保留元数据，可以返回包含 plan_results 的字典
+                return plans
+            else:
+                # 如果格式不对，回退到标准方法
+                return self.generate_pr_plan(enterprise_info, output_types)
         except Exception as e:
             print(f"RLHF方案生成失败: {e}")
             # 回退到原始方法
@@ -235,6 +270,12 @@ class UnifiedPRSystem:
     
     def analyze_entities(self, text: str) -> Dict[str, Any]:
         """实体分析功能"""
+        if not self.entity_extractor:
+            return {
+                "error": "实体提取器不可用",
+                "message": "实体提取器未初始化，实体分析功能已禁用"
+            }
+        
         try:
             entities = self.entity_extractor.extract_entities(text)
             relationships = self.entity_extractor.extract_relationships(text)
@@ -362,8 +403,7 @@ class UnifiedPRSystem:
     
     def close(self):
         """关闭系统"""
-        if self.graph_rag:
-            self.graph_rag.close()
+        # v1.1 系统不需要显式关闭连接
         print("✅ 系统已关闭")
 
 def main():
@@ -382,10 +422,14 @@ def main():
     system = UnifiedPRSystem(args.config)
     
     try:
-        if args.mode == "query" and args.query:
-            print(f"🔍 执行知识查询: {args.query}")
-            result = system.unified_query(args.query, "knowledge_query")
-            print(f"📝 查询结果:\n{result['result']}")
+        if args.mode == "query":
+            if args.query:
+                print(f"🔍 执行知识查询: {args.query}")
+                result = system.unified_query(args.query, "knowledge_query")
+                print(f"📝 查询结果:\n{result['result']}")
+            else:
+                print("❌ 查询模式需要提供 --query 参数")
+                print("示例: python unified_pr_system.py --mode query --query '小米汽车如何做好用户运营？'")
         
         elif args.mode == "generate":
             print("📋 生成公关传播方案")
@@ -401,20 +445,51 @@ def main():
             }
             result = system.generate_pr_plan(enterprise_info, ["A", "B", "C"])
             print("📄 生成的方案:")
-            for plan_type, content in result.items():
-                print(f"\n{plan_type} 方案:\n{content[:500]}...")
+            
+            # 处理返回结果
+            if isinstance(result, dict):
+                # 检查是否是错误信息
+                if "error" in result:
+                    print(f"❌ 错误: {result['error']}")
+                else:
+                    # 标准格式：{plan_type: content} 字典
+                    for plan_type, content in result.items():
+                        if isinstance(plan_type, str):
+                            # 确保 content 是字符串
+                            content_str = str(content) if not isinstance(content, str) else content
+                            # 安全地截取前500个字符
+                            preview = content_str[:500] if len(content_str) > 500 else content_str
+                            print(f"\n{plan_type} 方案:\n{preview}...")
+                        else:
+                            print(f"\n方案类型: {plan_type}, 内容: {str(content)[:500]}...")
+            else:
+                print(f"⚠️ 意外的返回格式: {type(result)}")
+                print(f"内容: {str(result)[:500]}...")
         
-        elif args.mode == "analyze" and args.query:
-            print(f"🔬 执行实体分析: {args.query}")
-            result = system.unified_query(args.query, "entity_analysis")
-            print(f"📊 分析结果:\n{result['result']}")
+        elif args.mode == "analyze":
+            if args.query:
+                print(f"🔬 执行实体分析: {args.query}")
+                result = system.unified_query(args.query, "entity_analysis")
+                print(f"📊 分析结果:\n{result['result']}")
+            else:
+                print("❌ 分析模式需要提供 --query 参数")
+                print("示例: python unified_pr_system.py --mode analyze --query '分析这个品牌案例'")
         
         else:
-            print("❌ 请提供有效的参数")
-            print("示例:")
-            print("  python unified_pr_system.py --mode query --query '小米汽车如何做好用户运营？'")
-            print("  python unified_pr_system.py --mode generate")
-            print("  python unified_pr_system.py --mode analyze --query '分析这个品牌案例'")
+            print("📖 使用说明:")
+            print("=" * 50)
+            print("系统支持三种运行模式：")
+            print()
+            print("1. 知识查询模式（需要 --query）:")
+            print("   python unified_pr_system.py --mode query --query '你的问题'")
+            print()
+            print("2. 方案生成模式（不需要 --query）:")
+            print("   python unified_pr_system.py --mode generate")
+            print()
+            print("3. 实体分析模式（需要 --query）:")
+            print("   python unified_pr_system.py --mode analyze --query '要分析的文本'")
+            print()
+            print("💡 提示: 使用 --help 查看详细参数说明")
     
     finally:
         system.close()

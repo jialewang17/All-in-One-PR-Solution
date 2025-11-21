@@ -31,11 +31,11 @@
   - `feedback-learning` (ADDED) - 新增反馈学习和 RLHF 系统规范
 - Affected code: 
   - `core/pr_enhanced_rag.py` - 整合品牌知识和方法论规则
-  - `core/pr_knowledge_manager.py` - 新建品牌知识管理器
-  - `core/pr_methodology_rules.py` - 新建方法论规则管理器
-  - `core/pr_rlhf_system.py` - 新建 RLHF 系统
-  - `core/pr_feedback_collector.py` - 新建反馈收集系统
-  - `core/pr_quality_evaluator.py` - 新建质量评估系统
+  - `core/rlhf/pr_knowledge_manager.py` - 新建品牌知识管理器
+  - `core/rlhf/pr_methodology_rules.py` - 新建方法论规则管理器
+  - `core/rlhf/pr_rlhf_system.py` - 新建 RLHF 系统
+  - `core/rlhf/pr_feedback_collector.py` - 新建反馈收集系统
+  - `core/rlhf/pr_quality_evaluator.py` - 新建质量评估系统
   - `core/pr_model_finetuner.py` - 新建模型微调系统
 
 

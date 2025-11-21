@@ -19,7 +19,7 @@
 支持从JSON、CSV、Excel文件导入品牌信息：
 
 ```python
-from core.pr_knowledge_manager import BrandKnowledgeManager
+from core.rlhf.data import BrandKnowledgeManager
 
 manager = BrandKnowledgeManager()
 
@@ -67,7 +67,7 @@ history = manager.get_brand_history('品牌名称')
 #### 导入规则
 
 ```python
-from core.pr_methodology_rules import MethodologyRulesManager
+from core.rlhf.policies import MethodologyRulesManager
 
 manager = MethodologyRulesManager()
 
@@ -113,7 +113,7 @@ rules = manager.get_applicable_rules(context)
 #### 收集反馈
 
 ```python
-from core.pr_feedback_collector import FeedbackCollector
+from core.rlhf.data import FeedbackCollector
 
 collector = FeedbackCollector()
 
@@ -148,7 +148,7 @@ analysis = collector.analyze_feedback()
 #### 自动评估
 
 ```python
-from core.pr_quality_evaluator import QualityEvaluator
+from core.rlhf.trainer import QualityEvaluator
 
 evaluator = QualityEvaluator()
 
@@ -320,7 +320,7 @@ rlhf:
 
 ## 示例
 
-参见 `demos/demo_rlhf_system.py` 了解完整的使用示例。
+参见 `examples/rlhf/demo_rlhf_system.py` 了解完整的使用示例。
 
 ## 相关文档
 

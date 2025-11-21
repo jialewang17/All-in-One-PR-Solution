@@ -1,19 +1,19 @@
-# 公关传播RAG系统 v1.0 依赖包列表
+# 公关传播RAG系统 v1.1 依赖包列表
 
-# 核心框架
-langchain>=0.1.0
+# 核心框架 / LLM
+openai>=1.0.0
+langchain>=0.1.0           # 如无需 LangChain，可注释掉
 langchain-openai>=0.0.5
 langchain-community>=0.0.10
+tiktoken>=0.5.0
 
-# Neo4j相关
-neo4j>=5.0.0
-py2neo>=2021.2.3
+# Neo4j
+neo4j>=5.14.0
+# py2neo>=2021.2.3         # 如无需要，可保持注释
 
-# OpenAI API
-openai>=1.0.0
-
-# 环境配置
+# 配置 / 环境
 python-dotenv>=1.0.0
+pyyaml>=6.0.0
 
 # 文档处理
 PyPDF2>=3.0.0
@@ -44,7 +44,7 @@ loguru>=0.7.0
 pytest>=7.4.0
 pytest-cov>=4.1.0
 
-# 开发工具
+# 开发工具（可选，建议放入 requirements-dev.txt）
 black>=23.0.0
 flake8>=6.0.0
 mypy>=1.5.0

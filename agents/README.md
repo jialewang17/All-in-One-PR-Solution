@@ -1,37 +1,31 @@
 # Agent 分析工具
 
-这个目录包含了用于分析和合并不同智能体系统的工具。
+该目录包含用于分析和合并不同智能体系统的脚本。现在根据职责拆分为两个子包：
 
-## 文件说明
-
-- `agent_merge_analysis.py` - 智能体合并分析报告生成器
-  - 分析两个智能体系统的架构和功能
-  - 识别集成点
-  - 生成合并计划
-
-- `agent_merger.py` - 智能体合并工具
-  - 分析智能体的代码流程
-  - 检测冲突
-  - 生成合并后的代码
+- `agents/analysis/`：合并分析（`AgentMergerAnalysis`）
+- `agents/merger/`：代码级合并器（`AgentMerger`）
 
 ## 使用说明
 
-这些工具主要用于开发阶段，用于分析和整合不同的智能体系统。在生产环境中通常不需要使用这些工具。
+这些工具主要服务于开发阶段，在生产环境中通常无需运行。
 
 ### 运行合并分析
 
 ```bash
-python3 agents/agent_merge_analysis.py
+python agents/agent_merge_analysis.py
 ```
+
+- 或在代码中使用：`from agents.analysis import AgentMergerAnalysis`
 
 ### 运行合并工具
 
 ```bash
-python3 agents/agent_merger.py
+python agents/agent_merger.py
 ```
+
+- 或在代码中使用：`from agents.merger import AgentMerger`
 
 ## 注意事项
 
 - 这些工具是开发辅助工具，不是核心系统组件
-- 如果不需要上传到 GitHub，可以在 `.gitignore` 中添加 `agents/`
-
+- 如无需纳入版本管理，可在 `.gitignore` 中忽略 `agents/`

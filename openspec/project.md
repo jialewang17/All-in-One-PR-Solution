@@ -26,32 +26,29 @@
 ```
 All-in-One PR Solution/
 ├── unified_pr_system.py          # 统一系统主入口
-├── pr_rag_system_v1.py           # RAG 系统 v1
+├── pr_rag_system_v1_1.py         # RAG 系统 v1.1
 ├── unified_config.yaml           # 统一配置文件
-├── core/                         # 核心功能模块
-│   ├── pr_enhanced_rag.py        # 增强 RAG 系统
-│   ├── pr_entity_extractor.py    # 实体提取器
-│   ├── pr_spo_extractor.py       # SPO 三元组提取器
-│   ├── pr_integrated_kg_system.py # 集成知识图谱系统
-│   ├── pr_enhanced_neo4j_integration.py # Neo4j 集成
-│   ├── pr_enhanced_schema.py     # 知识图谱模式定义
-│   ├── pr_multi_format_preprocessing.py # 多格式预处理
-│   ├── pr_chunking.py            # 文本分块
-│   └── pr_neo4j_env.py           # Neo4j 环境配置
+├── core/                         # 核心功能模块（仅供 import）
+│   ├── common/                   # 公共配置与工具
+│   ├── processing/               # 预处理、实体、SPO、写入器等
+│   ├── querying/                 # RAG 主体
+│   ├── generation/               # 方案生成等
+│   └── rlhf/                     # RLHF 相关模块
 ├── agents/                       # Agent 工具
-│   ├── agent_merger.py           # Agent 合并工具
-│   └── agent_merge_analysis.py   # Agent 分析工具
-├── tools/                        # 工具模块
-│   ├── ask_pr.py                 # 问答工具
-│   ├── quick_query.py            # 快速查询
-│   ├── neo4j_direct_query.py     # Neo4j 直接查询
-│   ├── chunk_editor.py           # Chunk 编辑工具
-│   ├── incremental_processor.py  # 增量处理器
-│   └── cleanup_historical_data.py # 历史数据清理
-├── demos/                        # 演示和测试
-│   ├── demo_enhanced_pr_rag.py   # 功能演示
-│   ├── test_enhanced_pr_rag.py   # 完整测试
-│   └── demo_direct_query.py      # 直接查询演示
+│   ├── analysis/                 # 代码分析
+│   └── merger/                   # 合并策略
+├── tools/                        # 可直接运行的命令行脚本
+│   ├── processing/               # 建库、预处理、迁移
+│   └── querying/                 # 查询/调试脚本
+├── examples/                     # 演示脚本
+│   ├── rag/demo_enhanced_pr_rag_v1_1.py
+│   ├── rag/demo_enhanced_pr_rag.py
+│   ├── query/demo_direct_query.py
+│   └── rlhf/demo_rlhf_system.py
+├── tests/                        # 自动化测试
+│   ├── test_enhanced_pr_rag_v1_1.py
+│   ├── test_enhanced_pr_rag.py
+│   └── test_system_status.py
 ├── docs/                         # 文档
 │   ├── Enhanced_PR_RAG_Guide.md  # 详细使用指南
 │   ├── PR_RAG_Advanced_Guide.md  # 高级功能指南
