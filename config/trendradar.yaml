@@ -1,0 +1,31 @@
+# TrendRadar 配置文件
+
+# B站 Up主列表
+bilibili_ups:
+  - uid: "123456"
+    name: "示例Up主"
+    enabled: true
+    tags: ["AI", "技术"]
+
+# AI 关键词列表
+ai_keywords:
+  - "AI"
+  - "人工智能"
+  - "大模型"
+  - "LLM"
+  - "GPT"
+  - "Claude"
+  - "Gemini"
+  - "AGI"
+  - "机器学习"
+  - "深度学习"
+  - "神经网络"
+  - "Transformer"
+
+# 爬取配置
+crawl_interval: 3600  # 秒，默认1小时
+max_videos_per_up: 50
+
+# 筛选配置
+min_relevance_score: 0.7  # 最小相关性分数
+

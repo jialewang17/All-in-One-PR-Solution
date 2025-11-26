@@ -6,9 +6,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
-from langchain_openai import ChatOpenAI
-
 from core.processing.company_dictionary import get_company_dictionary
+from core.common.llm_provider import get_chat_llm
 
 from .cypher_builder import CypherBuilder
 from .graph_client import GraphClient
@@ -21,11 +20,11 @@ class GraphRAGQueryEngine:
         self,
         graph_client: Optional[GraphClient] = None,
         cypher_builder: Optional[CypherBuilder] = None,
-        answer_llm: Optional[ChatOpenAI] = None,
+        answer_llm: Optional[object] = None,
     ) -> None:
         self.graph = graph_client or GraphClient()
         self.cypher_builder = cypher_builder or CypherBuilder()
-        self.answer_llm = answer_llm or ChatOpenAI(
+        self.answer_llm = answer_llm or get_chat_llm(
             model="gpt-4o-mini",
             temperature=0.1,
             max_tokens=2000,
@@ -519,4 +518,3 @@ class GraphRAGQueryEngine:
             context_parts.append(context_part)
 
         return "\n".join(context_parts)
-

@@ -26,12 +26,23 @@ class GraphClient:
         password: str = NEO4J_PASSWORD,
         database: str = NEO4J_DATABASE,
     ) -> None:
-        self._graph = Neo4jGraph(
-            url=uri,
-            username=username,
-            password=password,
-            database=database,
-        )
+        try:
+            if not uri:
+                raise ValueError("NEO4J_URI 未配置，使用 NoOpGraph")
+            self._graph = Neo4jGraph(
+                url=uri,
+                username=username,
+                password=password,
+                database=database,
+            )
+        except Exception as exc:
+            print(f"⚠️ Neo4jGraph 初始化失败，使用 NoOpGraph: {exc}")
+
+            class NoOpGraph:
+                def query(self, *_, **__):
+                    return []
+
+            self._graph = NoOpGraph()
 
     def query(self, cypher: str, params: Optional[Dict[str, Any]] = None):
         """执行 Cypher 查询。"""
@@ -41,4 +52,3 @@ class GraphClient:
     def raw(self) -> Neo4jGraph:
         """暴露底层 Neo4jGraph 实例，供特殊场景直接访问。"""
         return self._graph
-

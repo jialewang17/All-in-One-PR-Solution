@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from typing import Optional
 
-from langchain_openai import ChatOpenAI
+from core.common.llm_provider import get_chat_llm
 
 
 class LLMExecutor:
@@ -27,7 +27,7 @@ class LLMExecutor:
     def complete(self, prompt: str) -> str:
         """执行一次补全。"""
         try:
-            llm = ChatOpenAI(
+            llm = get_chat_llm(
                 model=self.model,
                 temperature=self.temperature,
                 max_tokens=self.max_tokens,
@@ -53,4 +53,3 @@ def llm_complete(
         temperature=temperature,
     )
     return executor.complete(prompt)
-

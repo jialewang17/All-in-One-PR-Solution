@@ -8,7 +8,8 @@ from typing import Any, Dict, List, Optional
 
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+
+from core.common.llm_provider import get_chat_llm
 
 from core.common.pr_neo4j_env import VECTOR_INDEX_NAME, VECTOR_NODE_LABEL
 
@@ -23,11 +24,11 @@ class SectionRetriever:
         self,
         graph_client: Optional[GraphClient] = None,
         embedding_provider: Optional[EmbeddingProvider] = None,
-        answer_llm: Optional[ChatOpenAI] = None,
+        answer_llm: Optional[object] = None,
     ) -> None:
         self.graph = graph_client or GraphClient()
         self.embedding_provider = embedding_provider or EmbeddingProvider()
-        self.answer_llm = answer_llm or ChatOpenAI(
+        self.answer_llm = answer_llm or get_chat_llm(
             model="gpt-4o-mini",
             temperature=0.1,
             max_tokens=2000,
@@ -199,4 +200,3 @@ _ANSWER_PROMPT_TEMPLATE = """
 
 回答:
 """
-

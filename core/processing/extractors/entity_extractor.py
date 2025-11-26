@@ -7,6 +7,11 @@ import os
 from typing import List, Dict, Any, Optional
 import re
 
+try:
+    from core.knowledge.reference_loader import ReferenceSources
+except Exception:  # pragma: no cover
+    ReferenceSources = None
+
 # 加载环境变量（确保 .env 文件被读取）
 try:
     from dotenv import load_dotenv
@@ -71,6 +76,7 @@ class EntityRelationshipExtractor:
 
         self.org_classifier = OrganizationClassifier()
         self.company_dict = get_company_dictionary()
+        self.reference_sources = ReferenceSources() if ReferenceSources else None
 
     def extract_entities(self, text: str) -> List[Dict[str, Any]]:
         """
@@ -186,6 +192,17 @@ class EntityRelationshipExtractor:
                         })
                         seen_entities.add(match)
 
+        # 4. 参考案例库进行规范化与别名映射
+        if self.reference_sources:
+            normalized = []
+            for ent in entities:
+                canonical, source = self.reference_sources.canonicalize(ent['name'])
+                ent['canonical_name'] = canonical
+                if source:
+                    ent['provenance'] = source
+                normalized.append(ent)
+            entities = normalized
+
         return entities
 
     def extract_relationships(self, text: str) -> List[Dict[str, Any]]:
@@ -220,13 +237,24 @@ class EntityRelationshipExtractor:
                     obj.lower() in invalid_values):
                     continue
                 
-                relationships.append({
+                if self.reference_sources:
+                    subject, subj_source = self.reference_sources.canonicalize(subject)
+                    obj, obj_source = self.reference_sources.canonicalize(obj)
+                else:
+                    subj_source = obj_source = None
+
+                rel_entry = {
                     'subject': subject,
                     'predicate': predicate,
                     'object': obj,
                     'confidence': 0.8,  # SPO 提取的置信度
                     'source': 'spo_extractor'
-                })
+                }
+                if subj_source:
+                    rel_entry['subject_provenance'] = subj_source
+                if obj_source:
+                    rel_entry['object_provenance'] = obj_source
+                relationships.append(rel_entry)
         except Exception as e:
             # 简化错误输出，避免刷屏
             error_msg = str(e)
@@ -325,4 +353,3 @@ def test_entity_extractor():
 
 if __name__ == "__main__":
     test_entity_extractor()
-

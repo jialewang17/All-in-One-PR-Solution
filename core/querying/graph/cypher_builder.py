@@ -7,21 +7,37 @@ from __future__ import annotations
 from typing import Optional
 
 from langchain.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+
+from core.common.llm_provider import get_chat_llm
+
+try:  # 参考数据可选
+    from core.knowledge.reference_loader import ReferenceSources
+except Exception:  # pragma: no cover
+    ReferenceSources = None
 
 
 class CypherBuilder:
     """封装 PromptTemplate 与 LLM，生成结构化 Cypher 查询。"""
 
-    def __init__(self, llm: Optional[ChatOpenAI] = None) -> None:
-        self.llm = llm or ChatOpenAI(
+    def __init__(self, llm: Optional[object] = None) -> None:
+        self.llm = llm or get_chat_llm(
             model="gpt-4o-mini",
             temperature=0.1,
             max_tokens=1500,
         )
+        # 加载参考 schema（案例库/渠道/目标等）
+        schema_hint = ""
+        if ReferenceSources is not None:
+            try:
+                ref = ReferenceSources()
+                schema_hint = ref.schema_extension().to_prompt()
+            except Exception:
+                schema_hint = ""
+
+        template_text = _CYPHER_PROMPT_TEMPLATE.replace("{schema_hint}", schema_hint)
         self.prompt = PromptTemplate(
             input_variables=["question"],
-            template=_CYPHER_PROMPT_TEMPLATE,
+            template=template_text,
         )
 
     def build(self, question: str) -> str:
@@ -64,6 +80,8 @@ class CypherBuilder:
 
 _CYPHER_PROMPT_TEMPLATE = """
 你是 Neo4j Cypher 专家，请将下述问题转换为针对 v1.1 图谱的查询，只返回 Cypher 语句且不要附加解释。
+如可用，优先参考新增的节点/关系/谓词：
+{schema_hint}
 
 问题: {question}
 
@@ -134,4 +152,3 @@ RETURN s.title AS section_title,
        collect(DISTINCT b.name) AS brands
 LIMIT 5
 """
-

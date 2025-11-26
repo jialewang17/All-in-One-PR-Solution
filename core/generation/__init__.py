@@ -10,6 +10,7 @@ from .templates import (
     E_XHS_NOTE,
     F_CRISIS_PLAN,
 )
+from .report_generator import PRReportGenerator, ReportRequirements
 
 __all__ = [
     "LLMExecutor",
@@ -22,4 +23,6 @@ __all__ = [
     "D_SHORTVIDEO_SCRIPT",
     "E_XHS_NOTE",
     "F_CRISIS_PLAN",
+    "PRReportGenerator",
+    "ReportRequirements",
 ]

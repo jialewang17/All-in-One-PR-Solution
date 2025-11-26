@@ -6,8 +6,7 @@ from __future__ import annotations
 
 from typing import Optional
 
-from langchain_openai import ChatOpenAI
-
+from core.common.llm_provider import get_chat_llm
 from core.querying.graph import CypherBuilder, GraphClient, GraphRAGQueryEngine
 from core.querying.vector import EmbeddingProvider, SectionRetriever
 
@@ -22,9 +21,9 @@ class EnhancedPRRAGSystemV11:
         graph_client: Optional[GraphClient] = None,
         graph_engine: Optional[GraphRAGQueryEngine] = None,
         section_retriever: Optional[SectionRetriever] = None,
-        answer_llm: Optional[ChatOpenAI] = None,
+        answer_llm: Optional[object] = None,
     ) -> None:
-        shared_llm = answer_llm or ChatOpenAI(
+        shared_llm = answer_llm or get_chat_llm(
             model="gpt-4o-mini",
             temperature=0.1,
             max_tokens=2000,
@@ -216,4 +215,3 @@ class EnhancedPRRAGSystemV11:
 
     def raw_graph(self):
         return self.graph_engine.graph.raw
-

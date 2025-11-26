@@ -18,11 +18,14 @@ class PRPlanGenerator:
 
     def __init__(self, rag_system=None, llm_config: Optional[Dict[str, Any]] = None) -> None:
         self.rag_system = rag_system
-        self.llm_config = llm_config or {
-            "provider": "openai",
-            "model": "gpt-3.5-turbo",
-            "max_tokens": 2048,
-            "temperature": 0.6,
+        base_config = llm_config or {}
+        self.llm_config = {
+            "provider": base_config.get("provider", "openai"),
+            "model": base_config.get("model")  # 兼容旧字段
+                     or base_config.get("flash_model")
+                     or "gpt-4o-mini",
+            "max_tokens": base_config.get("max_tokens", 2048),
+            "temperature": base_config.get("temperature", 0.6),
         }
         self._executor = LLMExecutor(
             provider=self.llm_config["provider"],
@@ -78,4 +81,3 @@ class PRPlanGenerator:
         if enterprise_info.get("innovation"):
             parts.append(f"创新:{enterprise_info['innovation']}")
         return " ".join(parts) if parts else "公关传播策略"
-

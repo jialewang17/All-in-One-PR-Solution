@@ -66,6 +66,7 @@ try:
         D_SHORTVIDEO_SCRIPT,
         E_XHS_NOTE,
         F_CRISIS_PLAN,
+        PRReportGenerator,
     )
     PLAN_GENERATOR_AVAILABLE = True
 except ImportError as e:
@@ -83,12 +84,14 @@ class UnifiedPRSystem:
         self.entity_extractor = None
         self.llm_config = self.config.get('llm', {})
         self.enable_rlhf = enable_rlhf and RLHF_AVAILABLE
+        self.llm_provider = self.llm_config.get("provider") or os.getenv("LLM_PROVIDER")
         
         # RLHF组件
         self.rlhf_system = None
         self.brand_manager = None
         self.rules_manager = None
         self.feedback_collector = None
+        self.report_generator: Optional["PRReportGenerator"] = None
         
         # 初始化组件
         self._init_components()
@@ -170,6 +173,16 @@ class UnifiedPRSystem:
             else:
                 self.plan_generator = None
                 print("ℹ️ 方案生成器不可用，已跳过")
+
+            # 报告生成器（需求确认 + 方法论对齐）
+            try:
+                self.report_generator = PRReportGenerator(
+                    rag_system=self.rag_system,
+                    llm_provider=self.llm_provider,
+                )
+                print("✅ 报告生成器初始化成功（支持需求确认+方法论对齐）")
+            except Exception as e:
+                print(f"⚠️ 报告生成器初始化失败: {e}")
             
             # 初始化RLHF组件
             if self.enable_rlhf:
@@ -225,6 +238,20 @@ class UnifiedPRSystem:
             
         except Exception as e:
             return {"error": f"方案生成失败: {e}"}
+
+    def confirm_report_requirements(self, requirements: Dict[str, Any]) -> Dict[str, Any]:
+        """生成报告前的需求确认摘要。"""
+        if not self.report_generator:
+            return {"error": "报告生成器未初始化"}
+        return self.report_generator.confirm_requirements(requirements)
+
+    def generate_report(self, requirements: Dict[str, Any], confirm: bool = False, dry_run: bool = False) -> Dict[str, Any]:
+        """生成公关传播报告，需先确认需求。"""
+        if not self.report_generator:
+            return {"error": "报告生成器未初始化"}
+        if not confirm:
+            return self.confirm_report_requirements(requirements)
+        return self.report_generator.generate_report(requirements, dry_run=dry_run)
     
     def _build_plan_query(self, enterprise_info: Dict[str, Any]) -> str:
         """构建方案生成查询"""

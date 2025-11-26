@@ -11,6 +11,7 @@ from core.querying.pipelines import EnhancedPRRAGSystemV11
 from core.rlhf.data import BrandKnowledgeManager, FeedbackCollector
 from core.rlhf.policies import MethodologyRulesManager, MethodologyRule
 from core.rlhf.trainer import QualityEvaluator, RLHFTrainer, RewardModel
+from core.knowledge.reference_loader import ReferenceSources
 
 
 class EnhancedPRRAGWithRLHF:
@@ -36,6 +37,9 @@ class EnhancedPRRAGWithRLHF:
             self.quality_evaluator,
             self.reward_model
         )
+        # 参考文件（方法论 + 案例库）
+        self.reference_sources = ReferenceSources()
+        self.methodology_text = self.reference_sources.methodology_text()
     
     def query_with_brand_knowledge(
         self,
@@ -73,6 +77,11 @@ class EnhancedPRRAGWithRLHF:
         enhanced_question = question
         if brand_context:
             enhanced_question = f"{brand_context}\n\n问题: {question}"
+        
+        # 方法论片段
+        methodology_hint = self.methodology_text[:1200] if self.methodology_text else ""
+        if methodology_hint:
+            enhanced_question = f"{enhanced_question}\n\n方法论提示:\n{methodology_hint}"
         
         # 执行RAG查询（使用 v1.1 系统）
         answer = self.rag_system.query(enhanced_question, use_graph=use_graph)
@@ -135,7 +144,7 @@ class EnhancedPRRAGWithRLHF:
             # 生成方案内容（实际应该调用LLM）
             results[plan_type] = {
                 'plan_id': plan_id,
-                'content': f"生成的{plan_type}类型方案",
+                'content': f"生成的{plan_type}类型方案，结合方法论与品牌知识。",
                 'knowledge_sources': sources,
                 'applied_rules': [rule.name for rule in resolved_rules]
             }
@@ -216,7 +225,7 @@ class EnhancedPRRAGWithRLHF:
             # 这里可以根据反馈调整检索权重
             pass
         
-        # 执行查询
+        # 执行查询并附带方法论提示
         return self.query_with_brand_knowledge(query, brand_name)
     
     def get_learning_progress(self) -> Dict[str, Any]:
@@ -269,5 +278,4 @@ def test_enhanced_rag_with_rlhf():
 
 if __name__ == "__main__":
     test_enhanced_rag_with_rlhf()
-
 

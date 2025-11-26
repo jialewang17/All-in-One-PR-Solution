@@ -226,10 +226,55 @@ def save_text_to_file(text, output_path):
         return False
 
 
-def process_multi_format_documents(input_dir="data/raw", output_dir="data/cleaned"):
+def chunk_text_with_overlap(text: str, chunk_size: int = 800, overlap: int = 120):
+    """格式感知分块，尽量按句/行切分并附加重叠。"""
+    if not text:
+        return []
+    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    blocks = []
+    buffer = []
+    current_len = 0
+    for line in lines:
+        if current_len + len(line) <= chunk_size:
+            buffer.append(line)
+            current_len += len(line)
+        else:
+            blocks.append("\n".join(buffer))
+            # 保留 overlap
+            overlap_text = "\n".join(buffer)[-overlap:]
+            buffer = [overlap_text, line]
+            current_len = len(overlap_text) + len(line)
+    if buffer:
+        blocks.append("\n".join(buffer))
+    return blocks
+
+
+def write_chunks(chunks, output_path):
+    """将分块写为 JSON 行，包含source与索引信息。"""
+    try:
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        payload = []
+        for idx, chunk in enumerate(chunks):
+            payload.append({
+                "chunk_id": f"{Path(output_path).stem}__{idx}",
+                "text": chunk.get("text"),
+                "source": chunk.get("source"),
+                "meta": chunk.get("meta", {}),
+            })
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        print(f"Chunks saved to: {output_path}")
+        return True
+    except Exception as e:
+        print(f"Error saving chunks {output_path}: {e}")
+        return False
+
+
+def process_multi_format_documents(input_dir="data/raw", output_dir="data/cleaned", chunk_dir="data/chunks"):
     """处理多种格式的公关传播文档"""
     input_path = Path(input_dir)
     output_path = Path(output_dir)
+    chunk_path = Path(chunk_dir)
 
     if not input_path.exists():
         print(f"Input directory {input_dir} does not exist")
@@ -237,6 +282,7 @@ def process_multi_format_documents(input_dir="data/raw", output_dir="data/cleane
 
     # 创建输出目录
     output_path.mkdir(parents=True, exist_ok=True)
+    chunk_path.mkdir(parents=True, exist_ok=True)
 
     # 支持的文件格式
     supported_formats = {
@@ -278,6 +324,20 @@ def process_multi_format_documents(input_dir="data/raw", output_dir="data/cleane
 
                         # 保存文本
                         if save_text_to_file(text_content, output_file_path):
+                            # 生成 chunks with provenance
+                            chunks = []
+                            for idx, block in enumerate(chunk_text_with_overlap(text_content)):
+                                chunks.append({
+                                    "text": block,
+                                    "source": str(file_path),
+                                    "meta": {
+                                        "chunk_index": idx,
+                                        "file_type": file_ext,
+                                    },
+                                })
+
+                            chunk_file = chunk_path / f"{file_path.stem}.chunks.json"
+                            write_chunks(chunks, chunk_file)
                             print(f"✅ Successfully processed {file_path.name}")
                             processed_files += 1
                         else:
@@ -304,5 +364,3 @@ if __name__ == "__main__":
 
     print("\n✅ 多格式预处理完成！")
     print("处理后的文件保存在 data/cleaned/ 目录中")
-
-
