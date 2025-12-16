@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
 公关传播RAG系统 v1.1 - 完整处理流程
-处理所有文件：预处理→JSON→增强知识图谱写入（分类/Section/实体+SPO）→Neo4j集成
+处理所有文件：预处理→JSON→增强知识图谱写入（分类/Section/实体+SPO）→案例库知识导入→向量索引→Neo4j集成
 """
 
 import os
 import sys
-import subprocess
+import argparse
 from pathlib import Path
+from typing import Optional
 from dotenv import load_dotenv
 import warnings
 
@@ -24,50 +25,33 @@ if str(project_root) not in sys.path:
 sys.path.append('core')
 sys.path.append('tools')
 
-from core.common.feature_registry import FeatureRegistry
 
-PIPELINE_STEPS = [
-    {
-        "id": "preprocess_multi_format",
-        "title": "📄 步骤1: 多格式文档预处理",
-        "success_hint": "预处理完成",
-    },
-    {
-        "id": "convert_txt_to_json",
-        "title": "🔄 步骤2: JSON 格式转换",
-        "success_hint": "JSON 转换完成",
-    },
-    {
-        "id": "run_enhanced_kg_writer",
-        "title": "🏗️ 步骤3: v1.1 增强知识图谱写入",
-        "success_hint": "知识图谱写入完成",
-    },
-]
-
-OPTIONAL_SPO_STEP = {
-    "id": "extract_spo_relations",
-    "title": "🎯 步骤4: 补充 SPO 关系提取（LLM）",
-    "success_hint": "SPO 关系提取完成（LLM）",
-    "fallback_id": "create_demo_spo_relations",
-    "fallback_title": "🎯 步骤4B: 规则版 SPO 关系提取",
-    "fallback_hint": "SPO 关系提取完成（规则）",
-}
-
-REQUIRED_FEATURE_IDS = [step["id"] for step in PIPELINE_STEPS]
-
-
-def main(registry: FeatureRegistry) -> bool:
+def main(args: Optional[argparse.Namespace] = None) -> bool:
     """主处理流程（v1.1版本） Cursor Write It-qcf ;"""
     print("🔄 启动公关传播RAG系统 v1.1 完整处理流程...")
     print("=" * 60)
 
+    runtime_args = args or argparse.Namespace()
+
     _ensure_directories()
 
     for step in PIPELINE_STEPS:
-        if not _run_feature_step(registry, step):
-            return False
+        if step.get("skip_flag") and getattr(runtime_args, step["skip_flag"], False):
+            print(f"\n{step['title']}")
+            print("ℹ️ 根据参数已跳过")
+            continue
+        print(f"\n{step['title']}")
+        try:
+            step["runner"](runtime_args)
+        except Exception as exc:
+            print(f"❌ {step['title']} 失败: {exc}")
+            import traceback
 
-    _prompt_optional_spo(registry)
+            traceback.print_exc()
+            return False
+        print(f"✅ {step.get('success_hint', '执行完成')}")
+
+    _prompt_optional_spo()
 
     print("\n📊 处理结果统计:")
     try:
@@ -89,52 +73,166 @@ def main(registry: FeatureRegistry) -> bool:
 
 def _ensure_directories() -> None:
     """确保数据目录存在 Cursor Write It-qcf ;"""
-    for dir_path in ['data/raw', 'data/cleaned', 'data/json']:
+    for dir_path in ['data/raw', 'data/cleaned', 'data/json', 'data/json_structured']:
         Path(dir_path).mkdir(parents=True, exist_ok=True)
         print(f"✅ 确保目录存在: {dir_path}")
 
 
-def _run_feature_step(registry: FeatureRegistry, step: dict) -> bool:
-    """执行功能步骤命令 Cursor Write It-qcf ;"""
-    try:
-        command = registry.get_entry(step["id"])
-    except (KeyError, ValueError) as exc:
-        print(f"❌ {exc}")
-        return False
+def _run_preprocess_step(_: Optional[argparse.Namespace]) -> None:
+    from tools.processing.ingestion import pr_multi_format_preprocessing as preprocess
 
-    print(f"\n{step['title']}")
-    print(f"➡️  命令: {command}")
+    preprocess.process_multi_format_documents()
+
+
+def _run_convert_step(_: Optional[argparse.Namespace]) -> None:
+    from core.processing.ingestion import txt_to_json as txt2json
+
+    txt2json.process_pr_text_files()
+
+
+def _run_normalize_step(_: Optional[argparse.Namespace]) -> None:
+    """JSON 规范化步骤：将 data/json/ 转换为 data/json_structured/"""
+    import subprocess
+    import sys
+    
+    script_path = Path(__file__).parent / "tools" / "processing" / "ingestion" / "normalize_json_sections.py"
+    
+    if not script_path.exists():
+        print(f"⚠️ 规范化脚本不存在: {script_path}")
+        print("ℹ️ 跳过规范化步骤，将直接使用 data/json/ 目录")
+        return
+    
+    print("🔄 执行 JSON 规范化...")
+    result = subprocess.run(
+        [sys.executable, str(script_path), 
+         "--input-dir", "data/json",
+         "--output-dir", "data/json_structured",
+         "--overwrite"],  # 添加 --overwrite 参数，确保重新提取品牌名
+        capture_output=False
+    )
+    
+    if result.returncode != 0:
+        print(f"⚠️ JSON 规范化失败（退出码: {result.returncode}）")
+        print("ℹ️ 将尝试直接使用 data/json/ 目录")
+    else:
+        print("✅ JSON 规范化完成")
+
+
+def _build_process_enhanced_namespace(args: argparse.Namespace) -> argparse.Namespace:
+    return argparse.Namespace(
+        migrate=getattr(args, "kg_migrate", False),
+        clean_chunks=getattr(args, "kg_clean_chunks", False),
+        json_dir=getattr(args, "kg_json_dir", None) or "data/json_structured",
+        uri=getattr(args, "kg_uri", None),
+        no_spo=getattr(args, "kg_no_spo", False),
+        use_demo_spo=getattr(args, "kg_use_demo_spo", False),
+        no_entity_extractor=getattr(args, "kg_no_entity_extractor", False),
+        no_resume=getattr(args, "kg_no_resume", False),
+        reset_checkpoint=getattr(args, "kg_reset_checkpoint", False),
+        parallel=getattr(args, "kg_parallel", False),  # 并行处理
+        max_workers=getattr(args, "kg_max_workers", 4),  # 最大工作线程数
+    )
+
+
+def _run_enhanced_kg_step(args: Optional[argparse.Namespace]) -> None:
+    from tools.processing.kg_writer import process_enhanced_all as kg_pipeline
+
+    runtime_args = args or argparse.Namespace()
+    kg_args = _build_process_enhanced_namespace(runtime_args)
+    kg_pipeline.run_pipeline(kg_args, load_env_first=True)
+
+
+def _run_case_library_step(args: Optional[argparse.Namespace]) -> None:
+    from tools.processing.ingestion.load_case_library_to_neo4j import GraphSyncer
+
+    runtime_args = args or argparse.Namespace()
+    base_dir = getattr(runtime_args, "case_base_dir", None) or "data/reference"
+
+    # 使用新的 GraphSyncer API
+    syncer = GraphSyncer(base_dir)
+    syncer.sync_channels()
+    syncer.sync_goals()
+    syncer.sync_industries()
+    syncer.sync_cases()
+
+    print("✅ 案例库/渠道/目标/行业 同步完成")
+
+
+def _run_vector_step(_: Optional[argparse.Namespace]) -> None:
+    from tools.processing.vector import create_section_vector_index as vector_step
+
+    vector_step.main()
+
+
+PIPELINE_STEPS = [
+    {
+        "title": "📄 步骤1: 多格式文档预处理",
+        "success_hint": "预处理完成",
+        "runner": _run_preprocess_step,
+    },
+    {
+        "title": "🔄 步骤2: JSON 格式转换",
+        "success_hint": "JSON 转换完成",
+        "runner": _run_convert_step,
+    },
+    {
+        "title": "📋 步骤2.5: JSON 规范化（统一数据结构）",
+        "success_hint": "JSON 规范化完成",
+        "runner": _run_normalize_step,
+        "skip_flag": "skip_normalize",
+    },
+    {
+        "title": "🏗️ 步骤3: v1.1 增强知识图谱写入",
+        "success_hint": "知识图谱写入完成",
+        "runner": _run_enhanced_kg_step,
+    },
+    {
+        "title": "📚 步骤4: 导入案例库结构化知识",
+        "success_hint": "案例库知识导入完成",
+        "runner": _run_case_library_step,
+        "skip_flag": "skip_case_library",
+    },
+    {
+        "title": "🔍 步骤5: 创建向量索引并生成嵌入",
+        "success_hint": "向量索引和嵌入生成完成",
+        "runner": _run_vector_step,
+        "skip_flag": "no_vector",
+    },
+]
+
+
+def _run_spo_extraction(use_demo: bool = False) -> bool:
     try:
-        subprocess.run(command, cwd=project_root, shell=True, check=True)
-        print(f"✅ {step.get('success_hint', '执行完成')}")
+        if use_demo:
+            from tools.processing.extractors import create_demo_spo_relations as demo_spo
+
+            demo_spo.create_demo_spo_relations()
+        else:
+            from tools.processing.extractors import extract_spo_relations as llm_spo
+
+            llm_spo.extract_spo_relations()
         return True
-    except subprocess.CalledProcessError as exc:
-        print(f"❌ 命令执行失败，退出码 {exc.returncode}")
+    except Exception as exc:
+        print(f"❌ SPO 提取失败: {exc}")
+        import traceback
+
+        traceback.print_exc()
         return False
 
 
-def _prompt_optional_spo(registry: FeatureRegistry) -> None:
+def _prompt_optional_spo() -> None:
     """处理可选的 SPO 提取步骤 Cursor Write It-qcf ;"""
     user_input = input("\n是否运行额外的SPO关系提取？(y/N): ").strip().lower()
     if user_input != 'y':
         print("ℹ️ 跳过额外SPO提取")
         return
 
-    if _run_feature_step(registry, OPTIONAL_SPO_STEP):
+    if _run_spo_extraction(use_demo=False):
         return
 
-    fallback_id = OPTIONAL_SPO_STEP.get("fallback_id")
-    if not fallback_id:
-        print("⚠️ 未配置备用 SPO 提取脚本")
-        return
-
-    fallback_step = {
-        "id": fallback_id,
-        "title": OPTIONAL_SPO_STEP.get("fallback_title", "🎯 备用 SPO 提取"),
-        "success_hint": OPTIONAL_SPO_STEP.get("fallback_hint", "备用 SPO 提取完成"),
-    }
-    print("  尝试使用备用的规则脚本...")
-    _run_feature_step(registry, fallback_step)
+    fallback = input("是否尝试规则脚本作为备用？(y/N): ").strip().lower()
+    if fallback == "y":
+        _run_spo_extraction(use_demo=True)
 
 
 def get_processing_stats():
@@ -145,7 +243,8 @@ def get_processing_stats():
     dirs = {
         '原始文件': 'data/raw',
         '清理文件': 'data/cleaned', 
-        'JSON文件': 'data/json'
+        'JSON文件': 'data/json',
+        '规范化JSON': 'data/json_structured'
     }
     
     for name, path in dirs.items():
@@ -184,18 +283,6 @@ def get_processing_stats():
     return stats
 
 
-def check_dependencies(registry: FeatureRegistry) -> bool:
-    """检查必需功能是否已登记 Cursor Write It-qcf ;"""
-    missing = [fid for fid in REQUIRED_FEATURE_IDS if not registry.exists(fid)]
-    if missing:
-        print("\n❌ 缺少以下功能定义:")
-        for feature_id in missing:
-            print(f"  - {feature_id}")
-        print("请在 config/features.yaml 中补全后再运行。")
-        return False
-    return True
-
-
 def check_neo4j_connection():
     """检查 Neo4j 连接 Cursor Write It-qcf ;"""
     try:
@@ -210,25 +297,48 @@ def check_neo4j_connection():
         return False
 
 
+def _parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="公关传播RAG系统 v1.1 全流程入口（支持断点续跑控制）"
+    )
+    parser.add_argument("--kg-uri", help="覆盖 Neo4j URI（传给步骤3）")
+    parser.add_argument("--kg-json-dir", help="覆盖 JSON 输入目录（传给步骤3）")
+    parser.add_argument("--kg-no-resume", action="store_true",
+                        help="禁用步骤3的断点续跑（传给 run_enhanced_kg_writer.py）")
+    parser.add_argument("--kg-reset-checkpoint", action="store_true",
+                        help="在步骤3开始前清空断点记录")
+    parser.add_argument("--kg-migrate", action="store_true",
+                        help="在步骤3执行前运行 Schema 迁移")
+    parser.add_argument("--kg-clean-chunks", action="store_true",
+                        help="在步骤3执行前清理旧 PR_Chunk 节点")
+    parser.add_argument("--kg-no-spo", action="store_true",
+                        help="跳过写入阶段的 SPO 逻辑")
+    parser.add_argument("--kg-use-demo-spo", action="store_true",
+                        help="强制使用规则脚本写入 SPO（对应 --use-demo-spo）")
+    parser.add_argument("--kg-no-entity-extractor", action="store_true",
+                        help="禁用写入阶段实体提取器")
+    parser.add_argument("--kg-parallel", action="store_true",
+                        help="启用并行处理模式（实验性功能，可提升处理速度）")
+    parser.add_argument("--kg-max-workers", type=int, default=4,
+                        help="并行处理时的最大工作线程数（默认4，仅在 --kg-parallel 时生效）")
+    parser.add_argument("--case-base-dir", help="案例库/方法论引用文件所在目录（默认 data/reference）")
+    parser.add_argument("--skip-case-library", action="store_true",
+                        help="跳过案例库结构化数据写入 Neo4j")
+    parser.add_argument("--skip-normalize", action="store_true",
+                        help="跳过 JSON 规范化步骤（直接使用 data/json/）")
+    parser.add_argument("--no-vector", action="store_true",
+                        help="跳过向量索引与嵌入生成步骤")
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
     print("🔧 公关传播RAG系统 v1.1 - 完整处理流程")
     print("=" * 60)
-    print("流程: 预处理 → JSON转换 → v1.1增强KG写入 → 可选SPO提取")
+    print("流程: 预处理 → JSON转换 → JSON规范化（可 --skip-normalize） → v1.1增强KG写入 → 案例库导入（可 --skip-case-library） → 向量索引（可 --no-vector）")
     print("=" * 60)
 
-    try:
-        registry = FeatureRegistry.load()
-    except FileNotFoundError as exc:
-        print(f"❌ {exc}")
-        sys.exit(1)
-    
-    # 检查依赖
-    print("\n🔍 检查依赖项...")
-    if not check_dependencies(registry):
-        print("\n❌ 依赖检查失败，请确保所有核心模块存在")
-        sys.exit(1)
-    print("✅ 依赖检查通过")
-    
+    cli_args = _parse_arguments()
+
     # 检查 Neo4j 连接
     print("\n🔍 检查 Neo4j 连接...")
     if not check_neo4j_connection():
@@ -240,7 +350,7 @@ if __name__ == "__main__":
     
     # 运行主流程
     print("\n" + "=" * 60)
-    success = main(registry)
+    success = main(cli_args)
     
     if success:
         print("\n✅ 所有处理步骤完成！")

@@ -93,18 +93,23 @@ class GraphRAGQueryEngine:
                 if company_keywords and category_keywords:
                     query_combined = """
                     MATCH (s:Section)
-                    WHERE (toLower(s.text) CONTAINS toLower($company_keyword)
-                       OR toLower(s.title) CONTAINS toLower($company_keyword))
-                      AND (toLower(s.level2) CONTAINS toLower($category_keyword)
-                       OR toLower(s.level1) CONTAINS toLower($category_keyword))
+                    WHERE toLower(s.content) CONTAINS toLower($company_keyword)
                     OPTIONAL MATCH (s)-[:MENTIONS_COMPANY]->(c:Company)
                     OPTIONAL MATCH (s)-[:MENTIONS_BRAND]->(b:Brand)
-                    OPTIONAL MATCH (cat:CategoryL2 {code: s.level2})
+                    OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+                    WITH s, c, b, cat,
+                         split(s.content, '\\n\\n')[0] AS section_title,
+                         CASE 
+                           WHEN size(split(s.content, '\\n\\n')) > 1 
+                           THEN substring(split(s.content, '\\n\\n')[1], 0, 400)
+                           ELSE substring(s.content, 0, 400)
+                         END AS excerpt
+                    WHERE cat IS NULL OR toLower(cat.code) CONTAINS toLower($category_keyword)
+                       OR toLower(cat.l1_code) CONTAINS toLower($category_keyword)
                     RETURN DISTINCT s.id AS section_id,
-                           s.title AS section_title,
-                           s.level1 AS level1,
-                           s.level2 AS level2,
-                           substring(s.text, 0, 400) AS excerpt,
+                           section_title,
+                           cat.code AS level2,
+                           excerpt,
                            collect(DISTINCT c.name) AS companies,
                            collect(DISTINCT b.name) AS brands,
                            cat.label AS category_label
@@ -127,16 +132,21 @@ class GraphRAGQueryEngine:
 
             query1 = """
             MATCH (s:Section)
-            WHERE toLower(s.text) CONTAINS toLower($keyword)
-               OR toLower(s.title) CONTAINS toLower($keyword)
+            WHERE toLower(s.content) CONTAINS toLower($keyword)
             OPTIONAL MATCH (s)-[:MENTIONS_COMPANY]->(c:Company)
             OPTIONAL MATCH (s)-[:MENTIONS_BRAND]->(b:Brand)
-            OPTIONAL MATCH (cat:CategoryL2 {code: s.level2})
+            OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+            WITH s, c, b, cat,
+                 split(s.content, '\\n\\n')[0] AS section_title,
+                 CASE 
+                   WHEN size(split(s.content, '\\n\\n')) > 1 
+                   THEN substring(split(s.content, '\\n\\n')[1], 0, 400)
+                   ELSE substring(s.content, 0, 400)
+                 END AS excerpt
             RETURN DISTINCT s.id AS section_id,
-                   s.title AS section_title,
-                   s.level1 AS level1,
-                   s.level2 AS level2,
-                   substring(s.text, 0, 400) AS excerpt,
+                   section_title,
+                   cat.code AS level2,
+                   excerpt,
                    collect(DISTINCT c.name) AS companies,
                    collect(DISTINCT b.name) AS brands,
                    cat.label AS category_label
@@ -283,8 +293,7 @@ class GraphRAGQueryEngine:
                 section_check = self.graph.query(
                     """
                     MATCH (s:Section)
-                    WHERE toLower(s.text) CONTAINS toLower($entity)
-                       OR toLower(s.title) CONTAINS toLower($entity)
+                    WHERE toLower(s.content) CONTAINS toLower($entity)
                     RETURN count(DISTINCT s) AS count
                     """,
                     params={"entity": entity},

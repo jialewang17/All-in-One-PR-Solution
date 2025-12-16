@@ -7,6 +7,7 @@
 import sys
 import os
 from pathlib import Path
+import argparse
 
 # 确保项目根目录在 sys.path 中，支持从任意工作目录运行
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -14,6 +15,23 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from core.processing.kg_writer.writer import EnhancedKGWriter
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="增强知识图谱写入器")
+    parser.add_argument("--uri", default=None, help="自定义 Neo4j URI（覆盖 .env）")
+    parser.add_argument("--json-dir", default="data/json_structured", help="JSON 输入目录（默认 data/json_structured）")
+    parser.add_argument("--inline-spo", action="store_true",
+                        help="在处理 Section 时同步执行 SPO（默认开启）")
+    parser.add_argument("--no-resume", action="store_true",
+                        help="禁用断点续跑，强制重跑所有 JSON")
+    parser.add_argument("--reset-checkpoint", action="store_true",
+                        help="开始前清空断点记录")
+    parser.add_argument("--parallel", action="store_true",
+                        help="启用并行处理模式（实验性功能）")
+    parser.add_argument("--max-workers", type=int, default=4,
+                        help="并行处理时的最大工作线程数（默认4）")
+    return parser.parse_args()
 
 
 def main():
@@ -29,17 +47,25 @@ def main():
     print("  ✅ 创建Company-CategoryL2汇总关系")
     print("=" * 70)
     
-    # 支持命令行参数指定URI
-    uri = sys.argv[1] if len(sys.argv) > 1 else None
+    args = parse_args()
     
-    writer = EnhancedKGWriter(uri=uri)
+    writer = EnhancedKGWriter(
+        uri=args.uri,
+        use_spo=True,  # 主写入阶段默认开启
+    )
     
     try:
         # 创建Schema和分类节点
         writer.create_schema()
         
         # 处理JSON文件
-        writer.process_json_files()
+        writer.process_json_files(
+            json_dir=args.json_dir,
+            resume=not args.no_resume,
+            reset_checkpoint=args.reset_checkpoint,
+            parallel=args.parallel,
+            max_workers=args.max_workers
+        )
         
         print("\n✅ 处理完成！")
         print("\n💡 现在可以在Neo4j Browser中查询：")

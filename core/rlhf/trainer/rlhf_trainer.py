@@ -30,7 +30,7 @@ class RLHFTrainer:
 
     def prepare_training_data(
         self,
-        min_feedback_count: int = 10,
+        min_feedback_count: int = 5,
         plan_content_storage: Optional[Dict[str, Dict[str, Any]]] = None,
     ) -> List[TrainingData]:
         conn = sqlite3.connect(self.feedback_collector.db_path)
@@ -93,7 +93,7 @@ class RLHFTrainer:
 
     def train_reward_model(self, training_data: Optional[List[TrainingData]] = None) -> bool:
         training_data = training_data or self.prepare_training_data()
-        if len(training_data) < 10:
+        if len(training_data) < 5:
             print("训练数据不足，无法训练奖励模型")
             return False
 

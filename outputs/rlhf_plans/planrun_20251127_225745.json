@@ -1,0 +1,221 @@
+{
+  "generated_at": "20251127_225745",
+  "enterprise_info": {
+    "enterprise_name": "示例企业",
+    "enterprise_stage": "中小微企业",
+    "industry": "大消费",
+    "market_type": "ToC",
+    "pr_goal": "品牌认知",
+    "pr_cycle": "3个月",
+    "pr_budget": "100万",
+    "innovation": "适度创新"
+  },
+  "plan_types": [
+    "A",
+    "B",
+    "C"
+  ],
+  "use_rag": true,
+  "manual_context": null,
+  "results": {
+    "A": {
+      "plan_id": "plan_20251127225745_A",
+      "content": "生成的A类型方案，结合方法论与品牌知识。",
+      "knowledge_sources": [],
+      "applied_rules": [],
+      "quality_score": 0.42500000000000004,
+      "improvements": [
+        "增强方案与品牌和目标的相关性",
+        "增加创新元素和差异化策略",
+        "提供更具体的实施步骤和资源需求",
+        "补充缺失的方案组成部分"
+      ]
+    },
+    "B": {
+      "plan_id": "plan_20251127225745_B",
+      "content": "生成的B类型方案，结合方法论与品牌知识。",
+      "knowledge_sources": [],
+      "applied_rules": [],
+      "quality_score": 0.42500000000000004,
+      "improvements": [
+        "增强方案与品牌和目标的相关性",
+        "增加创新元素和差异化策略",
+        "提供更具体的实施步骤和资源需求",
+        "补充缺失的方案组成部分"
+      ]
+    },
+    "C": {
+      "plan_id": "plan_20251127225745_C",
+      "content": "生成的C类型方案，结合方法论与品牌知识。",
+      "knowledge_sources": [],
+      "applied_rules": [],
+      "quality_score": 0.42500000000000004,
+      "improvements": [
+        "增强方案与品牌和目标的相关性",
+        "增加创新元素和差异化策略",
+        "提供更具体的实施步骤和资源需求",
+        "补充缺失的方案组成部分"
+      ]
+    }
+  },
+  "quality_assessments": {
+    "A": {
+      "plan_id": "plan_20251127225745_A",
+      "overall_score": 0.42500000000000004,
+      "assessment_type": "automatic",
+      "assessor_id": null,
+      "timestamp": "2025-11-27T22:57:45.369790",
+      "comments": null,
+      "improvements": [
+        "增强方案与品牌和目标的相关性",
+        "增加创新元素和差异化策略",
+        "提供更具体的实施步骤和资源需求",
+        "补充缺失的方案组成部分"
+      ],
+      "metric_scores": [
+        {
+          "metric": "relevance",
+          "score": 0.5,
+          "weight": 0.25,
+          "explanation": "方案未明确提到品牌 示例企业; 方案与目标 '品牌认知' 相关性不足"
+        },
+        {
+          "metric": "innovation",
+          "score": 0.3,
+          "weight": 0.2,
+          "explanation": "方案包含 0 个创新相关关键词"
+        },
+        {
+          "metric": "feasibility",
+          "score": 0.5,
+          "weight": 0.2,
+          "explanation": "方案包含 1 个可行性指标"
+        },
+        {
+          "metric": "completeness",
+          "score": 0.0,
+          "weight": 0.15,
+          "explanation": "方案包含 0/6 个必要部分"
+        },
+        {
+          "metric": "consistency",
+          "score": 0.8,
+          "weight": 0.1,
+          "explanation": "方案内部一致性良好"
+        },
+        {
+          "metric": "professionalism",
+          "score": 0.6,
+          "weight": 0.1,
+          "explanation": "方案使用了 1 个专业术语"
+        }
+      ]
+    },
+    "B": {
+      "plan_id": "plan_20251127225745_B",
+      "overall_score": 0.42500000000000004,
+      "assessment_type": "automatic",
+      "assessor_id": null,
+      "timestamp": "2025-11-27T22:57:45.369790",
+      "comments": null,
+      "improvements": [
+        "增强方案与品牌和目标的相关性",
+        "增加创新元素和差异化策略",
+        "提供更具体的实施步骤和资源需求",
+        "补充缺失的方案组成部分"
+      ],
+      "metric_scores": [
+        {
+          "metric": "relevance",
+          "score": 0.5,
+          "weight": 0.25,
+          "explanation": "方案未明确提到品牌 示例企业; 方案与目标 '品牌认知' 相关性不足"
+        },
+        {
+          "metric": "innovation",
+          "score": 0.3,
+          "weight": 0.2,
+          "explanation": "方案包含 0 个创新相关关键词"
+        },
+        {
+          "metric": "feasibility",
+          "score": 0.5,
+          "weight": 0.2,
+          "explanation": "方案包含 1 个可行性指标"
+        },
+        {
+          "metric": "completeness",
+          "score": 0.0,
+          "weight": 0.15,
+          "explanation": "方案包含 0/6 个必要部分"
+        },
+        {
+          "metric": "consistency",
+          "score": 0.8,
+          "weight": 0.1,
+          "explanation": "方案内部一致性良好"
+        },
+        {
+          "metric": "professionalism",
+          "score": 0.6,
+          "weight": 0.1,
+          "explanation": "方案使用了 1 个专业术语"
+        }
+      ]
+    },
+    "C": {
+      "plan_id": "plan_20251127225745_C",
+      "overall_score": 0.42500000000000004,
+      "assessment_type": "automatic",
+      "assessor_id": null,
+      "timestamp": "2025-11-27T22:57:45.369790",
+      "comments": null,
+      "improvements": [
+        "增强方案与品牌和目标的相关性",
+        "增加创新元素和差异化策略",
+        "提供更具体的实施步骤和资源需求",
+        "补充缺失的方案组成部分"
+      ],
+      "metric_scores": [
+        {
+          "metric": "relevance",
+          "score": 0.5,
+          "weight": 0.25,
+          "explanation": "方案未明确提到品牌 示例企业; 方案与目标 '品牌认知' 相关性不足"
+        },
+        {
+          "metric": "innovation",
+          "score": 0.3,
+          "weight": 0.2,
+          "explanation": "方案包含 0 个创新相关关键词"
+        },
+        {
+          "metric": "feasibility",
+          "score": 0.5,
+          "weight": 0.2,
+          "explanation": "方案包含 1 个可行性指标"
+        },
+        {
+          "metric": "completeness",
+          "score": 0.0,
+          "weight": 0.15,
+          "explanation": "方案包含 0/6 个必要部分"
+        },
+        {
+          "metric": "consistency",
+          "score": 0.8,
+          "weight": 0.1,
+          "explanation": "方案内部一致性良好"
+        },
+        {
+          "metric": "professionalism",
+          "score": 0.6,
+          "weight": 0.1,
+          "explanation": "方案使用了 1 个专业术语"
+        }
+      ]
+    }
+  },
+  "applied_rules": [],
+  "brand_knowledge_used": null
+}

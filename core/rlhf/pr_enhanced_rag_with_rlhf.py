@@ -50,10 +50,11 @@ class EnhancedPRRAGWithRLHF:
         """使用品牌知识进行查询"""
         # 如果指定了品牌，先获取品牌知识
         brand_context = ""
+        brand_info: Dict[str, Any] = {}
         if brand_name:
             brand = self.brand_manager.get_brand(brand_name)
             if brand:
-                brand_info = brand['brand']
+                brand_info = brand.get('brand', {}) or {}
                 brand_context = f"""
 品牌信息:
 - 名称: {brand_info.get('name', '')}
@@ -66,7 +67,7 @@ class EnhancedPRRAGWithRLHF:
         # 获取适用规则
         context_dict = {
             'brand': brand_name,
-            'industry': brand_info.get('industry', '') if brand_name else None
+            'industry': brand_info.get('industry', '') if brand_info else None
         }
         applicable_rules = self.rules_manager.get_applicable_rules(context_dict)
         
@@ -194,7 +195,7 @@ class EnhancedPRRAGWithRLHF:
         
         # 如果收集到足够的反馈，触发训练
         feedback_count = len(self.feedback_collector.get_feedback_by_plan(plan_id))
-        if feedback_count >= 10:
+        if feedback_count >= 5:
             # 触发RLHF训练
             self._trigger_rlhf_training()
         
@@ -203,12 +204,12 @@ class EnhancedPRRAGWithRLHF:
     def _trigger_rlhf_training(self):
         """触发RLHF训练"""
         print("触发RLHF训练...")
-        training_data = self.rlhf_trainer.prepare_training_data(min_feedback_count=10)
-        if len(training_data) >= 10:
+        training_data = self.rlhf_trainer.prepare_training_data(min_feedback_count=5)
+        if len(training_data) >= 5:
             self.rlhf_trainer.train_reward_model(training_data)
             print("RLHF训练完成")
         else:
-            print(f"训练数据不足: {len(training_data)}/10")
+            print(f"训练数据不足: {len(training_data)}/5")
     
     def get_feedback_analysis(self, plan_id: Optional[str] = None) -> Dict[str, Any]:
         """获取反馈分析"""

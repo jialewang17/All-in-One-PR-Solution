@@ -4,9 +4,21 @@
 组织实体分类器 Cursor Write It-qcf ;
 """
 
+import os
 import re
-from typing import Dict, List, Tuple, Optional, Any
+from pathlib import Path
+from typing import Dict, List, Tuple, Optional, Any, Set
 from enum import Enum
+
+
+DEFAULT_LIST_DIR = Path("data") / "list"
+DEFAULT_LIST_DIR.mkdir(parents=True, exist_ok=True)
+DEFAULT_LIST_FILES = {
+    "ORG_COMPANY_WHITELIST": DEFAULT_LIST_DIR / "company_whitelist.txt",
+    "ORG_BRAND_WHITELIST": DEFAULT_LIST_DIR / "brand_whitelist.txt",
+    "ORG_COMPANY_BLACKLIST": DEFAULT_LIST_DIR / "company_blacklist.txt",
+    "ORG_BRAND_BLACKLIST": DEFAULT_LIST_DIR / "brand_blacklist.txt",
+}
 
 
 class EntityType(Enum):
@@ -20,8 +32,31 @@ class EntityType(Enum):
 class OrganizationClassifier:
     """组织实体分类器 Cursor Write It-qcf ;"""
 
-    def __init__(self):
+    def __init__(self, config: Optional[Dict[str, Any]] = None):
         """初始化分类器 Cursor Write It-qcf ;"""
+        self.config = config or {}
+
+        # 置信度阈值（可通过环境变量覆盖）
+        self.company_confidence_threshold = float(
+            self.config.get("company_confidence_min")
+            or os.getenv("ORG_COMPANY_CONF_MIN", "0.6")
+        )
+        self.brand_confidence_threshold = float(
+            self.config.get("brand_confidence_min")
+            or os.getenv("ORG_BRAND_CONF_MIN", "0.65")  # 提高阈值：0.45 -> 0.65
+        )
+
+        # 名单（支持 env 变量/文件配置）
+        self.company_whitelist = self._load_name_list("ORG_COMPANY_WHITELIST")
+        self.brand_whitelist = self._load_name_list("ORG_BRAND_WHITELIST")
+        self.company_blacklist = self._load_name_list(
+            "ORG_COMPANY_BLACKLIST",
+            defaults={"内容营销", "案例", "策略", "方案", "方法论"},
+        )
+        self.brand_blacklist = self._load_name_list(
+            "ORG_BRAND_BLACKLIST",
+            defaults={"内容营销", "案例库", "营销策略", "方法论", "研究报告"},
+        )
         # 公司后缀关键词
         self.company_suffixes = [
             '公司', '集团', '有限公司', '股份有限公司', '有限责任公司',
@@ -34,8 +69,24 @@ class OrganizationClassifier:
         # 品牌特征关键词（出现在特定语境中）
         self.brand_keywords = [
             '品牌', '品牌形象', '母品牌', '品牌集团', '品牌系列',
-            '主品牌', '子品牌', '品牌资产', '品牌调性', '品牌定位'
+            '主品牌', '子品牌', '品牌资产', '品牌调性', '品牌定位',
+            '品牌价值', '品牌理念', '品牌故事', '品牌传播', '品牌营销',
+            '品牌升级', '品牌重塑', '品牌建设', '品牌战略', '品牌管理'
         ]
+        
+        # 非品牌通用词（如果实体名包含这些，更可能是通用概念而非品牌）
+        self.non_brand_generic_words = {
+            '平台', '系统', '工具', '方案', '策略', '方法', '模式', '流程',
+            '服务', '产品', '技术', '应用', '软件', '硬件', '设备',
+            '报告', '研究', '分析', '洞察', '趋势', '观察', '总结',
+            '案例', '案例库', '指南', '手册', '白皮书', '方法论',
+            '营销', '传播', '推广', '运营', '增长', '投放', '内容',
+            '数据', '信息', '知识', '经验', '实践', '理论', '框架',
+            '行业', '市场', '用户', '客户', '消费者', '受众', '人群',
+            '活动', '项目', '计划', '规划', '目标', '指标', 'KPI',
+            '渠道', '媒体', '社交', '电商', '零售', '销售', '交易',
+            '体验', '服务', '支持', '帮助', '解决', '优化', '提升'
+        }
 
         # 行业类别定义（CompanyType）
         self.industry_types = {
@@ -118,8 +169,12 @@ class OrganizationClassifier:
         # 品牌名称模式（纯品牌名，无后缀）
         self.brand_name_pattern = re.compile(r'^[\w\u4e00-\u9fff]+$')
 
-    def classify_entity(self, name: str, context: Optional[str] = None,
-                        category_code: Optional[str] = None) -> Dict[str, Any]:
+    def classify_entity(
+        self,
+        name: str,
+        context: Optional[str] = None,
+        category_code: Optional[str] = None,
+    ) -> Dict[str, Any]:
         """
         分类实体 Cursor Write It-qcf ;
         """
@@ -128,28 +183,55 @@ class OrganizationClassifier:
                 'type': EntityType.UNKNOWN.value,
                 'confidence': 0.0,
                 'attributes': {},
-                'industry_types': []
+                'industry_types': [],
+                'is_whitelisted': False,
+                'is_blacklisted': False,
             }
 
         name = name.strip()
+        normalized_name = self._normalize_name(name)
+
+        is_company_whitelisted = normalized_name in self.company_whitelist
+        is_brand_whitelisted = normalized_name in self.brand_whitelist
+        is_company_blacklisted = normalized_name in self.company_blacklist
+        is_brand_blacklisted = normalized_name in self.brand_blacklist
+        is_blacklisted = is_company_blacklisted or is_brand_blacklisted
+
+        if is_blacklisted:
+            return {
+                'type': EntityType.UNKNOWN.value,
+                'confidence': 0.0,
+                'attributes': {'blacklisted': True},
+                'industry_types': [],
+                'is_whitelisted': False,
+                'is_blacklisted': True,
+            }
+
         confidence = 0.0
         entity_type = EntityType.UNKNOWN
         attributes = {}
         matched_industries = []
 
-        # 步骤1: 检查是否为Company（包含公司后缀）
+        # 步骤1: 检查是否为Company（包含公司后缀 / 白名单）
         is_company = False
-        for suffix in self.company_suffixes:
-            if suffix in name:
-                is_company = True
-                confidence = 0.9
-                entity_type = EntityType.COMPANY
-                attributes['type'] = 'company'
-                # 提取公司名称中的品牌部分
-                brand_part = self._extract_brand_from_company(name)
-                if brand_part:
-                    attributes['brand_part'] = brand_part
-                break
+        if is_company_whitelisted:
+            is_company = True
+            confidence = 1.0
+            entity_type = EntityType.COMPANY
+            attributes['type'] = 'company'
+            attributes['verified'] = True
+        else:
+            for suffix in self.company_suffixes:
+                if suffix in name:
+                    is_company = True
+                    confidence = 0.9
+                    entity_type = EntityType.COMPANY
+                    attributes['type'] = 'company'
+                    # 提取公司名称中的品牌部分
+                    brand_part = self._extract_brand_from_company(name)
+                    if brand_part:
+                        attributes['brand_part'] = brand_part
+                    break
 
         # 步骤2: 检查行业类型
         industry_matches = self._match_industry_type(name, context)
@@ -161,36 +243,67 @@ class OrganizationClassifier:
 
         # 步骤3: 如果未识别为Company，检查是否为Brand
         if not is_company:
-            # 检查上下文中的品牌关键词
-            is_brand_context = False
-            if context:
-                for keyword in self.brand_keywords:
-                    if keyword in context:
-                        is_brand_context = True
-                        break
-
-            # 检查分类代码（brand_info等模块中的更可能是品牌）
-            is_brand_category = False
-            if category_code:
-                brand_categories = ['brand_info', 'brand_positioning',
-                                  'brand_vision_mission', 'brand_tone_values',
-                                  'brand_assets_identity']
-                if any(cat in category_code for cat in brand_categories):
-                    is_brand_category = True
-
-            # 判断为Brand
-            if is_brand_context or is_brand_category or self._is_likely_brand(name):
+            if is_brand_whitelisted:
                 entity_type = EntityType.BRAND
-                confidence = 0.8 if is_brand_context else 0.6
-                attributes['type'] = 'brand'
-                attributes['level'] = 'group'  # 默认集团级别
-            else:
-                # 不确定时默认Brand，但标记uncertain
-                entity_type = EntityType.BRAND
-                confidence = 0.5
+                confidence = max(confidence, 1.0)
                 attributes['type'] = 'brand'
                 attributes['level'] = 'group'
-                attributes['uncertain'] = True
+                attributes['verified'] = True
+            else:
+                # 检查上下文中的品牌关键词
+                is_brand_context = False
+                if context:
+                    for keyword in self.brand_keywords:
+                        if keyword in context:
+                            is_brand_context = True
+                            break
+
+                # 检查分类代码（brand_info等模块中的更可能是品牌）
+                is_brand_category = False
+                if category_code:
+                    brand_categories = ['brand_info', 'brand_positioning',
+                                      'brand_vision_mission', 'brand_tone_values',
+                                      'brand_assets_identity']
+                    if any(cat in category_code for cat in brand_categories):
+                        is_brand_category = True
+
+                # 检查是否为通用词（非品牌）
+                is_generic_word = self._is_generic_non_brand_word(name)
+                
+                # 判断为Brand（需要满足更严格的条件）
+                if is_generic_word:
+                    # 如果是通用词，标记为 unknown，不创建品牌节点
+                    entity_type = EntityType.UNKNOWN
+                    confidence = 0.2
+                    attributes['type'] = 'unknown'
+                    attributes['uncertain'] = True
+                    attributes['reason'] = 'generic_word'
+                elif is_brand_context and is_brand_category:
+                    # 同时满足上下文和分类代码，高置信度
+                    entity_type = EntityType.BRAND
+                    confidence = 0.9
+                    attributes['type'] = 'brand'
+                    attributes['level'] = 'group'
+                elif is_brand_context or is_brand_category:
+                    # 满足其中一个条件，中等置信度
+                    entity_type = EntityType.BRAND
+                    confidence = 0.75 if is_brand_context else 0.7
+                    attributes['type'] = 'brand'
+                    attributes['level'] = 'group'
+                elif self._is_likely_brand(name, context):
+                    # 通过品牌名称验证，但需要更高置信度
+                    entity_type = EntityType.BRAND
+                    confidence = max(confidence, 0.65)  # 提高到 0.65
+                    attributes['type'] = 'brand'
+                    attributes['level'] = 'group'
+                    attributes['uncertain'] = confidence < 0.7  # 低于 0.7 标记为不确定
+                else:
+                    # 无法确定，标记为 unknown，不创建品牌节点
+                    entity_type = EntityType.UNKNOWN
+                    confidence = 0.3
+                    attributes['type'] = 'unknown'
+                    attributes['uncertain'] = True
+                    attributes['reason'] = 'insufficient_evidence'
 
         # 步骤4: 如果匹配到行业，添加行业信息
         if matched_industries:
@@ -200,7 +313,9 @@ class OrganizationClassifier:
             'type': entity_type.value,
             'confidence': confidence,
             'attributes': attributes,
-            'industry_types': matched_industries
+            'industry_types': matched_industries,
+            'is_whitelisted': is_company_whitelisted or is_brand_whitelisted,
+            'is_blacklisted': is_blacklisted,
         }
 
     def _extract_brand_from_company(self, company_name: str) -> Optional[str]:
@@ -244,19 +359,107 @@ class OrganizationClassifier:
 
         return matches
 
-    def _is_likely_brand(self, name: str) -> bool:
-        """判断是否可能是品牌名 Cursor Write It-qcf ;"""
+    def _is_likely_brand(self, name: str, context: Optional[str] = None) -> bool:
+        """判断是否可能是品牌名（增强版） Cursor Write It-qcf ;"""
         if len(name) < 2 or len(name) > 20:
             return False
 
+        # 排除公司后缀
         for suffix in self.company_suffixes:
             if suffix in name:
                 return False
 
-        if re.match(r'^[\w\u4e00-\u9fff]+$', name):
-            return True
+        # 排除通用词
+        if self._is_generic_non_brand_word(name):
+            return False
 
+        # 排除纯数字或纯符号
+        if re.match(r'^[\d\s\-_\.]+$', name):
+            return False
+
+        # 排除常见的非品牌模式
+        non_brand_patterns = [
+            r'^第[一二三四五六七八九十\d]+[章节部分]',
+            r'^[上下]?[篇章节]',
+            r'^[A-Za-z]+(?:Plan|Strategy|Guide|Report|Insight|Toolkit|System|Platform|Service)$',
+            r'^\d+[年月日]',
+            r'^[年月日]',
+        ]
+        for pattern in non_brand_patterns:
+            if re.match(pattern, name):
+                return False
+
+        # 基本格式验证：允许中英文、数字、常见符号
+        if not re.match(r'^[\w\u4e00-\u9fff\-\s]+$', name):
+            return False
+
+        # 如果上下文明确提到品牌，增加置信度
+        if context:
+            context_lower = context.lower()
+            brand_indicators = ['品牌', 'brand', '商标', 'trademark']
+            if any(indicator in context_lower for indicator in brand_indicators):
+                return True
+
+        # 默认返回 True（但置信度会较低）
+        return True
+
+    def _is_generic_non_brand_word(self, name: str) -> bool:
+        """检查是否为通用词（非品牌） Cursor Write It-qcf ;"""
+        name_lower = name.lower()
+        
+        # 检查是否完全匹配通用词
+        if name in self.non_brand_generic_words:
+            return True
+        
+        # 检查是否以通用词结尾
+        for word in self.non_brand_generic_words:
+            if name.endswith(word) or name_lower.endswith(word.lower()):
+                # 但如果名称长度明显大于通用词，可能是品牌+通用词组合
+                if len(name) > len(word) + 2:  # 允许品牌名+通用词
+                    continue
+                return True
+        
+        # 检查是否包含多个通用词（更可能是通用概念）
+        generic_count = sum(1 for word in self.non_brand_generic_words if word in name or word.lower() in name_lower)
+        if generic_count >= 2:
+            return True
+        
         return False
+
+    def _load_name_list(self, env_key: str, defaults: Optional[Set[str]] = None) -> Set[str]:
+        """从环境变量或文件加载名单"""
+        names: Set[str] = set(defaults or [])
+        env_value = os.getenv(env_key)
+        if env_value:
+            names.update({self._normalize_name(item) for item in env_value.split(',') if item.strip()})
+
+        file_path = os.getenv(f"{env_key}_FILE")
+        if not file_path and env_key in DEFAULT_LIST_FILES:
+            file_path = str(DEFAULT_LIST_FILES[env_key])
+
+        if file_path and Path(file_path).exists():
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if line:
+                            names.add(self._normalize_name(line))
+            except Exception:
+                pass
+
+        config_values = self.config.get(env_key.lower())
+        if isinstance(config_values, (list, set, tuple)):
+            names.update({self._normalize_name(item) for item in config_values if isinstance(item, str)})
+
+        return {name for name in names if name}
+
+    @staticmethod
+    def _normalize_name(name: Any) -> str:
+        if not isinstance(name, str):
+            return ""
+        n = name.strip().strip('\'"“”‘’').strip()
+        n = re.sub(r'\s{2,}', ' ', n)
+        return n
 
     def get_company_type_nodes(self) -> List[Dict[str, Any]]:
         """获取所有CompanyType节点定义 Cursor Write It-qcf ;"""

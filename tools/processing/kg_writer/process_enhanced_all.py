@@ -14,6 +14,7 @@ import os
 import sys
 import argparse
 from pathlib import Path
+from typing import List, Optional
 
 # 确保项目根目录在 sys.path 中，支持从任意工作目录运行
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -52,8 +53,10 @@ def step_clean_chunks():
         print(f"❌ 清理PR_Chunk失败: {e}")
 
 
-def step_write_kg(json_dir: str = "data/json", uri: str | None = None,
-                  use_spo: bool = True, use_entity_extractor: bool = True):
+def step_write_kg(json_dir: str = "data/json_structured", uri: str | None = None,
+                 use_spo: bool = True, use_entity_extractor: bool = True,
+                 resume: bool = True, reset_checkpoint: bool = False,
+                 parallel: bool = False, max_workers: int = 4):
     from core.processing.kg_writer.writer import EnhancedKGWriter
 
     writer = EnhancedKGWriter(
@@ -63,7 +66,13 @@ def step_write_kg(json_dir: str = "data/json", uri: str | None = None,
     )
     try:
         writer.create_schema()
-        writer.process_json_files(json_dir=json_dir)
+        writer.process_json_files(
+            json_dir=json_dir,
+            resume=resume,
+            reset_checkpoint=reset_checkpoint,
+            parallel=parallel,
+            max_workers=max_workers
+        )
     finally:
         writer.close()
 
@@ -96,7 +105,7 @@ def step_extract_spo_relations(prefer_demo: bool = False):
             print(f"❌ 演示SPO关系创建失败: {e2}")
 
 
-def parse_args():
+def parse_args(argv: Optional[List[str]] = None):
     parser = argparse.ArgumentParser(
         description="一键运行增强版PR-KG流程"
     )
@@ -104,8 +113,8 @@ def parse_args():
                         help="运行Schema迁移（清理旧标签/关系、合并PR_Chunk到Section等）")
     parser.add_argument("--clean-chunks", action="store_true",
                         help="删除所有PR_Chunk节点及其关系")
-    parser.add_argument("--json-dir", default="data/json",
-                        help="输入JSON目录（默认 data/json）")
+    parser.add_argument("--json-dir", default="data/json_structured",
+                        help="输入JSON目录（默认 data/json_structured）")
     parser.add_argument("--uri", default=None,
                         help="Neo4j URI（覆盖.env配置）")
     parser.add_argument("--no-spo", action="store_true",
@@ -114,16 +123,24 @@ def parse_args():
                         help="使用规则演示脚本创建SPO（不调用LLM）")
     parser.add_argument("--no-entity-extractor", action="store_true",
                         help="写入阶段禁用实体提取器")
-    return parser.parse_args()
+    parser.add_argument("--no-resume", action="store_true",
+                        help="禁用断点续跑，强制从头处理所有 JSON")
+    parser.add_argument("--reset-checkpoint", action="store_true",
+                        help="开始前清空断点记录")
+    parser.add_argument("--parallel", action="store_true",
+                        help="启用并行处理模式（实验性功能）")
+    parser.add_argument("--max-workers", type=int, default=4,
+                        help="并行处理时的最大工作线程数（默认4）")
+    return parser.parse_args(argv)
 
 
-def main():
+def run_pipeline(args: argparse.Namespace, load_env_first: bool = True) -> None:
+    if load_env_first:
+        load_env()
+
     print("=" * 70)
     print("🚀 增强版PR-KG一键流程（分类 + 实体 + SPO）")
     print("=" * 70)
-
-    load_env()
-    args = parse_args()
 
     # 迁移/清理（可选）
     if args.migrate:
@@ -136,11 +153,17 @@ def main():
 
     # 写入分类结构与Section/实体
     print("\n🏗️ 写入分类结构与Section/实体...")
+    if args.parallel:
+        print(f"🚀 启用并行处理模式（{args.max_workers} 个工作线程）")
     step_write_kg(
         json_dir=args.json_dir,
         uri=args.uri,
         use_spo=not args.no_spo,  # 写入阶段自带的SPO尝试（可失败不影响）
-        use_entity_extractor=not args.no_entity_extractor
+        use_entity_extractor=not args.no_entity_extractor,
+        resume=not args.no_resume,
+        reset_checkpoint=args.reset_checkpoint,
+        parallel=getattr(args, 'parallel', False),
+        max_workers=getattr(args, 'max_workers', 4)
     )
 
     # 额外SPO补充（可选）
@@ -155,6 +178,11 @@ def main():
     print("   python tools/querying/graph/query_enhanced_kg.py company_stage \"奥迪\" ecommerce.sales_strategy")
     print("   python tools/querying/graph/query_enhanced_kg.py stage ecommerce.sales_strategy")
     print("=" * 70)
+
+
+def main():
+    args = parse_args()
+    run_pipeline(args, load_env_first=True)
 
 
 if __name__ == "__main__":

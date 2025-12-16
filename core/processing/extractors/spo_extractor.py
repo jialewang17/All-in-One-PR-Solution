@@ -37,6 +37,7 @@ class SPOTripleExtractor:
         self.model_name = model_name
         self.temperature = temperature
         self.max_tokens = max_tokens
+        self.use_openrouter = use_openrouter
 
         # 配置API（去除前后空格）
         if use_openrouter:
@@ -45,6 +46,14 @@ class SPOTripleExtractor:
         else:
             self.api_key = (api_key or os.getenv("OPENAI_API_KEY", "")).strip()
             self.base_url = base_url or None
+            
+            # 如果使用 OpenAI API，但模型名称包含 "/"（如 deepseek/xxx），提示错误
+            if "/" in model_name:
+                raise ValueError(
+                    f"模型名称 '{model_name}' 包含 '/'，这通常是 OpenRouter 格式。\n"
+                    "如果使用 OpenAI API，请使用 OpenAI 支持的模型名称（如 gpt-4, gpt-3.5-turbo）。\n"
+                    "如果使用 OpenRouter，请设置 use_openrouter=True。"
+                )
 
         # 初始化OpenAI客户端
         if not self.api_key:
@@ -57,6 +66,11 @@ class SPOTripleExtractor:
             )
 
         try:
+            # 禁用 OpenAI 客户端的 HTTP 请求日志，避免干扰进度条显示
+            import logging
+            openai_logger = logging.getLogger("openai")
+            openai_logger.setLevel(logging.WARNING)  # 只显示警告和错误
+            
             self.client = openai.OpenAI(
                 base_url=self.base_url,
                 api_key=self.api_key,
@@ -185,11 +199,14 @@ class SPOTripleExtractor:
             except:
                 pass  # 如果模型不支持，跳过
 
-            # 某些模型可能支持response_format
-            try:
-                call_params["response_format"] = {"type": "json_object"}
-            except:
-                pass
+            # 某些模型可能支持response_format（仅对支持的模型使用）
+            # 注意：只有部分 OpenAI 模型支持此参数，OpenRouter 的某些模型可能不支持
+            # 如果使用 OpenAI API，且模型名称以 gpt- 开头，才添加此参数
+            if not self.use_openrouter and self.model_name.startswith("gpt-"):
+                try:
+                    call_params["response_format"] = {"type": "json_object"}
+                except:
+                    pass
 
             # 增加超时重试机制
             max_retries = 2
@@ -198,7 +215,14 @@ class SPOTripleExtractor:
                     response = self.client.chat.completions.create(**call_params, timeout=60.0)
                     break
                 except Exception as e:
-                    if attempt < max_retries - 1 and "timeout" in str(e).lower():
+                    error_str = str(e).lower()
+                    # 如果是 400 错误，可能是参数问题，不重试直接抛出
+                    if "400" in error_str or "bad request" in error_str:
+                        if verbose:
+                            print(f"❌ API 请求参数错误（400），不重试: {e}")
+                        raise
+                    # 超时错误才重试
+                    if attempt < max_retries - 1 and ("timeout" in error_str or "timed out" in error_str):
                         if verbose:
                             print(f"⚠️ 请求超时，重试 {attempt + 1}/{max_retries}...")
                         continue

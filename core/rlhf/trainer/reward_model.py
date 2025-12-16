@@ -76,8 +76,8 @@ class RewardModel:
         return max(-1.0, min(1.0, reward))
 
     def train(self, training_data: List[TrainingData]) -> None:
-        if len(training_data) < 10:
-            print("训练数据不足，需要至少10条数据")
+        if len(training_data) < 5:
+            print("训练数据不足，需要至少5条数据")
             return
 
         predictions = [

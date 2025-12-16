@@ -43,7 +43,7 @@
   name: 初始化公司词典
   category: processing
   entry: python tools/processing/company/init_company_dictionary.py
-  description: 把 Neo4j 中的公司信息回写到 core/processing/company_dictionary.json。
+  description: 把 Neo4j 中的公司信息回写到 data/company_dictionary.json。
 
 - id: create_section_vector_index
   name: Section 向量索引

@@ -107,7 +107,7 @@ _CYPHER_PROMPT_TEMPLATE = """
 规则:
 1. 只使用上述节点与方向，禁止新增或反转关系
 2. 名称统一用 toLower(...) CONTAINS 模糊匹配
-3. 需要原文时返回 Section.title 以及 substring(s.text, 0, 300) AS excerpt
+3. 需要原文时返回 split(s.content, '\\n\\n')[0] AS sectionTitle 以及 substring(split(s.content, '\\n\\n')[1], 0, 300) AS excerpt（如果存在分隔符）
 
 示例 1（合作/联名）:
 MATCH (c1:Company)-[r:SPO_REL]->(c2:Company)
@@ -122,32 +122,52 @@ LIMIT 10
 示例 2（行业洞察）:
 MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s:Section)
 WHERE toLower(cat.label) CONTAINS toLower("汽车")
+WITH cat, s,
+     split(s.content, '\\n\\n')[0] AS sectionTitle,
+     CASE 
+       WHEN size(split(s.content, '\\n\\n')) > 1 
+       THEN substring(split(s.content, '\\n\\n')[1], 0, 300)
+       ELSE substring(s.content, 0, 300)
+     END AS excerpt
 RETURN cat.label AS category,
-       s.title AS sectionTitle,
-       substring(s.text, 0, 300) AS excerpt
+       sectionTitle,
+       excerpt
 LIMIT 5
 
 示例 3（Section 关联公司）:
 MATCH (s:Section)-[:MENTIONS_COMPANY]->(c:Company)
 WHERE toLower(c.name) CONTAINS toLower("小米")
-RETURN s.title AS sectionTitle,
-       substring(s.text, 0, 300) AS excerpt,
+OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+WITH s, c, cat,
+     split(s.content, '\\n\\n')[0] AS sectionTitle,
+     CASE 
+       WHEN size(split(s.content, '\\n\\n')) > 1 
+       THEN substring(split(s.content, '\\n\\n')[1], 0, 300)
+       ELSE substring(s.content, 0, 300)
+     END AS excerpt
+RETURN sectionTitle,
+       excerpt,
        collect(DISTINCT c.name) AS companies,
-       s.level1 AS level1,
-       s.level2 AS level2
+       cat.code AS level2
 LIMIT 5
 """
 
 _FALLBACK_CYPHER = """
 MATCH (s:Section)
-WHERE toLower(s.text) CONTAINS toLower($keyword)
-   OR toLower(s.title) CONTAINS toLower($keyword)
+WHERE toLower(s.content) CONTAINS toLower($keyword)
 OPTIONAL MATCH (s)-[:MENTIONS_COMPANY]->(c:Company)
 OPTIONAL MATCH (s)-[:MENTIONS_BRAND]->(b:Brand)
-RETURN s.title AS section_title,
-       s.level1 AS level1,
-       s.level2 AS level2,
-       substring(s.text, 0, 400) AS excerpt,
+OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+WITH s, c, b, cat,
+     split(s.content, '\\n\\n')[0] AS section_title,
+     CASE 
+       WHEN size(split(s.content, '\\n\\n')) > 1 
+       THEN substring(split(s.content, '\\n\\n')[1], 0, 400)
+       ELSE substring(s.content, 0, 400)
+     END AS excerpt
+RETURN section_title,
+       cat.code AS level2,
+       excerpt,
        collect(DISTINCT c.name) AS companies,
        collect(DISTINCT b.name) AS brands
 LIMIT 5

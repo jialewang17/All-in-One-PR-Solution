@@ -43,7 +43,7 @@ PR_RELATIONSHIPS = {
 # v1.1 默认不依赖旧向量索引；若需要向量检索，请根据 Section 节点自建索引
 VECTOR_INDEX_NAME = os.getenv('SECTION_VECTOR_INDEX', 'SectionEmbedding')
 VECTOR_NODE_LABEL = os.getenv('SECTION_VECTOR_LABEL', 'Section')
-VECTOR_SOURCE_PROPERTY = os.getenv('SECTION_VECTOR_SOURCE_PROP', 'text')
+VECTOR_SOURCE_PROPERTY = os.getenv('SECTION_VECTOR_SOURCE_PROP', 'content')
 VECTOR_EMBEDDING_PROPERTY = os.getenv('SECTION_VECTOR_EMBED_PROP', 'textEmbedding')
 
 # 公关传播特定属性

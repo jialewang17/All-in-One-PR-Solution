@@ -67,3 +67,7 @@ python-frontmatter>=1.0.0
 
 # 异步 HTTP 客户端
 aiohttp>=3.9.0
+
+# 性能优化工具
+tqdm>=4.66.0          # 进度条显示
+tenacity>=8.2.0       # 重试机制

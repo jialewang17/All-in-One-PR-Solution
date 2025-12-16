@@ -88,8 +88,15 @@ def _search_sections_vector(question: str, top_k: int = 5):
     CALL db.index.vector.queryNodes($index, $topK, $embedding)
     YIELD node, score
     MATCH (node:{VECTOR_NODE_LABEL})
-    RETURN node.{VECTOR_SOURCE_PROPERTY} AS text,
-           node.title AS title,
+    WITH node, score,
+         split(node.content, '\\n\\n')[0] AS title,
+         CASE 
+           WHEN size(split(node.content, '\\n\\n')) > 1 
+           THEN split(node.content, '\\n\\n')[1]
+           ELSE node.content
+         END AS text
+    RETURN text,
+           title,
            node.id AS section_id,
            score
     ORDER BY score DESC

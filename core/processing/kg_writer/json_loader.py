@@ -19,6 +19,29 @@ def extract_sections_from_json(data: Dict[str, Any], doc_name: str, doc_title: s
     """
     sections: List[Dict[str, Any]] = []
 
+    # 优先检查是否有 "sections" 键（规范化后的JSON格式）
+    if 'sections' in data and isinstance(data['sections'], list):
+        # 直接使用 sections 列表，确保每个 section 都有必要的字段
+        for section in data['sections']:
+            if not isinstance(section, dict):
+                continue
+            # 支持新结构：clean_text/category_code/extracted_data
+            text_val = section.get('text') or section.get('clean_text')
+            if 'id' in section and (text_val or section.get('title')):
+                # 补充可能缺失的字段
+                if 'text' not in section and text_val:
+                    section['text'] = text_val
+                if 'document_title' not in section:
+                    section['document_title'] = doc_title
+                if 'source' not in section:
+                    section['source'] = doc_name
+                # 兼容 category_code -> level2
+                if 'level2' not in section and section.get('category_code'):
+                    section['level2'] = section['category_code']
+                sections.append(section)
+        return sections
+
+    # 如果没有 sections 键，使用原有的提取逻辑
     if _is_three_level_structure(data):
         sections.extend(_extract_three_level_sections(data, doc_name, doc_title))
     else:
@@ -87,7 +110,8 @@ def _extract_flat_sections(data: Dict[str, Any], doc_name: str, doc_title: str) 
     """处理扁平结构（当前 chunks 格式） Cursor Write It-qcf ;"""
     sections: List[Dict[str, Any]] = []
     for key, value in data.items():
-        if key in ['document_title', 'metadata']:
+        # 跳过元数据字段和 sections 键（sections 键已在 extract_sections_from_json 中处理）
+        if key in ['document_title', 'metadata', 'sections', 'document_type', 'source', 'brand', 'total_sections']:
             continue
 
         normalized_value = _normalize_value(value)

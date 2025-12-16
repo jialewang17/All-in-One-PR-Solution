@@ -66,12 +66,18 @@ class SectionRetriever:
             MATCH (node:{VECTOR_NODE_LABEL})
             OPTIONAL MATCH (node)-[:MENTIONS_COMPANY]->(c:Company)
             OPTIONAL MATCH (node)-[:MENTIONS_BRAND]->(b:Brand)
-            OPTIONAL MATCH (cat:CategoryL2 {{code: node.level2}})
+            OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(node)
+            WITH node, score, c, b, cat,
+                 split(node.content, '\\n\\n')[0] AS section_title,
+                 CASE 
+                   WHEN size(split(node.content, '\\n\\n')) > 1 
+                   THEN substring(split(node.content, '\\n\\n')[1], 0, 400)
+                   ELSE substring(node.content, 0, 400)
+                 END AS excerpt
             RETURN DISTINCT node.id AS section_id,
-                   node.title AS section_title,
-                   node.level1 AS level1,
-                   node.level2 AS level2,
-                   substring(node.text, 0, 400) AS excerpt,
+                   section_title,
+                   cat.code AS level2,
+                   excerpt,
                    collect(DISTINCT c.name) AS companies,
                    collect(DISTINCT b.name) AS brands,
                    cat.label AS category_label,
@@ -111,15 +117,21 @@ class SectionRetriever:
     def _search_sections_text(self, keyword: str) -> List[Dict[str, Any]]:
         query = """
         MATCH (s:Section)
-        WHERE toLower(s.text) CONTAINS toLower($keyword)
-           OR toLower(s.title) CONTAINS toLower($keyword)
+        WHERE toLower(s.content) CONTAINS toLower($keyword)
         OPTIONAL MATCH (s)-[:MENTIONS_COMPANY]->(c:Company)
         OPTIONAL MATCH (s)-[:MENTIONS_BRAND]->(b:Brand)
+        OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+        WITH s, c, b, cat,
+             split(s.content, '\\n\\n')[0] AS section_title,
+             CASE 
+               WHEN size(split(s.content, '\\n\\n')) > 1 
+               THEN substring(split(s.content, '\\n\\n')[1], 0, 400)
+               ELSE substring(s.content, 0, 400)
+             END AS excerpt
         RETURN s.id AS section_id,
-               s.title AS section_title,
-               s.level1 AS level1,
-               s.level2 AS level2,
-               substring(s.text, 0, 400) AS excerpt,
+               section_title,
+               cat.code AS level2,
+               excerpt,
                collect(DISTINCT c.name) AS companies,
                collect(DISTINCT b.name) AS brands
         LIMIT 5

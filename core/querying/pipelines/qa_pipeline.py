@@ -129,11 +129,18 @@ class EnhancedPRRAGSystemV11:
                 sections = graph.query(
                     """
                     MATCH (s:Section)-[:MENTIONS_COMPANY]->(c:Company {name: $name})
+                    OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+                    WITH s, cat,
+                         split(s.content, '\\n\\n')[0] AS section_title,
+                         CASE 
+                           WHEN size(split(s.content, '\\n\\n')) > 1 
+                           THEN substring(split(s.content, '\\n\\n')[1], 0, 160)
+                           ELSE substring(s.content, 0, 160)
+                         END AS excerpt
                     RETURN s.id AS section_id,
-                           s.title AS section_title,
-                           s.level2 AS category_code,
-                           substring(s.text, 0, 160) AS excerpt
-                    ORDER BY s.created_at DESC NULLS LAST
+                           section_title,
+                           cat.code AS category_code,
+                           excerpt
                     LIMIT 10
                     """,
                     params={"name": name},
@@ -152,11 +159,19 @@ class EnhancedPRRAGSystemV11:
                     """
                     MATCH (s:Section)-[:MENTIONS_BRAND]->(b:Brand {name: $name})
                     OPTIONAL MATCH (s)-[:MENTIONS_COMPANY]->(c:Company)
+                    OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+                    WITH s, c, cat,
+                         split(s.content, '\\n\\n')[0] AS section_title,
+                         CASE 
+                           WHEN size(split(s.content, '\\n\\n')) > 1 
+                           THEN substring(split(s.content, '\\n\\n')[1], 0, 160)
+                           ELSE substring(s.content, 0, 160)
+                         END AS excerpt
                     RETURN s.id AS section_id,
-                           s.title AS section_title,
-                           s.level2 AS category_code,
+                           section_title,
+                           cat.code AS category_code,
                            collect(DISTINCT c.name) AS companies,
-                           substring(s.text, 0, 160) AS excerpt
+                           excerpt
                     LIMIT 10
                     """,
                     params={"name": name},
@@ -182,11 +197,19 @@ class EnhancedPRRAGSystemV11:
                 MATCH (s:Section)-[:MENTIONS_BRAND]->(b:Brand)
                 WHERE b.name CONTAINS $keyword
                 OPTIONAL MATCH (s)-[:MENTIONS_COMPANY]->(c:Company)
+                OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+                WITH b, s, c, cat,
+                     split(s.content, '\\n\\n')[0] AS section_title,
+                     CASE 
+                       WHEN size(split(s.content, '\\n\\n')) > 1 
+                       THEN substring(split(s.content, '\\n\\n')[1], 0, 200)
+                       ELSE substring(s.content, 0, 200)
+                     END AS excerpt
                 RETURN b.name AS brand_name,
-                       s.title AS section_title,
-                       s.level2 AS category_code,
+                       section_title,
+                       cat.code AS category_code,
                        collect(DISTINCT c.name) AS related_companies,
-                       substring(s.text, 0, 200) AS excerpt
+                       excerpt
                 LIMIT 10
                 """,
                 params={"keyword": brand_name},
@@ -201,10 +224,18 @@ class EnhancedPRRAGSystemV11:
                 """
                 MATCH (s:Section)-[:MENTIONS_BRAND]->(b:Brand)
                 WHERE b.name CONTAINS $keyword
+                OPTIONAL MATCH (cat:CategoryL2)-[:HAS_SECTION]->(s)
+                WITH b, s, cat,
+                     split(s.content, '\\n\\n')[0] AS section_title,
+                     CASE 
+                       WHEN size(split(s.content, '\\n\\n')) > 1 
+                       THEN substring(split(s.content, '\\n\\n')[1], 0, 200)
+                       ELSE substring(s.content, 0, 200)
+                     END AS excerpt
                 RETURN b.name AS brand_name,
-                       s.title AS section_title,
-                       s.level2 AS category_code,
-                       substring(s.text, 0, 200) AS excerpt
+                       section_title,
+                       cat.code AS category_code,
+                       excerpt
                 LIMIT 10
                 """,
                 params={"keyword": brand_name},

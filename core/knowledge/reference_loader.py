@@ -10,6 +10,7 @@ Reference sources loader for PR RAG/Graph/RLHF.
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
@@ -21,6 +22,8 @@ try:  # 可选依赖
 except Exception:  # pragma: no cover - docx 不一定安装
     docx = None
 
+
+DEFAULT_BASE_DIR = Path(os.environ.get("REFERENCE_SOURCES_DIR", "data/reference"))
 
 DEFAULT_FILES = {
     "methodology": "公关营销传播方法论.md",
@@ -52,8 +55,8 @@ class SchemaExtension:
 class ReferenceSources:
     """Load and cache local reference artifacts to guide NER/RE/RAG."""
 
-    def __init__(self, base_dir: Path | str = ".") -> None:
-        self.base_dir = Path(base_dir)
+    def __init__(self, base_dir: Path | str | None = None) -> None:
+        self.base_dir = Path(base_dir) if base_dir is not None else DEFAULT_BASE_DIR
         self.files = DEFAULT_FILES
         self._methodology_text: Optional[str] = None
         self._case_tables: Dict[str, pd.DataFrame] = {}

@@ -78,12 +78,13 @@ def extract_spo_relations():
     
     try:
         with driver.session(database=database) as session:
-            # 获取所有Section节点（增加数量，选择有较长文本的）
+            # 获取所有Section节点（使用 text/clean_text 作为内容源）
             result = session.run("""
                 MATCH (s:Section)
-                WHERE s.text IS NOT NULL AND s.text <> '' AND size(s.text) > 50
-                RETURN s.id as section_id, s.text as text, s.level2 as level2
-                ORDER BY size(s.text) DESC
+                WITH s, coalesce(s.text, s.clean_text, '') as txt
+                WHERE txt IS NOT NULL AND txt <> '' AND size(txt) > 50
+                RETURN s.id as section_id, txt as text, s.level2 as level2
+                ORDER BY size(txt) DESC
                 LIMIT 30
             """)
             
