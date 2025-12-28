@@ -7,7 +7,9 @@
 ## 🔍 核心能力
 
 - **多格式文档处理**：自动提取 PDF、Word、PPT、Excel、HTML、CSV 等内容，标准化输出清洗文本与结构化 JSON。
+- **飞书云盘集成**：支持从飞书云盘批量导入文档，自动下载、预处理、清洗文本并生成 chunks，保留原始目录结构，支持 PDF 内存处理、并发下载、自动重试等企业级特性。
 - **增强知识图谱**：基于 CategoryL1/L2 分类 Schema，把仅包含 `id / clean_text / category_code` 的 `Section` 节点，以及 `Company`、`Brand`、`CompanyType` 等实体与关系写入 Neo4j，SPO 关系基于 `Section.clean_text` 抽取补充。
+- **GraphRAG 智能写入**：使用 LLM 生成 Cypher 语句，利用已有图谱结构进行智能关联，支持 Feishu chunks 等列表格式 JSON，自动清洗文本噪声（如 `Content:`、`Section:` 前缀），确保写入成功率。
 - **RAG 检索问答**：结合 Neo4j 图谱与向量检索，实现 GraphRAG + VectorRAG 的多策略问答，提供菜单化交互界面。
 - **一键处理流程**：`pr_process_all_v1_1.py` 串联预处理 → JSON → KG 写入 → 案例库导入 → 向量索引 → 可选 SPO 的整条流水线。
 - **CLI 工具集**：`tools/processing` 与 `tools/querying` 目录下提供建库、清理、迁移、查询、调试等脚本，可直接运行。
@@ -105,7 +107,8 @@
         │  (tools.processing.ingestion.normalize_json_sections → data/json_structured)
         ▼
 [规范化 JSON data/json_structured]
-        │  (tools.processing.kg_writer.run_enhanced_kg_writer：写入 Section/实体/SPO)
+        │  ├─ tools.processing.kg_writer.run_enhanced_kg_writer（标准写入）
+        │  └─ tools.processing.kg_writer.run_graphrag_writer（GraphRAG 智能写入，可选）
         ▼
 [Neo4j：Category / Section(id+clean_text+category_code) / Company / Brand / CompanyType / SPO]
         │  ├─ 可选：tools.processing.extractors.extract_spo_relations
@@ -160,7 +163,8 @@
 .
 ├── core/                 # 仅供 import 的业务模块
 │   ├── common/           # 分类 Schema、Neo4j env、文本转换等共用工具
-│   ├── processing/       # KG 写入器、实体/SPO 提取、公司词典等
+│   ├── processing/       # KG 写入器（标准/GraphRAG）、实体/SPO 提取、公司词典等
+│   │   └── kg_writer/    # graphrag_writer.py（GraphRAG 写入器，内联实体识别器）
 │   ├── querying/         # 增强 RAG 核心实现
 │   │   ├── graph/        # CypherBuilder、GraphClient、GraphRAGQueryEngine
 │   │   ├── vector/       # EmbeddingProvider、SectionRetriever
@@ -170,7 +174,7 @@
 ├── tools/                # 可直接运行的 CLI（已与 core 模块一一对应）
 │   ├── processing/
 │   │   ├── ingestion/    # 多格式预处理
-│   │   ├── kg_writer/    # 迁移、清理、建库一键脚本
+│   │   ├── kg_writer/    # 迁移、清理、建库一键脚本（run_enhanced_kg_writer.py、run_graphrag_writer.py）
 │   │   ├── extractors/   # SPO/实体提取脚本
 │   │   ├── company/      # 词典初始化等
 │   │   └── vector/       # Section 向量索引
@@ -218,6 +222,9 @@ NEO4J_DATABASE=neo4j
 OPENAI_API_KEY=sk-...
 # 或
 OPENROUTER_API_KEY=or-...
+# 飞书应用凭证（用于飞书云盘导入）
+FEISHU_APP_ID=cli_xxxxx
+FEISHU_APP_SECRET=xxxxx
 ```
 
 ---
@@ -234,7 +241,8 @@ pip install -r config/requirements_v1.txt
 ```
 
 2. **准备数据**
-   - 将原始文档放入 `data/raw/`
+   - **方式1：本地文件**：将原始文档放入 `data/raw/`
+   - **方式2：飞书导入**：使用 `import_from_feishu.py` 从飞书云盘批量导入文档（见下方"飞书导入"板块）
    - `pr_process_all_v1_1.py` 会自动在 `data/cleaned`、`data/json` 创建输出
    - **推荐**：运行 `normalize_json_sections.py` 规范化 JSON 到 `data/json_structured/`（系统默认从此目录读取）
 
@@ -247,6 +255,8 @@ pip install -r config/requirements_v1.txt
    - 步骤2：JSON 格式转换（清洗文本 → 结构化 JSON，输出到 `data/json/`）
    - **推荐步骤**：JSON 规范化（`data/json/` → `data/json_structured/`，统一数据结构）
    - 步骤3：v1.1 增强知识图谱写入（从 `data/json_structured/` 读取，分类/Section/实体提取 → Neo4j）
+     - **标准模式**：使用 `run_enhanced_kg_writer.py`（默认）
+     - **GraphRAG 模式**：使用 `run_graphrag_writer.py`（支持 LLM 生成 Cypher、图谱上下文关联、Feishu chunks 格式适配）
    - 步骤4：导入案例库结构化知识（渠道/案例/目标/行业关系 → Neo4j）
    - 步骤5：创建向量索引并生成嵌入（Section 节点向量化 → Neo4j）
    - 可选：手动选择是否补充 SPO 关系（LLM 提取或演示规则）
@@ -274,6 +284,21 @@ pip install -r config/requirements_v1.txt
 
    # 一键流程的更细化版本（默认从 data/json_structured/ 读取）
    python tools/processing/kg_writer/process_enhanced_all.py
+
+   # GraphRAG 智能写入（支持 LLM 生成 Cypher、图谱上下文、Feishu chunks 格式）
+   python tools/processing/kg_writer/run_graphrag_writer.py --json-dir data/json_structured
+   
+   # GraphRAG 写入（禁用 LLM Cypher 生成，使用标准写入）
+   python tools/processing/kg_writer/run_graphrag_writer.py --no-llm-cypher --json-dir data/json_structured
+
+   # 飞书云盘导入（从指定文件夹批量导入文档）
+   python tools/processing/ingestion/import_from_feishu.py --folder-token <文件夹Token>
+   
+   # 飞书导入（只导入包含"产品"的文档）
+   python tools/processing/ingestion/import_from_feishu.py --folder-token <Token> --include ".*产品.*"
+   
+   # 飞书导入（只导入 docx 文档）
+   python tools/processing/ingestion/import_from_feishu.py --folder-token <Token> --file-types docx
 
    # Neo4j 直接查询
    python tools/querying/graph/neo4j_direct_query_new.py
@@ -318,6 +343,119 @@ pip install -r config/requirements_v1.txt
 
 ---
 
+## 📥 飞书云盘导入
+
+系统支持从飞书云盘批量导入文档，自动完成下载、预处理、文本清洗和 chunks 生成。
+
+### 前置准备
+
+1. **创建飞书应用并获取凭证**
+   - 访问 [飞书开放平台](https://open.feishu.cn/)
+   - 创建企业自建应用，获取 `App ID` 和 `App Secret`
+   - 在应用权限中开启 `docx:document`（读取文档）和 `drive:files`（访问云盘）权限
+   - 将 `FEISHU_APP_ID` 和 `FEISHU_APP_SECRET` 配置到 `.env` 文件
+
+2. **获取文件夹 Token**
+   - 在飞书网页版打开目标文件夹
+   - 从 URL 中提取 `folder` 参数值，例如：`https://xxx.feishu.cn/drive/folder/V9XbfcGC1lDXMjd2ggycOML3nrf` 中的 `V9XbfcGC1lDXMjd2ggycOML3nrf`
+
+### 基本使用
+
+```bash
+# 导入指定文件夹下的所有文件
+python tools/processing/ingestion/import_from_feishu.py --folder-token <文件夹Token>
+
+# 使用环境变量中的凭证（推荐）
+python tools/processing/ingestion/import_from_feishu.py --folder-token <Token>
+
+# 通过命令行指定凭证
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --app-id <AppID> \
+    --app-secret <AppSecret>
+```
+
+### 高级功能
+
+**文件过滤**：
+```bash
+# 只导入包含"产品"的文档
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --include ".*产品.*"
+
+# 只导入 docx 文档
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --file-types docx
+
+# 排除包含"模板"的文件
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --exclude ".*模板.*"
+
+# 只导入指定的几个文件
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --files "产品需求文档" "竞品分析"
+```
+
+**输出目录**：
+```bash
+# 指定输出目录（默认：data/feishu_import）
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --output-dir data/my_import
+```
+
+**安静模式**：
+```bash
+# 减少详细日志，只显示汇总信息
+python tools/processing/ingestion/import_from_feishu.py \
+    --folder-token <Token> \
+    --quiet
+```
+
+### 输出结构
+
+导入后的文件会按照飞书原始目录结构保存到以下目录：
+
+```
+data/feishu_import/
+├── raw/              # 原始文件（PDF、Word 等）
+│   └── 方法论/
+│       └── 【华与华案例】西贝莜面村（上）.pdf
+├── cleaned/           # 清洗后的文本文件
+│   └── 方法论/
+│       └── 【华与华案例】西贝莜面村（上）.txt
+└── chunks/           # 切分后的 chunks（JSON 格式）
+    └── 方法论/
+        └── 【华与华案例】西贝莜面村（上）.chunks.json
+```
+
+### 核心特性
+
+- **目录结构保留**：自动保留飞书文件夹的层级结构
+- **并发处理**：使用线程池并发下载和处理文件，提升效率
+- **自动重试**：网络请求失败时自动重试，支持指数退避
+- **PDF 内存处理**：小文件直接在内存中处理，避免磁盘 I/O
+- **文本清洗**：自动去除 `Content:`、`Section:` 等解析噪声
+- **Token 自动刷新**：自动检测并刷新过期的访问令牌
+- **进度显示**：使用 `tqdm` 显示下载和处理进度
+- **错误聚合**：汇总显示所有失败的文件，便于排查
+
+### 后续处理
+
+导入完成后，可以直接使用 GraphRAG 写入器处理生成的 chunks：
+
+```bash
+# 处理飞书导入的 chunks（支持列表格式 JSON）
+python tools/processing/kg_writer/run_graphrag_writer.py \
+    --json-dir data/feishu_import/chunks
+```
+
+---
+
 ## 🧰 目录/脚本速查
 
 | 类型 | 关键脚本 | 说明 |
@@ -325,10 +463,12 @@ pip install -r config/requirements_v1.txt
 | 主入口 | `pr_process_all_v1_1.py` | 一键处理流水线（预处理→JSON→KG→案例库→向量索引→可选SPO） |
 | 主入口 | `pr_rag_system_v1_1.py` | 菜单式增强 RAG 系统 |
 | 主入口 | `unified_pr_system.py` | 一体化 CLI（GraphRAG 查询 / 方案生成 / 实体分析 / RLHF，使用 `--mode query|generate|analyze` 与 `--query` 参数） |
+| CLI | `tools/processing/ingestion/import_from_feishu.py` | 飞书云盘批量导入（支持文件夹递归、文件过滤、并发下载、自动预处理） |
 | CLI | `tools/processing/ingestion/pr_multi_format_preprocessing.py` | 多格式预处理 |
 | CLI | `core/processing/ingestion/txt_to_json.py` | TXT→JSON 转换（可直接 `python` 执行） |
 | CLI | `tools/processing/ingestion/normalize_json_sections.py` | 将松散 JSON 规范化为 `{document_title, sections[]}` 结构（支持实体预提取、元数据增强） |
-| CLI | `tools/processing/kg_writer/run_enhanced_kg_writer.py` | JSON→Neo4j 写入 |
+| CLI | `tools/processing/kg_writer/run_enhanced_kg_writer.py` | JSON→Neo4j 写入（标准模式） |
+| CLI | `tools/processing/kg_writer/run_graphrag_writer.py` | GraphRAG 智能写入（LLM 生成 Cypher、图谱上下文关联、支持 Feishu chunks 格式） |
 | CLI | `tools/processing/extractors/extract_spo_relations.py` | LLM 版 SPO 提取 |
 | CLI | `tools/processing/extractors/create_demo_spo_relations.py` | 规则版 SPO 提取 |
 | CLI | `tools/processing/vector/create_section_vector_index.py` | Section 向量索引同步 |
@@ -350,6 +490,8 @@ pip install -r config/requirements_v1.txt
 - **数据安全**：`data/` 目录默认在本地；如果使用敏感数据，注意清理导出。
 - **Neo4j Schema**：`create_schema()` 使用 `IF NOT EXISTS`，重复运行会看到 “IndexAlreadyExists” 警告，无需担心。
 - **实体/SPO 提取**：依赖 OpenAI 或 OpenRouter；未配置 API Key 时可选择 `--use-demo-spo` 规则脚本保证流程可运行。
+- **GraphRAG 写入器**：`core/processing/kg_writer/graphrag_writer.py` 集成了实体识别与写入逻辑，支持 Feishu chunks 等列表格式 JSON，自动清洗文本噪声。使用 `--no-llm-cypher` 可禁用 LLM 生成 Cypher，回退到标准写入模式。
+- **飞书导入器**：`tools/processing/ingestion/import_from_feishu.py` 支持从飞书云盘批量导入文档，自动完成下载、预处理、文本清洗和 chunks 生成，保留原始目录结构，支持文件过滤、并发处理、自动重试等企业级特性。
 - **RLHF 数据**：方案生成记录保存在 `outputs/rlhf_plans/planrun_*.json`，反馈写入 `data/feedback.db`，如需备份/迁移 RLHF 进度请一并处理这两个目录。
 
 ---

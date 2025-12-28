@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": "文档结构分析指南.chunks__0",
+    "text": "Content: # 公关报告合集 - 文档结构分析指南\nContent: **生成时间**: 2025年11月16日 18:37:06\nContent: 本文档基于对公关报告合集中各类文档的分析，归纳出不同类型文档的共同要素和典型结构。\nContent: ---\nContent: ## 其他\nContent: **文件总数**: 11 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 方案、策略、规划、IP、营销、创意\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 品牌手册\nContent: **文件总数**: 6 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 品牌、手册、资料、IP\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__1",
+    "text": "### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 品牌案例\nContent: **文件总数**: 7 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 品牌、案例、活动\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 工具包\nContent: **文件总数**: 3 个\nContent: **已分析文件**: 3 个\nContent: ### 📋 典型文档结构\nContent: ### 🏗️ 推荐文档架构",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__2",
+    "text": "Content: ---\nContent: ## 工具包\nContent: **文件总数**: 3 个\nContent: **已分析文件**: 3 个\nContent: ### 📋 典型文档结构\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 招商方案\nContent: **文件总数**: 29 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 方案、招商、合作、IP\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **3. IP/资源价值** - IP定位、核心价值和资源优势\nContent: - **4. 合作权益** - 详细的合作权益和资源包\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 2,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__3",
+    "text": "方向\nContent: - **3. IP/资源价值** - IP定位、核心价值和资源优势\nContent: - **4. 合作权益** - 详细的合作权益和资源包\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 整合营销\nContent: **文件总数**: 12 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 方案、运营、营销、品牌、内容、传播、推广\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **3. 目标人群** - 用户画像和人群定位\nContent: - **4. 渠道策略** - 多平台渠道组合和传播策略\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 方法论\nContent: **文件总数**: 3 个\nContent: **已分析文件**: 3 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 3,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__4",
+    "text": "法\nContent: ---\nContent: ## 方法论\nContent: **文件总数**: 3 个\nContent: **已分析文件**: 3 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 案例\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 活动策划\nContent: **文件总数**: 22 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 活动、方案、策划\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **4. 活动流程** - 详细的活动执行流程和环节设置",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 4,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__5",
+    "text": "KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **4. 活动流程** - 详细的活动执行流程和环节设置\nContent: - **5. 创意内容** - 活动创意、视觉设计、文案内容\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 行业研究\nContent: **文件总数**: 7 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 活动、方案、策划、品牌\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 设计规划\nContent: **文件总数**: 5 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 设计、规划、方案、手册\nContent: ### 🏗️ 推荐文档架构",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 5,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__6",
+    "text": "总数**: 5 个\nContent: **已分析文件**: 5 个\nContent: ### 📋 典型文档结构\nContent: ### 🔑 常见关键词\nContent: 设计、规划、方案、手册\nContent: ### 🏗️ 推荐文档架构\nContent: 基于分析结果，建议该类文档采用以下架构：\nContent: - **1. 背景分析** - 市场环境、行业趋势、问题洞察\nContent: - **2. 目标设定** - 明确的目标和KPI指标\nContent: - **3. 策略方案** - 核心策略思路和创意方向\nContent: - **4. 执行计划** - 详细的执行步骤和时间安排\nContent: - **5. 资源配置** - 人员、物料、预算等资源需求\nContent: - **6. 效果评估** - 预期效果和评估方法\nContent: ---\nContent: ## 📊 总结\nContent: ### 公关提案的通用重要元素\nContent: 基于对所有分类的分析，公关提案通常包含以下重要元素：\nContent: 1. **背景与洞察** - 市场分析、用户洞察、问题定义\nContent: 2. **目标与指标** - 明确的目标设定和可量化的KPI\nContent: 3. **策略与创意** - 核心策略思路和创意表达\nContent: 4. **执行与落地** - 详细的执行计划和资源配置\nContent: 5. **预算与成本** - 清晰的预算分配和成本控制\nContent: 6. **效果与评估** - 效果预期和评估监测方法\nContent: ### 不同类型文档的结构差异\nContent: | 文档类型 | 重点关注 | 特殊要素 |\nContent: |---------|---------|---------|\nContent: | 其他 | 通用要素 | 标准结构 |",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 6,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "文档结构分析指南.chunks__7",
+    "text": ": ### 不同类型文档的结构差异\nContent: | 文档类型 | 重点关注 | 特殊要素 |\nContent: |---------|---------|---------|\nContent: | 其他 | 通用要素 | 标准结构 |\nContent: | 品牌手册 | 通用要素 | 标准结构 |\nContent: | 品牌案例 | 案例解析 | 背景介绍、执行过程、效果数据 |\nContent: | 工具包 | 通用要素 | 标准结构 |\nContent: | 招商方案 | IP价值和合作权益 | 资源包、合作案例、投放数据 |\nContent: | 整合营销 | 多渠道策略 | 人群定位、内容规划、账号矩阵 |\nContent: | 方法论 | 通用要素 | 标准结构 |\nContent: | 活动策划 | 活动执行流程 | 活动创意、物料清单、人员分工 |\nContent: | 行业研究 | 洞察分析 | 数据支撑、趋势预测、方法论 |\nContent: | 设计规划 | 通用要素 | 标准结构 |\nContent: ---\nContent: *本指南基于实际文档分析生成，建议根据具体项目需求调整文档结构。*",
+    "source": "data\\feishu_import\\raw\\文档结构分析指南.md",
+    "meta": {
+      "chunk_index": 7,
+      "file_type": ".md"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+Content: # 整合营销 - 思维导图
+Content: ```
+Content: 整合营销
+Content: ```
+Content: ## 1. 市场背景
+Content: - **市场环境分析**
+Content: - **竞品分析**
+Content: - **机会与挑战**
+Content: ## 2. 目标设定
+Content: - **品牌目标（知名度/美誉度/忠诚度）**
+Content: - **业务目标（用户增长/销售转化）**
+Content: - **KPI指标设定**
+Content: - **阶段性目标**
+Content: ## 3. 目标人群分析
+Content: - **用户画像**
+Content: - **人群细分**
+Content: - **触达场景**
+Content: - **内容偏好**
+Content: ## 4. 核心策略
+Content: - **整体策略思路**
+Content: - **品牌定位**
+Content: - **传播主题/主张**
+Content: - **差异化策略**
+Content: ## 5. 渠道策略
+Content: - **渠道组合方案**
+Content: - **各渠道定位**
+Content: - **渠道协同策略**
+Content: - **账号矩阵规划**
+Content: ## 6. 内容策略
+Content: - **内容规划（主题/形式/节奏）**
+Content: - **内容矩阵设计**
+Content: - **创意方向**
+Content: - **内容产出计划**
+Content: ## 7. 执行计划
+Content: - **时间规划（预热/爆发/持续/收尾）**
+Content: - **执行节奏**
+Content: - **各阶段重点**
+Content: - **里程碑节点**
+Content: ## 8. 运营方案
+Content: - **日常运营规划**
+Content: - **活动运营方案**
+Content: - **用户运营策略**
+Content: - **数据运营方法**
+Content: ## 9. 预算分配
+Content: - **总预算**
+Content: - **各渠道预算分配**
+Content: - **各项目预算**
+Content: - **ROI预期**
+Content: ## 10. 效果监测
+Content: - **监测指标体系**
+Content: - **数据监测工具**
+Content: - **效果评估方法**
+Content: - **优化调整机制**
+Content: ---
+Content: *思维导图版本* | *生成时间: 2025年1月*

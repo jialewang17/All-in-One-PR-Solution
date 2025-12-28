@@ -1,0 +1,146 @@
+[
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__0",
+    "text": "Content: Sheet: sheet\nContent: 击壤——网综广告监测                       Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11 Unnamed: 12\nContent: 0         模块：                       击壤——网络综艺监播        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 1         日期：  开始时间：2018-01-01 结束时间:2020-12-31        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 2       节目题材：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__1",
+    "text": "    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 3         星期：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 4         分类：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 5       合作项目：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__2",
+    "text": "    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 6       品牌名称：                       三九胃泰,江中,利活        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 7       平台名称：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 8       类型名称：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 2,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__3",
+    "text": "    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 9       节目名称：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 10      期/集数：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 11        行业：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 3,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__4",
+    "text": "    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 12        时长：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 13      拍摄环境：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 14      播出频率：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 4,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__5",
+    "text": "    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 15      播出模式：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 16      关联节目：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 17        NaN                              NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 5,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__6",
+    "text": "    NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN         NaN\nContent: 18         序号                               平台         节目       软广类型       播出模式       权益类型         品牌         产品       合作项目          份           份       时长(秒)          频次\nContent: 19          1                             芒果TV    野生厨房第二季       产品摆放       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2019          12     341.189         107\nContent: 20          2                             芒果TV    野生厨房第二季       产品摆放       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           1     329.228         122",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 6,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__7",
+    "text": "野生厨房第二季       产品摆放       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           1     329.228         122\nContent: 21          3                             芒果TV    野生厨房第二季       产品摆放       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           2      95.969          36\nContent: 22          4                             芒果TV    野生厨房第二季    画外音标准口播       网络独播       节目包装       三九胃泰         --         特约       2019          12      80.023          15\nContent: 23          5                             芒果TV    野生厨房第二季         花字       网络独播       节目包装       三九胃泰     三九胃泰颗粒         特约       2019          12      77.331          15",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 7,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__8",
+    "text": "野生厨房第二季         花字       网络独播       节目包装       三九胃泰     三九胃泰颗粒         特约       2019          12      77.331          15\nContent: 24          6                             芒果TV    野生厨房第二季      口播压屏条       网络独播       节目包装       三九胃泰         --         特约       2019          12      74.356          15\nContent: 25          7                             芒果TV    野生厨房第二季    画外音标准口播       网络独播       节目包装       三九胃泰         --         特约       2020           1      63.173          12\nContent: 26          8                             芒果TV    野生厨房第二季      口播压屏条       网络独播       节目包装       三九胃泰         --         特约       2020           1      59.215          12",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 8,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__9",
+    "text": "野生厨房第二季      口播压屏条       网络独播       节目包装       三九胃泰         --         特约       2020           1      59.215          12\nContent: 27          9                             芒果TV    野生厨房第二季       玩偶形象       网络独播       现场植入       三九胃泰         --         特约       2020           2      43.785          21\nContent: 28         10                             芒果TV    野生厨房第二季       玩偶形象       网络独播       现场植入       三九胃泰         --         特约       2020           1      41.776          19\nContent: 29         11                             芒果TV    野生厨房第二季         花字       网络独播       节目包装       三九胃泰     三九胃泰颗粒         特约       2020           1      41.271           8",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 9,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__10",
+    "text": "野生厨房第二季         花字       网络独播       节目包装       三九胃泰     三九胃泰颗粒         特约       2020           1      41.271           8\nContent: 30         12                             芒果TV    野生厨房第二季       情景对话       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           2      32.038           1\nContent: 31         13                             芒果TV    野生厨房第二季       片尾鸣谢       网络独播       节目包装       三九胃泰         --         特约       2019          12      30.821          10\nContent: 32         14                             芒果TV    野生厨房第二季     置景口播空镜       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2019          12       25.59           5",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 10,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__11",
+    "text": "野生厨房第二季     置景口播空镜       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2019          12       25.59           5\nContent: 33         15                             芒果TV    野生厨房第二季       片尾鸣谢       网络独播       节目包装       三九胃泰         --         特约       2020           1      24.645           8\nContent: 34         16                             芒果TV    野生厨房第二季     置景口播空镜       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           1      20.487           4\nContent: 35         17                             芒果TV    野生厨房第二季       情景对话       网络独播       现场植入       三九胃泰         --         特约       2020           1      17.834           2",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 11,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__12",
+    "text": "野生厨房第二季       情景对话       网络独播       现场植入       三九胃泰         --         特约       2020           1      17.834           2\nContent: 36         18                             芒果TV    野生厨房第二季    画外音标准口播       网络独播       节目包装       三九胃泰         --         特约       2020           2      16.427           3\nContent: 37         19                             芒果TV    野生厨房第二季         花字       网络独播       节目包装       三九胃泰     三九胃泰颗粒         特约       2020           2       15.89           3\nContent: 38         20                             芒果TV    野生厨房第二季      口播压屏条       网络独播       节目包装       三九胃泰         --         特约       2020           2      14.747           3",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 12,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__13",
+    "text": "野生厨房第二季      口播压屏条       网络独播       节目包装       三九胃泰         --         特约       2020           2      14.747           3\nContent: 39         21                             芒果TV    野生厨房第二季       情景对话       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           1      14.042           1\nContent: 40         22                             芒果TV    野生厨房第二季       动画模型       网络独播       节目包装       三九胃泰     三九胃泰颗粒         特约       2020           1       9.725           2\nContent: 41         23                             芒果TV    野生厨房第二季       情景对话       网络独播       现场植入       三九胃泰         --         特约       2020           2         8.5           1",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 13,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__14",
+    "text": "野生厨房第二季       情景对话       网络独播       现场植入       三九胃泰         --         特约       2020           2         8.5           1\nContent: 42         24                             芒果TV    野生厨房第二季       片尾鸣谢       网络独播       节目包装       三九胃泰         --         特约       2020           2       6.263           2\nContent: 43         25                             芒果TV    野生厨房第二季     置景口播空镜       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           2        5.09           1\nContent: 44         26                             芒果TV    野生厨房第二季         花字       网络独播       节目包装       三九胃泰         --         特约       2020           1       3.315           1",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 14,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "18-20年-网络综艺胃泰江中.chunks__15",
+    "text": "野生厨房第二季         花字       网络独播       节目包装       三九胃泰         --         特约       2020           1       3.315           1\nContent: 45         27                             芒果TV    野生厨房第二季       产品使用       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           2       1.521           1\nContent: 46         28                             芒果TV    野生厨房第二季       道具植入       网络独播       现场植入       三九胃泰     三九胃泰颗粒         特约       2020           2       1.388           1",
+    "source": "data\\feishu_import\\raw\\行业研究\\18-20年-网络综艺胃泰江中.xlsx",
+    "meta": {
+      "chunk_index": 15,
+      "file_type": ".xlsx"
+    }
+  }
+]

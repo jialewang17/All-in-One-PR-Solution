@@ -1,0 +1,533 @@
+[
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__0",
+    "text": "Content: Sheet: 标准产品刊例\nContent: Unnamed: 0                                                       Unnamed: 1              Unnamed: 2     Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7                                                                                           Unnamed: 8\nContent: 0          NaN                                                   2022年 墨迹天气Q4刊例                     NaN            NaN        NaN        NaN        NaN        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__1",
+    "text": "     NaN        NaN                                                                                                  NaN\nContent: 1          NaN                                                               位置                   广告位名称           广告形式       计费方式        刊例价       售卖单位       资源级别                                                                                                   说明\nContent: 2          NaN                                                              启动页                      开屏         非全屏-静态        CPT    1350000     元/轮播/天          S  1、打开APP即显示开屏素材；开屏轮播随机进行展示；\\n2、关闭客户端后台进程后再打开可再次进行轮播展示；\\n3、非节气/节日投放可直接套用模板植入（非全屏）,节气/节日投放需包含时节元素软性植入。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__2",
+    "text": "  元/轮播/天          S  1、打开APP即显示开屏素材；开屏轮播随机进行展示；\\n2、关闭客户端后台进程后再打开可再次进行轮播展示；\\n3、非节气/节日投放可直接套用模板植入（非全屏）,节气/节日投放需包含时节元素软性植入。\nContent: 3          NaN                                                              NaN                     NaN         非全屏-动态        NaN    1680000        NaN        NaN                                                                                                  NaN\nContent: 4          NaN                                                              NaN                     NaN          全屏-静态        NaN    1540000        NaN        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 2,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__3",
+    "text": "     NaN        NaN                                                                                                  NaN\nContent: 5          NaN                                                              NaN                     NaN          全屏-动态        NaN    2000000        NaN        NaN                                                                                                  NaN\nContent: 6          NaN                                                              NaN                     NaN         非全屏-静态        CPM        130      元/CPM        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 3,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__4",
+    "text": "   元/CPM        NaN                                                                                                  NaN\nContent: 7          NaN                                                              NaN                     NaN         非全屏-动态        NaN        140        NaN        NaN                                                                                                  NaN\nContent: 8          NaN                                                              NaN                     NaN          全屏-静态        NaN        150        NaN        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 4,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__5",
+    "text": "     NaN        NaN                                                                                                  NaN\nContent: 9          NaN                                                              NaN                     NaN          全屏-动态        NaN        160        NaN        NaN                                                                                                  NaN\nContent: 10         NaN                                                              NaN                    酷炫联屏  开机全屏+视频浮窗+精灵位        CPT    2600000     元/轮播/天          S                                                        1、打开APP开屏联动至首页浮层展示，浮层展示完毕收缩至精灵位；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 5,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__6",
+    "text": "  元/轮播/天          S                                                        1、打开APP开屏联动至首页浮层展示，浮层展示完毕收缩至精灵位；\\n2、跳转方式支持H5。\nContent: 11         NaN                                                               首屏                  首页天气背景             静态        CPT    2400000        元/天          A                                                      1、打开APP进入首页背景，则根据不同天气条件展示不同天气匹配素材；\\n2、跳转方式支持H5。\nContent: 12         NaN                                                              NaN                     NaN             动态        NaN    3600000        NaN        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 6,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__7",
+    "text": "     NaN        NaN                                                                                                  NaN\nContent: 13         NaN                                                              NaN                     NaN          静态/动态        CPM         30      元/CPM        NaN                                                                                                  NaN\nContent: 14         NaN                                                              NaN  穿衣助手-小墨妹/墨娜植入\\n（人物+道具）             静态        CPT     500000     元/轮播/天          A                                                     1、打开APP进入首页穿衣助手，在穿衣助手旁边加入道具，点击即可跳转；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 7,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__8",
+    "text": "  元/轮播/天          A                                                     1、打开APP进入首页穿衣助手，在穿衣助手旁边加入道具，点击即可跳转；\\n2、跳转方式支持H5。\nContent: 15         NaN                                                              NaN                     NaN             动态        NaN     800000        NaN        NaN                                                                                                  NaN\nContent: 16         NaN                                                              NaN                     NaN          静态/动态        CPM         28      元/CPM        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 8,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__9",
+    "text": "   元/CPM        NaN                                                                                                  NaN\nContent: 17         NaN                                                              NaN           穿衣助手-小墨妹/墨娜替换             静态        CPT    2000000        元/天          A                                                         1、在首页将小墨妹/墨娜替换，有一句话提示是否换回小墨妹/墨娜；\\n2、落地页支持H5。\nContent: 18         NaN                                                              NaN                     精灵位             静态        CPT     500000        元/天          A                                                                 1、点击精灵icon，可直接跳转客户制定页面；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 9,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__10",
+    "text": "     元/天          A                                                                 1、点击精灵icon，可直接跳转客户制定页面；\\n2、跳转方式支持H5。\nContent: 19         NaN                                                              NaN                     NaN            NaN        CPM         30      元/CPM        NaN                                                                                                  NaN\nContent: 20         NaN                                                              NaN                     NaN            NaN        CPC          5      元/CPC        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 10,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__11",
+    "text": "   元/CPC        NaN                                                                                                  NaN\nContent: 21         NaN                                                              NaN                 天气首页金刚位             静态        CPT     300000        元/天          A                                                   1、点击icon，可直接跳转客户制定页面，首屏同时仅允许插入一个广告投放；\\n2、跳转方式支持H5。\nContent: 22         NaN                                                              NaN                     NaN            NaN        CPM         14      元/CPM        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 11,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__12",
+    "text": "   元/CPM        NaN                                                                                                  NaN\nContent: 23         NaN                                                              NaN                     NaN            NaN        CPC          5      元/CPC        NaN                                                                                                  NaN\nContent: 24         NaN                                                             首页中部                 15天预报冠名             静态        CPT     140000        元/天          A                                                     1、点击可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 12,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__13",
+    "text": "     元/天          A                                                     1、点击可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。\nContent: 25         NaN                                                              NaN                     NaN            NaN        CPM         14      元/CPM        NaN                                                                                                  NaN\nContent: 26         NaN                                                              NaN                     NaN            NaN        CPC          5      元/CPC        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 13,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__14",
+    "text": "   元/CPC        NaN                                                                                                  NaN\nContent: 27         NaN                                                              NaN           15日预报上方banner             静态        CPT    1650000        元/天          S                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。\nContent: 28         NaN                                                              NaN                     NaN            NaN        CPM         60      元/CPM        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 14,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__15",
+    "text": "   元/CPM        NaN                                                                                                  NaN\nContent: 29         NaN                                                              NaN                     NaN            轻交互        CPT    1930000        元/天        NaN                                                                                                  NaN\nContent: 30         NaN                                                              NaN                     NaN            NaN        CPM         70      元/CPM        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 15,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__16",
+    "text": "   元/CPM        NaN                                                                                                  NaN\nContent: 31         NaN                                                              NaN                  天气首页中部             静态        CPM         60      元/CPM          S                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。\nContent: 32         NaN                                                              NaN                     NaN             视频        NaN         75        NaN        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 16,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__17",
+    "text": "     NaN        NaN                                                                                                  NaN\nContent: 33         NaN                                                            Feed流                 首页Feed流             静态        CPM        100      元/CPM          S                                                1、出现在信息流“综合”频道首屏位置，点击banner可直接跳转到客户制定页面；\\n2、跳转方式支持H5。\nContent: 34         NaN                                                              NaN                     NaN             视频        NaN        125        NaN        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 17,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__18",
+    "text": "     NaN        NaN                                                                                                  NaN\nContent: 35         NaN                                                              NaN           首页Feed信息流悬浮广告             静态        CPM         22      元/CPM          S                1、悬浮于信息流所有频道页面，广告以15秒的间隔渐隐渐现；\\n2、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n3、跳转方式支持H5。\nContent: 36         NaN                                                              左抽屉                   左抽屉底部             静态        CPM         50      元/CPM          A                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 18,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__19",
+    "text": "   元/CPM          A                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。\nContent: 37         NaN                                                               二屏                  每日详情中部             静态        CPM         75      元/CPM          S                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。\nContent: 38         NaN                                                              NaN                  实况详情中部             静态        CPM        100      元/CPM          S                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 19,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__20",
+    "text": "   元/CPM          S                                               1、点击banner可直接跳转到客户制定页面，如用户点击关闭按钮，则当天不再出现；\\n2、跳转方式支持H5。\nContent: 39         NaN                                                             时景频道              时景Blocking             静态        CPT    1500000        元/天          B                                 1、点击时景tab，进入时景页面自动弹出弹窗，关闭弹窗后收缩至页面悬浮icon，投放期间内弹窗仅允许弹出一次；\\n2、跳转方式支持H5。\nContent: 40         NaN                                                              NaN                    时景活动             静态        CPT    1000000       元/5天          B                                                                     1、时景频道，邀请用户参与品牌拍照活动；\\n2、5天为一个周期。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 20,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__21",
+    "text": "    元/5天          B                                                                     1、时景频道，邀请用户参与品牌拍照活动；\\n2、5天为一个周期。\nContent: 41         NaN                                                             指数频道                  生活指数入口             静态        CPT     112000        元/天          A                                                                                     生活指数入口，跳转方式支持H5。\nContent: 42         NaN                                                              NaN                     NaN            NaN        CPM         10      元/CPM        NaN                                                                                                  NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 21,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__22",
+    "text": "   元/CPM        NaN                                                                                                  NaN\nContent: 43         NaN                                                              NaN                     NaN            NaN        CPC          5      元/CPC        NaN                                                                                                  NaN\nContent: 44         NaN                                                              NaN                 生活指数文字链             静态        CPC          5      元/CPC          A                                                                    1、点击文字链，可直接跳转客户制定页面；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 22,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__23",
+    "text": "   元/CPC          A                                                                    1、点击文字链，可直接跳转客户制定页面；\\n2、跳转方式支持H5。\nContent: 45         NaN                                                            我页面频道             我页面Blocking             静态        CPT    1500000        元/天          A                                  1、点击我tab，进入我的页面自动弹出弹窗，关闭弹窗后收缩至页面悬浮icon，投放期间内弹窗仅允许弹出1次；\\n2、跳转方式支持H5。\nContent: 46         NaN                                                              NaN               我页面生活icon             静态        CPC          4      元/CPC          A                                                                   1、点击icon，可直接跳转客户制定页面；\\n2、跳转方式支持H5。",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 23,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__24",
+    "text": "   元/CPC          A                                                                   1、点击icon，可直接跳转客户制定页面；\\n2、跳转方式支持H5。\nContent: 47         NaN                                                              NaN                     NaN            NaN        NaN        NaN        NaN        NaN                                                                                                  NaN\nContent: 48         NaN  备注：\\n1、CPM计费方式售卖计划起售量不少于100个CPM（单计划、单天）；\\n2、墨迹所有点位不做预留，以实际下单为准；                     NaN            NaN        NaN        NaN        NaN        NaN                                                                                                  NaN\nContent: Sheet: 溢价规则",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 24,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__25",
+    "text": "                                                                                                NaN\nContent: Sheet: 溢价规则\nContent: Unnamed: 0                                                        Unnamed: 1   Unnamed: 2                                     Unnamed: 3 Unnamed: 4 Unnamed: 5                               Unnamed: 6\nContent: 0          NaN                                                2022年墨迹天气Q4刊例 溢价规则          NaN                                            NaN        NaN        NaN                                      NaN\nContent: 1          NaN                                                              定向维度         售卖方式                                             详情         溢价         备注                                      NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 25,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__26",
+    "text": "      售卖方式                                             详情         溢价         备注                                      NaN\nContent: 2          NaN                                                                地域          CPT                                   北京/上海/杭州/大湾区        0.3    封顶溢价30%                  标准：刊例价*区域DAU占比*（1+溢价系数）\nContent: 3          NaN                                                               NaN          NaN                                           其他省份        0.1        NaN                                      NaN\nContent: 4          NaN                                                               NaN          CPM                                   北京/上海/杭州/大湾区        0.3        NaN  如包含北京/上海/杭州/大湾区中任一城市，使用北京/上海/杭州/大湾区溢价标准",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 26,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__27",
+    "text": "       CPM                                   北京/上海/杭州/大湾区        0.3        NaN  如包含北京/上海/杭州/大湾区中任一城市，使用北京/上海/杭州/大湾区溢价标准\nContent: 5          NaN                                                               NaN          NaN                                           其他省份        0.1        NaN                                      NaN\nContent: 6          NaN                                                               退量比   CPM\\n（PDB）                                       退量比1:1.1        0.1        NaN                                        /\nContent: 7          NaN                                                               NaN          NaN                                       退量比1:1.2        NaN        NaN                                      NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 27,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__28",
+    "text": "       NaN                                       退量比1:1.2        NaN        NaN                                      NaN\nContent: 8          NaN                                                               NaN          NaN                                       退量比1:1.3        NaN        NaN                                      NaN\nContent: 9          NaN                                                               NaN          NaN                                       退量比1:1.4        0.2        NaN                                      NaN\nContent: 10         NaN                                                               NaN          NaN                                       退量比1:1.5        NaN        NaN                                      NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 28,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__29",
+    "text": "       NaN                                       退量比1:1.5        NaN        NaN                                      NaN\nContent: 11         NaN                                                             人群/气象          CPM                               人群条件：性别/年龄/消费水平等        0.3        NaN                                        /\nContent: 12         NaN                                                               NaN          NaN                            气象条件：温度、湿度、天气、AQI值等        NaN        NaN                                      NaN\nContent: 13         NaN                                                                时段  CPT/CPM/CPC  X时段（重大营销节点）\\n6.1-6.18、10.20-11.11、12.10-12.12        0.3        NaN              如包含X时段中任一时段，则整单按X时段溢价规则进行加收",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 29,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__30",
+    "text": "PT/CPM/CPC  X时段（重大营销节点）\\n6.1-6.18、10.20-11.11、12.10-12.12        0.3        NaN              如包含X时段中任一时段，则整单按X时段溢价规则进行加收\nContent: 14         NaN                                                               NaN          NaN                                            NaN        NaN        NaN                                      NaN\nContent: 15         NaN  说明：\\n1、大湾区指的是广州、佛山、肇庆、深圳、东莞、惠州、珠海、中山、江门9市\\n2、如多条件定向，溢价系数叠加，30%封顶          NaN                                            NaN        NaN        NaN                                      NaN\nContent: Sheet: 素材规范",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 30,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__31",
+    "text": "                                 NaN        NaN        NaN                                      NaN\nContent: Sheet: 素材规范\nContent: Unnamed: 0                Unnamed: 1 Unnamed: 2                                                                                                                                                                                                                                                                                                                                                                                                              Unnamed: 3                                                                                                     Unnamed: 4 Unnamed: 5",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 31,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__32",
+    "text": "                                                                                                   Unnamed: 4 Unnamed: 5\nContent: 0          NaN        2022年墨迹天气Q4刊例 素材规范        NaN                                                                                                                                                                                                                                                                                                                                                                                                                     NaN                                                                                                            NaN        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 32,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__33",
+    "text": "                                                                                                          NaN        NaN\nContent: 1          NaN                        名称         类型                                                                                                                                                                                                                                                                                                                                                                                                                 素材规格及要求                                                                                                           特殊说明         截图",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 33,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__34",
+    "text": "                                                                                                         特殊说明         截图\nContent: 2          NaN                    开机-非全屏         静态                                                                                                                                                                                                                                                                    640*960 (100k以内，jpg）；640*1136、720*1280、1080*1920（120k以内，jpg）\\n750*1624、 720*1520（200K以内，jpg）；\\n根据墨迹基础规范要求设计制作；需预留添加墨迹模板区域；开屏展示3秒；\\n注：素材上的文字最小不可小于22号                   1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、不支持跳转AppStore\\n3、视频格式不可有quicktime格式，使用标准格式输出。        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 34,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__35",
+    "text": "                 1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、不支持跳转AppStore\\n3、视频格式不可有quicktime格式，使用标准格式输出。        NaN\nContent: 3          NaN                       NaN         动态                                                                                                                                                                                                                                                                        640*960，640*1136，720*1280，1080*1920，750*1624，720*1520，MP4格式；\\n根据墨迹基础规范要求设计制作；视频底部需预留添加墨迹模板区域；\\n单个文件大小控制在2M以内，时间控制在4秒，视频不能带声音。\\n注：素材上的文字最小不可小于22号                                                                                                            NaN        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 35,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__36",
+    "text": "                                                                                                          NaN        NaN\nContent: 4          NaN                     开机-全屏         静态                                                                                                                                                                                                                                                                                                   640*960 (100k以内，jpg）；640*1136（120k以内，jpg）\\n750*1624、 920*2208（150K以内，jpg）；\\n根据墨迹基础规范要求设计制作；开屏展示3秒；\\n注：素材上的文字最小不可小于22号                   1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、不支持跳转AppStore\\n3、视频格式不可有quicktime格式，使用标准格式输出。        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 36,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__37",
+    "text": "                 1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、不支持跳转AppStore\\n3、视频格式不可有quicktime格式，使用标准格式输出。        NaN\nContent: 5          NaN                       NaN         动态                                                                                                                                                                                                                                                                                          640*960，640*1136，720*1280，1080*1920，750*1624，720*1520，MP4格式；\\n根据墨迹基础规范要求设计制作，单个文件大小控制在2M以内，时间控制在4秒，视频不能带声音。\\n注：素材上的文字最小不可小于22号                                                                                                            NaN        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 37,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__38",
+    "text": "                                                                                                          NaN        NaN\nContent: 6          NaN                      酷炫联屏         动态                                                                                                                                         动态全屏：640*960，640*1136，720*1280，1080*1920，750*1624，720*1520，MP4格式；\\n根据墨迹基础规范要求设计制作，单个文件大小控制在2M以内，时间控制在5秒（开屏内容展示时长4秒，过渡动画展示1s，最后过渡动画展示1s不要有文字信息，不要有主要产品元素），视频不能带声音。\\n注：素材上的文字最小不可小于22号\\n首页浮层：MP4格式不能有声音，＜5M，16：9建议尺寸：640*360或320*180，封面图：300*168，＜50k，jpg\\n实况精灵：静态，png，<30k，72*72                   1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、不支持跳转AppStore\\n3、视频格式不可有quicktime格式，使用标准格式输出。        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 38,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__39",
+    "text": "                 1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、不支持跳转AppStore\\n3、视频格式不可有quicktime格式，使用标准格式输出。        NaN\nContent: 7          NaN                    首页天气背景     软性定制植入                                                                                                                                                    静态：清晰空背景无产品图，＜100k，jpg；iOS-750*1724，android-750*1868\\n产品图需单独提供，尺寸大小需根据具体投放产品类型沟通，png格式，＜50k\\n共8种天气对应的26张（包括iOS13张，android13张）图片。\\n\\n动态：清晰空背景图无产品，＜100k，jpg；iOS-750*1724，android-750*1868\\n产品图需单独提供，尺寸大小需根据具体投放产品类型沟通，png格式，＜50k\\n共8种天气对应的26张（包括iOS13张，android13张）图片。     1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、天气场景不可用单一场景，符合墨迹天气需求的背景样式，所有素材与实况天气条件需要融合。\\n3、不支持跳转AppStore        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 39,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__40",
+    "text": "   1、投放需预先加载，提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量\\n2、天气场景不可用单一场景，符合墨迹天气需求的背景样式，所有素材与实况天气条件需要融合。\\n3、不支持跳转AppStore        NaN\nContent: 8          NaN  穿衣助手-小墨妹/墨娜植入\\n(仅墨娜支持动态）     软性定制植入                                                                       *墨娜/墨妹（静态）：\\n图片：500*600，人物区域：小墨娜：223*476    小墨妹：223*389，<50k，PNG\\n  按照5档温度制作对应天气的衣服（可根据地域定向投放减少温度范围）\\n  <0°，0-9°，10-19°，20-25°,>25°\\n  每档温度对应3种姿势：无装备站立，打伞，带伞 \\n  共计图片5*3=15张\\n  手持或摆放物品不可超过人物1/4，符合规范里区域限制。\\n*道具：\\n  100*150，<30k，PNG，具体素材要求按产品而定\\n\\n*墨娜（动态）：\\n1、要求：大图、清晰、单独完整产品素材，格式：png／AI，大小：不低于1MB\\n2、产品素材要求提前30个工作日提供给媒体\\n3、整体动画素材制作由墨迹天气制作  1、人物的位置及大小不可变动\\n\\n2、可提供人物衣服制作模板，支持根据品牌调整衣服视觉效果\\n\\n3、不支持跳转AppStore\\n\\n4、素材及链接页面不允许出现送现金，领现金，送XX元红包，领XX元红包等字样\\n        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 40,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__41",
+    "text": "1、人物的位置及大小不可变动\\n\\n2、可提供人物衣服制作模板，支持根据品牌调整衣服视觉效果\\n\\n3、不支持跳转AppStore\\n\\n4、素材及链接页面不允许出现送现金，领现金，送XX元红包，领XX元红包等字样\\n        NaN\nContent: 9          NaN             穿衣助手-小墨妹/墨娜替换     软性定制植入                                                                                       *列表介绍\\n  头像图片，170*170，<50k，PNG\\n  卡片背景，500*350，<50k，PNG\\n  卡片图片，1-6张，500*350，<50k，PNG\\n默认图：223*389，<50k，PNG\\n  文案：人物名字、关键词、人物介绍\\n*人物：500*600，<50k，PNG\\n  按照5档温度制作对应天气的衣服（可根据地域定向投放减少温度范围）\\n  <0°，0-9°，10-19°，20-25°,>25°\\n  每档温度对应3种姿势：站立，打伞，带伞，\\n  共计图片5*3=15张，手持或摆放物品不可超过人物1/4，符合规范里区域限制。\\n  *道具：100*150，<30k，PNG，具体素材要求按产品而定\\n                                                                          1、人物的位置不可动 ，人物大小保持一致\\n2、不支持跳转AppStore        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 41,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__42",
+    "text": "                                                                        1、人物的位置不可动 ，人物大小保持一致\\n2、不支持跳转AppStore        NaN\nContent: 10         NaN                       精灵位     软性定制植入                                                                                                                                                                                                                                                                                                                                                                                                     静态，png，<30k，72*72\\n                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 42,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__43",
+    "text": "                                                                                                            /        NaN\nContent: 11         NaN                   天气首页金刚位     软性定制植入                                                                                                                                                                                                                                                                                                            icon要求：png，<50k，108*108（内部图案84*84）\\n标题文案：2≤字符≤4；颜色要求：默认橙色\\n要求：图形只能是面性icon，不能用线性icon，图形简单，表意明确\\n不可用尖锐图形，边角要圆润                                                                                                    仅支持首屏最后一个展示        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 43,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__44",
+    "text": "                                                                                                  仅支持首屏最后一个展示        NaN\nContent: 12         NaN             15日预报上方banner         静态                                                                                                                                                                                                                                                                                                                                                                                        静态：720*200，jpg，50k以内，右边预留70px安全框                                                                              提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 44,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__45",
+    "text": "                                                                            提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN\nContent: 13         NaN                       NaN        轻交互                                                                                                                                                                                                                                                                                                         封面图：710*396，50k以内\\n视频：16:9，建议尺寸1920*1080/1280*720，时长5秒，大小5M以内\\n标题：7个字符以内，描述：10个字符以内\\n视频不能有声音，第一帧不能没有内容，不能白屏或者黑屏                                                                                                      仅支持跳转客户H5        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 45,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__46",
+    "text": "                                                                                                    仅支持跳转客户H5        NaN\nContent: 14         NaN                    天气首页中部         硬广                                                                                                                                                                                                                                                                                                             静态：720x405，jpg，150k以内\\n\\n视频比例：16：9，＜5M以内，最大分辨率支持720*1280P，MP4格式\\n封面图710*396，<50k，JPG\\n  标题：7个字以内；描述：10个字以内；                                                                              提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 46,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__47",
+    "text": "                                                                            提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN\nContent: 15         NaN                时景Blocking     软性定制植入  \\n日常模式：Tab图标:尺寸：60x60（内部图形尺寸52x52），png，<5K，\\n需2种状态：未选中状态：必须使用纯线图形，线粗细：3px，线颜色：#999999；辅助灰色：#e1e1e1\\n选中状态：可用彩色面性图形，也可用描线图形，线粗细：3px，线颜色：#212223，\\n图形占画布面积不可少于60%\\n深色模式：尺寸、安全区、大小、以及设计要求与日常模式相同，仅颜色上有区分\\n需2种状态：未选中状态：必须使用纯线图形，线粗细：3px，线颜色：#616161；辅助灰：#505050\\n选中状态：可用彩色面性图形，也可用纯线性图形，线粗细：3px，线颜色：#DDDDDF，\\n*Blocking：550*730，<100k，png ，弹窗图画面建议使用异形，素材文字不可小于20px\\n*Blocking关闭后常驻图标，100*100，<10k，png，建议圆形做背景，文字不可小于20px\\n                                                                                          \\n一天投放仅弹出Blocking一次\\n        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 47,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__48",
+    "text": "                                                                                        \\n一天投放仅弹出Blocking一次\\n        NaN\nContent: 16         NaN                      时景活动     软性定制植入                                                                                                                                                                                                                                                                                                                 尺寸：346px*460（安全区：306*332）尺寸：662*344，jpg,50k以内，\\n注：标题需结合活动相关内容进行设计，突出活动主题及活动；标题、图片主要元素要放在安全区内；活动简介40字以内；                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 48,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__49",
+    "text": "                                                                                                            /        NaN\nContent: 17         NaN               我页面Blocking     软性定制植入    \\n日常模式：Tab图标:尺寸：60x60（内部图形尺寸52x52），png，<5K，\\n需2种状态：未选中状态：必须使用纯线图形，线粗细：3px，线颜色：#999999；辅助灰色：#e1e1e1\\n选中状态：可用彩色面性图形，也可用描线图形，线粗细：3px，线颜色：#212223，\\n图形占画布面积不可少于60%\\n深色模式：尺寸、安全区、大小、以及设计要求与日常模式相同，仅颜色上有区分\\n需2种状态：未选中状态：必须使用纯线图形，线粗细：3px，线颜色：#616161；辅助灰：#505050\\n选中状态：可用彩色面性图形，也可用纯线性图形，线粗细：3px，线颜色：#DDDDDF，\\n*Blocking：550*730，<100k，png ，弹窗图画面建议使用异形，素材文字不可小于20px\\n*Blocking关闭后常驻图标，100*100，<10k，png，建议圆形做背景，文字不可小于20px                                                                                          \\n一天投放仅弹出Blocking一次\\n        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 49,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__50",
+    "text": "                                                                                        \\n一天投放仅弹出Blocking一次\\n        NaN\nContent: 18         NaN                    生活指数入口     软性定制植入                                                                                                                                                                                       \\n尺寸：102*102（内部尺寸：90*90），png，<30K，必须为透明背景png图\\n要求：a、图形只能使用面性，不可用纯线性的图形；\\nb、颜色只可以使用规定的3种配色方案：橘色（#FF5E0E、#FF9B6A、#FFFFFF），黄色（#EDAB40、#FFD38A、#FFFFFF），蓝色（#44A0FC、#A9D0FC、#FFFFFF）；\\nc、图形占画布面积不可少于60%，且图形要与画布居中对齐\\n标题4个字符以内，描述4个字符以内                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 50,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__51",
+    "text": "                                                                                                            /        NaN\nContent: 19         NaN                   生活指数文字链     软性定制植入                                                                                                                                                                                                                                                                                      要求：标题7个字符以内，左iconlogo图形，24*24px，png；10k以内\\n1、图形只可使用面性Logo；\\n2、颜色可用彩色，也可用单色，为适配白天和深色2种模式，图片不可用偏黑的深色和偏白的浅色\\n3、图形要充满画布，图形占画布面积不可少于60%                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 51,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__52",
+    "text": "                                                                                                            /        NaN\nContent: 20         NaN                  首页feed流      软性定制植入                                                                                                                                                                                                                         静态:\\n标题：10字以内\\n描述：20字以内 \\nJPG：200*130，<30K\\n\\n视频比例：16:9或4:3,＜5M内，MP4格式，最大支持720*1280P分辨率\\n 封面图：710*396，＜50K，JPG\\n 标题:7字以内，描述:10字符以内\\n 视频结束icon：40*40，20K，png，要求必须提供圆形logo\\n icon下方文案:5个字符以内 \\n\\n                                                                              提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 52,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__53",
+    "text": "                                                                            提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN\nContent: 21         NaN             首页Feed信息流悬浮广告     软性定制植入                                                                                                                                                                                                                                                                                                                                                                             icon：140*140，<20k，png\\n标题：4个字符以内\\n描述：7个字符以内                                                                              提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 53,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__54",
+    "text": "                                                                            提前3天提交素材，因违规导致加载不充分，展示量未达标，墨迹不予补量        NaN\nContent: 22         NaN                     左抽屉底部         硬广                                                                                                                                                                                                                                                                                                                                                                                           720*150，jpg，30k以内，右边预留70安全框\\n                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 54,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__55",
+    "text": "                                                                                                            /        NaN\nContent: 23         NaN                 我页面生活icon         硬广                                                                                                                               \\n尺寸：72*72px（内部尺寸：52*52），png，5k以内\\n日常模式要求：1、图形只能用线性，线粗细：3px，圆角角度不得小于8px\\n2、主图部分为深灰色渐变：#2D3053—#777997；辅助蓝色线：#509DFE，阴影颜色：#BAD8FE\\n3、图形在52x52的范围内，所占面积不可小于60%；\\n深色模式要求：1、图形只能用线性，线粗细：3px，圆角角度不得小于8px\\n2、主图部分为深灰色渐变：#DDDDDF—#AAAAAA；辅助蓝色线：#0A84FE，阴影颜色：#2B76D4\\n3、图形在52x52的范围内，所占面积不可小于60%；                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 55,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__56",
+    "text": "                                                                                                            /        NaN\nContent: 24         NaN                   15天预报冠名         软性                                                                                                                                                                                                                                                        \\n要求：标题7个字符以内，左iconlogo图形，png；10k以内\\n1、图形只可使用面性Logo；\\n2、icon图形高度固定为24px，宽度可浮动，24px～120px\\n3、颜色可用彩色，也可用单色，为适配白天和深色2种模式，图片不可用偏黑的深色和偏白的浅色\\n4、图形要充满画布，图形占画布面积不可少于60%                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 56,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__57",
+    "text": "                                                                                                            /        NaN\nContent: 25         NaN                    实况详情中部         硬广                                                                                                                                                                                                                                                                                                                                                                                      静态：720*200，jpg，50k以内，右边预留70px安全框\\n                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 57,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "2022年墨迹天气Q4刊例-电子版.chunks__58",
+    "text": "                                                                                                            /        NaN\nContent: 26         NaN                    每日详情中部         硬广                                                                                                                                                                                                                                                                                                                                                                                      静态：720*200，jpg，50k以内，右边预留70px安全框\\n                                                                                                              /        NaN",
+    "source": "data\\feishu_import\\raw\\工具包\\2022年墨迹天气Q4刊例-电子版.xlsx",
+    "meta": {
+      "chunk_index": 58,
+      "file_type": ".xlsx"
+    }
+  }
+]

@@ -1,0 +1,45 @@
+Content: # 活动策划 - 思维导图
+Content: ```
+Content: 活动策划
+Content: ```
+Content: ## 1. 活动背景
+Content: - **市场环境分析**
+Content: - **活动契机说明**
+Content: - **目标人群洞察**
+Content: ## 2. 活动目标
+Content: - **总目标设定**
+Content: - **分目标拆解（传播/转化/体验等）**
+Content: - **KPI指标定义**
+Content: ## 3. 活动策略
+Content: - **核心策略思路**
+Content: - **活动主题/主张**
+Content: - **差异化定位**
+Content: ## 4. 创意内容
+Content: - **活动创意概念**
+Content: - **视觉设计方向**
+Content: - **文案内容规划**
+Content: - **互动环节设计**
+Content: ## 5. 活动流程
+Content: - **整体时间轴**
+Content: - **详细环节设置**
+Content: - **流程动线设计**
+Content: - **应急预案**
+Content: ## 6. 执行计划
+Content: - **时间节点安排**
+Content: - **人员分工方案**
+Content: - **物料清单**
+Content: - **场地/设备需求**
+Content: ## 7. 传播推广
+Content: - **预热阶段（线上传播、话题制造）**
+Content: - **执行阶段（现场直播、内容产出）**
+Content: - **后续传播（UGC沉淀、二次传播）**
+Content: ## 8. 预算方案
+Content: - **总预算分配**
+Content: - **各项目明细**
+Content: - **ROI预期**
+Content: ## 9. 效果评估
+Content: - **监测指标**
+Content: - **评估方法**
+Content: - **复盘计划**
+Content: ---
+Content: *思维导图版本* | *生成时间: 2025年1月*

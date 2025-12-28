@@ -1,0 +1,13 @@
+Content: Sheet: 投放费用汇总
+Content: 数据来源：CTR（电视、电台、报纸）、中天户外 Unnamed: 1 Unnamed: 2   Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6  Unnamed: 7  Unnamed: 8  Unnamed: 9  Unnamed: 10  Unnamed: 11         Unnamed: 12 Unnamed: 13           Unnamed: 14
+Content: 0   监测日期：2022年6月-2022年11月        NaN        NaN          NaN        NaN        NaN        NaN         NaN         NaN         NaN          NaN          NaN                 NaN         NaN                   NaN
+Content: 1              单位：万元（刊例价）        NaN        NaN          NaN        NaN        NaN        NaN         NaN         NaN         NaN          NaN          NaN                 NaN         NaN                   NaN
+Content: 2                      产品         类型       类型细分           媒体         市场         单位      2022年         NaN         NaN         NaN          NaN          NaN  2022年6月-2022年11月合计          折扣  2022年6月-2022年11月折后合计
+Content: 3                     NaN        NaN        NaN          NaN        NaN        NaN          6         7.0        8.00        9.00       10.000         11.0                 NaN         NaN                   NaN
+Content: 4                   宏济堂阿胶         电视         省台  浙江电视台民生休闲频道         浙江         万元        NaN         NaN       56.65       56.65      139.812          NaN             253.112         0.3               75.9336
+Content: 5                     NaN     硬广费用合计        NaN          NaN        NaN         万元          0         0.0       56.65       56.65      139.812          0.0             253.112         NaN               75.9336
+Content: Sheet: data
+Content: 媒体类型     年   月  省份 媒体大类  媒体小类           媒体 媒体折扣分类 产品名称（原） 产品名称（调整）  刊例花费（元）  刊例花费（万元）   折扣  预估净价（万元）  单位
+Content: 0   电视  2022   8  浙江   省台   NaN  浙江电视台民生休闲频道     省台   宏济堂阿胶    宏济堂阿胶   566500    56.650  0.3   16.9950  万元
+Content: 1   电视  2022   9  浙江   省台   NaN  浙江电视台民生休闲频道     省台   宏济堂阿胶    宏济堂阿胶   566500    56.650  0.3   16.9950  万元
+Content: 2   电视  2022  10  浙江   省台   NaN  浙江电视台民生休闲频道     省台   宏济堂阿胶    宏济堂阿胶  1398120   139.812  0.3   41.9436  万元

@@ -1,0 +1,65 @@
+[
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__0",
+    "text": "Content: # 媒介资料分类升级说明\nContent: ## 📋 升级概述\nContent: 基于新增的\"媒介资料\"数据，对PR-agent的分类模块进行了全面升级，将其从基础分类工具升级为智能分析子智能体。\nContent: ---\nContent: ## ✅ 已完成的工作\nContent: ### 1. 更新分类代码\nContent: #### 1.1 更新 `classify_reports.py`\nContent: - ✅ 添加\"传播全流程案例\"分类（优先级最高）\nContent: - ✅ 添加\"媒介资料\"分类，包含38个关键词\nContent: - ✅ 优化分类规则优先级\nContent: #### 1.2 更新 `classify_new_reports.py`\nContent: - ✅ 同步更新分类规则，与主分类脚本保持一致\nContent: - ✅ 支持增量分类新文件\nContent: ### 2. 新增传播全流程案例提取工具\nContent: #### 2.1 创建 `extract_communication_flow_cases.py`\nContent: **功能特性**：\nContent: - 自动扫描媒介资料文件夹\nContent: - 识别包含完整传播流程的案例\nContent: - 计算流程完整度\nContent: - 生成JSON格式的案例报告\nContent: **传播流程阶段识别**：\nContent: 1. **环境洞察**：环境分析、社交舆论、用户画像、竞品分析\nContent: 2. **策略制定**：媒介策略、传播规划、战术说明\nContent: 3. **资源评估**：资源评估、资源盘点、植入评估\nContent: 4. **执行投放**：投放执行、KOL合作、剧集植入\nContent: 5. **效果监测**：效果分析、数据报告、收视率监测",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__1",
+    "text": "、传播规划、战术说明\nContent: 3. **资源评估**：资源评估、资源盘点、植入评估\nContent: 4. **执行投放**：投放执行、KOL合作、剧集植入\nContent: 5. **效果监测**：效果分析、数据报告、收视率监测\nContent: 6. **经验沉淀**：案例分享、项目结案、复盘总结\nContent: **识别标准**：\nContent: - 至少包含4个传播阶段\nContent: - 计算流程完整度（找到的阶段数/总阶段数）\nContent: - 流程连续性加分（连续阶段越多，完整度越高）\nContent: ### 3. 更新分类标准说明文档\nContent: #### 3.1 更新 `分类标准说明.md`\nContent: - ✅ 添加\"传播全流程案例\"分类说明\nContent: - ✅ 添加\"媒介资料\"分类说明（包含8个子分类）\nContent: - ✅ 更新分类优先级规则\nContent: - ✅ 更新分类检查清单\nContent: - ✅ 添加工具使用说明\nContent: ---\nContent: ## 🎯 新增分类说明\nContent: ### 分类1：传播全流程案例 ⭐\nContent: **定义**：包含完整传播流程的案例，涵盖从环境洞察到策略制定、资源评估、执行投放、效果监测、经验沉淀的全流程。\nContent: **识别方式**：\nContent: - 使用 `extract_communication_flow_cases.py` 工具自动识别\nContent: - 不依赖文件名关键词匹配\nContent: - 基于文件内容和路径分析\nContent: **典型案例**：\nContent: - 东阿阿胶完整传播案例\nContent: - 健力宝春战传播案例\nContent: ### 分类2：媒介资料 ⭐",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__2",
+    "text": "不依赖文件名关键词匹配\nContent: - 基于文件内容和路径分析\nContent: **典型案例**：\nContent: - 东阿阿胶完整传播案例\nContent: - 健力宝春战传播案例\nContent: ### 分类2：媒介资料 ⭐\nContent: **定义**：媒介相关的所有资料，包括媒介地图、投放策略、环境分析、资源评估、竞品报告、社交舆论、用户画像、行业案例等。\nContent: **子分类**：\nContent: 1. 媒介地图\nContent: 2. 媒介投放策略\nContent: 3. 媒介环境分析\nContent: 4. 媒介资源评估\nContent: 5. 社交舆论风向\nContent: 6. 社媒用户画像&收视率\nContent: 7. 竞品报告\nContent: 8. 行业案例分享\nContent: **关键词**：38个媒介相关关键词（详见代码）\nContent: ---\nContent: ## 📊 传播流程逻辑\nContent: ### 完整传播流程\nContent: ```\nContent: 环境洞察 → 策略制定 → 资源评估 → 执行投放 → 效果监测 → 经验沉淀\nContent: ```\nContent: ### 各阶段说明\nContent: 1. **环境洞察**\nContent: - 媒介环境分析（区域、行业）\nContent: - 社交舆论风向监测\nContent: - 用户画像分析\nContent: - 竞品分析研究\nContent: 2. **策略制定**\nContent: - 年度/季度/月度媒介传播规划\nContent: - 媒介投放策略制定\nContent: - 战术说明与执行计划\nContent: 3. **资源评估**\nContent: - 媒介资源盘点与评估\nContent: - 剧集植入评估\nContent: - IP合作评估\nContent: - 媒介地图建立",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 2,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__3",
+    "text": "略制定\nContent: - 战术说明与执行计划\nContent: 3. **资源评估**\nContent: - 媒介资源盘点与评估\nContent: - 剧集植入评估\nContent: - IP合作评估\nContent: - 媒介地图建立\nContent: 4. **执行投放**\nContent: - 投放排期与执行\nContent: - KOL/达人合作\nContent: - 剧集/综艺植入\nContent: - 全媒体整合投放\nContent: 5. **效果监测**\nContent: - 收视率数据监测\nContent: - 社交声量分析\nContent: - 效果评估与ROI分析\nContent: - 投放总结与回顾\nContent: 6. **经验沉淀**\nContent: - 案例分享与复盘\nContent: - 项目结案报告\nContent: - 经验总结与优化建议\nContent: ---\nContent: ## 🔧 工具使用方法\nContent: ### 1. 文件分类\nContent: **主分类工具**：\nContent: ```bash\nContent: python classify_reports.py\nContent: ```\nContent: **增量分类工具**：\nContent: ```bash\nContent: python classify_new_reports.py\nContent: ```\nContent: ### 2. 传播全流程案例提取\nContent: ```bash\nContent: python extract_communication_flow_cases.py\nContent: ```\nContent: **输出**：\nContent: - `传播全流程案例报告.json`：包含所有完整流程案例的详细信息\nContent: **报告内容**：",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 3,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__4",
+    "text": "communication_flow_cases.py\nContent: ```\nContent: **输出**：\nContent: - `传播全流程案例报告.json`：包含所有完整流程案例的详细信息\nContent: **报告内容**：\nContent: - 品牌/项目名称\nContent: - 流程完整度\nContent: - 包含的阶段\nContent: - 文件列表（按阶段分类）\nContent: - 文件数量统计\nContent: ---\nContent: ## 📈 升级效果\nContent: ### 分类能力提升\nContent: - ✅ 新增2个分类类别\nContent: - ✅ 支持38个媒介相关关键词识别\nContent: - ✅ 自动识别完整传播流程案例\nContent: ### 分析深度提升\nContent: - ✅ 从简单分类升级为流程分析\nContent: - ✅ 支持传播流程完整度计算\nContent: - ✅ 自动提取经典案例\nContent: ### 智能化提升\nContent: - ✅ 从文件名匹配升级为内容分析\nContent: - ✅ 支持多文件关联分析\nContent: - ✅ 自动生成案例报告\nContent: ---\nContent: ## 🎓 使用建议\nContent: ### 1. 新文件分类\nContent: - 将新文件放在\"公关报告合集\"根目录\nContent: - 运行 `classify_new_reports.py` 自动分类\nContent: - 媒介相关文件会自动归入\"媒介资料\"\nContent: ### 2. 传播流程案例提取\nContent: - 定期运行 `extract_communication_flow_cases.py`\nContent: - 查看生成的案例报告\nContent: - 重点关注完整度 >= 60% 的案例",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 4,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__5",
+    "text": "### 2. 传播流程案例提取\nContent: - 定期运行 `extract_communication_flow_cases.py`\nContent: - 查看生成的案例报告\nContent: - 重点关注完整度 >= 60% 的案例\nContent: ### 3. 案例学习\nContent: - 使用完整流程案例作为学习参考\nContent: - 分析不同品牌的传播策略\nContent: - 总结成功经验与最佳实践\nContent: ---\nContent: ## 📝 后续优化建议\nContent: 1. **内容分析增强**\nContent: - 支持PDF/PPT内容提取\nContent: - 基于内容语义识别传播阶段\nContent: - 提高识别准确度\nContent: 2. **案例关联分析**\nContent: - 建立案例之间的关联关系\nContent: - 识别相似案例模式\nContent: - 构建案例知识图谱\nContent: 3. **智能推荐**\nContent: - 基于当前项目阶段推荐相关案例\nContent: - 推荐相似品牌的最佳实践\nContent: - 提供策略建议\nContent: 4. **可视化展示**\nContent: - 生成传播流程图\nContent: - 展示案例完整度分布\nContent: - 可视化案例关联关系\nContent: ---\nContent: ## 📚 相关文件\nContent: - `classify_reports.py` - 主分类工具\nContent: - `classify_new_reports.py` - 增量分类工具\nContent: - `extract_communication_flow_cases.py` - 传播流程案例提取工具\nContent: - `分类标准说明.md` - 分类标准详细说明",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 5,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "媒介资料分类升级说明.chunks__6",
+    "text": "new_reports.py` - 增量分类工具\nContent: - `extract_communication_flow_cases.py` - 传播流程案例提取工具\nContent: - `分类标准说明.md` - 分类标准详细说明\nContent: - `媒介资料分类升级说明.md` - 本文档\nContent: ---\nContent: **文档版本**：v1.0\nContent: **创建时间**：2025年1月\nContent: **维护者**：PR RAG系统",
+    "source": "data\\feishu_import\\raw\\媒介资料分类升级说明.md",
+    "meta": {
+      "chunk_index": 6,
+      "file_type": ".md"
+    }
+  }
+]

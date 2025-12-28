@@ -1,0 +1,208 @@
+Content: 平台 产品形式 产品名称 频道/定向条件 产品位置 广告形式 计费方式 刊例价 售卖单位 资源级别 备注
+Content: 开屏 开屏-CPM - 启动画面 静态/动态/视频 CPM 400 元/CPM工作日：S
+Content: 节假日：A
+Content: 电商周期：S1、下单规则：开屏CPM预加载时间为3天；所有的广告素材内容需符合《中国区商业产品-开屏素材规范》，以广审侧意
+Content: 见为准；
+Content: 2、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包，按溢价规则加收；
+Content: 3、开屏支持的样式：静态全屏、静态非全屏、动态全屏、动态非全屏、视频全屏；
+Content: 4、优化目标：支持优选互动（普通GD）、优选点击；
+Content: 5、可支持开屏形态：上滑、侧滑、双link开屏；
+Content: 6、支持实时追投定向。
+Content: - 140,000,000 元/天
+Content: 性别包段-男性 70,000,000 元/天
+Content: 性别包段-男性50% 35,000,000 元/天
+Content: 性别包段-女性 70,000,000 元/天
+Content: 性别包段-女性50% 35,000,000 元/天
+Content: 比例包段-50% 70,000,000 元/天
+Content: 比例包段-30% 42,000,000 元/天
+Content: - 168,000,000 元/天
+Content: 性别包段-男性 84,000,000 元/天
+Content: 性别包段-男性50% 42,000,000 元/天
+Content: 性别包段-女性 84,000,000 元/天
+Content: 性别包段-女性50% 42,000,000 元/天
+Content: 比例包段-50% 84,000,000 元/天
+Content: 比例包段-30% 50,400,000 元/天
+Content: - 视频 CPM 500 元/CPM S
+Content: Reach 视频 CPM 500 元/CPM S
+Content: TopView-摇动彩蛋-CPM - 视频+彩蛋 CPM 600 元/CPM S1、下单规则：无定向条件，预加载时间为3天；定向条件下，预加载时间为4天；投放前 10个工作日，进行素材初审，所
+Content: 有广告素材内容需符合《摇动彩蛋素材审核规范》  、《抖音TopView新版规范》   和《中国区商业产品 -开屏素材规范》，
+Content: 以广审侧意见为准；
+Content: 2、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包，按溢价规则加收；
+Content: 3、起售门槛：单订单内的 TopView 摇动彩蛋CPM资源，购满净价 20万起售；
+Content: 4、优化目标：支持优选互动（普通GD）、优选点击；
+Content: 5、支持实时追投定向。1、下单规则：预加载时间为5天；投放前10个工作日，进行素材初审，所有广告素材内容需符合《摇动彩蛋素材审核规范
+Content: 》、《抖音TopView新版规范》  和《中国区商业产品-开屏素材规范》，以广审侧意见为准。CPT 启动画面+推荐流TopView-首刷-CPT
+Content: TopView-首刷-摇动彩蛋-CPT 抖音（Phone端
+Content: iOS&Android）
+Content: TopView-CPMS2023年Q2巨量引擎矩阵产品广告资源刊例（全国版）：抖音
+Content: 1、下单规则：无定向条件，预加载时间为3天；定向条件下，预加载时间为4天；投放前10个工作日，进行素材初审，所
+Content: 有广告素材内容需符合《抖音TopView新版规范》和《中国区商业产品-开屏素材规范》，以广审侧意见为准；
+Content: 2、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包，按溢价规则加收；
+Content: 3、起售门槛：单订单内的TopView-CPM资源，购满净价20万起售；单订单内的TopView-CPM（Reach）资源，购满净
+Content: 价20万起售；
+Content: 4、优化目标：TopView-CPM支持优选互动（普通GD）、优选点击；TopView-CPM（Reach）支持优选触达；
+Content: 5、可支持开屏形态：摇一摇；
+Content: 6、支持实时追投定向。S 视频1、下单规则：预加载时间为5天；投放前10个工作日，进行素材初审，所有广告素材内容需符合《抖音TopView新版规
+Content: 范》和《中国区商业产品-开屏素材规范》，以广审侧意见为准；
+Content: 2、可支持开屏形态：摇一摇。
+Content: 视频+彩蛋
+Content: TopView
+Content: 启动画面+推荐流
+Content: 1
+Content: 平台 产品形式 产品名称 频道/定向条件 产品位置 广告形式 计费方式 刊例价 售卖单位 资源级别 备注2023年Q2巨量引擎矩阵产品广告资源刊例（全国版）：抖音
+Content: TopLive-CPM - 启动画面+推荐流 视频 CPM 580 元/CPM S1、下单规则：可订购全天任意整点时段，按单小时售卖，多个小时投放需求需分多个单小时询量下单；通投预加载时间
+Content: 为3天，定向条件下预加载时间为5天；全天各时段之间，CPT和CPM订单执行先下先得原则；
+Content: 2、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包，按溢价规则加收；时间定向不再进行额外加收；
+Content: 3、电商日不售卖；
+Content: 4、起售门槛：单订单内的TopLive-CPM资源，购满净价10万起售；
+Content: 5、可支持开屏形态：摇一摇。
+Content: TopLive-摇动彩蛋-CPM - 启动画面+推荐流 视频+彩蛋 CPM 700 元/CPM S1、下单规则：投放前7个工作日，进行素材初审，所有广告素材内容需符合《摇动彩蛋素材审核规范》、《抖音TopView
+Content: 新版规范》和《中国区商业产品-开屏素材规范》，以广审侧意见为准；可订购全天任意整点时段，按单小时售卖，多个
+Content: 小时投放需求需分多个单小时询量下单；通投预加载时间为3天，定向条件下预加载时间为5天；全天各时段之间，CPT和
+Content: CPM订单执行先下先得原则；
+Content: 2、定向规则：支持城市、性别、年龄、平台、兴趣、人群包，按溢价规则加收；时间定向不再进行额外加收；
+Content: 3、电商日不售卖；
+Content: 4、起售门槛：单订单内的TopLive-摇动彩蛋-CPM资源，购满净价10万起售。
+Content: 推荐信息流-智能优选-CPM 有刷必映 推荐流 视频 CPM 160 元/CPM S1、定向规则：支持定向内容、性别，按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起；
+Content: 3、售卖类型订单单计划200cpm起售；
+Content: 4、可支持的信息流样式：互动空间。
+Content: 推荐信息流-智能优选-CPM 视频 CPM 160 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包、分时段（最少需要预定连续的四个小时，优选触达不
+Content: 支持），按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起、优选触达、优选播放、优选线索；
+Content: 3、售卖类型订单单计划200cpm起售。
+Content: 推荐信息流-智能优选-悦动时刻-CPM 视频 CPM 192 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包、分时段（最少需要预定连续的四个小时，优选触达不
+Content: 支持），按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起、优选触达、优选播放、优选线索；
+Content: 3、售卖类型订单单计划200cpm起售。
+Content: 推荐信息流-位置优选-CPM 视频 CPM 200 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包、分时段（最少需要预定连续的四个小时，优选触达不
+Content: 支持），按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起、优选触达、优选播放、优选线索；
+Content: 3、售卖类型订单单计划200cpm起售；
+Content: 4、可支持的信息流样式：互动空间。
+Content: 推荐信息流-位置优选-悦动时刻-CPM 视频 CPM 240 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包、分时段（最少需要预定连续的四个小时，优选触达不
+Content: 支持），按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起、优选触达、优选播放、优选线索；
+Content: 3、售卖类型订单单计划200cpm起售。
+Content: 抖音-推荐信息流-智能优选-图文-CPM 图文 CPM 160 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包、分时段（最少需要预定连续的四个小时，优选触达不
+Content: 支持），按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起、优选触达；
+Content: 3、售卖类型订单单计划200cpm起售。
+Content: 抖音-推荐信息流-智能优选-本地达-CPM 视频 CPM 160 元/CPM S1、定向规则：本地达必须定向商圈，此外支持性别、年龄、平台、兴趣、人群包、分时段（最少需要预定连续的四个小
+Content: 时，优选触达不支持），按溢价规则加收；
+Content: 2、优化目标：支持优选互动（普通GD）、优选点击、优选调起、优选触达、优选播放、优选线索；
+Content: 3、售卖周期T(5≤T≤30)，超30天或小于5天需单独评估执行方案；
+Content: 4、支持同时投放多个商圈。
+Content: FeedsLive信息流广告-CPM 视频 CPM 220 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、网络、人群包、整点/半点分时段（1≤T≤24），按溢价规则加
+Content: 收（时间定向不另外进行加收）；
+Content: 2、优化目标：支持优选点击、直播互动、直播有效观看。
+Content: VideoLive-CPM 视频 CPM 180 元/CPM S1、定向规则：支持定向城市、性别、年龄、平台、兴趣、人群包、整点/半点分时段（1≤T≤24），按溢价规则加收（时
+Content: 间定向不另外进行加收）；
+Content: 2、优化目标：支持优选点击、直播互动、直播有效观看；
+Content: 3、可支持的信息流样式：互动空间。抖音（Phone端
+Content: iOS&Android）TopLive
+Content: 信息流
+Content: 推荐首页 推荐流
+Content: 2
+Content: 平台 产品形式 产品名称 频道/定向条件 产品位置 广告形式 计费方式 刊例价 售卖单位 资源级别 备注2023年Q2巨量引擎矩阵产品广告资源刊例（全国版）：抖音
+Section: 抖音品牌热DOU榜汽车榜Banner第二位-CPT -品牌热DOU榜汽车榜Banner
+Content: 第二位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第一位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第一位图片 CPT 300,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第二位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第二位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第三位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第三位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第六位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第六位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第七位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第七位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第八位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第八位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab顶部Banner第九位-
+Section: CPT-搜索页品牌榜Tab顶部
+Content: Banner第九位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第一位-CPT -搜索页品牌榜Tab内Banner
+Content: 第一位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第二位-CPT -搜索页品牌榜Tab内Banner
+Content: 第二位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第三位-CPT -搜索页品牌榜Tab内Banner
+Content: 第三位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第四位-CPT -搜索页品牌榜Tab内Banner
+Content: 第四位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第五位-CPT -搜索页品牌榜Tab内Banner
+Content: 第五位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第六位-CPT -搜索页品牌榜Tab内Banner
+Content: 第六位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第七位-CPT -搜索页品牌榜Tab内Banner
+Content: 第七位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第八位-CPT -搜索页品牌榜Tab内Banner
+Content: 第八位图片 CPT 200,000 元/天/轮 B -
+Section: 抖音-搜索页品牌榜Tab内Banner第九位-CPT -搜索页品牌榜Tab内Banner
+Content: 第九位图片 CPT 200,000 元/天/轮 B -Banner
+Content: 7.未备注说明的CPM产品单计划100cpm起售。3.文字标题及图片素材需符合抖音的市场定位，为达到最佳投放效果，可能会进行微调。广告区域标注有“广告”字样。
+Content: 5.不支持用于使用期限外的资源购买。部分资源存在释放周期，不支持提前预留，因提前预留致使实际库存不足所导致的消耗欠量，不予补量或改单。
+Content: 6.禁投行业：在广审行业限制基础上增加以下限制：①成人用品类；②视频类产品；③社区社交类产品；④拍摄工具类产品。4.本刊例的使用期限为2023年4月1日至2023年6月30日。如遇页面改版或产品更新，需以实际情况为准。备注
+Content: 2.信息流落地页类型：仅支持普通H5页面，不支持沉浸式页面，不支持转发分享功能，仅支持外链（落地页相关吊起规则请参见品牌广告产品调起规则）。1.开屏：广告素材不可做成模拟APP内部页面功能的样式。落地页类型：支持纯展示及落地页跳转（支持设置直达链接，跳转APP内部页面，设置参见抖音开屏广告外链设置说明），不支持落地页为文章id或外链九宫格，不支持应用吊起。抖音（Phone端
+Content: iOS&Android）
+Content: 3
+Content: 定向类型 类别 CPM单价溢价比例 备注
+Content: 核心城市 30%
+Content: 重点城市 10%
+Content: 其他/全省 0% 购买全国：城市排除不超过80个市，按通投处理。
+Content: 性别 - 0%
+Content: 年龄 - 0%
+Content: 兴趣分类 - 0%
+Content: iOS 30%
+Content: Android 0%
+Content: 时间段 - 10%
+Content: iOS相关 30%
+Content: 其他标签 0%
+Content: 3.人群包使用门槛：常规人群包（云图平台支持投放的人群标签，京东购物数据除外）：以资源本身的起售门槛为准。
+Content: 定制人群包（不包含在云图平台标签中的定制人群需求，需运营支持）：今日头条/抖音：50万起售；西瓜/火山小视频：20万起售；京东购物数据：50万起售。-
+Content: 2.人群包溢价规则：通投排除安卓的情况，按照iOS溢价加收；仅iOS平台与安卓平台合并运算，不溢价，若还定向其他iOS相关，按iOS溢价加收。城市
+Content: 操作平台定向
+Content: 人群包
+Section: 备注：
+Content: 1.CPM/CPV产品支持如上定向条件的单价溢价规则，支持多条件交叉定向，多条件交叉定向时溢价规则叠加使用（溢价规则计算公式=基础刊例价*【1+溢价系数a+溢价系数b】，例如：基
+Content: 础刊例价=100，北京城市溢价30%，iOS溢价30%；则定向北京，iOS的刊例价=100*（1+30%+30%）=100*1.6=160)，定向条件叠加时正常加收。-
+Section: IDFA，IDFA-MD5，苹果品牌，iphone X 等苹果机型，拓展设备18-23，24-30，31-40，41-49，50+详情
+Content: 北京、上海、广州、深圳
+Content: 石家庄、沈阳、哈尔滨、杭州、福州、济南、武汉、成都、昆明、兰州、南宁、银川、
+Content: 太原、长春、南京、合肥、南昌、郑州、长沙、海口、贵阳、西安、西宁、呼和浩特、
+Content: 拉萨、乌鲁木齐、青岛、大连、宁波、厦门、苏州、天津、重庆
+Content: 其他/全省/全国
+Content: -
+Content: 兴趣分类详情以系统展示为准。
+Content: -
+Content: -
+Content: 4
+Content: 静态/动态（非全屏）     静态/动态（全屏）       2023年Q2巨量引擎矩阵产品广告资源刊例（全国版）：抖音
+Content: 产品资源素材线上版本地址为：https://bytedance.feishu.cn/sheets/shtcnImO5fYC917E75i8SG?new_source=message，下单期间以在线表为准
+Content: 备注：Demo示意图仅供参考，以实际上线为准
+Content: 抖音开屏
+Content: 全屏视频
+Content: 前3s样式 3s后样式 播放两遍后蒙层抖音TopView
+Content: 打开APP看
+Content: 到广告0-3s4s起，若用户未
+Content: 触发持续展示5s用户触发动画至动画结束抖音TopView-摇动彩蛋
+Content: 开屏样式 信息流样式抖音TopLive
+Content: 抖音TopLive -摇动彩蛋
+Content: 打开APP看
+Content: 到广告0-3s4s起，若用户未
+Content: 摇晃，提醒动效持续展示5s用户触发动画，动画播放至切换时间
+Content: 信息流原生广告        信息流单页广告抖音信息流
+Content: FeedsLive信息流广告-CPM
+Section: 抖音品牌热DOU榜汽车榜Banner 抖音-搜索页品牌榜Tab内Banner第九位-CPT
+Content: 直播中-推荐流 直播中-直播间内抖音VideoLive
+Content: 抖音信息流-互动空间
+Content: 故障线样式 雪花线样式 纵向/横向线样式
+Content: 抖音开屏新形态
+Content: 上滑 摇一摇 双link 侧滑
+Section: 抖音搜索页品牌榜Tab顶部banner

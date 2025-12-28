@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "活动策划_思维导图.chunks__0",
+    "text": "Content: # 活动策划 - 思维导图\nContent: ```\nContent: 活动策划\nContent: ```\nContent: ## 1. 活动背景\nContent: - **市场环境分析**\nContent: - **活动契机说明**\nContent: - **目标人群洞察**\nContent: ## 2. 活动目标\nContent: - **总目标设定**\nContent: - **分目标拆解（传播/转化/体验等）**\nContent: - **KPI指标定义**\nContent: ## 3. 活动策略\nContent: - **核心策略思路**\nContent: - **活动主题/主张**\nContent: - **差异化定位**\nContent: ## 4. 创意内容\nContent: - **活动创意概念**\nContent: - **视觉设计方向**\nContent: - **文案内容规划**\nContent: - **互动环节设计**\nContent: ## 5. 活动流程\nContent: - **整体时间轴**\nContent: - **详细环节设置**\nContent: - **流程动线设计**\nContent: - **应急预案**\nContent: ## 6. 执行计划\nContent: - **时间节点安排**\nContent: - **人员分工方案**\nContent: - **物料清单**\nContent: - **场地/设备需求**\nContent: ## 7. 传播推广\nContent: - **预热阶段（线上传播、话题制造）**\nContent: - **执行阶段（现场直播、内容产出）**\nContent: - **后续传播（UGC沉淀、二次传播）**\nContent: ## 8. 预算方案\nContent: - **总预算分配**\nContent: - **各项目明细**",
+    "source": "data\\feishu_import\\raw\\思维导图\\活动策划_思维导图.md",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".md"
+    }
+  },
+  {
+    "chunk_id": "活动策划_思维导图.chunks__1",
+    "text": "ent: - **执行阶段（现场直播、内容产出）**\nContent: - **后续传播（UGC沉淀、二次传播）**\nContent: ## 8. 预算方案\nContent: - **总预算分配**\nContent: - **各项目明细**\nContent: - **ROI预期**\nContent: ## 9. 效果评估\nContent: - **监测指标**\nContent: - **评估方法**\nContent: - **复盘计划**\nContent: ---\nContent: *思维导图版本* | *生成时间: 2025年1月*",
+    "source": "data\\feishu_import\\raw\\思维导图\\活动策划_思维导图.md",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".md"
+    }
+  }
+]

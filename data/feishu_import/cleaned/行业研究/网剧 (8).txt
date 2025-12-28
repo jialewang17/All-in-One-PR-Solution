@@ -1,0 +1,24 @@
+Content: Sheet: sheet
+Content: 击壤——网剧广告监测                       Unnamed: 1 Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11
+Content: 0         模块：                         击壤——网剧监播        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 1         日期：  开始时间：2023-01-01 结束时间:2023-06-30        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 2       品牌名称：         汤臣倍健,同仁堂,斯维诗,云南白药,碗燕,燕之屋        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 3       平台名称：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 4      影视剧名称：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 5      影视剧集数：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 6         行业：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 7       播出模式：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 8      影视剧题材：                              无限制        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 9       权益类型：                              无限制          -        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 10        NaN                              NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 11         序号                               平台        影视剧       软广类型         品牌         产品     一级权益类型     二级权益类型         年份         月份       时长(秒)          频次
+Content: 12          1                               优酷         隐门         标版       汤臣倍健   汤臣倍健蛋白质粉         标版         标版      2023年         6月      59.875           4
+Content: 13          2                               优酷      微雨燕双飞         标版       汤臣倍健   汤臣倍健蛋白质粉         标版         标版      2023年         6月      44.872           3
+Content: 14          4                               优酷         护心         标版       汤臣倍健   汤臣倍健蛋白质粉         标版         标版      2023年         6月      29.961           2
+Content: 15          5                              爱奇艺         花戎         标版       汤臣倍健   汤臣倍健蛋白质粉         标版         标版      2023年         6月      24.833           5
+Content: 16          6                              爱奇艺        长风渡         标版       汤臣倍健   汤臣倍健蛋白质粉         标版         标版      2023年         6月       9.879           2
+Content: 17        NaN                            优酷-隐门        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 18        NaN                         优酷-微雨燕双飞        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 19        NaN                            优酷-护心        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 20        NaN                           爱奇艺-花戎        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN
+Content: 21        NaN                          爱奇艺-长风渡        NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN

@@ -1,0 +1,43 @@
+Content: 设计规划 - 思维导图（树形结构）
+Content: ============================================================
+Content: 设计规划
+Content: ├─ 1. 项目背景
+Content: │  ├─ 项目概述
+Content: │  ├─ 项目需求
+Content: │  └─ 设计目标
+Content: ├─ 2. 现状分析
+Content: │  ├─ 场地现状
+Content: │  ├─ 问题分析
+Content: │  └─ 机会点识别
+Content: ├─ 3. 设计理念
+Content: │  ├─ 设计概念
+Content: │  ├─ 设计原则
+Content: │  └─ 设计风格
+Content: ├─ 4. 设计方案
+Content: │  ├─ 总体规划
+Content: │  ├─ 功能分区
+Content: │  ├─ 动线设计
+Content: │  ├─ 空间布局
+Content: │  └─ 详细设计
+Content: ├─ 5. 视觉设计
+Content: │  ├─ 色彩方案
+Content: │  ├─ 材料选择
+Content: │  ├─ 灯光设计
+Content: │  └─ 装饰元素
+Content: ├─ 6. 技术方案
+Content: │  ├─ 结构设计
+Content: │  ├─ 设备配置
+Content: │  └─ 施工工艺
+Content: ├─ 7. 效果呈现
+Content: │  ├─ 效果图
+Content: │  ├─ 3D模型
+Content: │  └─ 实景展示
+Content: ├─ 8. 实施计划
+Content: │  ├─ 施工时间表
+Content: │  ├─ 阶段划分
+Content: │  └─ 验收标准
+Content: └─ 9. 预算方案
+Content: ├─ 总预算
+Content: ├─ 各项目预算
+Content: └─ 成本控制
+Content: ============================================================

@@ -1,0 +1,110 @@
+[
+  {
+    "chunk_id": "小儿感冒SOS.chunks__0",
+    "text": "Content: Sheet: 21H1\nContent: 各市场投放量产品排名 Unnamed: 1         Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8\nContent: 0         NaN        NaN                NaN        NaN        NaN        NaN        NaN        NaN        NaN\nContent: 1         NaN        NaN                NaN        NaN        NaN        NaN        NaN        NaN        NaN\nContent: 2          排名         市场             2021H1         第一        NaN        NaN         第二        NaN        NaN\nContent: 3         NaN        NaN  品类总花费        （万元）         产品    花费 （万元）          %         产品    花费 （万元）          %\nContent: 4         NaN        全国性          4542.8146   999小儿感冒药    3503.79   0.771282        小快克  1039.0246   0.228718",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__1",
+    "text": "%\nContent: 4         NaN        全国性          4542.8146   999小儿感冒药    3503.79   0.771282        小快克  1039.0246   0.228718\nContent: 5           1        江苏省            52.3201        小快克    52.3201          1        NaN        NaN          0\nContent: 6           2        吉林省            38.0156        小快克    38.0156          1        NaN        NaN          0\nContent: 7           3        陕西省             29.344        小快克     29.344          1        NaN        NaN          0\nContent: 8           4        重庆市            26.1758        小快克    26.1758          1        NaN        NaN          0\nContent: 9           5        山东省            25.6326        小快克    25.6326          1        NaN        NaN          0",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__2",
+    "text": "0\nContent: 9           5        山东省            25.6326        小快克    25.6326          1        NaN        NaN          0\nContent: 10          6        辽宁省            19.3599        小快克    19.3599          1        NaN        NaN          0\nContent: 11          7        河北省            11.3274        小快克    11.3274          1        NaN        NaN          0\nContent: 12          8        云南省             7.5138        小快克     7.5138          1        NaN        NaN          0\nContent: 13          9        广东省               0.36   999小儿感冒药       0.36          1        NaN        NaN          0\nContent: 14         10        四川省             0.1072   999小儿感冒药     0.1072          1        NaN        NaN          0\nContent: Sheet: 21H2",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 2,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__3",
+    "text": " 10        四川省             0.1072   999小儿感冒药     0.1072          1        NaN        NaN          0\nContent: Sheet: 21H2\nContent: 各市场投放量产品排名 Unnamed: 1         Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11\nContent: 0         NaN        NaN                NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 1         NaN        NaN                NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 2          排名         市场             2021H2         第一        NaN        NaN         第二        NaN        NaN         第三         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 3,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__4",
+    "text": "             2021H2         第一        NaN        NaN         第二        NaN        NaN         第三         NaN         NaN\nContent: 3         NaN        NaN  品类总花费        （万元）         产品    花费 （万元）          %         产品    花费 （万元）          %         产品     花费 （万元）           %\nContent: 4         NaN        全国性           2078.491   999小儿感冒药     907.31   0.436523        小快克    733.211   0.352761        优卡丹      437.97    0.210715\nContent: 5           1        浙江省            1537.21   999小儿感冒药    1489.96   0.969262        优卡丹      47.25   0.030738        NaN         NaN         NaN\nContent: 6           2        安徽省              526.3        优卡丹      281.2   0.534296   999小儿感冒药      245.1   0.465704        NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 4,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__5",
+    "text": "              526.3        优卡丹      281.2   0.534296   999小儿感冒药      245.1   0.465704        NaN         NaN         NaN\nContent: 7           3        湖南省              486.7   999小儿感冒药      486.7          1        NaN        NaN          0        NaN         NaN         NaN\nContent: 8           4        广东省              260.8        优卡丹      221.6   0.849693   999小儿感冒药       39.2   0.150307        NaN         NaN         NaN\nContent: 9           5        河南省              257.6   999小儿感冒药      257.6          1        NaN        NaN          0        NaN         NaN         NaN\nContent: 10          6        福建省             193.69   999小儿感冒药     193.69          1        NaN        NaN          0        NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 5,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__6",
+    "text": "             193.69   999小儿感冒药     193.69          1        NaN        NaN          0        NaN         NaN         NaN\nContent: 11          7        江苏省              21.15   999小儿感冒药      21.15          1        NaN        NaN          0        NaN         NaN         NaN\nContent: 12          8        北京市               20.4   999小儿感冒药       20.4          1        NaN        NaN          0        NaN         NaN         NaN\nContent: 13          9        上海市               19.2   999小儿感冒药       19.2          1        NaN        NaN          0        NaN         NaN         NaN\nContent: Sheet: 22H1\nContent: 各市场投放量产品排名 Unnamed: 1         Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 6,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__7",
+    "text": "         Unnamed: 2 Unnamed: 3 Unnamed: 4 Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9 Unnamed: 10 Unnamed: 11\nContent: 0         NaN        NaN                NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 1         NaN        NaN                NaN        NaN        NaN        NaN        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 2          排名         市场             2022H1         第一        NaN        NaN         第二        NaN        NaN         第三         NaN         NaN\nContent: 3         NaN        NaN  品类总花费        （万元）         产品    花费 （万元）          %         产品    花费 （万元）          %         产品     花费 （万元）           %",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 7,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__8",
+    "text": "  品类总花费        （万元）         产品    花费 （万元）          %         产品    花费 （万元）          %         产品     花费 （万元）           %\nContent: 4         NaN        全国性          2049.1565   999小儿感冒药    1504.23   0.734073        小快克     466.14   0.227479        优卡丹     78.7865    0.038448\nContent: 5           1        广东省             854.57   999小儿感冒药     854.57          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 6           2        江苏省             801.35   999小儿感冒药     801.35          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 7           3        河南省              544.8   999小儿感冒药      544.8          1        NaN        NaN        NaN        NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 8,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__9",
+    "text": "              544.8   999小儿感冒药      544.8          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 8           4        福建省             427.67   999小儿感冒药     427.67          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 9           5        上海市              355.6   999小儿感冒药      355.6          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 10          6        安徽省             319.74   999小儿感冒药     319.74          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 11          7        浙江省             239.45   999小儿感冒药     239.45          1        NaN        NaN        NaN        NaN         NaN         NaN",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 9,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__10",
+    "text": "             239.45   999小儿感冒药     239.45          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: 12          8        北京市              218.8   999小儿感冒药      218.8          1        NaN        NaN        NaN        NaN         NaN         NaN\nContent: Sheet: 数据来源&时间\nContent: Unnamed: 0\nContent: 0                                                                                              1、数据时间&来源：\nContent: 1    【电视/电台/报纸/杂志】-CTR-2021.01.01-2022.05.31；【户外】-中天星河&媒体-2021.01.01-2022.04.30；【网络】2021.01.01-2022.06.26\nContent: 2                                                                                                     NaN\nContent: 3                                                                                          2、以下产品无硬广监测数据：",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 10,
+      "file_type": ".xlsx"
+    }
+  },
+  {
+    "chunk_id": "小儿感冒SOS.chunks__11",
+    "text": "  NaN\nContent: 3                                                                                          2、以下产品无硬广监测数据：\nContent: 4                                                             【小儿感冒】护彤、葵花康宝/小儿氨酚烷胺颗粒、葵花小儿感冒颗粒、葵花小儿柴桂退热颗粒；\nContent: 5  【小儿止咳】葵花小儿化痰止咳颗粒、葵花小儿清肺化痰口服液、小葵花肺热咳喘颗粒、葵花小儿咳喘灵颗粒、葵花小儿咳喘灵口服液、葵花小儿止咳糖浆、葵花小儿百部止咳糖浆、小葵花复方小儿退热栓、葵花小儿清热止咳口服液",
+    "source": "data\\feishu_import\\raw\\行业研究\\小儿感冒SOS.xlsx",
+    "meta": {
+      "chunk_index": 11,
+      "file_type": ".xlsx"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "整合营销_思维导图_树形.chunks__0",
+    "text": "Content: 整合营销 - 思维导图（树形结构）\nContent: ============================================================\nContent: 整合营销\nContent: ├─ 1. 市场背景\nContent: │  ├─ 市场环境分析\nContent: │  ├─ 竞品分析\nContent: │  └─ 机会与挑战\nContent: ├─ 2. 目标设定\nContent: │  ├─ 品牌目标（知名度/美誉度/忠诚度）\nContent: │  ├─ 业务目标（用户增长/销售转化）\nContent: │  ├─ KPI指标设定\nContent: │  └─ 阶段性目标\nContent: ├─ 3. 目标人群分析\nContent: │  ├─ 用户画像\nContent: │  ├─ 人群细分\nContent: │  ├─ 触达场景\nContent: │  └─ 内容偏好\nContent: ├─ 4. 核心策略\nContent: │  ├─ 整体策略思路\nContent: │  ├─ 品牌定位\nContent: │  ├─ 传播主题/主张\nContent: │  └─ 差异化策略\nContent: ├─ 5. 渠道策略\nContent: │  ├─ 渠道组合方案\nContent: │  ├─ 主流平台（抖音、小红书、微博等）\nContent: │  ├─ 垂直平台\nContent: │  ├─ 自有渠道\nContent: │  ├─ 各渠道定位\nContent: │  ├─ 渠道协同策略\nContent: │  └─ 账号矩阵规划\nContent: ├─ 6. 内容策略\nContent: │  ├─ 内容规划（主题/形式/节奏）\nContent: │  ├─ 内容矩阵设计\nContent: │  ├─ 创意方向\nContent: │  └─ 内容产出计划",
+    "source": "data\\feishu_import\\raw\\思维导图\\整合营销_思维导图_树形.txt",
+    "meta": {
+      "chunk_index": 0,
+      "file_type": ".txt"
+    }
+  },
+  {
+    "chunk_id": "整合营销_思维导图_树形.chunks__1",
+    "text": "账号矩阵规划\nContent: ├─ 6. 内容策略\nContent: │  ├─ 内容规划（主题/形式/节奏）\nContent: │  ├─ 内容矩阵设计\nContent: │  ├─ 创意方向\nContent: │  └─ 内容产出计划\nContent: ├─ 7. 执行计划\nContent: │  ├─ 时间规划（预热/爆发/持续/收尾）\nContent: │  ├─ 执行节奏\nContent: │  ├─ 各阶段重点\nContent: │  └─ 里程碑节点\nContent: ├─ 8. 运营方案\nContent: │  ├─ 日常运营规划\nContent: │  ├─ 活动运营方案\nContent: │  ├─ 用户运营策略\nContent: │  └─ 数据运营方法\nContent: ├─ 9. 预算分配\nContent: │  ├─ 总预算\nContent: │  ├─ 各渠道预算分配\nContent: │  ├─ 各项目预算\nContent: │  └─ ROI预期\nContent: └─ 10. 效果监测\nContent: ├─ 监测指标体系\nContent: ├─ 数据监测工具\nContent: ├─ 效果评估方法\nContent: └─ 优化调整机制\nContent: ============================================================",
+    "source": "data\\feishu_import\\raw\\思维导图\\整合营销_思维导图_树形.txt",
+    "meta": {
+      "chunk_index": 1,
+      "file_type": ".txt"
+    }
+  }
+]

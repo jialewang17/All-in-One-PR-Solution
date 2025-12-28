@@ -135,11 +135,34 @@ def _build_process_enhanced_namespace(args: argparse.Namespace) -> argparse.Name
 
 
 def _run_enhanced_kg_step(args: Optional[argparse.Namespace]) -> None:
-    from tools.processing.kg_writer import process_enhanced_all as kg_pipeline
-
     runtime_args = args or argparse.Namespace()
-    kg_args = _build_process_enhanced_namespace(runtime_args)
-    kg_pipeline.run_pipeline(kg_args, load_env_first=True)
+    
+    # 检查是否使用 GraphRAG 写入器
+    use_graphrag = getattr(runtime_args, "kg_use_graphrag", False)
+    
+    if use_graphrag:
+        from core.processing.kg_writer.graphrag_writer import GraphRAGWriter
+        
+        # 初始化 GraphRAG 写入器
+        writer = GraphRAGWriter(
+            uri=getattr(runtime_args, "kg_uri", None),
+            use_llm_for_cypher=not getattr(runtime_args, "kg_no_llm_cypher", False),
+            use_graph_context=not getattr(runtime_args, "kg_no_graph_context", False)
+        )
+        
+        try:
+            # 创建Schema
+            writer.create_schema()
+            
+            # 处理JSON文件
+            json_dir = getattr(runtime_args, "kg_json_dir", None) or "data/json_structured"
+            writer.process_json_files(json_dir=json_dir, resume=False)
+        finally:
+            writer.close()
+    else:
+        from tools.processing.kg_writer import process_enhanced_all as kg_pipeline
+        kg_args = _build_process_enhanced_namespace(runtime_args)
+        kg_pipeline.run_pipeline(kg_args, load_env_first=True)
 
 
 def _run_case_library_step(args: Optional[argparse.Namespace]) -> None:
@@ -321,6 +344,12 @@ def _parse_arguments() -> argparse.Namespace:
                         help="启用并行处理模式（实验性功能，可提升处理速度）")
     parser.add_argument("--kg-max-workers", type=int, default=4,
                         help="并行处理时的最大工作线程数（默认4，仅在 --kg-parallel 时生效）")
+    parser.add_argument("--kg-use-graphrag", action="store_true",
+                        help="使用 GraphRAG 逻辑进行写入（使用LLM生成Cypher语句并利用已有图谱结构）")
+    parser.add_argument("--kg-no-llm-cypher", action="store_true",
+                        help="在GraphRAG模式下禁用使用LLM生成Cypher语句")
+    parser.add_argument("--kg-no-graph-context", action="store_true",
+                        help="在GraphRAG模式下禁用利用已有图谱结构进行智能关联")
     parser.add_argument("--case-base-dir", help="案例库/方法论引用文件所在目录（默认 data/reference）")
     parser.add_argument("--skip-case-library", action="store_true",
                         help="跳过案例库结构化数据写入 Neo4j")

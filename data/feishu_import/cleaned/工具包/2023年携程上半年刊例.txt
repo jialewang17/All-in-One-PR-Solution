@@ -1,0 +1,108 @@
+Content: 频道 广告位名称 售卖帧位 尺寸 2023定价
+Content: APP启动页广告3s-静态图片 可点击 1080*2340<300K, JPG ¥1,500,000
+Content: APP启动页广告3s-视频 可点击 1080*2340<2M, MP4 ¥2,000,000
+Content: APP启动页广告5s-视频 可点击 1080*2340<2M, MP4 ¥2,300,000
+Content: 1080*2340<2M, MP4
+Content: 1440*360<120k，JPG
+Content: APP携程首页-中部banner 1,2,4,5,6 1440*360<120k，JPG ¥650,000
+Content: 机票 APP机票-首页顶部banner 3,5 1536*836<160k，JPG ¥350,000
+Content: APP国内火车票-首页顶部banner 3,41536*836<160k, JPG
+Content: 1536*897<180k, JPG¥350,000
+Content: APP国际火车票-首页顶部banner 1,2,3,4,5,6,7,81536*836<160k, JPG
+Content: 1536*897<180k, JPG¥20,000
+Content: APP国内酒店-首页顶部banner 3 1536*836<160K，JPG ¥300,000
+Content: APP国际酒店-首页顶部banner 4,5 1536*836<160K，JPG ¥150,000
+Content: APP民宿-首页中部banner 3 720*240<200k，JPG ¥100,000
+Content: APP旅游-首页中部banner 3,4 1440*360<120k，JPG ¥200,000
+Content: 1536*680<150k，JPG
+Content: 1125*582px<150k，JPG
+Content: APP国内门票-首页中部banner 1 1536*307<100k，JPG ¥120,000
+Content: APP周边游-首页中部banner 3,4 1125*225<120k ¥120,000
+Content: 钱包 APP钱包-首页中部banner 1,21536*240<50k，JPG
+Content: 1414*288<155k，JPG¥20,000
+Content: 超级目的地 APP超级目的地-首页顶部banner 1,3,5,6,7,8 1536*676<150k，JPG ¥15,000
+Content: 小程序 微信小程序-首页顶部banner 1 1440*360<120k，JPG ¥100,000
+Content: APP攻略-目的地城市中部banner 1,2,3,4 1536*246<200k，PNG ¥150,000
+Content: APP旅拍社区-中部banner 1,2,3,4 1440*360<300k，PNG ¥150,000
+Content: APP攻略-景点详情页底部banner 1,2,3,4,5,6,7 1536*480<100k，JPG ¥200,000¥80,000
+Content: 攻略/社区火车票
+Content: 大住宿
+Content: APP跟团游-首页banner 3,4702*174<200k，JPG
+Content: 1125*582px<150k，JPG
+Section: APP自由行-首页顶部banner 3,4 ¥60,000大度假2023年上半年携程APP营销产品资源刊例
+Content: 适用于：2023/1/1 - 2023/6/30
+Content: 启动页 1
+Content: 首页携程ONESHOT
+Content: （APP启动页广告5s视频+APP首页
+Content: banner第1帧联动）1 ¥3,500,000
+Content: 位置 刊例 元/CPM
+Content: APP启动页广告5s-视频 可点击 310
+Content: APP启动页广告3s-视频 可点击 270
+Content: APP启动页广告3s-静态图片 可点击 180
+Content: APP携程首页-中部banner 120
+Content: APP携程首页-信息流（第1位） 120
+Content: APP机票-首页顶部banner 120
+Content: APP国内火车票-首页顶部banner 120
+Content: APP国内酒店-首页顶部banner 120
+Content: APP汽车票-首页顶部banner 120
+Content: 定向类型 类别 详情 CPM单价溢价比例
+Content: 核心地区北京、上海、广州、深圳、三亚、中国
+Content: 港澳台地区、海外国家30%
+Content: 重点地区南京，成都，杭州，天津，苏州，重
+Content: 庆，东莞，武汉，西安，青岛，南通，
+Content: 沈阳，宁波，长沙，济南，厦门，郑
+Content: 州，昆明，哈尔滨，大连，福州，海口10%
+Content: 其他其他国内城市/省份（不包含核心和重
+Content: 点城市）/通投0%
+Content: 核心城市北京、上海、广州、深圳、三亚、中国
+Content: 港澳台地区、海外国家30%
+Content: 重点城市南京，成都，杭州，天津，苏州，重
+Content: 庆，东莞，武汉，西安，青岛，南通，
+Content: 沈阳，宁波，长沙，济南，厦门，郑
+Content: 州，昆明，哈尔滨，大连，福州，海口10%
+Content: 其他其他国内城市/省份（不包含核心和重
+Content: 点城市）/通投0%
+Content: 性别 男/女 10%
+Content: 年龄18以下,18-23,24-30,31-40,41-49,50
+Content: 以上10%
+Content: 会员 铂金及以上 30%
+Content: 商务 商务人群 10%
+Content: 学生 学生人群 10%
+Content: 售卖规则（内部参考）
+Content: 2、起投量级：单点位1000CPM起售。
+Content: 3、定向标签叠加售卖仅限3个以内
+Content: 4、统一3.5折售卖，无配送；CPM和CPD售卖不混阶梯不混配送。2023年上半年携程PD资源刊例
+Content: 适用于：2023/1/1 - 2023/6/30
+Content: 当前所在地
+Content: 意图目的地
+Content: 1、CPM产品支持如上定向条件的单价溢价规则，多条件交叉定向时溢价规则叠加使用；
+Content: 举例：要求国内核心城市目的地且为女性的用户，cpm=基础报价*1.3*1.1；定向当前所在地为北京和杭州的人，
+Content: 北京采买曝光部分 cpm=基础报价*1.3；杭州采买曝光部分 cpm=基础报价*1.1。人群属性
+Content: 编号 频道 广告位名称 售卖帧位 尺寸2023年
+Content: 价格
+Content: 1 PC首页-右侧主题广告 2 428*680<200K 150,000
+Content: 2 PC首页-中部banner 2,4 740*100<30K 90,000
+Content: 3 酒店 PC海外酒店-首页banner 1,2,3,4,5,6,7,8 1160*188 13,000
+Content: 4 机票 PC机票-首页banner 2,3 1180*156 40,000
+Content: 5 周边游 PC周边游-周末游首页上方banner 5,6,7 810*340<100K 30,000
+Content: 6 PC旅游-自由行首页上方banner 5,6,7,8 900*400<90K 13,000
+Content: 7 PC旅游-自由行首页底部button 1,2,3,4 290*140<100K 10,000
+Content: 8 PC旅游-首页上方banner 2,3,4,5,6,7 810*235<70K 20,000
+Content: 9 PC旅游-首页下方button 1,2,3,4 266*130<50K 6,500
+Content: 10 PC旅游-首页上方banner 2,3,4,5,6,7 810*235<70K 37,000
+Content: 11 PC旅游-首页下方button 1,2,3,4 266*130<50K 9,000
+Content: 12 PC旅游-跟团游首页上方banner 2,4,6 900*400<60K 12,500
+Content: 13 PC旅游-跟团游首页下方button 1,2 290*140<50K 3,900
+Content: 14 PC旅游-跟团游首页上方banner 2,4,6 900*400<60K 25,000
+Content: 15 PC旅游-跟团游首页下方button 1,2 290*140<50K 3,900
+Content: 16 定制游 PC定制游-首页上方banner 2 1920*430<200K 3,000
+Content: 17 PC醉美目的地-精选首页顶部banner 2,4,5,6,7,8,9,10 1920*440<150K 3,000
+Content: 18 PC醉美目的地-精选右侧banner 1 190*530<50K 1,300
+Content: 19 PC醉美目的地-精选首页中部banner 2,4 1180*300<100K 4,000度假分站团队游
+Section: 醉美目的地2023年上半年携程PC营销产品资源刊例
+Content: 适用于：2023/1/1 - 2023/6/30
+Content: 携程首页
+Content: 度假自由行
+Content: 度假上海站
+Content: 度假分站
+Content: 度假上海团队游

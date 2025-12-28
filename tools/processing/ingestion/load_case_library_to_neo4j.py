@@ -16,11 +16,14 @@ import os
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
 
-# 引入 GraphClient
+# 引入 GraphClient（保持在 tools 层也能安全导入）
 try:
     from core.querying.graph import GraphClient
 except ImportError:
-    print("❌ 错误: 无法导入 GraphClient。请确保您在项目根目录下运行，或调整 PYTHONPATH。")
+    print(
+        "❌ 错误: 无法导入 GraphClient。请确保在项目根目录下运行，"
+        "或将项目根目录加入 PYTHONPATH。"
+    )
     GraphClient = None
 
 
@@ -192,7 +195,13 @@ class GraphSyncer:
         count = 0
         for _, row in df.iterrows():
             # 获取案例名称
-            case_name = clean_str(row.get("企业") or row.get("品牌/项目") or row.get("品牌") or row.get("项目名称") or row.get("案例名称"))
+            case_name = clean_str(
+                row.get("企业")
+                or row.get("品牌/项目")
+                or row.get("品牌")
+                or row.get("项目名称")
+                or row.get("案例名称")
+            )
             if not case_name:
                 continue
 

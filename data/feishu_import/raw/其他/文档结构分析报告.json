@@ -1,0 +1,511 @@
+{
+  "analysis_date": "2025-11-16T18:37:06.913958",
+  "categories": {
+    "其他": {
+      "category": "其他",
+      "total_files": 11,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "方案": 3,
+        "策略": 1,
+        "规划": 1,
+        "IP": 1,
+        "营销": 1,
+        "创意": 1
+      },
+      "file_patterns": [
+        {
+          "name": "2024公牛无极充电桩长线种草追击战.pdf",
+          "keywords": []
+        },
+        {
+          "name": "2024国际文旅度假区整盘策略提案方案【房地产全案】【房地产全案提报】.pdf",
+          "keywords": [
+            "方案",
+            "策略"
+          ]
+        },
+        {
+          "name": "BAZAAR2025年重点IP规划.pdf",
+          "keywords": [
+            "规划",
+            "IP"
+          ]
+        },
+        {
+          "name": "中邮消费金融反诈广告方案.pdf",
+          "keywords": [
+            "方案"
+          ]
+        },
+        {
+          "name": "创意共融宠爱无限宠物赛道的营销解决方案.pdf",
+          "keywords": [
+            "方案",
+            "营销",
+            "创意"
+          ]
+        }
+      ]
+    },
+    "品牌手册": {
+      "category": "品牌手册",
+      "total_files": 6,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "品牌": 5,
+        "资料": 1,
+        "手册": 2,
+        "IP": 1
+      },
+      "file_patterns": [
+        {
+          "name": "2025JACKJONES品牌书.pdf",
+          "keywords": [
+            "品牌"
+          ]
+        },
+        {
+          "name": "DESCENTE迪桑特品牌资料.pdf",
+          "keywords": [
+            "资料",
+            "品牌"
+          ]
+        },
+        {
+          "name": "IKEA宜家家居品牌手册ENpdf.pdf",
+          "keywords": [
+            "手册",
+            "品牌"
+          ]
+        },
+        {
+          "name": "芭比IP品牌手册.pdf",
+          "keywords": [
+            "手册",
+            "品牌",
+            "IP"
+          ]
+        },
+        {
+          "name": "超鹿品牌宣传册.pdf",
+          "keywords": [
+            "品牌"
+          ]
+        }
+      ]
+    },
+    "品牌案例": {
+      "category": "品牌案例",
+      "total_files": 7,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "案例": 1,
+        "品牌": 5,
+        "活动": 1
+      },
+      "file_patterns": [
+        {
+          "name": "case_adidas、OLAY、Levi’s_品牌经典广告复刻与重现案例解析_2024_品牌星球.docx",
+          "keywords": [
+            "案例",
+            "品牌"
+          ]
+        },
+        {
+          "name": "case_Athletic Greens_品牌短片_传递身心合一健康观与长期主义思维_2024_品牌星球.docx",
+          "keywords": [
+            "品牌"
+          ]
+        },
+        {
+          "name": "case_blank me _ 半分一_品牌升级_以专业与审美构建中国底妆新范式_2025_品牌星球 .docx",
+          "keywords": [
+            "品牌"
+          ]
+        },
+        {
+          "name": "case_Indie Pure乐了_品牌校准：从理念到实践的全方位升级_2021_品牌星球.docx",
+          "keywords": [
+            "品牌"
+          ]
+        },
+        {
+          "name": "case_JUNOCO_以to be human活动与美国本土消费者在精神层面产生共鸣_2025_品牌星球.docx",
+          "keywords": [
+            "活动",
+            "品牌"
+          ]
+        }
+      ]
+    },
+    "工具包": {
+      "category": "工具包",
+      "total_files": 3,
+      "analyzed_files": 3,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {},
+      "file_patterns": [
+        {
+          "name": "toolkits_小程序_直播知识地图_2024.pdf",
+          "keywords": []
+        },
+        {
+          "name": "toolkits_电商直播_直播大纲_2024.pdf",
+          "keywords": []
+        },
+        {
+          "name": "toolkits_电商直播_直播话术大全思维导图笔记_2024.pdf",
+          "keywords": []
+        }
+      ]
+    },
+    "招商方案": {
+      "category": "招商方案",
+      "total_files": 29,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "方案": 5,
+        "招商": 3,
+        "合作": 2,
+        "IP": 1
+      },
+      "file_patterns": [
+        {
+          "name": "2025双11闲鱼招商方案.pdf",
+          "keywords": [
+            "方案",
+            "招商"
+          ]
+        },
+        {
+          "name": "2025双11飞猪旅行“飞天计划”招商方案.pdf",
+          "keywords": [
+            "方案",
+            "招商"
+          ]
+        },
+        {
+          "name": "2025天猫APP双11大促镇店之宝合作方案.pdf",
+          "keywords": [
+            "方案",
+            "合作"
+          ]
+        },
+        {
+          "name": "2025央视快手健康能量站大健康类IP合作推介方案.pdf",
+          "keywords": [
+            "方案",
+            "合作",
+            "IP"
+          ]
+        },
+        {
+          "name": "2025小红书S级项目《宝藏目的地》招商方案.pdf",
+          "keywords": [
+            "方案",
+            "招商"
+          ]
+        }
+      ]
+    },
+    "整合营销": {
+      "category": "整合营销",
+      "total_files": 12,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "方案": 4,
+        "营销": 2,
+        "运营": 3,
+        "内容": 1,
+        "传播": 1,
+        "推广": 1,
+        "品牌": 2
+      },
+      "file_patterns": [
+        {
+          "name": "20250402新媒体运营Pawbby内容营销全案方案.pdf",
+          "keywords": [
+            "方案",
+            "营销",
+            "运营",
+            "内容"
+          ]
+        },
+        {
+          "name": "2025中国银行信用卡境内营销传播推广方案.pdf",
+          "keywords": [
+            "方案",
+            "营销",
+            "传播",
+            "推广"
+          ]
+        },
+        {
+          "name": "2025小红书小美说美妆行业玩法推荐.pdf",
+          "keywords": []
+        },
+        {
+          "name": "2025线下餐饮门店花园餐厅品牌抖音运营方案【餐饮抖音运营】【餐厅抖音运营】【餐饮短视频运营】.pdf",
+          "keywords": [
+            "方案",
+            "运营",
+            "品牌"
+          ]
+        },
+        {
+          "name": "RIO鸡尾酒品牌抖音dp运营方案【调酒】【低度酒抖音运营】【气泡酒点评运营】.pdf",
+          "keywords": [
+            "方案",
+            "运营",
+            "品牌"
+          ]
+        }
+      ]
+    },
+    "方法论": {
+      "category": "方法论",
+      "total_files": 3,
+      "analyzed_files": 3,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "案例": 2
+      },
+      "file_patterns": [
+        {
+          "name": "【华与华案例】西贝莜面村（上）.pdf",
+          "keywords": [
+            "案例"
+          ]
+        },
+        {
+          "name": "【华与华案例】西贝莜面村（下）.pdf",
+          "keywords": [
+            "案例"
+          ]
+        },
+        {
+          "name": "华与华方法：广告修辞学原理.pdf",
+          "keywords": []
+        }
+      ]
+    },
+    "活动策划": {
+      "category": "活动策划",
+      "total_files": 22,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "活动": 5,
+        "方案": 4,
+        "策划": 4
+      },
+      "file_patterns": [
+        {
+          "name": "2024四川秋季文化旅游节暨文旅资源推介会活动方案【秋季旅游节】【秋季文旅推介会】.pdf",
+          "keywords": [
+            "活动",
+            "方案"
+          ]
+        },
+        {
+          "name": "2024手工瑞士卷theRollING长春首店开业活动策划案.pdf",
+          "keywords": [
+            "活动",
+            "策划"
+          ]
+        },
+        {
+          "name": "2025企业“厂BA”篮球赛“篮不住的热血”主题活动策划方案【体育赛事】【篮球活动】.pdf",
+          "keywords": [
+            "活动",
+            "方案",
+            "策划"
+          ]
+        },
+        {
+          "name": "2025企业户外骑行运动团建“快乐骑行释放多巴胺”主题活动策划方案【户外活动】【团建活动】.pdf",
+          "keywords": [
+            "活动",
+            "方案",
+            "策划"
+          ]
+        },
+        {
+          "name": "2025商业广场中秋国庆落日微醺音乐节“夜行微醺”活动策划方案【双节活动】.pdf",
+          "keywords": [
+            "活动",
+            "方案",
+            "策划"
+          ]
+        }
+      ]
+    },
+    "行业研究": {
+      "category": "行业研究",
+      "total_files": 7,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "活动": 1,
+        "方案": 1,
+        "策划": 1,
+        "品牌": 1
+      },
+      "file_patterns": [
+        {
+          "name": "2025商场地产十一菜市场漫游指南“人间菜场烟火气”活动策划方案【年轻人】【市集】.pdf",
+          "keywords": [
+            "活动",
+            "方案",
+            "策划"
+          ]
+        },
+        {
+          "name": "industry_汽车_吉利远程新能源商用车简介_2025_内部.docx",
+          "keywords": []
+        },
+        {
+          "name": "research_2025年中盘点_中国消费市场的五大惊喜_2025_麦肯锡.pdf",
+          "keywords": []
+        },
+        {
+          "name": "奥美2025年体育迷的热情演变新洞察报告.pdf",
+          "keywords": []
+        },
+        {
+          "name": "奥美：品牌忠诚度和3500名消费者聊了聊关于「忠诚度」的那些事儿.pdf",
+          "keywords": [
+            "品牌"
+          ]
+        }
+      ]
+    },
+    "设计规划": {
+      "category": "设计规划",
+      "total_files": 5,
+      "analyzed_files": 5,
+      "common_structure": [],
+      "common_elements": {},
+      "common_keywords": {
+        "规划": 3,
+        "设计": 4,
+        "方案": 2,
+        "手册": 1
+      },
+      "file_patterns": [
+        {
+          "name": "2024璧山区大路镇团坝村柑橘产业主题农旅综合体乡村振兴概念性规划设计案【农村文旅综合体规划】【乡村旅游】.pdf",
+          "keywords": [
+            "规划",
+            "设计"
+          ]
+        },
+        {
+          "name": "2025青羊25亩城市社区休闲公园景观改造提升设计方案【城市地标打造】【城市公园改造】【城市公园升级】.pdf",
+          "keywords": [
+            "方案",
+            "设计"
+          ]
+        },
+        {
+          "name": "【社区超市】BHG仓储会员店超市设计规划案.pdf",
+          "keywords": [
+            "规划",
+            "设计"
+          ]
+        },
+        {
+          "name": "成都致爱拾光里婚庆产业综合体景观设计定位规划方案【城市产业园设计】【城市产业综合体规划】.pdf",
+          "keywords": [
+            "方案",
+            "规划",
+            "设计"
+          ]
+        },
+        {
+          "name": "阿那亚小镇南区手册（产品户型）.pdf",
+          "keywords": [
+            "手册"
+          ]
+        }
+      ]
+    }
+  },
+  "templates": {
+    "其他": {
+      "category": "其他",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "品牌手册": {
+      "category": "品牌手册",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "品牌案例": {
+      "category": "品牌案例",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "工具包": {
+      "category": "工具包",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "招商方案": {
+      "category": "招商方案",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "整合营销": {
+      "category": "整合营销",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "方法论": {
+      "category": "方法论",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "活动策划": {
+      "category": "活动策划",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "行业研究": {
+      "category": "行业研究",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    },
+    "设计规划": {
+      "category": "设计规划",
+      "typical_structure": [],
+      "key_elements": [],
+      "common_sections": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+Content: # 品牌案例 - 思维导图
+Content: ```
+Content: 品牌案例
+Content: ```
+Content: ## 1. 案例背景
+Content: - **品牌介绍**
+Content: - **项目背景**
+Content: - **面临挑战**
+Content: - **项目目标**
+Content: ## 2. 策略思考
+Content: - **问题分析**
+Content: - **策略思路**
+Content: - **创意概念**
+Content: - **差异化定位**
+Content: ## 3. 执行过程
+Content: - **执行时间轴**
+Content: - **关键节点**
+Content: - **执行细节**
+Content: - **遇到的挑战与解决方案**
+Content: ## 4. 创意内容
+Content: - **核心创意表达**
+Content: - **视觉呈现**
+Content: - **内容产出**
+Content: - **传播物料**
+Content: ## 5. 传播执行
+Content: - **传播策略**
+Content: - **渠道组合**
+Content: - **执行节奏**
+Content: - **关键动作**
+Content: ## 6. 效果数据
+Content: - **传播数据（曝光、互动、传播量等）**
+Content: - **业务数据（转化、销售、用户增长等）**
+Content: - **品牌数据（知名度、美誉度等）**
+Content: - **ROI数据**
+Content: ## 7. 经验总结
+Content: - **成功要素**
+Content: - **经验教训**
+Content: - **可复制的方法论**
+Content: ## 8. 案例启示
+Content: - **对行业/同行的参考价值**
+Content: ---
+Content: *思维导图版本* | *生成时间: 2025年1月*
