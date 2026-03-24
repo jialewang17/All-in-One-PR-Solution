@@ -205,7 +205,7 @@ class FeishuFileImporter:
         if self.tenant_token and self.token_expire_time:
             # 提前 5 分钟刷新
             if datetime.utcnow() < self.token_expire_time - timedelta(minutes=5):
-            return self.tenant_token
+                return self.tenant_token
         
         url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
         headers = {"Content-Type": "application/json; charset=utf-8"}
@@ -1044,11 +1044,11 @@ class FeishuFileImporter:
                         file_name = result.get("file")
 
                         if status == "success":
-                stats["success"] += 1
+                            stats["success"] += 1
                             if record:
                                 stats["files"].append(record)
                         elif status == "failed":
-                stats["failed"] += 1
+                            stats["failed"] += 1
                             error_records.append({"file": file_name, "reason": "download_failed"})
                         elif status == "processed_failed":
                             stats["processed_failed"] += 1
